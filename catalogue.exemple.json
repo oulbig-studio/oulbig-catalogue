@@ -1,0 +1,682 @@
+{
+ "schema": 1,
+ "artist": "OULBIG",
+ "generated": "2026-10-17T13:52:09Z",
+ "links": {
+  "youtube": "https://www.youtube.com/@OULBIG",
+  "spotify": "https://open.spotify.com/artist/xxxxxxxxxxxxxxxxxxxxxx",
+  "radio": "https://radio.almoqayada.com"
+ },
+ "counts": {
+  "fr": {
+   "songs": 5,
+   "podcasts": 2
+  },
+  "en": {
+   "songs": 4,
+   "podcasts": 2
+  },
+  "es": {
+   "songs": 3,
+   "podcasts": 2
+  },
+  "ar": {
+   "songs": 3,
+   "podcasts": 2
+  },
+  "ma": {
+   "songs": 3,
+   "podcasts": 2
+  }
+ },
+ "langs": {
+  "fr": {
+   "songs": [
+    "fr-s-DEMO0000005",
+    "fr-s-DEMO0000004",
+    "fr-s-DEMO0000003",
+    "fr-s-DEMO0000002",
+    "fr-s-DEMO0000001"
+   ],
+   "podcasts": [
+    "fr-p-DEMO0000006",
+    "fr-p-DEMO0000007"
+   ],
+   "hit_parade": [
+    "fr-s-DEMO0000001",
+    "fr-s-DEMO0000002",
+    "fr-s-DEMO0000003",
+    "fr-s-DEMO0000004",
+    "fr-s-DEMO0000005"
+   ]
+  },
+  "en": {
+   "songs": [
+    "en-s-DEMO0000011",
+    "en-s-DEMO0000010",
+    "en-s-DEMO0000009",
+    "en-s-DEMO0000008"
+   ],
+   "podcasts": [
+    "en-p-DEMO0000012",
+    "en-p-DEMO0000013"
+   ],
+   "hit_parade": [
+    "en-s-DEMO0000008",
+    "en-s-DEMO0000009",
+    "en-s-DEMO0000010",
+    "en-s-DEMO0000011"
+   ]
+  },
+  "es": {
+   "songs": [
+    "es-s-DEMO0000016",
+    "es-s-DEMO0000015",
+    "es-s-DEMO0000014"
+   ],
+   "podcasts": [
+    "es-p-DEMO0000017",
+    "es-p-DEMO0000018"
+   ],
+   "hit_parade": [
+    "es-s-DEMO0000014",
+    "es-s-DEMO0000015",
+    "es-s-DEMO0000016"
+   ]
+  },
+  "ar": {
+   "songs": [
+    "ar-s-DEMO0000021",
+    "ar-s-DEMO0000020",
+    "ar-s-DEMO0000019"
+   ],
+   "podcasts": [
+    "ar-p-DEMO0000022",
+    "ar-p-DEMO0000023"
+   ],
+   "hit_parade": [
+    "ar-s-DEMO0000019",
+    "ar-s-DEMO0000020",
+    "ar-s-DEMO0000021"
+   ]
+  },
+  "ma": {
+   "songs": [
+    "ma-s-DEMO0000026",
+    "ma-s-DEMO0000025",
+    "ma-s-DEMO0000024"
+   ],
+   "podcasts": [
+    "ma-p-DEMO0000027",
+    "ma-p-DEMO0000028"
+   ],
+   "hit_parade": [
+    "ma-s-DEMO0000024",
+    "ma-s-DEMO0000025",
+    "ma-s-DEMO0000026"
+   ]
+  }
+ },
+ "items": [
+  {
+   "lang": "fr",
+   "type": "podcast",
+   "title": "EP01 · Allumer l'étincelle",
+   "published": "2026-01-01",
+   "duration": 545,
+   "thumb": "",
+   "youtube": {
+    "id": "DEMO0000006",
+    "url": "https://www.youtube.com/watch?v=DEMO0000006",
+    "views": 1000,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "fr-p-DEMO0000006",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "fr",
+   "type": "podcast",
+   "title": "EP10 · Devenir millionnaire",
+   "published": "2026-02-01",
+   "duration": 554,
+   "thumb": "",
+   "youtube": {
+    "id": "DEMO0000007",
+    "url": "https://www.youtube.com/watch?v=DEMO0000007",
+    "views": 1000,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "fr-p-DEMO0000007",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "fr",
+   "type": "song",
+   "title": "L'Étincelle",
+   "published": "2026-01-15",
+   "duration": 190,
+   "thumb": "",
+   "youtube": {
+    "id": "DEMO0000001",
+    "url": "https://www.youtube.com/watch?v=DEMO0000001",
+    "views": 50000,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "fr-s-DEMO0000001",
+   "rank": 1,
+   "prev_rank": 0,
+   "trend": "new"
+  },
+  {
+   "lang": "fr",
+   "type": "song",
+   "title": "Nuit Blanche",
+   "published": "2026-02-15",
+   "duration": 197,
+   "thumb": "",
+   "youtube": {
+    "id": "DEMO0000002",
+    "url": "https://www.youtube.com/watch?v=DEMO0000002",
+    "views": 25000,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "fr-s-DEMO0000002",
+   "rank": 2,
+   "prev_rank": 0,
+   "trend": "new"
+  },
+  {
+   "lang": "fr",
+   "type": "song",
+   "title": "Lumière du Nord",
+   "published": "2026-03-15",
+   "duration": 204,
+   "thumb": "",
+   "youtube": {
+    "id": "DEMO0000003",
+    "url": "https://www.youtube.com/watch?v=DEMO0000003",
+    "views": 16666,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "fr-s-DEMO0000003",
+   "rank": 3,
+   "prev_rank": 0,
+   "trend": "new"
+  },
+  {
+   "lang": "fr",
+   "type": "song",
+   "title": "Plus Haut",
+   "published": "2026-04-15",
+   "duration": 211,
+   "thumb": "",
+   "youtube": {
+    "id": "DEMO0000004",
+    "url": "https://www.youtube.com/watch?v=DEMO0000004",
+    "views": 12500,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "fr-s-DEMO0000004",
+   "rank": 4,
+   "prev_rank": 0,
+   "trend": "new"
+  },
+  {
+   "lang": "fr",
+   "type": "song",
+   "title": "Médina",
+   "published": "2026-05-15",
+   "duration": 218,
+   "thumb": "",
+   "youtube": {
+    "id": "DEMO0000005",
+    "url": "https://www.youtube.com/watch?v=DEMO0000005",
+    "views": 10000,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "fr-s-DEMO0000005",
+   "rank": 5,
+   "prev_rank": 0,
+   "trend": "new"
+  },
+  {
+   "lang": "en",
+   "type": "podcast",
+   "title": "EP01 · Light the Spark",
+   "published": "2026-01-01",
+   "duration": 545,
+   "thumb": "",
+   "youtube": {
+    "id": "DEMO0000012",
+    "url": "https://www.youtube.com/watch?v=DEMO0000012",
+    "views": 1000,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "en-p-DEMO0000012",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "en",
+   "type": "podcast",
+   "title": "EP10 · Becoming a Millionaire",
+   "published": "2026-02-01",
+   "duration": 554,
+   "thumb": "",
+   "youtube": {
+    "id": "DEMO0000013",
+    "url": "https://www.youtube.com/watch?v=DEMO0000013",
+    "views": 1000,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "en-p-DEMO0000013",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "en",
+   "type": "song",
+   "title": "The Spark",
+   "published": "2026-01-15",
+   "duration": 190,
+   "thumb": "",
+   "youtube": {
+    "id": "DEMO0000008",
+    "url": "https://www.youtube.com/watch?v=DEMO0000008",
+    "views": 50000,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "en-s-DEMO0000008",
+   "rank": 1,
+   "prev_rank": 0,
+   "trend": "new"
+  },
+  {
+   "lang": "en",
+   "type": "song",
+   "title": "Midnight Drive",
+   "published": "2026-02-15",
+   "duration": 197,
+   "thumb": "",
+   "youtube": {
+    "id": "DEMO0000009",
+    "url": "https://www.youtube.com/watch?v=DEMO0000009",
+    "views": 25000,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "en-s-DEMO0000009",
+   "rank": 2,
+   "prev_rank": 0,
+   "trend": "new"
+  },
+  {
+   "lang": "en",
+   "type": "song",
+   "title": "Higher",
+   "published": "2026-03-15",
+   "duration": 204,
+   "thumb": "",
+   "youtube": {
+    "id": "DEMO0000010",
+    "url": "https://www.youtube.com/watch?v=DEMO0000010",
+    "views": 16666,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "en-s-DEMO0000010",
+   "rank": 3,
+   "prev_rank": 0,
+   "trend": "new"
+  },
+  {
+   "lang": "en",
+   "type": "song",
+   "title": "Golden Hour",
+   "published": "2026-04-15",
+   "duration": 211,
+   "thumb": "",
+   "youtube": {
+    "id": "DEMO0000011",
+    "url": "https://www.youtube.com/watch?v=DEMO0000011",
+    "views": 12500,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "en-s-DEMO0000011",
+   "rank": 4,
+   "prev_rank": 0,
+   "trend": "new"
+  },
+  {
+   "lang": "es",
+   "type": "podcast",
+   "title": "EP01 · Encender la chispa",
+   "published": "2026-01-01",
+   "duration": 545,
+   "thumb": "",
+   "youtube": {
+    "id": "DEMO0000017",
+    "url": "https://www.youtube.com/watch?v=DEMO0000017",
+    "views": 1000,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "es-p-DEMO0000017",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "es",
+   "type": "podcast",
+   "title": "EP10 · Convertirse en millonario",
+   "published": "2026-02-01",
+   "duration": 554,
+   "thumb": "",
+   "youtube": {
+    "id": "DEMO0000018",
+    "url": "https://www.youtube.com/watch?v=DEMO0000018",
+    "views": 1000,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "es-p-DEMO0000018",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "es",
+   "type": "song",
+   "title": "La Chispa",
+   "published": "2026-01-15",
+   "duration": 190,
+   "thumb": "",
+   "youtube": {
+    "id": "DEMO0000014",
+    "url": "https://www.youtube.com/watch?v=DEMO0000014",
+    "views": 50000,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "es-s-DEMO0000014",
+   "rank": 1,
+   "prev_rank": 0,
+   "trend": "new"
+  },
+  {
+   "lang": "es",
+   "type": "song",
+   "title": "Entre Dos Mundos",
+   "published": "2026-02-15",
+   "duration": 197,
+   "thumb": "",
+   "youtube": {
+    "id": "DEMO0000015",
+    "url": "https://www.youtube.com/watch?v=DEMO0000015",
+    "views": 25000,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "es-s-DEMO0000015",
+   "rank": 2,
+   "prev_rank": 0,
+   "trend": "new"
+  },
+  {
+   "lang": "es",
+   "type": "song",
+   "title": "Corazón de Fuego",
+   "published": "2026-03-15",
+   "duration": 204,
+   "thumb": "",
+   "youtube": {
+    "id": "DEMO0000016",
+    "url": "https://www.youtube.com/watch?v=DEMO0000016",
+    "views": 16666,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "es-s-DEMO0000016",
+   "rank": 3,
+   "prev_rank": 0,
+   "trend": "new"
+  },
+  {
+   "lang": "ar",
+   "type": "podcast",
+   "title": "الحلقة 1 · أشعل الشرارة",
+   "published": "2026-01-01",
+   "duration": 545,
+   "thumb": "",
+   "youtube": {
+    "id": "DEMO0000022",
+    "url": "https://www.youtube.com/watch?v=DEMO0000022",
+    "views": 1000,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "ar-p-DEMO0000022",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "ar",
+   "type": "podcast",
+   "title": "الحلقة 10 · كيف تصبح مليونيرًا",
+   "published": "2026-02-01",
+   "duration": 554,
+   "thumb": "",
+   "youtube": {
+    "id": "DEMO0000023",
+    "url": "https://www.youtube.com/watch?v=DEMO0000023",
+    "views": 1000,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "ar-p-DEMO0000023",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "ar",
+   "type": "song",
+   "title": "لمحة",
+   "published": "2026-01-15",
+   "duration": 190,
+   "thumb": "",
+   "youtube": {
+    "id": "DEMO0000019",
+    "url": "https://www.youtube.com/watch?v=DEMO0000019",
+    "views": 50000,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "ar-s-DEMO0000019",
+   "rank": 1,
+   "prev_rank": 0,
+   "trend": "new"
+  },
+  {
+   "lang": "ar",
+   "type": "song",
+   "title": "نور الفجر",
+   "published": "2026-02-15",
+   "duration": 197,
+   "thumb": "",
+   "youtube": {
+    "id": "DEMO0000020",
+    "url": "https://www.youtube.com/watch?v=DEMO0000020",
+    "views": 25000,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "ar-s-DEMO0000020",
+   "rank": 2,
+   "prev_rank": 0,
+   "trend": "new"
+  },
+  {
+   "lang": "ar",
+   "type": "song",
+   "title": "أعلى",
+   "published": "2026-03-15",
+   "duration": 204,
+   "thumb": "",
+   "youtube": {
+    "id": "DEMO0000021",
+    "url": "https://www.youtube.com/watch?v=DEMO0000021",
+    "views": 16666,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "ar-s-DEMO0000021",
+   "rank": 3,
+   "prev_rank": 0,
+   "trend": "new"
+  },
+  {
+   "lang": "ma",
+   "type": "podcast",
+   "title": "الحلقة 1 · شعل الشرارة",
+   "published": "2026-01-01",
+   "duration": 545,
+   "thumb": "",
+   "youtube": {
+    "id": "DEMO0000027",
+    "url": "https://www.youtube.com/watch?v=DEMO0000027",
+    "views": 1000,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "ma-p-DEMO0000027",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "ma",
+   "type": "podcast",
+   "title": "الحلقة 10 · كيفاش تولي مليونير",
+   "published": "2026-02-01",
+   "duration": 554,
+   "thumb": "",
+   "youtube": {
+    "id": "DEMO0000028",
+    "url": "https://www.youtube.com/watch?v=DEMO0000028",
+    "views": 1000,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "ma-p-DEMO0000028",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "ma",
+   "type": "song",
+   "title": "لمحة",
+   "published": "2026-01-15",
+   "duration": 190,
+   "thumb": "",
+   "youtube": {
+    "id": "DEMO0000024",
+    "url": "https://www.youtube.com/watch?v=DEMO0000024",
+    "views": 50000,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "ma-s-DEMO0000024",
+   "rank": 1,
+   "prev_rank": 0,
+   "trend": "new"
+  },
+  {
+   "lang": "ma",
+   "type": "song",
+   "title": "ليلة بيضا",
+   "published": "2026-02-15",
+   "duration": 197,
+   "thumb": "",
+   "youtube": {
+    "id": "DEMO0000025",
+    "url": "https://www.youtube.com/watch?v=DEMO0000025",
+    "views": 25000,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "ma-s-DEMO0000025",
+   "rank": 2,
+   "prev_rank": 0,
+   "trend": "new"
+  },
+  {
+   "lang": "ma",
+   "type": "song",
+   "title": "الدنيا زوينة",
+   "published": "2026-03-15",
+   "duration": 204,
+   "thumb": "",
+   "youtube": {
+    "id": "DEMO0000026",
+    "url": "https://www.youtube.com/watch?v=DEMO0000026",
+    "views": 16666,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "ma-s-DEMO0000026",
+   "rank": 3,
+   "prev_rank": 0,
+   "trend": "new"
+  }
+ ]
+}

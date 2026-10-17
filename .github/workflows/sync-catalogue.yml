@@ -1,0 +1,46 @@
+name: Synchro catalogue OULBIG
+
+on:
+  schedule:
+    - cron: "17 5 * * *"     # tous les jours à 05:17 UTC
+  workflow_dispatch:          # bouton « Run workflow » pour lancer à la main
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Récupérer YouTube / Spotify / RSS
+        env:
+          YT_API_KEY: ${{ secrets.YT_API_KEY }}
+          SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
+          SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
+        run: python sync_catalogue.py --config config.json --out docs/catalogue.json
+
+      - name: Publier si le catalogue a changé
+        run: |
+          git config user.name  "oulbig-bot"
+          git config user.email "oulbig-bot@users.noreply.github.com"
+          git add docs/catalogue.json
+          git diff --cached --quiet && echo "Rien de nouveau." && exit 0
+          git commit -m "Catalogue mis à jour $(date -u +'%Y-%m-%d %H:%M')"
+          git push
+
+      # ---- Optionnel : copier aussi le fichier sur ton hébergement (FTP) ----
+      # Ajoute les secrets FTP_SERVER, FTP_USER, FTP_PASSWORD puis retire les # ci-dessous.
+      # - name: Envoyer sur l'hébergement
+      #   uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+      #   with:
+      #     server: ${{ secrets.FTP_SERVER }}
+      #     username: ${{ secrets.FTP_USER }}
+      #     password: ${{ secrets.FTP_PASSWORD }}
+      #     local-dir: ./docs/
+      #     server-dir: /public_html/oulbig/

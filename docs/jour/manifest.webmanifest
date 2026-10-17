@@ -1,0 +1,15 @@
+{
+  "name": "OULBIG Radio Jour",
+  "short_name": "OULBIG Radio",
+  "description": "La web radio officielle d'OULBIG en 5 langues : musique, podcasts et Hit Parade en continu.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F5F3FA",
+  "theme_color": "#F5F3FA",
+  "lang": "fr",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

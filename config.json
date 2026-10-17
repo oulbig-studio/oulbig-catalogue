@@ -1,0 +1,37 @@
+{
+  "artist": "OULBIG",
+  "default_lang": "fr",
+  "hit_parade_size": 10,
+  "hit_parade_manual": [],
+  "youtube": {
+    "channel_ids": [
+      "UCmLAQNmYAFjFfYDmnN36LHg",
+      "UCpWPGzDk5xXbE2fc48AeM8Q"
+    ],
+    "playlists": [],
+    "exclude_keywords": [
+      "teaser",
+      "trailer",
+      "making of",
+      "#shorts"
+    ],
+    "min_duration": 61
+  },
+  "spotify": {
+    "market": "MA",
+    "artist_name": "OULBIG",
+    "artist_ids": [
+      "2DHkzizRab1JFRb61bQAUi"
+    ],
+    "albums": [],
+    "shows": []
+  },
+  "podcast_rss": [],
+  "links": {
+    "youtube": "https://www.youtube.com/@OULBIG",
+    "youtube_topic": "https://www.youtube.com/channel/UCpWPGzDk5xXbE2fc48AeM8Q",
+    "spotify": "https://open.spotify.com/artist/2DHkzizRab1JFRb61bQAUi",
+    "radio": "https://radio.almoqayada.com",
+    "spotify_user": "https://open.spotify.com/user/314xhsnvap3hnd22dvpwigmfw6u4"
+  }
+}

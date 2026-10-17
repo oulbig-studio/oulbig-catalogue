@@ -1,0 +1,504 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}[hidden]{display:none!important}img{max-width:100%}</style>
+<title>OULBIG Radio</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="theme-color" content="#0E0B1A">
+<meta name="description" content="OULBIG Radio — la web radio officielle d'OULBIG en 5 langues : musique, podcasts et Hit Parade en continu.">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;700;900&family=Readex+Pro:wght@300;400;500;600&family=JetBrains+Mono:wght@400;600&display=swap">
+<style>
+/* Layout: radio "studio console" — dial of 5 stations on top, on-air stage + rundown left, charts right. Single dark look by choice. */
+:root{
+  --night:#0E0B1A; --panel:#17122C; --panel-2:#1F1840; --line:#2E2654;
+  --ink:#F4EFFF; --mute:#A49CC6; --dim:#6E6696;
+  --signal:#FF3D6E; --amber:#FFB347; --pod:#8F7BFF;
+  --good:#3DDC97; --bad:#FF6B6B;
+  --f-display:"Unbounded","Readex Pro",system-ui,sans-serif;
+  --f-body:"Readex Pro",system-ui,-apple-system,"Segoe UI",Tahoma,sans-serif;
+  --f-mono:"JetBrains Mono",ui-monospace,Menlo,Consolas,monospace;
+  --r:14px;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html,body{background:var(--night);color:var(--ink)}
+body{font-family:var(--f-body);font-size:15px;line-height:1.5;min-height:100%;
+  background:
+    radial-gradient(900px 500px at 85% -10%, color-mix(in srgb,var(--signal) 18%,transparent),transparent 60%),
+    radial-gradient(700px 400px at -10% 10%, color-mix(in srgb,var(--pod) 14%,transparent),transparent 60%),
+    var(--night);}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--night)}
+.wrap{max-width:1180px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0 40px}
+button{font:inherit;color:inherit;cursor:pointer}
+:focus-visible{outline:2px solid var(--amber);outline-offset:2px;border-radius:6px}
+
+/* Top bar */
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:color-mix(in srgb,var(--night) 86%,transparent);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.top .wrap{display:flex;align-items:center;gap:12px;padding-block:12px}
+.logo{display:flex;align-items:baseline;gap:8px;font-family:var(--f-display);font-weight:900;letter-spacing:.02em;font-size:20px;text-decoration:none;color:var(--ink)}
+.logo b{background:linear-gradient(90deg,var(--signal),var(--amber));-webkit-background-clip:text;background-clip:text;color:transparent}
+.logo span{font-weight:500;font-size:13px;letter-spacing:.32em;color:var(--mute)}
+.onair{margin-inline-start:auto;display:flex;align-items:center;gap:8px;font-family:var(--f-mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--mute)}
+.onair i{width:9px;height:9px;border-radius:50%;background:var(--signal);box-shadow:0 0 0 0 var(--signal);animation:pulse 1.8s infinite}
+.hl{font-size:12px;font-weight:500;text-decoration:none;color:var(--mute);border:1px solid var(--line);border-radius:999px;padding:5px 11px;white-space:nowrap}
+.hl:hover{color:var(--ink);border-color:var(--mute)}
+.hl.sp{color:#1DB954}
+.links{display:flex;gap:6px;margin-inline-start:auto}
+.links + .onair{margin-inline-start:12px}
+@media (max-width:520px){.onair span{display:none}.logo span{display:none}}
+.ch-row .t small a,.row .t small a{color:inherit;text-decoration:underline;text-underline-offset:2px}
+#install{border:1px solid var(--line);background:var(--panel);border-radius:999px;padding:6px 12px;font-size:13px}
+@keyframes pulse{0%{box-shadow:0 0 0 0 color-mix(in srgb,var(--signal) 70%,transparent)}70%{box-shadow:0 0 0 9px transparent}100%{box-shadow:0 0 0 0 transparent}}
+
+/* Dial */
+.dial{margin-top:18px;position:relative;border:1px solid var(--line);border-radius:var(--r);background:linear-gradient(180deg,var(--panel),var(--night));padding:14px 6px 10px;overflow-x:auto;scrollbar-width:none}
+.dial::-webkit-scrollbar{display:none}
+.ticks{position:absolute;inset:auto 0 0 0;height:10px;background:repeating-linear-gradient(90deg,var(--line) 0 1px,transparent 1px 12px);opacity:.8;pointer-events:none}
+.stations{display:grid;grid-template-columns:repeat(5,minmax(112px,1fr));gap:6px;position:relative}
+.st{border:0;background:transparent;border-radius:10px;padding:8px 10px 14px;text-align:center;color:var(--mute);transition:color .2s,background .2s}
+.st .ch{display:block;font-family:var(--f-mono);font-size:11px;letter-spacing:.18em;color:var(--dim)}
+.st .code{display:block;font-family:var(--f-display);font-weight:700;font-size:22px;line-height:1.2;margin-top:2px}
+.st .nm{display:block;font-size:12px;margin-top:2px;white-space:nowrap}
+.st:hover{color:var(--ink)}
+.st[aria-pressed="true"]{color:var(--ink);background:color-mix(in srgb,var(--signal) 12%,transparent)}
+.st[aria-pressed="true"] .code{background:linear-gradient(90deg,var(--signal),var(--amber));-webkit-background-clip:text;background-clip:text;color:transparent}
+.st[aria-pressed="true"]::after{content:"";display:block;margin:8px auto 0;width:2px;height:16px;background:var(--signal);box-shadow:0 0 12px var(--signal);border-radius:2px}
+
+.banner{margin-top:14px;border:1px dashed color-mix(in srgb,var(--amber) 55%,var(--line));color:var(--amber);background:color-mix(in srgb,var(--amber) 7%,transparent);border-radius:10px;padding:10px 14px;font-size:13px}
+
+/* Grid */
+.grid{margin-top:18px;display:grid;grid-template-columns:minmax(0,1.45fr) minmax(0,1fr);gap:18px;align-items:start}
+@media (max-width:880px){.grid{grid-template-columns:minmax(0,1fr)}}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:var(--r)}
+.eyebrow{font-family:var(--f-mono);font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--mute)}
+
+/* Now playing */
+.now{overflow:hidden}
+.stage{position:relative;aspect-ratio:16/9;max-width:100%;background:#000}
+#yt,#yt iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.art{position:absolute;inset:0;display:grid;place-items:center;overflow:hidden;transition:opacity .5s}
+.art.off{opacity:0;pointer-events:none}
+.art .glyph{font-family:var(--f-display);font-weight:900;font-size:clamp(70px,16vw,150px);color:rgba(255,255,255,.92);mix-blend-mode:overlay;line-height:1}
+.art .wm{position:absolute;inset-inline-start:16px;bottom:12px;font-family:var(--f-display);font-weight:700;font-size:12px;letter-spacing:.3em;color:rgba(255,255,255,.75)}
+.art .grain{position:absolute;inset:0;background:repeating-linear-gradient(0deg,rgba(0,0,0,.18) 0 2px,transparent 2px 4px);mix-blend-mode:multiply}
+.eq{position:absolute;inset-inline-end:16px;bottom:12px;display:flex;gap:3px;align-items:flex-end;height:22px}
+.eq i{width:4px;background:#fff;border-radius:2px;height:20%;opacity:.85}
+.playing .eq i{animation:eq 900ms ease-in-out infinite alternate}
+.eq i:nth-child(2){animation-delay:-.3s!important}.eq i:nth-child(3){animation-delay:-.6s!important}.eq i:nth-child(4){animation-delay:-.15s!important}.eq i:nth-child(5){animation-delay:-.45s!important}
+@keyframes eq{0%{height:15%}100%{height:100%}}
+
+.meta{padding:18px 20px 20px;display:grid;gap:12px}
+.chips{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.chip{font-family:var(--f-mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;padding:4px 9px;border-radius:999px;border:1px solid var(--line);color:var(--mute)}
+.chip.live{color:var(--ink);border-color:var(--signal);background:color-mix(in srgb,var(--signal) 16%,transparent)}
+.chip.k-pod{color:var(--pod);border-color:color-mix(in srgb,var(--pod) 50%,var(--line))}
+.chip.k-song{color:var(--ink)}
+.chip.k-hit{color:var(--night);border-color:transparent;background:linear-gradient(90deg,var(--signal),var(--amber));font-weight:600}
+.title{font-family:var(--f-display);font-weight:700;font-size:clamp(22px,3.4vw,32px);line-height:1.15;margin:0;text-wrap:balance}
+.artist{color:var(--mute);margin:0}
+.prog{display:grid;grid-template-columns:auto 1fr auto;gap:10px;align-items:center;font-family:var(--f-mono);font-size:12px;color:var(--mute);font-variant-numeric:tabular-nums}
+.bar{height:4px;background:var(--line);border-radius:4px;overflow:hidden}
+.bar i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--signal),var(--amber))}
+[dir="rtl"] .bar{transform:scaleX(-1)}
+.ctrls{display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.play{display:inline-flex;align-items:center;gap:10px;border:0;border-radius:999px;padding:12px 22px 12px 16px;background:linear-gradient(90deg,var(--signal),color-mix(in srgb,var(--signal) 60%,var(--amber)));color:#fff;font-weight:600;box-shadow:0 8px 28px -10px var(--signal)}
+.play svg{width:22px;height:22px}
+.vol{display:flex;align-items:center;gap:8px;color:var(--mute);margin-inline-start:auto}
+.vol input{width:110px;accent-color:var(--signal)}
+.yt{color:var(--mute);font-size:13px;text-decoration:none;border-bottom:1px solid var(--line)}
+.yt:hover{color:var(--ink)}
+.note{font-size:12px;color:var(--amber)}
+
+/* Rundown strip */
+.run{padding:16px 20px 20px;border-top:1px solid var(--line)}
+.run-h{display:flex;justify-content:space-between;align-items:baseline;gap:10px}
+.strip{position:relative;margin-top:12px;display:flex;height:26px;border-radius:6px;overflow:hidden;gap:2px}
+.strip i{display:block;height:100%;min-width:2px}
+.strip .pod{background:color-mix(in srgb,var(--pod) 70%,var(--panel))}
+.strip .song{background:var(--line)}
+.strip .hit{background:linear-gradient(180deg,var(--signal),color-mix(in srgb,var(--signal) 50%,var(--amber)))}
+.strip .past{opacity:.35}
+.cursor{position:absolute;top:-4px;bottom:-4px;width:2px;background:var(--ink);box-shadow:0 0 10px var(--ink);border-radius:2px}
+.legend{display:flex;gap:14px;flex-wrap:wrap;margin-top:10px;font-size:12px;color:var(--mute)}
+.legend span::before{content:"";display:inline-block;width:10px;height:10px;border-radius:3px;margin-inline-end:6px;vertical-align:-1px;background:var(--c)}
+
+/* Up next */
+.next{padding:16px 20px 18px}
+.list{list-style:none;margin:10px 0 0;padding:0;display:grid}
+.row{display:grid;grid-template-columns:52px 1fr auto;gap:12px;align-items:center;padding:10px 0;border-top:1px solid var(--line)}
+.row:first-child{border-top:0}
+.time{font-family:var(--f-mono);font-size:13px;color:var(--mute);font-variant-numeric:tabular-nums}
+.row .t{min-width:0}
+.row .t b{display:block;font-weight:500;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.row .t small{color:var(--dim);font-size:12px}
+
+/* Side */
+.side{display:grid;gap:18px}
+.tabs{display:flex;gap:4px;padding:6px;border-bottom:1px solid var(--line)}
+.tab{flex:1;border:0;background:transparent;border-radius:9px;padding:10px;color:var(--mute);font-weight:500}
+.tab[aria-selected="true"]{background:var(--panel-2);color:var(--ink)}
+.pane{padding:6px 18px 14px}
+.chart{list-style:none;margin:0;padding:0}
+.ch-row{display:grid;grid-template-columns:44px 1fr 46px;gap:10px;align-items:center;padding:10px 0;border-top:1px solid var(--line)}
+.ch-row:first-child{border-top:0}
+.rank{font-family:var(--f-display);font-weight:900;font-size:24px;color:var(--dim);text-align:center;font-variant-numeric:tabular-nums}
+.ch-row:nth-child(-n+3) .rank{background:linear-gradient(180deg,var(--amber),var(--signal));-webkit-background-clip:text;background-clip:text;color:transparent}
+.ch-row .t{min-width:0}
+.ch-row .t b{display:block;font-weight:500;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.ch-row .t small{color:var(--dim);font-size:12px;font-family:var(--f-mono)}
+.trend{font-family:var(--f-mono);font-size:12px;text-align:end}
+.trend.up{color:var(--good)}.trend.down{color:var(--bad)}.trend.same{color:var(--dim)}.trend.new{color:var(--amber)}
+.ch-row.air{background:linear-gradient(90deg,color-mix(in srgb,var(--signal) 14%,transparent),transparent);border-radius:8px}
+.ch-row.air .t b::after{content:" ●";color:var(--signal);font-size:10px;vertical-align:2px}
+.pods{list-style:none;margin:0;padding:0}
+.pod-row{display:grid;grid-template-columns:40px 1fr auto;gap:12px;align-items:center;padding:12px 0;border-top:1px solid var(--line)}
+.pod-row:first-child{border-top:0}
+.pod-ic{width:40px;height:40px;border-radius:10px;display:grid;place-items:center;background:color-mix(in srgb,var(--pod) 22%,var(--panel));color:var(--pod);font-family:var(--f-mono);font-size:12px}
+.pod-row .t{min-width:0}.pod-row .t b{display:block;font-weight:500}
+.pod-row .t small{color:var(--dim);font-size:12px}
+.pod-row.air .pod-ic{background:var(--pod);color:var(--night)}
+.rules{padding:18px 20px}
+.rules p{margin:8px 0 0;color:var(--mute);max-width:60ch}
+.seq{display:flex;flex-wrap:wrap;gap:6px;margin-top:12px}
+.seq span{font-family:var(--f-mono);font-size:11px;padding:4px 8px;border-radius:6px;background:var(--panel-2);color:var(--mute)}
+.seq .p{color:var(--pod)}.seq .h{color:var(--amber)}
+footer{margin-top:26px;color:var(--dim);font-size:12px;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <a class="logo" href="#" aria-label="OULBIG Radio"><b>OULBIG</b><span>RADIO</span></a>
+    <button id="install" hidden>Installer l'app</button>
+    <nav class="links" aria-label="OULBIG"><a class="hl" id="lnk-yt" href="https://www.youtube.com/@OULBIG" target="_blank" rel="noopener">YouTube</a><a class="hl sp" id="lnk-sp" href="https://open.spotify.com/artist/2DHkzizRab1JFRb61bQAUi" target="_blank" rel="noopener">Spotify</a></nav>
+    <div class="onair"><i></i><span id="lbl-live">En direct</span></div>
+  </div>
+</header>
+
+<div class="wrap">
+  <nav class="dial" aria-label="Stations">
+    <div class="stations" id="stations"></div>
+    <div class="ticks"></div>
+  </nav>
+
+  <div class="banner" id="banner" hidden>Aperçu : ici, la lecture YouTube est bloquée par la plateforme d'aperçu. La grille tourne en direct ; une fois le site hébergé sur ton domaine, les clips jouent dans le lecteur.</div>
+
+  <main class="grid" id="main">
+    <section>
+      <article class="card now" id="now">
+        <div class="stage">
+          <div id="yt"></div>
+          <div class="art" id="art"><div class="grain"></div><div class="glyph" id="glyph">O</div><div class="wm">OULBIG RADIO</div><div class="eq"><i></i><i></i><i></i><i></i><i></i></div></div>
+        </div>
+        <div class="meta">
+          <div class="chips"><span class="chip live" id="chip-live">En direct</span><span class="chip" id="chip-kind"></span><span class="chip" id="chip-block"></span></div>
+          <h1 class="title" id="title">—</h1>
+          <p class="artist" id="artist">OULBIG</p>
+          <div class="prog"><span id="t-el">0:00</span><div class="bar"><i id="bar"></i></div><span id="t-du">0:00</span></div>
+          <div class="ctrls">
+            <button class="play" id="play"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path id="ic" d="M8 5v14l11-7z"/></svg><span id="lbl-play">Écouter le direct</span></button>
+            <a class="yt" id="ytlink" href="#" target="_blank" rel="noopener">Voir sur YouTube</a>
+            <a class="yt" id="splink" href="https://open.spotify.com/artist/2DHkzizRab1JFRb61bQAUi" target="_blank" rel="noopener">Écouter sur Spotify</a>
+            <label class="vol"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 10v4h4l5 4V6L7 10H3zm13.5 2A4.5 4.5 0 0 0 14 8v8a4.5 4.5 0 0 0 2.5-4z"/></svg><input id="vol" type="range" min="0" max="100" value="85" aria-label="Volume"></label>
+          </div>
+          <div class="note" id="note" hidden></div>
+        </div>
+        <div class="run">
+          <div class="run-h"><span class="eyebrow" id="lbl-run">Conducteur</span><span class="eyebrow" id="run-pos"></span></div>
+          <div class="strip" id="strip"><div class="cursor" id="cursor"></div></div>
+          <div class="legend"><span style="--c:var(--pod)" id="lg-pod">Podcast</span><span style="--c:var(--line)" id="lg-song">Musique</span><span style="--c:var(--signal)" id="lg-hit">Hit Parade</span></div>
+        </div>
+      </article>
+
+      <article class="card next" style="margin-top:18px">
+        <span class="eyebrow" id="lbl-next">À suivre</span>
+        <ol class="list" id="next"></ol>
+      </article>
+    </section>
+
+    <aside class="side">
+      <article class="card">
+        <div class="tabs" role="tablist">
+          <button class="tab" role="tab" id="tab-hit" aria-selected="true" aria-controls="pane-hit">Hit Parade</button>
+          <button class="tab" role="tab" id="tab-pod" aria-selected="false" aria-controls="pane-pod">Podcasts</button>
+        </div>
+        <div class="pane" id="pane-hit" role="tabpanel"><ol class="chart" id="chart"></ol></div>
+        <div class="pane" id="pane-pod" role="tabpanel" hidden><ol class="pods" id="pods"></ol></div>
+      </article>
+      <article class="card rules">
+        <span class="eyebrow" id="lbl-grid">La grille</span>
+        <p id="rules"></p>
+        <div class="seq" id="seq"></div>
+      </article>
+    </aside>
+  </main>
+
+  <footer><span>© OULBIG · OULBIG Radio</span><span id="sync"></span><span id="clock"></span></footer>
+</div>
+
+<script>
+/* =========================================================
+   CATALOGUE — remplace les titres, IDs YouTube et durées (secondes).
+   Chanson : [titre, idYouTube, durée, rangHitParade(1-10 ou 0), tendance('up'|'down'|'same'|'new')]
+   Podcast : [titre, idYouTube, durée]
+   Laisser idYouTube vide ('') = le lien ouvre une recherche YouTube.
+   ========================================================= */
+const CATALOG = {
+  fr:{ songs:[
+    ["L'Étincelle","",212,1,"same"],["Nuit Blanche","",198,2,"up"],["Lumière du Nord","",224,3,"down"],["Plus Haut","",187,4,"up"],
+    ["Médina","",205,5,"new"],["Sans Frontières","",231,6,"down"],["Le Feu Sacré","",219,7,"same"],["Rêveur","",193,8,"up"]],
+    pods:[["EP01 · Allumer l'étincelle","",540],["EP02 · Le leadership commence par soi","",552],["EP03 · Oser entreprendre","",528],["EP10 · Devenir millionnaire","",561]]},
+  en:{ songs:[
+    ["The Spark","",212,1,"up"],["Midnight Drive","",201,2,"same"],["Higher","",188,3,"up"],["Golden Hour","",215,4,"down"],
+    ["No Borders","",229,5,"new"],["Rise Again","",196,6,"same"],["City of Lights","",222,7,"down"],["Dreamer","",193,8,"up"]],
+    pods:[["EP01 · Light the Spark","",535],["EP02 · Leadership Starts Within","",548],["EP03 · Dare to Build","",530],["EP10 · Becoming a Millionaire","",556]]},
+  es:{ songs:[
+    ["La Chispa","",212,1,"same"],["Entre Dos Mundos","",226,2,"up"],["Corazón de Fuego","",204,3,"up"],["Bailando Sola","",199,4,"down"],
+    ["Sin Fronteras","",231,5,"new"],["Luna de Tánger","",218,6,"same"],["Más Alto","",187,7,"down"],["Soñador","",193,8,"up"]],
+    pods:[["EP01 · Encender la chispa","",542],["EP02 · El liderazgo empieza por uno","",550],["EP03 · Atreverse a emprender","",529],["EP10 · Convertirse en millonario","",559]]},
+  ar:{ songs:[
+    ["لمحة","",212,1,"up"],["نور الفجر","",208,2,"same"],["أعلى","",188,3,"down"],["بلا حدود","",229,4,"up"],
+    ["حلم","",195,5,"new"],["قلب من نار","",217,6,"same"],["مدينة الأنوار","",223,7,"down"],["صدى","",201,8,"up"]],
+    pods:[["الحلقة 1 · أشعل الشرارة","",538],["الحلقة 2 · القيادة تبدأ من الذات","",551],["الحلقة 3 · تجرّأ على ريادة الأعمال","",527],["الحلقة 10 · كيف تصبح مليونيرًا","",560]]},
+  ma:{ songs:[
+    ["لمحة","",212,1,"same"],["ليلة بيضا","",203,2,"up"],["الدنيا زوينة","",197,3,"up"],["بلا حدود","",229,4,"down"],
+    ["ولد الحومة","",214,5,"new"],["نوض","",186,6,"same"],["البحر","",221,7,"down"],["حلمة","",199,8,"up"]],
+    pods:[["الحلقة 1 · شعل الشرارة","",536],["الحلقة 2 · القيادة كتبدا منك","",549],["الحلقة 3 · تجرّأ ودير مشروعك","",531],["الحلقة 10 · كيفاش تولي مليونير","",558]]}
+};
+
+const STATIONS = [
+  {id:"fr",code:"FR",ch:"01",name:"Français",dir:"ltr",lang:"fr"},
+  {id:"en",code:"EN",ch:"02",name:"English",dir:"ltr",lang:"en"},
+  {id:"es",code:"ES",ch:"03",name:"Español",dir:"ltr",lang:"es"},
+  {id:"ar",code:"ع",ch:"04",name:"العربية الفصحى",dir:"rtl",lang:"ar"},
+  {id:"ma",code:"د",ch:"05",name:"الدارجة",dir:"rtl",lang:"ar-MA"}
+];
+
+const UI = {
+  fr:{sp:"Écouter sur Spotify",sync:"Catalogue synchronisé le",live:"En direct",listen:"Écouter le direct",pause:"Pause",next:"À suivre",hit:"Hit Parade",pods:"Podcasts",song:"Musique",pod:"Podcast",run:"Conducteur",show:"Bloc émissions",hitBlock:"Hit Parade",yt:"Voir sur YouTube",grid:"La grille",in:"dans",ep:"épisode",rules:"Un podcast, un titre, jusqu'au dernier épisode. Ensuite le Hit Parade, du n°10 au n°1. Puis la boucle recommence avec d'autres titres.",noid:"Pas encore d'ID YouTube pour ce titre : la grille continue en silence."},
+  en:{sp:"Listen on Spotify",sync:"Catalogue synced on",live:"Live",listen:"Listen live",pause:"Pause",next:"Up next",hit:"Hit Parade",pods:"Podcasts",song:"Music",pod:"Podcast",run:"Rundown",show:"Shows block",hitBlock:"Hit Parade",yt:"Watch on YouTube",grid:"The schedule",in:"in",ep:"episode",rules:"One podcast, one song, until the last episode. Then the Hit Parade, from #10 to #1. Then the loop starts again with different songs.",noid:"No YouTube ID for this track yet: the schedule keeps running silently."},
+  es:{sp:"Escuchar en Spotify",sync:"Catálogo sincronizado el",live:"En directo",listen:"Escuchar en directo",pause:"Pausa",next:"A continuación",hit:"Hit Parade",pods:"Podcasts",song:"Música",pod:"Podcast",run:"Escaleta",show:"Bloque de programas",hitBlock:"Hit Parade",yt:"Ver en YouTube",grid:"La parrilla",in:"en",ep:"episodio",rules:"Un podcast, una canción, hasta el último episodio. Después el Hit Parade, del n.º 10 al n.º 1. Y el bucle vuelve a empezar con otras canciones.",noid:"Este tema aún no tiene ID de YouTube: la parrilla sigue en silencio."},
+  ar:{sp:"استمع على سبوتيفاي",sync:"آخر مزامنة للكتالوج:",live:"مباشر",listen:"استمع إلى البث المباشر",pause:"إيقاف مؤقت",next:"التالي",hit:"قائمة الأفضل",pods:"البودكاست",song:"موسيقى",pod:"بودكاست",run:"جدول البث",show:"فقرة البرامج",hitBlock:"قائمة الأفضل",yt:"شاهد على يوتيوب",grid:"شبكة البرامج",in:"بعد",ep:"حلقة",rules:"حلقة بودكاست ثم أغنية، حتى آخر حلقة. بعدها قائمة الأفضل من المرتبة العاشرة إلى الأولى. ثم تبدأ الدورة من جديد بأغانٍ أخرى.",noid:"لا يوجد معرّف يوتيوب لهذا العنوان بعد: يستمر البث بصمت."},
+  ma:{sp:"سمع فسبوتيفاي",sync:"آخر مزامنة:",live:"لايف",listen:"سمع البث المباشر",pause:"وقّف",next:"من بعد",hit:"هيت باراد",pods:"البودكاستات",song:"موسيقى",pod:"بودكاست",run:"البرنامج",show:"وقت البرامج",hitBlock:"هيت باراد",yt:"شوف فيوتيوب",grid:"كيفاش خدامة",in:"من دابا",ep:"حلقة",rules:"بودكاست ومن بعد غنية، حتى لآخر حلقة. من بعد الهيت باراد من الرقم 10 حتى للرقم 1. ومن بعد كنعاودو من الأول بغنايات أخرين.",noid:"هاد الغنية مازال ما عندهاش ID ديال يوتيوب: البث كيكمّل بلا صوت."}
+};
+
+/* ---------- Catalogue automatique ----------
+   Mets ici l'adresse du catalogue.json généré par sync_catalogue.py.
+   Chemin relatif = fichier publié sur le même site (GitHub Pages).
+   S'il est introuvable, le CATALOG ci-dessus est utilisé. */
+const CATALOG_URL = "catalogue.json";
+
+/* ---------- Schedule engine (same timeline for every listener) ---------- */
+const EPOCH = Date.UTC(2026,9,1,0,0,0);
+const DB = {};
+let cycleMemo = {};
+function loadDB(cat){
+  for (const k in cat){
+    if (!cat[k].songs || !cat[k].songs.length) continue;
+    DB[k] = {
+      songs: cat[k].songs.map(([title,yt,dur,rank,trend,sp],i)=>({title,yt,dur,rank,trend,sp,i})),
+      pods:  (cat[k].pods||[]).map(([title,yt,dur,sp],i)=>({title,yt,dur,sp,i}))
+    };
+    if (!DB[k].songs.some(s=>s.rank)) DB[k].songs.slice(0,10).forEach((s,i)=>{s.rank=i+1;s.trend="same";});
+  }
+  cycleMemo = {};
+}
+function fromFeed(feed){
+  const byId = {}, out = {};
+  (feed.items||[]).forEach(i=>byId[i.id]=i);
+  const ok = i=>i && i.youtube && i.youtube.id && i.youtube.embeddable!==false;
+  for (const lang in (feed.langs||{})){
+    const L = feed.langs[lang];
+    const songs = (L.songs||[]).map(id=>byId[id]).filter(ok).map(i=>[i.title,i.youtube.id,i.duration,i.rank||0,i.trend||"same",(i.spotify&&i.spotify.url)||""]);
+    const pods  = (L.podcasts||[]).map(id=>byId[id]).filter(ok).map(i=>[i.title,i.youtube.id,i.duration,(i.spotify&&i.spotify.url)||""]);
+    if (songs.length) out[lang] = {songs,pods};
+  }
+  return out;
+}
+loadDB(CATALOG);
+function cycle(st, k){
+  const S = DB[st].songs.length, km = ((k%S)+S)%S, key = st+"|"+km;
+  if (cycleMemo[key]) return cycleMemo[key];
+  const {songs,pods} = DB[st], items = [];
+  pods.forEach((p,i)=>{ items.push({kind:"pod",ref:p}); items.push({kind:"song",ref:songs[(km*pods.length+i)%S]}); });
+  songs.filter(s=>s.rank).sort((a,b)=>b.rank-a.rank).forEach(s=>items.push({kind:"hit",ref:s}));
+  let t=0; items.forEach(it=>{it.start=t; t+=it.ref.dur;});
+  return cycleMemo[key] = {items,dur:t};
+}
+function locate(st, ms){
+  const S = DB[st].songs.length;
+  const durs = Array.from({length:S},(_,k)=>cycle(st,k).dur), period = durs.reduce((a,b)=>a+b,0);
+  let el = Math.max(0,(ms-EPOCH)/1000);
+  const full = Math.floor(el/period); el -= full*period;
+  let k=0; while(el>=durs[k]){ el-=durs[k]; k++; }
+  const c = cycle(st,k);
+  let idx = c.items.findIndex(it=>el>=it.start && el<it.start+it.ref.dur); if(idx<0) idx=c.items.length-1;
+  return {st, k:full*S+k, c, idx, it:c.items[idx], off:el-c.items[idx].start, cyc:el};
+}
+function upcoming(loc, n){
+  const out=[]; let k=loc.k, idx=loc.idx, wait=loc.it.ref.dur-loc.off, c=loc.c;
+  while(out.length<n){
+    idx++; if(idx>=c.items.length){ k++; c=cycle(loc.st,k); idx=0; }
+    out.push({it:c.items[idx], wait}); wait+=c.items[idx].ref.dur;
+  }
+  return out;
+}
+
+/* ---------- State ---------- */
+let cur = "fr";
+try { const h=location.hash.slice(1); if(DB[h]) cur=h; else { const s=localStorage.getItem("oulbig-st"); if(DB[s]) cur=s; } } catch(e){}
+let playing=false, skew=0, lastTick=Date.now(), shownKey="", playKey="", player=null, ytOK=false, ytState=-1, preview=false;
+const $ = id=>document.getElementById(id);
+const vnow = ()=>Date.now()+skew*1000;
+const fmt = s=>{ s=Math.max(0,Math.floor(s)); return Math.floor(s/60)+":"+String(s%60).padStart(2,"0"); };
+const hhmm = ms=>new Date(ms).toLocaleTimeString([], {hour:"2-digit",minute:"2-digit",hour12:false});
+const hue = str=>{ let h=0; for(const c of str) h=(h*31+c.codePointAt(0))%360; return h; };
+const LINKS = {youtube:"https://www.youtube.com/@OULBIG", spotify:"https://open.spotify.com/artist/2DHkzizRab1JFRb61bQAUi"};
+const spHref = r=>r.sp || LINKS.spotify;
+const ytHref = r=>r.yt ? "https://www.youtube.com/watch?v="+r.yt : "https://www.youtube.com/results?search_query="+encodeURIComponent("OULBIG "+r.title);
+const T = ()=>UI[cur];
+const kindLabel = it=> it.kind==="pod"?T().pod : it.kind==="hit"?T().hit+" #"+it.ref.rank : T().song;
+
+/* ---------- Render ---------- */
+let SYNCED="";
+function showSync(){ const el=$("sync"); if(!el) return; if(!SYNCED){el.textContent="";return;} el.textContent=T().sync+" "+new Date(SYNCED).toLocaleDateString(STATIONS.find(x=>x.id===cur).lang,{day:"numeric",month:"short",year:"numeric"}); }
+function renderStations(){
+  $("stations").innerHTML = STATIONS.map(s=>`<button class="st" data-id="${s.id}" aria-pressed="${s.id===cur}"><span class="ch">CH ${s.ch}</span><span class="code">${s.code}</span><span class="nm" dir="${s.dir}">${s.name}</span></button>`).join("");
+}
+function applyLang(){
+  const s = STATIONS.find(x=>x.id===cur), t=T();
+  $("main").dir = s.dir; $("main").lang = s.lang;
+  $("lbl-live").textContent=t.live; $("chip-live").textContent=t.live;
+  $("lbl-play").textContent = playing?t.pause:t.listen;
+  $("lbl-next").textContent=t.next; $("lbl-run").textContent=t.run;
+  $("lg-pod").textContent=t.pod; $("lg-song").textContent=t.song; $("lg-hit").textContent=t.hitBlock;
+  $("tab-hit").textContent=t.hit; $("tab-pod").textContent=t.pods; $("lbl-grid").textContent=t.grid;
+  $("rules").textContent=t.rules; $("ytlink").textContent=t.yt; $("splink").textContent=t.sp; showSync();
+  const n=DB[cur].pods.length;
+  let seq=""; for(let i=1;i<=Math.min(n,3);i++) seq+=`<span class="p">P${i}</span><span>M</span>`;
+  if(n>3) seq+=`<span>…</span><span class="p">P${n}</span><span>M</span>`;
+  seq+=`<span class="h">#10 → #1</span><span>↻</span>`;
+  $("seq").innerHTML=seq;
+}
+function renderNow(loc){
+  const it=loc.it, r=it.ref, t=T();
+  $("title").textContent=r.title;
+  $("artist").textContent = it.kind==="pod" ? "OULBIG · L'Étincelle" : "OULBIG";
+  const ck=$("chip-kind"); ck.className="chip k-"+it.kind; ck.textContent=kindLabel(it);
+  $("chip-block").textContent = it.kind==="hit" ? t.hitBlock : t.show;
+  $("ytlink").href = ytHref(r);
+  $("splink").href = spHref(r);
+  const h=hue(r.title+cur);
+  $("art").style.background = `radial-gradient(120% 90% at 20% 15%, hsl(${h} 85% 58%), transparent 60%), radial-gradient(90% 90% at 85% 90%, hsl(${(h+50)%360} 90% 52%), transparent 60%), linear-gradient(135deg, hsl(${(h+250)%360} 55% 16%), #0E0B1A)`;
+  $("glyph").textContent = it.kind==="hit" ? "#"+r.rank : [...r.title.replace(/^(EP\d+|الحلقة \d+) · /,"")][0];
+  $("t-du").textContent = fmt(r.dur);
+  // rundown strip
+  const c=loc.c;
+  $("strip").innerHTML = c.items.map((x,i)=>`<i class="${x.kind} ${i<loc.idx?"past":""}" style="flex:${x.ref.dur}" title="${x.ref.title.replace(/"/g,"&quot;")}"></i>`).join("")+`<div class="cursor" id="cursor"></div>`;
+  $("run-pos").textContent = `${loc.idx+1} / ${c.items.length}`;
+  // next
+  const base=vnow();
+  $("next").innerHTML = upcoming(loc,6).map(({it,wait})=>`<li class="row"><span class="time">${hhmm(base+wait*1000)}</span><span class="t"><b>${it.ref.title}</b><small>${it.kind==="pod"?"OULBIG · L'Étincelle":"OULBIG"} · ${fmt(it.ref.dur)}</small></span><span class="chip k-${it.kind}">${kindLabel(it)}</span></li>`).join("");
+  // chart
+  const hits=DB[cur].songs.filter(s=>s.rank).sort((a,b)=>a.rank-b.rank);
+  const arrow={up:"▲",down:"▼",same:"=",new:"NEW"};
+  $("chart").innerHTML = hits.map(s=>`<li class="ch-row ${it.kind!=="pod"&&r===s?"air":""}"><span class="rank">${s.rank}</span><span class="t"><b>${s.title}</b><small><a href="${ytHref(s)}" target="_blank" rel="noopener">YouTube</a> · <a href="${spHref(s)}" target="_blank" rel="noopener">Spotify</a> · ${fmt(s.dur)}</small></span><span class="trend ${s.trend}">${arrow[s.trend]||""}</span></li>`).join("");
+  $("pods").innerHTML = DB[cur].pods.map((p,i)=>`<li class="pod-row ${it.kind==="pod"&&r===p?"air":""}"><span class="pod-ic">${String(i+1).padStart(2,"0")}</span><span class="t"><b>${p.title}</b><small>${fmt(p.dur)} · <a href="${spHref(p)}" target="_blank" rel="noopener" style="color:inherit">Spotify</a></small></span><a class="yt" href="${ytHref(p)}" target="_blank" rel="noopener" aria-label="YouTube">▶</a></li>`).join("");
+}
+function renderProgress(loc){
+  const r=loc.it.ref, pct=Math.min(100,loc.off/r.dur*100);
+  $("t-el").textContent=fmt(loc.off); $("bar").style.width=pct+"%";
+  const cpos = loc.cyc/loc.c.dur*100, cur_=$("cursor");
+  if(cur_){ if($("main").dir==="rtl"){cur_.style.right=cpos+"%";cur_.style.left="auto";} else {cur_.style.left=cpos+"%";cur_.style.right="auto";} }
+  $("clock").textContent = hhmm(Date.now());
+}
+
+/* ---------- Playback (YouTube IFrame API on the hosted site) ---------- */
+function setPlaying(p){
+  playing=p; $("now").classList.toggle("playing",p);
+  $("ic").setAttribute("d", p?"M6 5h4v14H6zm8 0h4v14h-4z":"M8 5v14l11-7z");
+  $("lbl-play").textContent = p?T().pause:T().listen;
+}
+function playLoc(loc){
+  playKey = loc.k+":"+loc.idx;
+  const id = loc.it.ref.yt;
+  $("note").hidden = !(ytOK && !id); $("note").textContent = T().noid;
+  if(ytOK && player && id){
+    player.loadVideoById({videoId:id, startSeconds:Math.floor(loc.off)});
+    player.setVolume(+$("vol").value);
+    $("art").classList.add("off");
+  } else {
+    if(player && ytOK) player.stopVideo();
+    $("art").classList.remove("off");
+  }
+}
+$("play").onclick = ()=>{
+  if(playing){ setPlaying(false); if(ytOK&&player) player.pauseVideo(); $("art").classList.remove("off"); return; }
+  setPlaying(true); skew=0; playLoc(locate(cur,vnow()));
+};
+$("vol").oninput = e=>{ if(ytOK&&player) player.setVolume(+e.target.value); };
+
+function onState(e){
+  ytState=e.data;
+  if(e.data===0){ // ended: video shorter than declared -> jump clock to next item
+    const loc=locate(cur,vnow()); skew += (loc.it.ref.dur-loc.off)+0.1;
+  }
+}
+window.onYouTubeIframeAPIReady = ()=>{
+  player = new YT.Player("yt",{width:"100%",height:"100%",
+    playerVars:{playsinline:1,controls:0,rel:0,modestbranding:1,disablekb:1},
+    events:{onReady:()=>{ytOK=true; $("banner").hidden=true;}, onStateChange:onState}});
+};
+(function loadYT(){
+  const s=document.createElement("script"); s.src="https://www.youtube.com/iframe_api";
+  s.onerror=()=>{preview=true; $("banner").hidden=false;};
+  document.head.appendChild(s);
+  setTimeout(()=>{ if(!ytOK){preview=true; $("banner").hidden=false;} },6000);
+})();
+
+/* ---------- Loop ---------- */
+function tick(){
+  const now=Date.now(), dt=(now-lastTick)/1000; lastTick=now;
+  let loc=locate(cur,vnow()), key=loc.k+":"+loc.idx;
+  // video longer than declared: hold the clock until it ends
+  if(playing && ytOK && playKey && key!==playKey && ytState===1){ skew-=dt; loc=locate(cur,vnow()); key=loc.k+":"+loc.idx; }
+  if(key!==shownKey){ shownKey=key; renderNow(loc); if(playing && key!==playKey) playLoc(loc); }
+  renderProgress(loc);
+}
+function switchStation(id){
+  if(id===cur) return; cur=id; skew=0; shownKey="";
+  try{localStorage.setItem("oulbig-st",id);}catch(e){}
+  renderStations(); applyLang(); tick();
+  if(playing) playLoc(locate(cur,vnow()));
+}
+$("stations").onclick = e=>{ const b=e.target.closest(".st"); if(b) switchStation(b.dataset.id); };
+for(const [tb,pn,ot,op] of [["tab-hit","pane-hit","tab-pod","pane-pod"],["tab-pod","pane-pod","tab-hit","pane-hit"]])
+  $(tb).onclick=()=>{ $(tb).setAttribute("aria-selected","true"); $(ot).setAttribute("aria-selected","false"); $(pn).hidden=false; $(op).hidden=true; };
+
+renderStations(); applyLang(); tick(); setInterval(tick,500);
+if (CATALOG_URL) {
+  fetch(CATALOG_URL,{cache:"no-cache"}).then(r=>r.json()).then(feed=>{
+    const c = fromFeed(feed);
+    if (feed.links){ if(feed.links.youtube) LINKS.youtube=feed.links.youtube; if(feed.links.spotify) LINKS.spotify=feed.links.spotify; $("lnk-yt").href=LINKS.youtube; $("lnk-sp").href=LINKS.spotify; }
+    if (feed.generated){ SYNCED=feed.generated; showSync(); }
+    if (Object.keys(c).length){ loadDB(c); shownKey=""; applyLang(); tick(); if(playing) playLoc(locate(cur,vnow())); }
+  }).catch(()=>{});
+}
+
+/* ---------- Installable app (PWA) ---------- */
+let deferred=null;
+window.addEventListener("beforeinstallprompt",e=>{ e.preventDefault(); deferred=e; $("install").hidden=false; });
+$("install").onclick=async()=>{ if(!deferred) return; deferred.prompt(); await deferred.userChoice; deferred=null; $("install").hidden=true; };
+try{ if("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(()=>{}); }catch(e){}
+</script>
+</body>
+</html>
