@@ -85,6 +85,9 @@ def hms_duration(s):
 
 def clean_title(t, artist="OULBIG"):
     t = NOISE_RE.sub("", t)
+    t = re.sub(r"\.(mp3|wav|m4a)$", "", t.strip(), flags=re.I)
+    t = re.sub(r"^\s*\d{2,3}\s+", "", t)                                  # « 002 HALA MAGHRIB »
+    t = re.sub(rf"\s+(r\s+)?by\s+{re.escape(artist)}\s*$", "", t, flags=re.I)  # « … By OULBIG »
     t = re.sub(r"[\[\(#]\s*(fr|en|es|ar|ma|dz|fusha|darija|français|english|español)\s*[\]\)]?", "", t, flags=re.I)
     t = re.sub(rf"^\s*{re.escape(artist)}\s*[-–—|:·]\s*", "", t, flags=re.I)
     t = re.sub(rf"\s*[-–—|·]\s*{re.escape(artist)}\s*$", "", t, flags=re.I)
@@ -97,19 +100,89 @@ def norm_key(t):
     return re.sub(r"[^\w؀-ۿ]+", "", t)
 
 
+# --- Détection automatique de la langue (titres sans tag ni playlist) ---
+LANG_WORDS = {
+    "es": set("el los las del mi mis tu tus te y o pero que qué cómo como cuando donde dónde sin con por para una uno es ser soy eres estoy está amor corazón vida mundo loco loca locura quiero todo nada mejor poco futuro cura noche día mujer contigo conmigo siempre nunca solo sola volvió ojos mirándote belleza voluntad rebelión hechizo plazo equilibrio esconde verdad tiempo alma fuego luna sueño bailando entre dos mundos chispa sé no más ha crecido salir zona confort receta felicidad reglas conversación pequeños hábitos grandes cambios momentos cambian conviértete persona nueva millonario empieza hoy ahora lee crecer vive momento deja perder tiempo consejos vivir manera correcta energía poder querer seis días".split()),
+    "en": set("the of you your i i'd i'm it's my me love girl boy day night light fight nothing else dream be man to see hoping breaks slow builders civilization have said all and in with our fate mad at without never ever always heart country's daughter forever baby tonight life world time feel like just know want need rules better tiny big changes become new person recipe happiness greatest school start today now read grow stop wasting stepping out comfort moments change everything ten forty habits people truly interesting power will energy six days".split()),
+    "fr": set("le les la des du de je j'ai j'espérais te toi moi tout tous va bien ce soir ne pas que qui sans d'amour amour désir rêve rêver elle lui cesse essayé notre nos votre sort jours vie monde coeur cœur jamais toujours encore nuit seconde chance laisse dire voir tant être juste charme trompeur soupir là où ô tient debout avenir seul mot masque rien".split()),
+}
+DARIJA_LATIN = set("liam fhad denia dnya lmouja nhar chfti fia bghit rani dyal diali dialk zwin zwina bzaf wach kifach lbare7 ghir mabghitch 3lach 3ini hbal mama khoya bladi".split())
+DARIJA_AR = set("ديال ديالي ديالك بغيت بغيتي كاين كاينش بزاف شكون علاش واش هاد هادي دابا ماشي ديما نتي نتا حنا ضو شفت طايح تبدلات زاد هبالي هْبالي كلشي بزي ليام لِيَّام نبغيك كنبغيك بلادي راه يبغيك نشوفك كنتمنى عطاك حياتو زينك هبلني الزين نهار شفتي فيا عقلتي مشينا نصاصات عينيا گولي فين غادي عارفش طريق طويلة جوال".split())
+NAME_HINTS = [  # mots explicites dans le titre : « Fr », « Darija », « English », « Spanish »…
+    ("ma", r"\b(darija|dz)\b|دارجة"),
+    ("es", r"\b(spanish|español|espanol|esp)\b"),
+    ("en", r"\b(english|eng)\b"),
+    ("fr", r"\b(fr|français|francais|french)\b"),
+    ("ar", r"\b(fusha|msa)\b|فصحى"),
+    ("ma", r"\bchaabi\b"),
+]
+
+
 def detect_lang(title, fallback):
     low = title.lower()
     for lang, words in TAGS.items():
         for w in words:
             if re.search(rf"[\[\(#]\s*{re.escape(w)}\s*[\]\)]?(\s|$)", low):
                 return lang
-    if re.search(r"[؀-ۿ]", title):
-        return fallback if fallback in ("ar", "ma") else "ar"
+    for lang, rx in NAME_HINTS:
+        if re.search(rx, low):
+            return lang
+    if re.search(r"[\u0600-\u06FF]", title):
+        toks = re.findall(r"[\u0600-\u06FF\u064B-\u0652]+", title)
+        plain = [re.sub(r"[\u064B-\u0652]", "", t) for t in toks]
+        if any(t in DARIJA_AR or re.sub(r"[\u064B-\u0652]", "", t) in DARIJA_AR for t in toks):
+            return "ma"
+        # transcription darija : consonne initiale avec soukoun (طْريق, نْهار, مْشينا)
+        if any(len(t) > 2 and t[1] == "\u0652" for t in toks):
+            return "ma"
+        # négation darija : « ما ... ش » (ماندمتيش, ما ترجعيش, ما بغيتش)
+        if any(t.startswith("ما") and t.endswith("ش") and len(t) > 3 for t in plain) or \
+           ("ما" in plain and any(t.endswith("ش") and len(t) > 2 for t in plain)):
+            return "ma"
+        return "ar"
+    words = re.findall(r"[a-zà-ÿñ']+", low)
+    if any(w in DARIJA_LATIN for w in words):
+        return "ma"
+    score = {k: 0 for k in LANG_WORDS}
+    for w in words:
+        for k, vocab in LANG_WORDS.items():
+            if w in vocab:
+                score[k] += 1
+    if re.search(r"[ñáíóú¿¡]", low):
+        score["es"] += 2
+    if re.search(r"[èêëàâçùûœ]", low):
+        score["fr"] += 2
+    best = max(score, key=score.get)
+    if score[best] == 0:
+        return fallback
+    ranked = sorted(score.values(), reverse=True)
+    return best if ranked[0] > ranked[1] else fallback
+
+
+# Épisodes parlés (développement personnel) reconnus à leur thème, dans les 5 langues
+TALK_RE = re.compile("|".join([
+    r"habit", r"habitude", r"hábito", r"habito", r"عادات", r"عادة",
+    r"millionaire", r"millionnaire", r"millonario", r"مليونير",
+    r"change (your|tout)", r"changer (de vie|tout)", r"cambia tu vida", r"غيّ?ر حياتك", r"غَيِّرْ حَيَاتَكَ",
+    r"(live|vis|vive) (the|le|el) moment", r"عِ?ش اللحظة", r"moments? (that|qui|que)", r"momentos que", r"اللحظات التي",
+    r"read to grow", r"lis pour grandir", r"lee para crecer", r"اقرأ لتنمو",
+    r"start your life", r"commence ta vie", r"empieza tu vida", r"ابدأ حياتك",
+    r"new person", r"nouvelle personne", r"persona nueva", r"إنساناً جديداً", r"انسانا جديدا",
+    r"wasting your time", r"gaspiller ton temps", r"perder tu tiempo", r"لا تُ?ضِ?ع وقتك",
+    r"recipe for happiness", r"recette du bonheur", r"receta de la felicidad", r"وصفة السعادة",
+    r"comfort zone", r"zone de confort", r"zona de confort", r"منطقة الراحة",
+    r"conversation", r"conversación", r"محادثة", r"consejos", r"conseils", r"interesting people",
+    r"gens intéressants", r"personas interesantes", r"أعظم مدرسة", r"greatest school", r"plus grande école",
+    r"leadership", r"liderazgo", r"القيادة",
+]), re.I)
+
+
+def detect_type(title, fallback="song", duration=0):
+    if PODCAST_RE.search(title) or TALK_RE.search(title):
+        return "podcast"
+    if duration and duration >= 430:  # aucune chanson ne dépasse ~7 min
+        return "podcast"
     return fallback
-
-
-def detect_type(title, fallback="song"):
-    return "podcast" if PODCAST_RE.search(title) else fallback
 
 
 # ---------------------------------------------------------------- YouTube
@@ -197,7 +270,7 @@ def collect_youtube(cfg):
             continue  # écarte les Shorts / teasers
         lang, typ = assigned.get(vid, (None, None))
         lang = lang or detect_lang(v["title"], default_lang)
-        typ = typ or detect_type(v["title"])
+        typ = typ or detect_type(v["title"], duration=v.get("duration", 0))
         out.append({"source": "youtube", "lang": lang, "type": typ, **v})
     log(f"YouTube : {len(out)} vidéos retenues")
     return out

@@ -329,7 +329,8 @@ function cycle(st, k){
   const S = DB[st].songs.length, km = ((k%S)+S)%S, key = st+"|"+km;
   if (cycleMemo[key]) return cycleMemo[key];
   const {songs,pods} = DB[st], items = [];
-  pods.forEach((p,i)=>{ items.push({kind:"pod",ref:p}); items.push({kind:"song",ref:songs[(km*pods.length+i)%S]}); });
+  if (pods.length) { pods.forEach((p,i)=>{ items.push({kind:"pod",ref:p}); items.push({kind:"song",ref:songs[(km*pods.length+i)%S]}); }); }
+  else { for (let i=0;i<Math.min(8,S);i++) items.push({kind:"song",ref:songs[(km*8+i)%S]}); } // station sans podcast : bloc de 8 titres
   songs.filter(s=>s.rank).sort((a,b)=>b.rank-a.rank).forEach(s=>items.push({kind:"hit",ref:s}));
   let t=0; items.forEach(it=>{it.start=t; t+=it.ref.dur;});
   return cycleMemo[key] = {items,dur:t};
