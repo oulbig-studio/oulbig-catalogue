@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "artist": "OULBIG",
- "generated": "2026-10-18T09:38:31Z",
+ "generated": "2026-10-19T10:47:21Z",
  "links": {
   "youtube": "https://www.youtube.com/@OULBIG",
   "youtube_topic": "https://www.youtube.com/channel/UCpWPGzDk5xXbE2fc48AeM8Q",
@@ -314,6 +314,7 @@
     "en-s-CrLZu-LouN4",
     "en-s-DWDPjKuK4FQ",
     "en-s-Azbo5VA4wjk",
+    "en-s-xEfTQroYTDo",
     "en-s-5SEfCJ5I8Wg",
     "en-s-MBPxdBlM1nA",
     "en-s-JhDGs7cbmDQ",
@@ -321,7 +322,6 @@
     "en-s-qrK9G0DFfQw",
     "en-s-DcL0nyzptAE",
     "en-s-4xv5pMwMToc",
-    "en-s-xEfTQroYTDo",
     "en-s-ov6GXf3gcYQ",
     "en-s-QtFEDyvOWkE",
     "en-s-PLo_W5Nh5e0",
@@ -416,7 +416,7 @@
     "en-s-nvxPart1UlA",
     "en-s-4xrGzWsBo34",
     "en-s-Yzo3ocsLbu4",
-    "en-s-5SEfCJ5I8Wg"
+    "en-s-xEfTQroYTDo"
    ]
   },
   "es": {
@@ -707,8 +707,8 @@
     "ar-s-kJEgargCDq0",
     "ar-s-_gYWZ62BUhI",
     "ar-s-cQqCmwwSdzE",
-    "ar-s-2QsMQGMSwzo",
     "ar-s-DDgh64--UBQ",
+    "ar-s-2QsMQGMSwzo",
     "ar-s-pl0hJCq3Wzs"
    ]
   },
@@ -1102,7 +1102,7 @@
    "youtube": {
     "id": "ctrkypEvQpU",
     "url": "https://www.youtube.com/watch?v=ctrkypEvQpU",
-    "views": 0,
+    "views": 1,
     "embeddable": true
    },
    "spotify": null,
@@ -1182,7 +1182,7 @@
    "youtube": {
     "id": "VSwVdis_QLA",
     "url": "https://www.youtube.com/watch?v=VSwVdis_QLA",
-    "views": 1350,
+    "views": 1351,
     "embeddable": true
    },
    "spotify": null,
@@ -1202,7 +1202,7 @@
    "youtube": {
     "id": "KcLNZKF76qM",
     "url": "https://www.youtube.com/watch?v=KcLNZKF76qM",
-    "views": 578,
+    "views": 579,
     "embeddable": true
    },
    "spotify": null,
@@ -1222,7 +1222,7 @@
    "youtube": {
     "id": "PO0vxboJMtU",
     "url": "https://www.youtube.com/watch?v=PO0vxboJMtU",
-    "views": 415,
+    "views": 423,
     "embeddable": true
    },
    "spotify": null,
@@ -1262,7 +1262,7 @@
    "youtube": {
     "id": "ttsM0MjGPSk",
     "url": "https://www.youtube.com/watch?v=ttsM0MjGPSk",
-    "views": 327,
+    "views": 328,
     "embeddable": true
    },
    "spotify": null,
@@ -1282,7 +1282,7 @@
    "youtube": {
     "id": "It-L-dzcM04",
     "url": "https://www.youtube.com/watch?v=It-L-dzcM04",
-    "views": 298,
+    "views": 299,
     "embeddable": true
    },
    "spotify": null,
@@ -1302,7 +1302,7 @@
    "youtube": {
     "id": "gFhnggVXkq8",
     "url": "https://www.youtube.com/watch?v=gFhnggVXkq8",
-    "views": 271,
+    "views": 273,
     "embeddable": true
    },
    "spotify": null,
@@ -1322,7 +1322,7 @@
    "youtube": {
     "id": "xlIdBErkNCQ",
     "url": "https://www.youtube.com/watch?v=xlIdBErkNCQ",
-    "views": 249,
+    "views": 251,
     "embeddable": true
    },
    "spotify": null,
@@ -1482,7 +1482,7 @@
    "youtube": {
     "id": "Zp59u4D21pU",
     "url": "https://www.youtube.com/watch?v=Zp59u4D21pU",
-    "views": 17,
+    "views": 19,
     "embeddable": true
    },
    "spotify": null,
@@ -1522,7 +1522,7 @@
    "youtube": {
     "id": "wvKMaJjQb_4",
     "url": "https://www.youtube.com/watch?v=wvKMaJjQb_4",
-    "views": 22,
+    "views": 25,
     "embeddable": true
    },
    "spotify": null,
@@ -1542,7 +1542,7 @@
    "youtube": {
     "id": "fc-M9bQf_O4",
     "url": "https://www.youtube.com/watch?v=fc-M9bQf_O4",
-    "views": 23,
+    "views": 24,
     "embeddable": true
    },
    "spotify": null,
@@ -1562,7 +1562,7 @@
    "youtube": {
     "id": "I0o8TSI5Y_4",
     "url": "https://www.youtube.com/watch?v=I0o8TSI5Y_4",
-    "views": 14,
+    "views": 15,
     "embeddable": true
    },
    "spotify": null,
@@ -1602,7 +1602,7 @@
    "youtube": {
     "id": "ZJ1Z9fkW3FE",
     "url": "https://www.youtube.com/watch?v=ZJ1Z9fkW3FE",
-    "views": 16,
+    "views": 18,
     "embeddable": true
    },
    "spotify": null,
@@ -1782,7 +1782,7 @@
    "youtube": {
     "id": "eUvx3oAkw2g",
     "url": "https://www.youtube.com/watch?v=eUvx3oAkw2g",
-    "views": 31,
+    "views": 32,
     "embeddable": true
    },
    "spotify": null,
@@ -1882,7 +1882,7 @@
    "youtube": {
     "id": "kOWxYIiy50k",
     "url": "https://www.youtube.com/watch?v=kOWxYIiy50k",
-    "views": 27,
+    "views": 28,
     "embeddable": true
    },
    "spotify": null,
@@ -1962,7 +1962,7 @@
    "youtube": {
     "id": "5bZ37g-qeII",
     "url": "https://www.youtube.com/watch?v=5bZ37g-qeII",
-    "views": 53,
+    "views": 54,
     "embeddable": true
    },
    "spotify": null,
@@ -1982,7 +1982,7 @@
    "youtube": {
     "id": "UwatTp1avO0",
     "url": "https://www.youtube.com/watch?v=UwatTp1avO0",
-    "views": 23,
+    "views": 24,
     "embeddable": true
    },
    "spotify": null,
@@ -2002,7 +2002,7 @@
    "youtube": {
     "id": "lWMwzyL0Ttk",
     "url": "https://www.youtube.com/watch?v=lWMwzyL0Ttk",
-    "views": 13,
+    "views": 14,
     "embeddable": true
    },
    "spotify": null,
@@ -2082,7 +2082,7 @@
    "youtube": {
     "id": "zkOFw5caw3E",
     "url": "https://www.youtube.com/watch?v=zkOFw5caw3E",
-    "views": 68,
+    "views": 69,
     "embeddable": true
    },
    "spotify": null,
@@ -2122,7 +2122,7 @@
    "youtube": {
     "id": "tqr1kSeL_JM",
     "url": "https://www.youtube.com/watch?v=tqr1kSeL_JM",
-    "views": 18,
+    "views": 19,
     "embeddable": true
    },
    "spotify": null,
@@ -2202,7 +2202,7 @@
    "youtube": {
     "id": "6V4zPFsrAQw",
     "url": "https://www.youtube.com/watch?v=6V4zPFsrAQw",
-    "views": 39,
+    "views": 41,
     "embeddable": true
    },
    "spotify": null,
@@ -2362,7 +2362,7 @@
    "youtube": {
     "id": "S29UKz93vhU",
     "url": "https://www.youtube.com/watch?v=S29UKz93vhU",
-    "views": 93,
+    "views": 94,
     "embeddable": true
    },
    "spotify": null,
@@ -2402,7 +2402,7 @@
    "youtube": {
     "id": "l-HwsIdLlX0",
     "url": "https://www.youtube.com/watch?v=l-HwsIdLlX0",
-    "views": 17,
+    "views": 18,
     "embeddable": true
    },
    "spotify": null,
@@ -2422,7 +2422,7 @@
    "youtube": {
     "id": "D7AmFOeaxVw",
     "url": "https://www.youtube.com/watch?v=D7AmFOeaxVw",
-    "views": 57,
+    "views": 59,
     "embeddable": true
    },
    "spotify": null,
@@ -2602,7 +2602,7 @@
    "youtube": {
     "id": "Dh0-Ndx3PmQ",
     "url": "https://www.youtube.com/watch?v=Dh0-Ndx3PmQ",
-    "views": 76,
+    "views": 77,
     "embeddable": true
    },
    "spotify": null,
@@ -2622,7 +2622,7 @@
    "youtube": {
     "id": "GY3hsRA0cJs",
     "url": "https://www.youtube.com/watch?v=GY3hsRA0cJs",
-    "views": 70,
+    "views": 71,
     "embeddable": true
    },
    "spotify": null,
@@ -2642,7 +2642,7 @@
    "youtube": {
     "id": "l_Pj1uYBNUo",
     "url": "https://www.youtube.com/watch?v=l_Pj1uYBNUo",
-    "views": 101,
+    "views": 102,
     "embeddable": true
    },
    "spotify": null,
@@ -2702,7 +2702,7 @@
    "youtube": {
     "id": "ts6qrUERDiI",
     "url": "https://www.youtube.com/watch?v=ts6qrUERDiI",
-    "views": 52,
+    "views": 57,
     "embeddable": true
    },
    "spotify": null,
@@ -2742,7 +2742,7 @@
    "youtube": {
     "id": "NtiUwXcEFaY",
     "url": "https://www.youtube.com/watch?v=NtiUwXcEFaY",
-    "views": 18,
+    "views": 21,
     "embeddable": true
    },
    "spotify": null,
@@ -2762,7 +2762,7 @@
    "youtube": {
     "id": "wPRwl8v8U7c",
     "url": "https://www.youtube.com/watch?v=wPRwl8v8U7c",
-    "views": 10,
+    "views": 13,
     "embeddable": true
    },
    "spotify": null,
@@ -2782,7 +2782,7 @@
    "youtube": {
     "id": "DQC2nBmILrs",
     "url": "https://www.youtube.com/watch?v=DQC2nBmILrs",
-    "views": 3,
+    "views": 4,
     "embeddable": true
    },
    "spotify": null,
@@ -2822,7 +2822,7 @@
    "youtube": {
     "id": "bu6BVOfp9Wg",
     "url": "https://www.youtube.com/watch?v=bu6BVOfp9Wg",
-    "views": 14,
+    "views": 19,
     "embeddable": true
    },
    "spotify": null,
@@ -2882,7 +2882,7 @@
    "youtube": {
     "id": "B-9AQHy-UtU",
     "url": "https://www.youtube.com/watch?v=B-9AQHy-UtU",
-    "views": 29,
+    "views": 31,
     "embeddable": true
    },
    "spotify": null,
@@ -2902,7 +2902,7 @@
    "youtube": {
     "id": "wyp6NlxJb0I",
     "url": "https://www.youtube.com/watch?v=wyp6NlxJb0I",
-    "views": 22,
+    "views": 25,
     "embeddable": true
    },
    "spotify": null,
@@ -3002,7 +3002,7 @@
    "youtube": {
     "id": "dPIkDGg3hcQ",
     "url": "https://www.youtube.com/watch?v=dPIkDGg3hcQ",
-    "views": 2,
+    "views": 3,
     "embeddable": true
    },
    "spotify": null,
@@ -3042,7 +3042,7 @@
    "youtube": {
     "id": "rKRBfJC7Lrg",
     "url": "https://www.youtube.com/watch?v=rKRBfJC7Lrg",
-    "views": 15,
+    "views": 17,
     "embeddable": true
    },
    "spotify": null,
@@ -3082,7 +3082,7 @@
    "youtube": {
     "id": "N3__RK0D-QA",
     "url": "https://www.youtube.com/watch?v=N3__RK0D-QA",
-    "views": 8,
+    "views": 11,
     "embeddable": true
    },
    "spotify": null,
@@ -3122,7 +3122,7 @@
    "youtube": {
     "id": "GkTQkjayAmY",
     "url": "https://www.youtube.com/watch?v=GkTQkjayAmY",
-    "views": 21,
+    "views": 29,
     "embeddable": true
    },
    "spotify": null,
@@ -3182,7 +3182,7 @@
    "youtube": {
     "id": "f7YlybXFdQA",
     "url": "https://www.youtube.com/watch?v=f7YlybXFdQA",
-    "views": 26,
+    "views": 40,
     "embeddable": true
    },
    "spotify": null,
@@ -3302,7 +3302,7 @@
    "youtube": {
     "id": "p4yqWsGjnCM",
     "url": "https://www.youtube.com/watch?v=p4yqWsGjnCM",
-    "views": 5,
+    "views": 6,
     "embeddable": true
    },
    "spotify": null,
@@ -3482,7 +3482,7 @@
    "youtube": {
     "id": "C5640ya3rq0",
     "url": "https://www.youtube.com/watch?v=C5640ya3rq0",
-    "views": 140,
+    "views": 141,
     "embeddable": true
    },
    "spotify": null,
@@ -3502,7 +3502,7 @@
    "youtube": {
     "id": "0A9JRF2jYVQ",
     "url": "https://www.youtube.com/watch?v=0A9JRF2jYVQ",
-    "views": 38,
+    "views": 39,
     "embeddable": true
    },
    "spotify": null,
@@ -3582,7 +3582,7 @@
    "youtube": {
     "id": "0jOYfR3UQkE",
     "url": "https://www.youtube.com/watch?v=0jOYfR3UQkE",
-    "views": 60,
+    "views": 62,
     "embeddable": true
    },
    "spotify": null,
@@ -3682,7 +3682,7 @@
    "youtube": {
     "id": "_j_4UmcGDdc",
     "url": "https://www.youtube.com/watch?v=_j_4UmcGDdc",
-    "views": 72,
+    "views": 80,
     "embeddable": true
    },
    "spotify": null,
@@ -3782,7 +3782,7 @@
    "youtube": {
     "id": "FLwB_RA9U4Y",
     "url": "https://www.youtube.com/watch?v=FLwB_RA9U4Y",
-    "views": 3,
+    "views": 4,
     "embeddable": true
    },
    "spotify": null,
@@ -3822,7 +3822,7 @@
    "youtube": {
     "id": "_UbE8Cw2ItI",
     "url": "https://www.youtube.com/watch?v=_UbE8Cw2ItI",
-    "views": 3,
+    "views": 4,
     "embeddable": true
    },
    "spotify": null,
@@ -3962,7 +3962,7 @@
    "youtube": {
     "id": "7hUZTKxrrS4",
     "url": "https://www.youtube.com/watch?v=7hUZTKxrrS4",
-    "views": 97,
+    "views": 98,
     "embeddable": true
    },
    "spotify": null,
@@ -4002,7 +4002,7 @@
    "youtube": {
     "id": "HXGNMkWUG74",
     "url": "https://www.youtube.com/watch?v=HXGNMkWUG74",
-    "views": 7,
+    "views": 9,
     "embeddable": true
    },
    "spotify": null,
@@ -4042,7 +4042,7 @@
    "youtube": {
     "id": "_YIeKcPLLEo",
     "url": "https://www.youtube.com/watch?v=_YIeKcPLLEo",
-    "views": 9,
+    "views": 12,
     "embeddable": true
    },
    "spotify": null,
@@ -4082,7 +4082,7 @@
    "youtube": {
     "id": "DnezG77a_kc",
     "url": "https://www.youtube.com/watch?v=DnezG77a_kc",
-    "views": 2,
+    "views": 4,
     "embeddable": true
    },
    "spotify": null,
@@ -4162,7 +4162,7 @@
    "youtube": {
     "id": "eLzbUK1It08",
     "url": "https://www.youtube.com/watch?v=eLzbUK1It08",
-    "views": 11,
+    "views": 12,
     "embeddable": true
    },
    "spotify": null,
@@ -4182,7 +4182,7 @@
    "youtube": {
     "id": "rhN67_DfycE",
     "url": "https://www.youtube.com/watch?v=rhN67_DfycE",
-    "views": 8,
+    "views": 11,
     "embeddable": true
    },
    "spotify": null,
@@ -4282,7 +4282,7 @@
    "youtube": {
     "id": "aHCC4Y7r_cA",
     "url": "https://www.youtube.com/watch?v=aHCC4Y7r_cA",
-    "views": 3,
+    "views": 5,
     "embeddable": true
    },
    "spotify": null,
@@ -4342,7 +4342,7 @@
    "youtube": {
     "id": "t9FM3_aEwoY",
     "url": "https://www.youtube.com/watch?v=t9FM3_aEwoY",
-    "views": 20,
+    "views": 21,
     "embeddable": true
    },
    "spotify": null,
@@ -4442,7 +4442,7 @@
    "youtube": {
     "id": "98zBe4-gzYw",
     "url": "https://www.youtube.com/watch?v=98zBe4-gzYw",
-    "views": 0,
+    "views": 1,
     "embeddable": true
    },
    "spotify": null,
@@ -4482,7 +4482,7 @@
    "youtube": {
     "id": "7SfKM6r5edM",
     "url": "https://www.youtube.com/watch?v=7SfKM6r5edM",
-    "views": 0,
+    "views": 2,
     "embeddable": true
    },
    "spotify": null,
@@ -4622,7 +4622,7 @@
    "youtube": {
     "id": "kCPYsquARwI",
     "url": "https://www.youtube.com/watch?v=kCPYsquARwI",
-    "views": 10,
+    "views": 11,
     "embeddable": true
    },
    "spotify": null,
@@ -4702,7 +4702,7 @@
    "youtube": {
     "id": "NbDSoqeQtgY",
     "url": "https://www.youtube.com/watch?v=NbDSoqeQtgY",
-    "views": 0,
+    "views": 1,
     "embeddable": true
    },
    "spotify": null,
@@ -4762,7 +4762,7 @@
    "youtube": {
     "id": "lUaq8EUXGxM",
     "url": "https://www.youtube.com/watch?v=lUaq8EUXGxM",
-    "views": 1,
+    "views": 2,
     "embeddable": true
    },
    "spotify": null,
@@ -4782,7 +4782,7 @@
    "youtube": {
     "id": "0dic1q2reIU",
     "url": "https://www.youtube.com/watch?v=0dic1q2reIU",
-    "views": 185,
+    "views": 187,
     "embeddable": true
    },
    "spotify": null,
@@ -4802,7 +4802,7 @@
    "youtube": {
     "id": "1sWV7kRu0h4",
     "url": "https://www.youtube.com/watch?v=1sWV7kRu0h4",
-    "views": 122,
+    "views": 123,
     "embeddable": true
    },
    "spotify": null,
@@ -4822,7 +4822,7 @@
    "youtube": {
     "id": "Kz6MmT99xTU",
     "url": "https://www.youtube.com/watch?v=Kz6MmT99xTU",
-    "views": 147,
+    "views": 148,
     "embeddable": true
    },
    "spotify": null,
@@ -4842,7 +4842,7 @@
    "youtube": {
     "id": "mLvgRKYT-yk",
     "url": "https://www.youtube.com/watch?v=mLvgRKYT-yk",
-    "views": 168,
+    "views": 176,
     "embeddable": true
    },
    "spotify": null,
@@ -4902,7 +4902,7 @@
    "youtube": {
     "id": "5tIu19RZ8FU",
     "url": "https://www.youtube.com/watch?v=5tIu19RZ8FU",
-    "views": 8,
+    "views": 9,
     "embeddable": true
    },
    "spotify": null,
@@ -4942,7 +4942,7 @@
    "youtube": {
     "id": "pGhzO72cg68",
     "url": "https://www.youtube.com/watch?v=pGhzO72cg68",
-    "views": 47,
+    "views": 48,
     "embeddable": true
    },
    "spotify": null,
@@ -4962,7 +4962,7 @@
    "youtube": {
     "id": "byD5TidouoI",
     "url": "https://www.youtube.com/watch?v=byD5TidouoI",
-    "views": 53,
+    "views": 54,
     "embeddable": true
    },
    "spotify": null,
@@ -4982,7 +4982,7 @@
    "youtube": {
     "id": "fvK4pLOAajE",
     "url": "https://www.youtube.com/watch?v=fvK4pLOAajE",
-    "views": 25,
+    "views": 26,
     "embeddable": true
    },
    "spotify": null,
@@ -5122,7 +5122,7 @@
    "youtube": {
     "id": "0RaFqcV8fZk",
     "url": "https://www.youtube.com/watch?v=0RaFqcV8fZk",
-    "views": 89,
+    "views": 91,
     "embeddable": true
    },
    "spotify": null,
@@ -5482,7 +5482,7 @@
    "youtube": {
     "id": "UKXZU6Sl2uY",
     "url": "https://www.youtube.com/watch?v=UKXZU6Sl2uY",
-    "views": 161,
+    "views": 163,
     "embeddable": true
    },
    "spotify": null,
@@ -5542,7 +5542,7 @@
    "youtube": {
     "id": "WWrJ0eYp7jc",
     "url": "https://www.youtube.com/watch?v=WWrJ0eYp7jc",
-    "views": 98,
+    "views": 105,
     "embeddable": true
    },
    "spotify": null,
@@ -5582,7 +5582,7 @@
    "youtube": {
     "id": "nvxPart1UlA",
     "url": "https://www.youtube.com/watch?v=nvxPart1UlA",
-    "views": 63,
+    "views": 66,
     "embeddable": true
    },
    "spotify": null,
@@ -5635,22 +5635,22 @@
   {
    "lang": "en",
    "type": "song",
-   "title": "I Lost My Mind",
+   "title": "why didn't you feel any regret",
    "published": "2026-09-12",
-   "duration": 228,
-   "thumb": "https://i.ytimg.com/vi/5SEfCJ5I8Wg/hqdefault.jpg",
+   "duration": 204,
+   "thumb": "https://i.ytimg.com/vi/xEfTQroYTDo/hqdefault.jpg",
    "youtube": {
-    "id": "5SEfCJ5I8Wg",
-    "url": "https://www.youtube.com/watch?v=5SEfCJ5I8Wg",
-    "views": 49,
+    "id": "xEfTQroYTDo",
+    "url": "https://www.youtube.com/watch?v=xEfTQroYTDo",
+    "views": 50,
     "embeddable": true
    },
    "spotify": null,
    "rss": null,
-   "id": "en-s-5SEfCJ5I8Wg",
+   "id": "en-s-xEfTQroYTDo",
    "rank": 10,
-   "prev_rank": 10,
-   "trend": "same"
+   "prev_rank": 0,
+   "trend": "new"
   },
   {
    "lang": "en",
@@ -5802,7 +5802,7 @@
    "youtube": {
     "id": "3_q0pKLF814",
     "url": "https://www.youtube.com/watch?v=3_q0pKLF814",
-    "views": 9,
+    "views": 10,
     "embeddable": true
    },
    "spotify": null,
@@ -6102,7 +6102,7 @@
    "youtube": {
     "id": "4KAXB35JyVE",
     "url": "https://www.youtube.com/watch?v=4KAXB35JyVE",
-    "views": 4,
+    "views": 5,
     "embeddable": true
    },
    "spotify": null,
@@ -6282,7 +6282,7 @@
    "youtube": {
     "id": "upOl4gSoNkU",
     "url": "https://www.youtube.com/watch?v=upOl4gSoNkU",
-    "views": 14,
+    "views": 15,
     "embeddable": true
    },
    "spotify": null,
@@ -6402,7 +6402,7 @@
    "youtube": {
     "id": "TFpiI3uTkSk",
     "url": "https://www.youtube.com/watch?v=TFpiI3uTkSk",
-    "views": 13,
+    "views": 19,
     "embeddable": true
    },
    "spotify": null,
@@ -6622,7 +6622,7 @@
    "youtube": {
     "id": "-vP31svzNq8",
     "url": "https://www.youtube.com/watch?v=-vP31svzNq8",
-    "views": 17,
+    "views": 18,
     "embeddable": true
    },
    "spotify": null,
@@ -6682,12 +6682,32 @@
    "youtube": {
     "id": "9vAsgj4LQa4",
     "url": "https://www.youtube.com/watch?v=9vAsgj4LQa4",
-    "views": 16,
+    "views": 17,
     "embeddable": true
    },
    "spotify": null,
    "rss": null,
    "id": "en-s-9vAsgj4LQa4",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "en",
+   "type": "song",
+   "title": "I Lost My Mind",
+   "published": "2026-09-12",
+   "duration": 228,
+   "thumb": "https://i.ytimg.com/vi/5SEfCJ5I8Wg/hqdefault.jpg",
+   "youtube": {
+    "id": "5SEfCJ5I8Wg",
+    "url": "https://www.youtube.com/watch?v=5SEfCJ5I8Wg",
+    "views": 49,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "en-s-5SEfCJ5I8Wg",
    "rank": 0,
    "prev_rank": 0,
    "trend": ""
@@ -6808,26 +6828,6 @@
    "spotify": null,
    "rss": null,
    "id": "en-s-4xv5pMwMToc",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "en",
-   "type": "song",
-   "title": "why didn't you feel any regret",
-   "published": "2026-09-12",
-   "duration": 204,
-   "thumb": "https://i.ytimg.com/vi/xEfTQroYTDo/hqdefault.jpg",
-   "youtube": {
-    "id": "xEfTQroYTDo",
-    "url": "https://www.youtube.com/watch?v=xEfTQroYTDo",
-    "views": 49,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "en-s-xEfTQroYTDo",
    "rank": 0,
    "prev_rank": 0,
    "trend": ""
@@ -7062,7 +7062,7 @@
    "youtube": {
     "id": "s5JvuXbE0ng",
     "url": "https://www.youtube.com/watch?v=s5JvuXbE0ng",
-    "views": 18,
+    "views": 24,
     "embeddable": true
    },
    "spotify": null,
@@ -7362,7 +7362,7 @@
    "youtube": {
     "id": "mbsp0NU9INo",
     "url": "https://www.youtube.com/watch?v=mbsp0NU9INo",
-    "views": 3,
+    "views": 6,
     "embeddable": true
    },
    "spotify": null,
@@ -7442,7 +7442,7 @@
    "youtube": {
     "id": "UnhppG6-PIU",
     "url": "https://www.youtube.com/watch?v=UnhppG6-PIU",
-    "views": 3,
+    "views": 4,
     "embeddable": true
    },
    "spotify": null,
@@ -7462,7 +7462,7 @@
    "youtube": {
     "id": "vflJQxB0tnE",
     "url": "https://www.youtube.com/watch?v=vflJQxB0tnE",
-    "views": 1,
+    "views": 2,
     "embeddable": true
    },
    "spotify": null,
@@ -7482,7 +7482,7 @@
    "youtube": {
     "id": "dsJr3pBCo5s",
     "url": "https://www.youtube.com/watch?v=dsJr3pBCo5s",
-    "views": 3,
+    "views": 5,
     "embeddable": true
    },
    "spotify": null,
@@ -7542,7 +7542,7 @@
    "youtube": {
     "id": "pqM3Iv0QApI",
     "url": "https://www.youtube.com/watch?v=pqM3Iv0QApI",
-    "views": 44,
+    "views": 47,
     "embeddable": true
    },
    "spotify": null,
@@ -7682,7 +7682,7 @@
    "youtube": {
     "id": "fSA7QX_VlVE",
     "url": "https://www.youtube.com/watch?v=fSA7QX_VlVE",
-    "views": 7,
+    "views": 8,
     "embeddable": true
    },
    "spotify": null,
@@ -8102,7 +8102,7 @@
    "youtube": {
     "id": "gNNR0IAvhYw",
     "url": "https://www.youtube.com/watch?v=gNNR0IAvhYw",
-    "views": 617,
+    "views": 619,
     "embeddable": true
    },
    "spotify": null,
@@ -8142,7 +8142,7 @@
    "youtube": {
     "id": "iskiQbrLOfc",
     "url": "https://www.youtube.com/watch?v=iskiQbrLOfc",
-    "views": 368,
+    "views": 371,
     "embeddable": true
    },
    "spotify": null,
@@ -8162,7 +8162,7 @@
    "youtube": {
     "id": "ODESIVB-6kA",
     "url": "https://www.youtube.com/watch?v=ODESIVB-6kA",
-    "views": 331,
+    "views": 342,
     "embeddable": true
    },
    "spotify": null,
@@ -8182,7 +8182,7 @@
    "youtube": {
     "id": "PgjtcDSpB5o",
     "url": "https://www.youtube.com/watch?v=PgjtcDSpB5o",
-    "views": 248,
+    "views": 249,
     "embeddable": true
    },
    "spotify": null,
@@ -8302,7 +8302,7 @@
    "youtube": {
     "id": "tXv_vdgB_FU",
     "url": "https://www.youtube.com/watch?v=tXv_vdgB_FU",
-    "views": 5,
+    "views": 6,
     "embeddable": true
    },
    "spotify": null,
@@ -8382,7 +8382,7 @@
    "youtube": {
     "id": "xADvphwvn6k",
     "url": "https://www.youtube.com/watch?v=xADvphwvn6k",
-    "views": 28,
+    "views": 29,
     "embeddable": true
    },
    "spotify": null,
@@ -8982,7 +8982,7 @@
    "youtube": {
     "id": "H1hQiuQRW38",
     "url": "https://www.youtube.com/watch?v=H1hQiuQRW38",
-    "views": 11,
+    "views": 10,
     "embeddable": true
    },
    "spotify": null,
@@ -9022,7 +9022,7 @@
    "youtube": {
     "id": "JMip5NsSmOs",
     "url": "https://www.youtube.com/watch?v=JMip5NsSmOs",
-    "views": 1,
+    "views": 2,
     "embeddable": true
    },
    "spotify": null,
@@ -9082,7 +9082,7 @@
    "youtube": {
     "id": "sK0ObCSFhDM",
     "url": "https://www.youtube.com/watch?v=sK0ObCSFhDM",
-    "views": 6,
+    "views": 7,
     "embeddable": true
    },
    "spotify": null,
@@ -9322,7 +9322,7 @@
    "youtube": {
     "id": "XUEsZFpQpfc",
     "url": "https://www.youtube.com/watch?v=XUEsZFpQpfc",
-    "views": 1,
+    "views": 2,
     "embeddable": true
    },
    "spotify": null,
@@ -9422,7 +9422,7 @@
    "youtube": {
     "id": "7ewlMNHCH7g",
     "url": "https://www.youtube.com/watch?v=7ewlMNHCH7g",
-    "views": 4,
+    "views": 5,
     "embeddable": true
    },
    "spotify": null,
@@ -9442,7 +9442,7 @@
    "youtube": {
     "id": "lkAiPiNtgA0",
     "url": "https://www.youtube.com/watch?v=lkAiPiNtgA0",
-    "views": 22,
+    "views": 25,
     "embeddable": true
    },
    "spotify": null,
@@ -9502,7 +9502,7 @@
    "youtube": {
     "id": "sQli8Fb8130",
     "url": "https://www.youtube.com/watch?v=sQli8Fb8130",
-    "views": 3,
+    "views": 4,
     "embeddable": true
    },
    "spotify": null,
@@ -9602,7 +9602,7 @@
    "youtube": {
     "id": "-HaT2X6syf8",
     "url": "https://www.youtube.com/watch?v=-HaT2X6syf8",
-    "views": 19,
+    "views": 20,
     "embeddable": true
    },
    "spotify": null,
@@ -9622,7 +9622,7 @@
    "youtube": {
     "id": "QvGaaLiTgH0",
     "url": "https://www.youtube.com/watch?v=QvGaaLiTgH0",
-    "views": 21,
+    "views": 23,
     "embeddable": true
    },
    "spotify": null,
@@ -9662,7 +9662,7 @@
    "youtube": {
     "id": "QK1oYso-GfU",
     "url": "https://www.youtube.com/watch?v=QK1oYso-GfU",
-    "views": 41,
+    "views": 42,
     "embeddable": true
    },
    "spotify": null,
@@ -9682,7 +9682,7 @@
    "youtube": {
     "id": "2yUMufJIXmQ",
     "url": "https://www.youtube.com/watch?v=2yUMufJIXmQ",
-    "views": 21,
+    "views": 23,
     "embeddable": true
    },
    "spotify": null,
@@ -10142,7 +10142,7 @@
    "youtube": {
     "id": "AbEhLDbHDTU",
     "url": "https://www.youtube.com/watch?v=AbEhLDbHDTU",
-    "views": 819,
+    "views": 829,
     "embeddable": true
    },
    "spotify": null,
@@ -10162,7 +10162,7 @@
    "youtube": {
     "id": "gB8USBmtutI",
     "url": "https://www.youtube.com/watch?v=gB8USBmtutI",
-    "views": 786,
+    "views": 788,
     "embeddable": true
    },
    "spotify": null,
@@ -10202,7 +10202,7 @@
    "youtube": {
     "id": "kJEgargCDq0",
     "url": "https://www.youtube.com/watch?v=kJEgargCDq0",
-    "views": 333,
+    "views": 335,
     "embeddable": true
    },
    "spotify": null,
@@ -10242,7 +10242,7 @@
    "youtube": {
     "id": "cQqCmwwSdzE",
     "url": "https://www.youtube.com/watch?v=cQqCmwwSdzE",
-    "views": 274,
+    "views": 275,
     "embeddable": true
    },
    "spotify": null,
@@ -10255,26 +10255,6 @@
   {
    "lang": "ar",
    "type": "song",
-   "title": "شوية بشوية",
-   "published": "2026-09-17",
-   "duration": 200,
-   "thumb": "https://i.ytimg.com/vi/2QsMQGMSwzo/hqdefault.jpg",
-   "youtube": {
-    "id": "2QsMQGMSwzo",
-    "url": "https://www.youtube.com/watch?v=2QsMQGMSwzo",
-    "views": 254,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "ar-s-2QsMQGMSwzo",
-   "rank": 8,
-   "prev_rank": 8,
-   "trend": "same"
-  },
-  {
-   "lang": "ar",
-   "type": "song",
    "title": "قَدَرنا",
    "published": "2026-08-30",
    "duration": 177,
@@ -10282,15 +10262,35 @@
    "youtube": {
     "id": "DDgh64--UBQ",
     "url": "https://www.youtube.com/watch?v=DDgh64--UBQ",
-    "views": 251,
+    "views": 257,
     "embeddable": true
    },
    "spotify": null,
    "rss": null,
    "id": "ar-s-DDgh64--UBQ",
-   "rank": 9,
+   "rank": 8,
    "prev_rank": 9,
-   "trend": "same"
+   "trend": "up"
+  },
+  {
+   "lang": "ar",
+   "type": "song",
+   "title": "شوية بشوية",
+   "published": "2026-09-17",
+   "duration": 200,
+   "thumb": "https://i.ytimg.com/vi/2QsMQGMSwzo/hqdefault.jpg",
+   "youtube": {
+    "id": "2QsMQGMSwzo",
+    "url": "https://www.youtube.com/watch?v=2QsMQGMSwzo",
+    "views": 255,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "ar-s-2QsMQGMSwzo",
+   "rank": 9,
+   "prev_rank": 8,
+   "trend": "down"
   },
   {
    "lang": "ar",
@@ -10342,7 +10342,7 @@
    "youtube": {
     "id": "aJOTxDs4jqs",
     "url": "https://www.youtube.com/watch?v=aJOTxDs4jqs",
-    "views": 28,
+    "views": 30,
     "embeddable": true
    },
    "spotify": null,
@@ -10422,7 +10422,7 @@
    "youtube": {
     "id": "JwkvNkyfD_g",
     "url": "https://www.youtube.com/watch?v=JwkvNkyfD_g",
-    "views": 10,
+    "views": 12,
     "embeddable": true
    },
    "spotify": null,
@@ -10842,7 +10842,7 @@
    "youtube": {
     "id": "YujJMKvY2wA",
     "url": "https://www.youtube.com/watch?v=YujJMKvY2wA",
-    "views": 19,
+    "views": 21,
     "embeddable": true
    },
    "spotify": null,
@@ -10902,7 +10902,7 @@
    "youtube": {
     "id": "JYuAGhwBeiY",
     "url": "https://www.youtube.com/watch?v=JYuAGhwBeiY",
-    "views": 36,
+    "views": 38,
     "embeddable": true
    },
    "spotify": null,
@@ -11022,7 +11022,7 @@
    "youtube": {
     "id": "IwRSMfVshJI",
     "url": "https://www.youtube.com/watch?v=IwRSMfVshJI",
-    "views": 113,
+    "views": 120,
     "embeddable": true
    },
    "spotify": null,
@@ -11062,7 +11062,7 @@
    "youtube": {
     "id": "s74UabMHJ8w",
     "url": "https://www.youtube.com/watch?v=s74UabMHJ8w",
-    "views": 8,
+    "views": 10,
     "embeddable": true
    },
    "spotify": null,
@@ -11102,7 +11102,7 @@
    "youtube": {
     "id": "mw4SzxR2nkM",
     "url": "https://www.youtube.com/watch?v=mw4SzxR2nkM",
-    "views": 23,
+    "views": 24,
     "embeddable": true
    },
    "spotify": null,
@@ -11122,7 +11122,7 @@
    "youtube": {
     "id": "EFqvE5wlwt8",
     "url": "https://www.youtube.com/watch?v=EFqvE5wlwt8",
-    "views": 16,
+    "views": 17,
     "embeddable": true
    },
    "spotify": null,
@@ -11262,7 +11262,7 @@
    "youtube": {
     "id": "1PP_D9jG8Z0",
     "url": "https://www.youtube.com/watch?v=1PP_D9jG8Z0",
-    "views": 8,
+    "views": 9,
     "embeddable": true
    },
    "spotify": null,
@@ -11442,7 +11442,7 @@
    "youtube": {
     "id": "nu84kHYpg1E",
     "url": "https://www.youtube.com/watch?v=nu84kHYpg1E",
-    "views": 84,
+    "views": 86,
     "embeddable": true
    },
    "spotify": null,
@@ -11462,7 +11462,7 @@
    "youtube": {
     "id": "8YM000J-Jks",
     "url": "https://www.youtube.com/watch?v=8YM000J-Jks",
-    "views": 24,
+    "views": 25,
     "embeddable": true
    },
    "spotify": null,
@@ -11482,7 +11482,7 @@
    "youtube": {
     "id": "UcSPINsTXr8",
     "url": "https://www.youtube.com/watch?v=UcSPINsTXr8",
-    "views": 159,
+    "views": 162,
     "embeddable": true
    },
    "spotify": null,
@@ -11522,7 +11522,7 @@
    "youtube": {
     "id": "o3aURcp0s28",
     "url": "https://www.youtube.com/watch?v=o3aURcp0s28",
-    "views": 118,
+    "views": 121,
     "embeddable": true
    },
    "spotify": null,
@@ -11542,7 +11542,7 @@
    "youtube": {
     "id": "dw5lwUMtNyk",
     "url": "https://www.youtube.com/watch?v=dw5lwUMtNyk",
-    "views": 17,
+    "views": 18,
     "embeddable": true
    },
    "spotify": null,
@@ -11722,7 +11722,7 @@
    "youtube": {
     "id": "ieg4MMAXJlE",
     "url": "https://www.youtube.com/watch?v=ieg4MMAXJlE",
-    "views": 8,
+    "views": 5,
     "embeddable": true
    },
    "spotify": null,
@@ -11762,7 +11762,7 @@
    "youtube": {
     "id": "I2ocnjIyep0",
     "url": "https://www.youtube.com/watch?v=I2ocnjIyep0",
-    "views": 45,
+    "views": 46,
     "embeddable": true
    },
    "spotify": null,
@@ -11782,7 +11782,7 @@
    "youtube": {
     "id": "6XeNyz5J6CM",
     "url": "https://www.youtube.com/watch?v=6XeNyz5J6CM",
-    "views": 46,
+    "views": 47,
     "embeddable": true
    },
    "spotify": null,
@@ -11802,7 +11802,7 @@
    "youtube": {
     "id": "XogKJ5zT0L4",
     "url": "https://www.youtube.com/watch?v=XogKJ5zT0L4",
-    "views": 95,
+    "views": 96,
     "embeddable": true
    },
    "spotify": null,
@@ -11822,7 +11822,7 @@
    "youtube": {
     "id": "mAiPjs9b9Yc",
     "url": "https://www.youtube.com/watch?v=mAiPjs9b9Yc",
-    "views": 99,
+    "views": 100,
     "embeddable": true
    },
    "spotify": null,
@@ -11922,7 +11922,7 @@
    "youtube": {
     "id": "PxFDUdpw7Tg",
     "url": "https://www.youtube.com/watch?v=PxFDUdpw7Tg",
-    "views": 26,
+    "views": 27,
     "embeddable": true
    },
    "spotify": null,
@@ -11942,7 +11942,7 @@
    "youtube": {
     "id": "by9LCBhMdMc",
     "url": "https://www.youtube.com/watch?v=by9LCBhMdMc",
-    "views": 36,
+    "views": 37,
     "embeddable": true
    },
    "spotify": null,
@@ -12042,7 +12042,7 @@
    "youtube": {
     "id": "_UbpV-i1S8U",
     "url": "https://www.youtube.com/watch?v=_UbpV-i1S8U",
-    "views": 70,
+    "views": 71,
     "embeddable": true
    },
    "spotify": null,
@@ -12162,7 +12162,7 @@
    "youtube": {
     "id": "kQuSnxRWCPM",
     "url": "https://www.youtube.com/watch?v=kQuSnxRWCPM",
-    "views": 6,
+    "views": 7,
     "embeddable": true
    },
    "spotify": null,
@@ -12182,7 +12182,7 @@
    "youtube": {
     "id": "CnhqjA6aSoM",
     "url": "https://www.youtube.com/watch?v=CnhqjA6aSoM",
-    "views": 5,
+    "views": 7,
     "embeddable": true
    },
    "spotify": null,
@@ -12302,7 +12302,7 @@
    "youtube": {
     "id": "VdVYOyZzWBM",
     "url": "https://www.youtube.com/watch?v=VdVYOyZzWBM",
-    "views": 29,
+    "views": 32,
     "embeddable": true
    },
    "spotify": null,
@@ -12322,7 +12322,7 @@
    "youtube": {
     "id": "TmjLdEF6fX4",
     "url": "https://www.youtube.com/watch?v=TmjLdEF6fX4",
-    "views": 5,
+    "views": 6,
     "embeddable": true
    },
    "spotify": null,
@@ -12342,7 +12342,7 @@
    "youtube": {
     "id": "iVPTxBjYMQk",
     "url": "https://www.youtube.com/watch?v=iVPTxBjYMQk",
-    "views": 6,
+    "views": 9,
     "embeddable": true
    },
    "spotify": null,
@@ -12442,7 +12442,7 @@
    "youtube": {
     "id": "e5O7s9fvyog",
     "url": "https://www.youtube.com/watch?v=e5O7s9fvyog",
-    "views": 1,
+    "views": 2,
     "embeddable": true
    },
    "spotify": null,
@@ -12482,7 +12482,7 @@
    "youtube": {
     "id": "zoTfQ8jNFdU",
     "url": "https://www.youtube.com/watch?v=zoTfQ8jNFdU",
-    "views": 64,
+    "views": 65,
     "embeddable": true
    },
    "spotify": null,
@@ -12542,7 +12542,7 @@
    "youtube": {
     "id": "sERxTFEB3sA",
     "url": "https://www.youtube.com/watch?v=sERxTFEB3sA",
-    "views": 143,
+    "views": 144,
     "embeddable": true
    },
    "spotify": null,
@@ -12562,7 +12562,7 @@
    "youtube": {
     "id": "b_aqmZDmfsk",
     "url": "https://www.youtube.com/watch?v=b_aqmZDmfsk",
-    "views": 72,
+    "views": 74,
     "embeddable": true
    },
    "spotify": null,
@@ -12622,7 +12622,7 @@
    "youtube": {
     "id": "R-b4AIYOunU",
     "url": "https://www.youtube.com/watch?v=R-b4AIYOunU",
-    "views": 6,
+    "views": 7,
     "embeddable": true
    },
    "spotify": null,
@@ -12662,7 +12662,7 @@
    "youtube": {
     "id": "rBQhcFf_j5M",
     "url": "https://www.youtube.com/watch?v=rBQhcFf_j5M",
-    "views": 1,
+    "views": 2,
     "embeddable": true
    },
    "spotify": null,
@@ -12782,7 +12782,7 @@
    "youtube": {
     "id": "K5themr_JTQ",
     "url": "https://www.youtube.com/watch?v=K5themr_JTQ",
-    "views": 5,
+    "views": 6,
     "embeddable": true
    },
    "spotify": null,
@@ -12962,7 +12962,7 @@
    "youtube": {
     "id": "Uj1lx44PYTQ",
     "url": "https://www.youtube.com/watch?v=Uj1lx44PYTQ",
-    "views": 2303,
+    "views": 2333,
     "embeddable": true
    },
    "spotify": null,
@@ -12982,7 +12982,7 @@
    "youtube": {
     "id": "xwGtuMw6k90",
     "url": "https://www.youtube.com/watch?v=xwGtuMw6k90",
-    "views": 1092,
+    "views": 1115,
     "embeddable": true
    },
    "spotify": null,
@@ -13022,7 +13022,7 @@
    "youtube": {
     "id": "8_QpdieFJ2M",
     "url": "https://www.youtube.com/watch?v=8_QpdieFJ2M",
-    "views": 674,
+    "views": 677,
     "embeddable": true
    },
    "spotify": null,
@@ -13082,7 +13082,7 @@
    "youtube": {
     "id": "kZaI0h_uQnU",
     "url": "https://www.youtube.com/watch?v=kZaI0h_uQnU",
-    "views": 326,
+    "views": 327,
     "embeddable": true
    },
    "spotify": null,
@@ -13102,7 +13102,7 @@
    "youtube": {
     "id": "-oCkS9ObkXg",
     "url": "https://www.youtube.com/watch?v=-oCkS9ObkXg",
-    "views": 308,
+    "views": 318,
     "embeddable": true
    },
    "spotify": null,
@@ -13222,7 +13222,7 @@
    "youtube": {
     "id": "0Xh8JlNiuJA",
     "url": "https://www.youtube.com/watch?v=0Xh8JlNiuJA",
-    "views": 110,
+    "views": 111,
     "embeddable": true
    },
    "spotify": null,
@@ -13242,7 +13242,7 @@
    "youtube": {
     "id": "m0_KeROf50M",
     "url": "https://www.youtube.com/watch?v=m0_KeROf50M",
-    "views": 31,
+    "views": 35,
     "embeddable": true
    },
    "spotify": null,
@@ -13262,7 +13262,7 @@
    "youtube": {
     "id": "EPQlSRJ7S_w",
     "url": "https://www.youtube.com/watch?v=EPQlSRJ7S_w",
-    "views": 65,
+    "views": 72,
     "embeddable": true
    },
    "spotify": null,
@@ -13282,7 +13282,7 @@
    "youtube": {
     "id": "1-L2MYoGSS8",
     "url": "https://www.youtube.com/watch?v=1-L2MYoGSS8",
-    "views": 72,
+    "views": 73,
     "embeddable": true
    },
    "spotify": null,
@@ -13342,7 +13342,7 @@
    "youtube": {
     "id": "_L4M0ZxGfVs",
     "url": "https://www.youtube.com/watch?v=_L4M0ZxGfVs",
-    "views": 97,
+    "views": 98,
     "embeddable": true
    },
    "spotify": null,
@@ -13402,7 +13402,7 @@
    "youtube": {
     "id": "rMAAtpl5Q4c",
     "url": "https://www.youtube.com/watch?v=rMAAtpl5Q4c",
-    "views": 111,
+    "views": 112,
     "embeddable": true
    },
    "spotify": null,
@@ -13522,7 +13522,7 @@
    "youtube": {
     "id": "9g4vJhUk65Y",
     "url": "https://www.youtube.com/watch?v=9g4vJhUk65Y",
-    "views": 19,
+    "views": 20,
     "embeddable": true
    },
    "spotify": null,
@@ -13542,7 +13542,7 @@
    "youtube": {
     "id": "H2QSHrkwoKg",
     "url": "https://www.youtube.com/watch?v=H2QSHrkwoKg",
-    "views": 5,
+    "views": 6,
     "embeddable": true
    },
    "spotify": null,
@@ -13582,7 +13582,7 @@
    "youtube": {
     "id": "1MGhR7cve_Y",
     "url": "https://www.youtube.com/watch?v=1MGhR7cve_Y",
-    "views": 54,
+    "views": 57,
     "embeddable": true
    },
    "spotify": null,
@@ -13802,7 +13802,7 @@
    "youtube": {
     "id": "4VAdTSru8oA",
     "url": "https://www.youtube.com/watch?v=4VAdTSru8oA",
-    "views": 74,
+    "views": 78,
     "embeddable": true
    },
    "spotify": null,
@@ -13822,7 +13822,7 @@
    "youtube": {
     "id": "N6yWNt97Y0c",
     "url": "https://www.youtube.com/watch?v=N6yWNt97Y0c",
-    "views": 50,
+    "views": 51,
     "embeddable": true
    },
    "spotify": null,
@@ -13842,7 +13842,7 @@
    "youtube": {
     "id": "KSbEnhIqCPc",
     "url": "https://www.youtube.com/watch?v=KSbEnhIqCPc",
-    "views": 63,
+    "views": 66,
     "embeddable": true
    },
    "spotify": null,
@@ -13862,7 +13862,7 @@
    "youtube": {
     "id": "QRQAmxDMVf0",
     "url": "https://www.youtube.com/watch?v=QRQAmxDMVf0",
-    "views": 15,
+    "views": 16,
     "embeddable": true
    },
    "spotify": null,
@@ -13942,7 +13942,7 @@
    "youtube": {
     "id": "HpHCdCMro-Q",
     "url": "https://www.youtube.com/watch?v=HpHCdCMro-Q",
-    "views": 109,
+    "views": 110,
     "embeddable": true
    },
    "spotify": null,
@@ -14142,7 +14142,7 @@
    "youtube": {
     "id": "7dzBV54Dpl0",
     "url": "https://www.youtube.com/watch?v=7dzBV54Dpl0",
-    "views": 6,
+    "views": 7,
     "embeddable": true
    },
    "spotify": null,
@@ -14162,7 +14162,7 @@
    "youtube": {
     "id": "L6Ch5-Egk5Y",
     "url": "https://www.youtube.com/watch?v=L6Ch5-Egk5Y",
-    "views": 6,
+    "views": 7,
     "embeddable": true
    },
    "spotify": null,
