@@ -269,15 +269,26 @@ add_filter( 'show_admin_bar', function ( $show ) {
 add_action( 'login_enqueue_scripts', function () {
 	$icon = get_template_directory_uri() . '/assets/icon.svg';
 	?>
-	<style>
-	body.login{background:#0B0916 radial-gradient(900px 500px at 85% -10%,rgba(255,61,110,.22),transparent 60%)}
-	.login h1 a{background-image:url(<?php echo esc_url( $icon ); ?>);background-size:84px;width:84px;height:84px}
-	.login form{border-radius:16px;border:1px solid #2C2450;background:#17122C;color:#F4EFFF;box-shadow:none}
-	.login label,.login #nav a,.login #backtoblog a,.login .message,.login .privacy-policy-page-link a{color:#F4EFFF!important}
-	.login form .input{background:#120E24;border-color:#2C2450;color:#F4EFFF}
-	.wp-core-ui .button-primary{background:#FF3D6E;border-color:#FF3D6E;border-radius:999px}
+	<style id="orad-login">
+	body.login{background:#0B0916 radial-gradient(900px 500px at 85% -10%,rgba(255,61,110,.22),transparent 60%) fixed!important;color:#F4EFFF}
+	body.login h1 a,body.login .wp-login-logo a{background:url(<?php echo esc_url( $icon ); ?>) center/84px no-repeat!important;width:84px!important;height:84px!important;-webkit-mask:none!important;mask:none!important;filter:none!important;opacity:1!important}
+	body.login h1 a>*,body.login h1 a::before,body.login h1 a::after{display:none!important}
+	body.login #login form,body.login #loginform,body.login #registerform,body.login #lostpasswordform,body.login #resetpassform{background:#17122C!important;border:1px solid #2C2450!important;border-radius:16px!important;box-shadow:none!important;color:#F4EFFF!important}
+	body.login form label,body.login form p,body.login #reg_passmail,body.login .description,body.login .indicator-hint{color:#F4EFFF!important}
+	body.login form .input,body.login input[type=text],body.login input[type=email],body.login input[type=password]{background:#120E24!important;border:1px solid #3A3166!important;color:#F4EFFF!important;border-radius:10px!important;box-shadow:none!important}
+	body.login form .input:focus,body.login input:focus{border-color:#FF3D6E!important;box-shadow:0 0 0 2px rgba(255,61,110,.35)!important;outline:none!important}
+	body.login .message,body.login .notice,body.login .success,body.login #login_error,body.login #login-message{background:#17122C!important;color:#F4EFFF!important;border:1px solid #2C2450!important;border-left:4px solid #FF3D6E!important;border-radius:12px!important;box-shadow:none!important}
+	body.login .message *,body.login .notice *,body.login #login_error *{color:#F4EFFF!important}
+	body.login .button-primary,body.login #wp-submit{background:#FF3D6E!important;border-color:#FF3D6E!important;color:#fff!important;border-radius:999px!important;text-shadow:none!important;box-shadow:none!important}
+	body.login .button-primary:hover,body.login #wp-submit:hover{background:#ff5a84!important;border-color:#ff5a84!important}
+	body.login .wp-hide-pw,body.login .wp-hide-pw .dashicons{color:#C9BFEA!important}
+	body.login #nav,body.login #backtoblog,body.login #nav a,body.login #backtoblog a,body.login .privacy-policy-page-link a{color:#C9BFEA!important}
+	body.login #nav a:hover,body.login #backtoblog a:hover{color:#FF3D6E!important}
+	body.login .language-switcher label,body.login .language-switcher .dashicons{color:#C9BFEA!important}
+	body.login .language-switcher select{background:#120E24!important;color:#F4EFFF!important;border:1px solid #3A3166!important;border-radius:10px!important}
+	body.login .language-switcher .button{background:transparent!important;color:#F4EFFF!important;border:1px solid #FF3D6E!important;border-radius:999px!important}
 	</style>
 	<?php
-} );
+}, 99 );
 add_filter( 'login_headerurl', function () { return home_url( '/' ); } );
 add_filter( 'login_headertext', function () { return 'OULBIG Radio'; } );
