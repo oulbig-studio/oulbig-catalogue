@@ -1,15 +1,30 @@
 {
-  "name": "OULBIG Radio",
-  "short_name": "OULBIG Radio",
-  "description": "La web radio officielle d'OULBIG en 5 langues : musique, podcasts et Hit Parade en continu.",
-  "start_url": "./",
-  "scope": "./",
-  "display": "standalone",
-  "orientation": "portrait",
-  "background_color": "#0E0B1A",
-  "theme_color": "#0E0B1A",
-  "lang": "fr",
-  "icons": [
-    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
-  ]
+ "name": "OULBIG Radio",
+ "short_name": "OULBIG Radio",
+ "description": "La web radio d'OULBIG en 5 langues.",
+ "start_url": "./",
+ "scope": "./",
+ "display": "standalone",
+ "orientation": "portrait",
+ "background_color": "#0B0916",
+ "theme_color": "#0B0916",
+ "icons": [
+  {
+   "src": "icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "any"
+  },
+  {
+   "src": "icon-maskable-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "maskable"
+  },
+  {
+   "src": "icon.svg",
+   "sizes": "any",
+   "type": "image/svg+xml"
+  }
+ ]
 }

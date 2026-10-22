@@ -1,19 +1,9 @@
-// OULBIG Radio — service worker : met en cache l'interface pour une ouverture instantanée.
-// Le flux YouTube reste en ligne (non mis en cache).
-const CACHE = "oulbig-radio-v1";
-const SHELL = ["./", "index.html", "manifest.webmanifest", "icon.svg"];
-
-self.addEventListener("install", e => {
-  e.waitUntil(caches.open(CACHE).then(c => c.addAll(SHELL)).then(() => self.skipWaiting()));
-});
-self.addEventListener("activate", e => {
-  e.waitUntil(caches.keys().then(keys => Promise.all(keys.filter(k => k !== CACHE).map(k => caches.delete(k)))).then(() => self.clients.claim()));
-});
+// OULBIG Radio — met l'interface en cache pour une ouverture rapide (réseau d'abord).
+const CACHE = "oulbig-radio-v2";
+self.addEventListener("install", e => self.skipWaiting());
+self.addEventListener("activate", e => e.waitUntil(caches.keys().then(k => Promise.all(k.filter(x => x !== CACHE).map(x => caches.delete(x)))).then(() => self.clients.claim())));
 self.addEventListener("fetch", e => {
-  const url = new URL(e.request.url);
-  if (url.origin !== location.origin) return; // YouTube, Google Fonts : réseau direct
-  e.respondWith(
-    fetch(e.request).then(r => { const copy = r.clone(); caches.open(CACHE).then(c => c.put(e.request, copy)); return r; })
-      .catch(() => caches.match(e.request).then(m => m || caches.match("index.html")))
-  );
+  const u = new URL(e.request.url);
+  if (u.origin !== location.origin || e.request.method !== "GET" || u.pathname.endsWith("catalogue.json")) return;
+  e.respondWith(fetch(e.request).then(r => { const c = r.clone(); caches.open(CACHE).then(x => x.put(e.request, c)); return r; }).catch(() => caches.match(e.request)));
 });

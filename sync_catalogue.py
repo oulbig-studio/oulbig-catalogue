@@ -200,6 +200,7 @@ def _latin_scores(text):
             if w in vocab:
                 score[k] += 1
     score["es"] += 2 * len(re.findall(r"[ñ¿¡]", low)) + 0.5 * len(re.findall(r"[áíóú]", low))
+    score["es"] += 2 * len(re.findall(r"\w(ción|sión|ciones|dad|dades)\b", low))  # Civilización, Felicidad…
     score["fr"] += 0.5 * len(re.findall(r"[èêëàâçùûœî]", low))
     darija = sum(1 for w in words if w in DARIJA_LATIN)
     return score, darija
