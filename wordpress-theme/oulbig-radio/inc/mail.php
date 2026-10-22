@@ -2,20 +2,22 @@
 /**
  * OULBIG Radio — envoi des e-mails du site par la boîte radio@almoqayada.com (SMTP Hostinger).
  *
- * Le mot de passe n'est jamais dans le thème ni dans GitHub : il est lu dans un fichier
- * du serveur placé HORS du dossier public, à côté de public_html :
- *   /home/<compte>/domains/radio.almoqayada.com/orad-smtp.php
- * qui contient : <?php define( 'ORAD_SMTP_PASS', '…' );
- * Constantes facultatives dans ce même fichier : ORAD_SMTP_USER, ORAD_SMTP_HOST, ORAD_SMTP_PORT.
+ * Le mot de passe n'est jamais dans le thème ni dans GitHub : il est lu dans un simple fichier
+ * texte du serveur, placé HORS du dossier public, à côté de public_html :
+ *   /home/<compte>/domains/radio.almoqayada.com/orad-smtp.txt   (une ligne : le mot de passe)
  *
  * @package OULBIG_Radio
  */
 
 defined( 'ABSPATH' ) || exit;
 
-$orad_smtp_file = dirname( untrailingslashit( ABSPATH ) ) . '/orad-smtp.php';
-if ( is_readable( $orad_smtp_file ) ) {
-	require_once $orad_smtp_file;
+$orad_smtp_file = dirname( untrailingslashit( ABSPATH ) ) . '/orad-smtp.txt';
+if ( ! defined( 'ORAD_SMTP_PASS' ) && is_readable( $orad_smtp_file ) ) {
+	$orad_smtp_pass = trim( (string) file_get_contents( $orad_smtp_file ) ); // phpcs:ignore WordPress.WP.AlternativeFunctions
+	if ( '' !== $orad_smtp_pass && false === strpos( $orad_smtp_pass, "\n" ) ) {
+		define( 'ORAD_SMTP_PASS', $orad_smtp_pass );
+	}
+	unset( $orad_smtp_pass );
 }
 unset( $orad_smtp_file );
 
@@ -53,8 +55,16 @@ add_action( 'phpmailer_init', function ( $mailer ) {
 function orad_mail_status() {
 	return defined( 'ORAD_SMTP_PASS' ) && '' !== ORAD_SMTP_PASS
 		? sprintf( 'E-mails envoyés par %s (SMTP %s).', ORAD_SMTP_USER, ORAD_SMTP_HOST )
-		: 'E-mails : envoi PHP simple (fichier orad-smtp.php absent sur le serveur).';
+		: 'E-mails : envoi PHP simple (fichier orad-smtp.txt absent sur le serveur).';
 }
+
+/** Dernière erreur d'envoi, affichée dans les réglages. */
+add_action( 'wp_mail_failed', function ( $err ) {
+	update_option( 'orad_mail_error', gmdate( 'Y-m-d H:i' ) . ' UTC — ' . wp_strip_all_tags( $err->get_error_message() ), false );
+} );
+add_action( 'wp_mail_succeeded', function () {
+	delete_option( 'orad_mail_error' );
+} );
 
 /** Mail de bienvenue après l'inscription (le compte est déjà actif, pas de lien à cliquer). */
 add_action( 'register_new_user', function ( $user_id ) {

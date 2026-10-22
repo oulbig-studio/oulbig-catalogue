@@ -84,6 +84,7 @@ function orad_page_settings() {
 	<form method="post" style="margin:8px 0 16px;display:flex;gap:10px;align-items:center;flex-wrap:wrap">
 		<?php wp_nonce_field( 'orad_test_mail' ); ?>
 		<span><?php echo esc_html( orad_mail_status() ); ?></span>
+		<?php $orad_err = get_option( 'orad_mail_error' ); if ( $orad_err ) { echo '<span style="color:#b32d2e">Dernière erreur : ' . esc_html( $orad_err ) . '</span>'; } ?>
 		<button class="button" name="orad_test_mail" value="1">Envoyer un e-mail de test</button>
 	</form>
 	<p>Les titres, podcasts et liens YouTube/Spotify viennent du catalogue synchronisé chaque jour sur GitHub (OULBIG et TALIM).</p>
