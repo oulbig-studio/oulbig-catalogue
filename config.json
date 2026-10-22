@@ -4,11 +4,14 @@
   "hit_parade_size": 10,
   "hit_parade_manual": [],
   "youtube": {
-    "channel_ids": [
-      "UCmLAQNmYAFjFfYDmnN36LHg",
-      "UCpWPGzDk5xXbE2fc48AeM8Q"
+    "channel_ids": [],
+    "playlists": [
+      {
+        "id": "PLx1bfRrl4XWPEGJS3QzmR_NUvmIVtahKX",
+        "type": "song",
+        "note": "Playlist officielle OULBIG Radio (langue détectée automatiquement)"
+      }
     ],
-    "playlists": [],
     "exclude_keywords": [
       "teaser",
       "trailer",
@@ -22,10 +25,7 @@
   },
   "spotify": {
     "market": "MA",
-    "artist_name": "OULBIG",
-    "artist_ids": [
-      "2DHkzizRab1JFRb61bQAUi"
-    ],
+    "artist_ids": [],
     "albums": [],
     "shows": []
   },
@@ -35,6 +35,44 @@
     "youtube_topic": "https://www.youtube.com/channel/UCpWPGzDk5xXbE2fc48AeM8Q",
     "spotify": "https://open.spotify.com/artist/2DHkzizRab1JFRb61bQAUi",
     "radio": "https://radio.almoqayada.com",
-    "spotify_user": "https://open.spotify.com/user/314xhsnvap3hnd22dvpwigmfw6u4"
-  }
+    "spotify_user": "https://open.spotify.com/user/314xhsnvap3hnd22dvpwigmfw6u4",
+    "radio_youtube": "https://youtube.com/playlist?list=PLx1bfRrl4XWPEGJS3QzmR_NUvmIVtahKX",
+    "instagram": "https://www.instagram.com/oulbig_radio",
+    "facebook": "https://www.facebook.com/share/18AcNQdDYA/",
+    "x": "",
+    "tiktok": ""
+  },
+  "artists": {
+    "OULBIG": {
+      "youtube": [
+        "UCmLAQNmYAFjFfYDmnN36LHg",
+        "UCpWPGzDk5xXbE2fc48AeM8Q"
+      ],
+      "handles": [],
+      "spotify": [
+        "2DHkzizRab1JFRb61bQAUi"
+      ],
+      "links": {
+        "youtube": "https://www.youtube.com/@OULBIG",
+        "spotify": "https://open.spotify.com/artist/2DHkzizRab1JFRb61bQAUi"
+      }
+    },
+    "TALIM": {
+      "youtube": [
+        "UCqLXTRscQHOkMjI8RZzU7KQ"
+      ],
+      "handles": [
+        "@TALIM4Art"
+      ],
+      "spotify": [
+        "2FAKBSpY965IRet4aXTmEm"
+      ],
+      "links": {
+        "youtube": "https://www.youtube.com/@TALIM4Art",
+        "youtube_topic": "https://www.youtube.com/channel/UCqLXTRscQHOkMjI8RZzU7KQ",
+        "spotify": "https://open.spotify.com/artist/2FAKBSpY965IRet4aXTmEm"
+      }
+    }
+  },
+  "lang_overrides": {}
 }
