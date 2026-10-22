@@ -73,6 +73,15 @@ add_action( 'after_switch_theme', function () {
 		update_option( 'default_role', 'subscriber' );
 	}
 } );
+/* Inscriptions : tant que « Inscriptions auditeurs » est coché dans OULBIG Radio → Réglages,
+ * WordPress accepte les nouveaux comptes, toujours avec le rôle Abonné (jamais plus). */
+add_filter( 'pre_option_users_can_register', function ( $pre ) {
+	return orad_opt( 'allow_signup' ) ? 1 : $pre;
+} );
+add_filter( 'pre_option_default_role', function ( $pre ) {
+	return orad_opt( 'allow_signup' ) ? 'subscriber' : $pre;
+} );
+
 add_action( 'init', function () {
 	if ( get_option( 'orad_db_version' ) !== ORAD_DB_VERSION ) {
 		orad_install();
