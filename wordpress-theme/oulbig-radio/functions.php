@@ -7,12 +7,13 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'ORAD_VERSION', '2.0.2' );
+define( 'ORAD_VERSION', '2.0.3' );
 
 require_once __DIR__ . '/inc/settings.php';
 require_once __DIR__ . '/inc/db.php';
 require_once __DIR__ . '/inc/rest.php';
 require_once __DIR__ . '/inc/admin.php';
+require_once __DIR__ . '/inc/signup.php';
 
 add_action( 'after_setup_theme', function () {
 	add_theme_support( 'title-tag' );
