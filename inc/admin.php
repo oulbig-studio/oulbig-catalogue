@@ -74,6 +74,18 @@ function orad_page_settings() {
 	?>
 	<div class="wrap">
 	<h1>OULBIG Radio — Réglages</h1>
+	<?php
+	if ( isset( $_POST['orad_test_mail'] ) && check_admin_referer( 'orad_test_mail' ) && current_user_can( 'manage_options' ) ) {
+		$orad_to = wp_get_current_user()->user_email;
+		$orad_ok = wp_mail( $orad_to, 'OULBIG Radio — e-mail de test', "Cet e-mail confirme que le site radio.almoqayada.com envoie bien ses messages.\n\n— OULBIG Radio" );
+		echo '<div class="' . ( $orad_ok ? 'updated' : 'error' ) . '"><p>' . esc_html( $orad_ok ? 'E-mail de test envoyé à ' . $orad_to . '.' : 'Échec de l\'envoi de l\'e-mail de test.' ) . '</p></div>';
+	}
+	?>
+	<form method="post" style="margin:8px 0 16px;display:flex;gap:10px;align-items:center;flex-wrap:wrap">
+		<?php wp_nonce_field( 'orad_test_mail' ); ?>
+		<span><?php echo esc_html( orad_mail_status() ); ?></span>
+		<button class="button" name="orad_test_mail" value="1">Envoyer un e-mail de test</button>
+	</form>
 	<p>Les titres, podcasts et liens YouTube/Spotify viennent du catalogue synchronisé chaque jour sur GitHub (OULBIG et TALIM).</p>
 	<form method="post" action="options.php">
 	<?php settings_fields( 'orad_settings' ); ?>
