@@ -1,8 +1,8 @@
 <?php
 /**
  * Plugin Name: OULBIG Catalogue
- * Description: Affiche automatiquement la musique, les podcasts et le Hit Parade OULBIG (YouTube + Spotify) à partir du fichier catalogue.json. Shortcodes : [oulbig_musique], [oulbig_podcasts], [oulbig_hitparade], [oulbig_lien], [oulbig_radio].
- * Version: 1.0.0
+ * Description: Affiche automatiquement la musique, les podcasts et le Hit Parade OULBIG (YouTube + Spotify) à partir du fichier catalogue.json. Shortcodes : [oulbig_musique], [oulbig_podcasts], [oulbig_hitparade], [oulbig_lien], [oulbig_radio]. v2 : importe aussi les chansons et podcasts comme vrais contenus WordPress (Réglages › OULBIG Import).
+ * Version: 2.0.0
  * Plugin URI: https://radio.almoqayada.com
  * Author: OULBIG
  * Text Domain: oulbig-catalogue
@@ -196,3 +196,4 @@ class OULBIG_Catalogue {
 <?php }
 }
 new OULBIG_Catalogue();
+require_once __DIR__ . '/inc/importer.php';
