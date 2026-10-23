@@ -2,14 +2,14 @@
 /**
  * Plugin Name: OULBIG Sync — répertoire OULBIG & TALIM
  * Description: Importe et tient à jour les vraies chansons, clips et épisodes de podcast OULBIG / TALIM (catalogue YouTube + Spotify synchronisé chaque jour). Réglage automatique pour ABSProjects (Vidéos + Audiobooks) ; vitrine « Extraits & podcasts » pour ABS Records (E-Voice). Compatible avec le plugin OULBIG Catalogue v1 (shortcodes).
- * Version: 1.0.1
+ * Version: 1.1.0
  * Author: OULBIG
  * Requires PHP: 7.4
  * Text Domain: oulbig-sync
  */
 if (!defined('ABSPATH')) exit;
 
-define('OULBIG_SYNC_VER', '1.0.1');
+define('OULBIG_SYNC_VER', '1.1.0');
 
 // Importeur (partagé avec OULBIG Catalogue v2 : si celui-ci est actif, il le fournit déjà).
 add_action('plugins_loaded', function () {
@@ -123,7 +123,7 @@ function oulbig_sync_card($i, $kind) {
 
 add_action('wp_footer', function () {
     if (!oulbig_sync_showcase_enabled() || !(is_front_page() || is_home())) return;
-    $pods  = oulbig_sync_pick('podcast', 8);
+    $pods  = []; // Les épisodes sont désormais dans la grille « Audiolivres » (voir inc/evoice.php).
     $songs = oulbig_sync_pick('song', 8, function ($i) { return in_array($i['artist'], ['OULBIG', 'TALIM'], true); });
     if (!$pods && !$songs) return;
     ?>
@@ -131,9 +131,9 @@ add_action('wp_footer', function () {
         <div class="wrap">
             <div class="sec-head">
                 <div>
-                    <span class="eyebrow" data-obx="eyebrow">Extraits &amp; podcasts</span>
-                    <h2 data-obx="h2">Écoutez le studio</h2>
-                    <p data-obx="p">Épisodes de podcast et titres originaux OULBIG &amp; TALIM — mis à jour automatiquement depuis YouTube et Spotify.</p>
+                    <span class="eyebrow" data-obx="eyebrow">Musique du studio</span>
+                    <h2 data-obx="h2">OULBIG &amp; TALIM en écoute</h2>
+                    <p data-obx="p">Les titres originaux de la saga L'Étincelle et du répertoire OULBIG — mis à jour automatiquement depuis YouTube et Spotify.</p>
                 </div>
             </div>
             <?php if ($pods): ?>
@@ -141,7 +141,7 @@ add_action('wp_footer', function () {
                 <div class="obx-grid"><?php foreach ($pods as $i) echo oulbig_sync_card($i, 'podcast'); // phpcs:ignore ?></div>
             <?php endif; ?>
             <?php if ($songs): ?>
-                <h3 class="obx-sub" data-obx="songs">Musique OULBIG &amp; TALIM</h3>
+                <h3 class="obx-sub" data-obx="songs">Les plus écoutés</h3>
                 <div class="obx-grid"><?php foreach ($songs as $i) echo oulbig_sync_card($i, 'song'); // phpcs:ignore ?></div>
             <?php endif; ?>
         </div>
@@ -169,10 +169,10 @@ add_action('wp_footer', function () {
       var anchor=document.getElementById('authors')||document.querySelector('footer');
       if(anchor&&anchor.parentNode){anchor.parentNode.insertBefore(node,anchor);}else{document.body.appendChild(node);}
       var nav=document.querySelector('header nav.links');
-      if(nav&&!nav.querySelector('a[href="#extraits"]')){var a=document.createElement('a');a.href='#extraits';a.setAttribute('data-obx','nav');a.textContent='Extraits';var ref=nav.querySelector('a[href="#authors"]');nav.insertBefore(a,ref);}
-      var T={fr:{nav:'Extraits',eyebrow:'Extraits & podcasts',h2:'Écoutez le studio',p:'Épisodes de podcast et titres originaux OULBIG & TALIM — mis à jour automatiquement depuis YouTube et Spotify.',pods:'Derniers épisodes',songs:'Musique OULBIG & TALIM'},
-             en:{nav:'Samples',eyebrow:'Samples & podcasts',h2:'Listen to the studio',p:'Podcast episodes and original OULBIG & TALIM tracks — updated automatically from YouTube and Spotify.',pods:'Latest episodes',songs:'OULBIG & TALIM music'},
-             ar:{nav:'مقتطفات',eyebrow:'مقتطفات وبودكاست',h2:'استمع إلى الاستوديو',p:'حلقات البودكاست وأغاني OULBIG و TALIM الأصلية — تُحدَّث تلقائياً من يوتيوب وسبوتيفاي.',pods:'أحدث الحلقات',songs:'موسيقى OULBIG و TALIM'}};
+      if(nav&&!nav.querySelector('a[href="#extraits"]')){var a=document.createElement('a');a.href='#extraits';a.setAttribute('data-obx','nav');a.textContent='Musique';var ref=nav.querySelector('a[href="#authors"]');nav.insertBefore(a,ref);}
+      var T={fr:{nav:'Musique',eyebrow:'Musique du studio',h2:'OULBIG & TALIM en écoute',p:"Les titres originaux de la saga L'Étincelle et du répertoire OULBIG — mis à jour automatiquement depuis YouTube et Spotify.",pods:'Derniers épisodes',songs:'Les plus écoutés'},
+             en:{nav:'Music',eyebrow:'Studio music',h2:'OULBIG & TALIM on air',p:'Original tracks from the Spark saga and the OULBIG catalogue — updated automatically from YouTube and Spotify.',pods:'Latest episodes',songs:'Most played'},
+             ar:{nav:'موسيقى',eyebrow:'موسيقى الاستوديو',h2:'OULBIG و TALIM على الهواء',p:'الأغاني الأصلية لسلسلة لمحة وأعمال OULBIG — تُحدَّث تلقائياً من يوتيوب وسبوتيفاي.',pods:'أحدث الحلقات',songs:'الأكثر استماعاً'}};
       function tr(l){var d=T[l]||T.fr;document.querySelectorAll('[data-obx]').forEach(function(el){var k=el.getAttribute('data-obx');if(d[k])el.textContent=d[k];});}
       document.querySelectorAll('.langs [data-lang]').forEach(function(b){b.addEventListener('click',function(){tr(b.getAttribute('data-lang'));});});
       var on=document.querySelector('.langs .on'); if(on) tr(on.getAttribute('data-lang'));
@@ -187,6 +187,8 @@ add_action('wp_footer', function () {
     </script>
     <?php
 }, 5);
+
+require_once __DIR__ . '/inc/evoice.php';
 
 /* Lien Réglages dans la liste des extensions. */
 add_filter('plugin_action_links_' . plugin_basename(__FILE__), function ($l) {
