@@ -2,14 +2,14 @@
 /**
  * Plugin Name: OULBIG Sync — répertoire OULBIG & TALIM
  * Description: Importe et tient à jour les vraies chansons, clips et épisodes de podcast OULBIG / TALIM (catalogue YouTube + Spotify synchronisé chaque jour). Réglage automatique pour ABSProjects (Vidéos + Audiobooks) ; vitrine « Extraits & podcasts » pour ABS Records (E-Voice). Compatible avec le plugin OULBIG Catalogue v1 (shortcodes).
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: OULBIG
  * Requires PHP: 7.4
  * Text Domain: oulbig-sync
  */
 if (!defined('ABSPATH')) exit;
 
-define('OULBIG_SYNC_VER', '1.0.0');
+define('OULBIG_SYNC_VER', '1.0.1');
 
 // Importeur (partagé avec OULBIG Catalogue v2 : si celui-ci est actif, il le fournit déjà).
 add_action('plugins_loaded', function () {
@@ -127,7 +127,6 @@ add_action('wp_footer', function () {
     $songs = oulbig_sync_pick('song', 8, function ($i) { return in_array($i['artist'], ['OULBIG', 'TALIM'], true); });
     if (!$pods && !$songs) return;
     ?>
-    <template id="obx-tpl">
     <section id="extraits" class="obx">
         <div class="wrap">
             <div class="sec-head">
@@ -147,7 +146,6 @@ add_action('wp_footer', function () {
             <?php endif; ?>
         </div>
     </section>
-    </template>
     <style id="obx-css">
     .obx{padding-top:0}
     .obx-sub{font-family:var(--display,serif);font-size:1.25rem;font-weight:600;margin:28px 0 14px;color:var(--cream,#f6efe4)}
@@ -167,8 +165,7 @@ add_action('wp_footer', function () {
     </style>
     <script id="obx-js">
     (function(){
-      var tpl=document.getElementById('obx-tpl'); if(!tpl) return;
-      var node=tpl.content.cloneNode(true);
+      var node=document.getElementById('extraits'); if(!node) return;
       var anchor=document.getElementById('authors')||document.querySelector('footer');
       if(anchor&&anchor.parentNode){anchor.parentNode.insertBefore(node,anchor);}else{document.body.appendChild(node);}
       var nav=document.querySelector('header nav.links');
