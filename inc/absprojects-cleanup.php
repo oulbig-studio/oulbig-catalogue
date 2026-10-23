@@ -9,7 +9,7 @@
  */
 if (!defined('ABSPATH')) exit;
 
-const OULBIG_ABSP_CLEANUP = '1';
+const OULBIG_ABSP_CLEANUP = '2';
 
 function oulbig_absp_is_fake($v) {
     return is_string($v) && preg_match('~example\.|exemple|EXAMPLE~i', $v);
@@ -88,6 +88,19 @@ function oulbig_absp_cleanup() {
             update_post_meta($id, '_oulbig_book', 1);
             $log[] = 'ebook ajouté : ' . $b[0];
         }
+    }
+
+    // 4. Liens d'achat officiels (Gumroad + Books2Read) sur les deux livres.
+    foreach (['intro' => 'Introduction : 37 étapes + 1', 'roman' => "L'Effet d'Amour"] as $key => $title) {
+        $ids = get_posts(['post_type' => 'abs_ebook', 'title' => $title, 'post_status' => 'any', 'posts_per_page' => 1, 'fields' => 'ids']);
+        if (!$ids || !function_exists('oulbig_book_buy_html')) continue;
+        $id = $ids[0];
+        update_post_meta($id, 'abs_gumroad', oulbig_book_link($key, 'FR'));
+        update_post_meta($id, 'abs_author', 'OULBIG');
+        $c = get_post_field('post_content', $id);
+        $c = preg_replace('~<h3>Acheter le livre</h3><ul class="oulbig-buy">.*?</ul>~s', '', $c);
+        wp_update_post(['ID' => $id, 'post_content' => trim($c) . "\n\n" . oulbig_book_buy_html($key)]);
+        $log[] = 'liens d\'achat : ' . $title;
     }
 
     update_option('oulbig_absp_cleanup', OULBIG_ABSP_CLEANUP);

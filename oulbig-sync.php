@@ -2,14 +2,14 @@
 /**
  * Plugin Name: OULBIG Sync — répertoire OULBIG & TALIM
  * Description: Importe et tient à jour les vraies chansons, clips et épisodes de podcast OULBIG / TALIM (catalogue YouTube + Spotify synchronisé chaque jour). Réglage automatique pour ABSProjects (Vidéos + Audiobooks) ; vitrine « Extraits & podcasts » pour ABS Records (E-Voice). Compatible avec le plugin OULBIG Catalogue v1 (shortcodes).
- * Version: 1.1.1
+ * Version: 1.2.0
  * Author: OULBIG
  * Requires PHP: 7.4
  * Text Domain: oulbig-sync
  */
 if (!defined('ABSPATH')) exit;
 
-define('OULBIG_SYNC_VER', '1.1.1');
+define('OULBIG_SYNC_VER', '1.2.0');
 
 // Importeur (partagé avec OULBIG Catalogue v2 : si celui-ci est actif, il le fournit déjà).
 add_action('plugins_loaded', function () {
@@ -188,6 +188,7 @@ add_action('wp_footer', function () {
     <?php
 }, 5);
 
+require_once __DIR__ . '/inc/books.php';
 require_once __DIR__ . '/inc/evoice.php';
 require_once __DIR__ . '/inc/absprojects-cleanup.php';
 

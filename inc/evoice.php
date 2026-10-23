@@ -13,14 +13,15 @@ function oulbig_evoice_books() {
     $wa = 'https://wa.me/212661692067?text=';
     $buy = function ($t) use ($wa) { return $wa . rawurlencode('Bonjour, je souhaite commander l\'ebook « ' . $t . ' ».'); };
     $all = ['FR', 'EN', 'ES', 'AR', 'DA'];
+    $links = function ($b) { $o = []; foreach (['FR', 'EN', 'ES', 'AR', 'DA'] as $l) { $u = oulbig_book_link($b, $l); if ($u) $o[$l] = $u; } return $o; };
     $soon = ['fr' => 'Bientôt', 'en' => 'Soon', 'ar' => 'قريباً'];
     $books = [
-        ['ci' => 2, 'fr' => 'Introduction : 37 étapes + 1', 'en' => 'Introduction: 37 Steps + 1', 'ar' => 'مقدمة: 37 خطوة + 1',
-         'sub' => ['fr' => 'OULBIG · Saga L\'Étincelle, tome 1', 'en' => 'OULBIG · The Spark saga, book 1', 'ar' => 'OULBIG · سلسلة لمحة، الجزء 1'],
-         'dur' => 'PDF · EPUB', 'price' => '100 MAD', 'langs' => $all, 'buy' => $buy('Introduction : 37 étapes + 1'), 'c' => ['#6e4a1e', '#e6a94e']],
-        ['ci' => 11, 'fr' => 'L\'Effet d\'Amour — Ce que Béa m\'a appris', 'en' => 'The Effect of Love — What Béa Taught Me', 'ar' => 'أثر الحب — ما علّمتني إياه بيا',
-         'sub' => ['fr' => 'Roman · Ash Oulbig', 'en' => 'Novel · Ash Oulbig', 'ar' => 'رواية · Ash Oulbig'],
-         'dur' => 'PDF · EPUB', 'price' => '70 MAD', 'langs' => $all, 'buy' => $buy('L\'Effet d\'Amour'), 'c' => ['#6e2e3a', '#c84f64']],
+        ['ci' => 2, 'fr' => 'Introduction : Le début du voyage de l\'ascension', 'en' => 'Introduction: The Beginning of the Journey of Ascent', 'ar' => 'مقدمة: بداية رحلة الارتقاء',
+         'sub' => ['fr' => '37 étapes + 1 · OULBIG · Saga L\'Étincelle, tome 1', 'en' => '37 steps + 1 · OULBIG · The Spark saga, book 1', 'ar' => '37 خطوة + 1 · OULBIG · سلسلة لمحة، الجزء 1'],
+         'dur' => 'PDF · EPUB', 'price' => '100 MAD', 'langs' => $all, 'stores' => $links('intro'), 'buy' => oulbig_book_link('intro', 'FR'), 'c' => ['#6e4a1e', '#e6a94e']],
+        ['ci' => 11, 'fr' => 'L\'Effet d\'Amour', 'en' => 'The Love Effect', 'ar' => 'تأثير الحب',
+         'sub' => ['fr' => 'Roman · OULBIG', 'en' => 'Novel · OULBIG', 'ar' => 'رواية · OULBIG'],
+         'dur' => 'PDF · EPUB', 'price' => '70 MAD', 'langs' => $all, 'stores' => $links('roman'), 'buy' => oulbig_book_link('roman', 'FR'), 'c' => ['#6e2e3a', '#c84f64']],
         ['ci' => 2, 'fr' => 'لمحة — دليل التغيير', 'en' => 'لمحة — دليل التغيير', 'ar' => 'لمحة — دليل التغيير',
          'sub' => ['fr' => 'Guide L\'Étincelle · OULBIG', 'en' => 'The Spark guide · OULBIG', 'ar' => 'دليل لمحة · OULBIG'],
          'dur' => 'PDF', 'price' => $soon, 'langs' => ['AR'], 'buy' => '', 'c' => ['#2e5a52', '#4fb39a']],
@@ -90,9 +91,9 @@ function oulbig_evoice_js() {
   if(!D||typeof BOOKS==='undefined'||typeof EBOOKS==='undefined')return;
   function esc(s){return String(s==null?'':s).replace(/[&<>"']/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];});}
   function pick(v){return (v&&typeof v==='object')?(v[LANG]||v.fr):v;}
-  var L={fr:{listen:'▶ Écouter',order:'Commander',soon:'Bientôt',ep:'Podcast L\'Étincelle',pod:'Podcast OULBIG'},
-         en:{listen:'▶ Listen',order:'Order',soon:'Soon',ep:'The Spark podcast',pod:'OULBIG podcast'},
-         ar:{listen:'▶ استمع',order:'اطلب',soon:'قريباً',ep:'بودكاست لمحة',pod:'بودكاست OULBIG'}};
+  var L={fr:{listen:'▶ Écouter',order:'Acheter',soon:'Bientôt',ep:'Podcast L\'Étincelle',pod:'Podcast OULBIG'},
+         en:{listen:'▶ Listen',order:'Buy',soon:'Soon',ep:'The Spark podcast',pod:'OULBIG podcast'},
+         ar:{listen:'▶ استمع',order:'اشترِ',soon:'قريباً',ep:'بودكاست لمحة',pod:'بودكاست OULBIG'}};
 
   /* Audiolivres → épisodes audio réels */
   BOOKS.length=0;
@@ -103,9 +104,9 @@ function oulbig_evoice_js() {
 
   /* À la une */
   ['fr','en','ar'].forEach(function(l){
-    var t={fr:['Introduction : 37 étapes + 1',"OULBIG · Saga L'Étincelle, tome 1",'Écouter un extrait —','Nouveauté'],
-           en:['Introduction: 37 Steps + 1','OULBIG · The Spark saga, book 1','Listen to a sample —','New'],
-           ar:['مقدمة: 37 خطوة + 1','OULBIG · سلسلة لمحة، الجزء 1','استمع إلى مقتطف —','جديد']}[l];
+    var t={fr:["Introduction : Le début du voyage de l'ascension","OULBIG · 37 étapes + 1 · Saga L'Étincelle, tome 1",'Écouter un extrait —','Nouveauté'],
+           en:['Introduction: The Beginning of the Journey of Ascent','OULBIG · 37 steps + 1 · The Spark saga, book 1','Listen to a sample —','New'],
+           ar:['مقدمة: بداية رحلة الارتقاء','OULBIG · 37 خطوة + 1 · سلسلة لمحة، الجزء 1','استمع إلى مقتطف —','جديد']}[l];
     I18N[l].feat_title=t[0];I18N[l].feat_auth=t[1];I18N[l].feat_now=t[2];I18N[l].feat_cat=t[3];
   });
   var F=D.featured;
@@ -118,7 +119,7 @@ function oulbig_evoice_js() {
   /* Rendu des cartes */
   card=function(item,isEbook){
     var title=pick(item[LANG]?item[LANG]:item.fr), cat=CATS[item.ci]||CATS[0], T2=L[LANG]||L.fr;
-    var flags=(item.langs||[]).map(function(x){return '<span>'+esc(x)+'</span>';}).join('');
+    var flags=(item.langs||[]).map(function(x){var u=item.stores&&item.stores[x];return u?'<a href="'+esc(u)+'" target="_blank" rel="noopener" title="'+esc(x)+'" style="font-size:.6rem;font-weight:800;letter-spacing:.05em;border:1px solid var(--gold);padding:2px 6px;border-radius:5px;color:var(--gold-soft)">'+esc(x)+'</a>':'<span>'+esc(x)+'</span>';}).join('');
     var hover='<div class="play-hover"><span class="pcirc"><svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span></div>';
     var cov, body, act;
     if(item.yt){
@@ -131,11 +132,12 @@ function oulbig_evoice_js() {
     }else{
       var c=item.c||cat.c, price=pick(item.price);
       cov='<div class="cover" style="background:linear-gradient(155deg,'+c[0]+','+c[1]+')"><span class="ctag">'+esc(cat.n+' · '+(cat[LANG]||cat.fr))+'</span><span class="ctitle" dir="auto">'+esc(title)+'</span><span class="type-badge"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg></span></div>';
-      act=item.buy?'data-buy="'+esc(item.buy)+'"':'';
+      var buy=(item.stores&&item.stores[LANG.toUpperCase()])||item.buy;
+      act=buy?'data-buy="'+esc(buy)+'"':'';
       body='<h4 dir="auto">'+esc(title)+'</h4><div class="nar">'+esc(pick(item.sub)||'')+'</div>'
         +'<div class="meta"><span class="dur">'+esc(item.dur)+'</span></div>'
         +'<div class="price-row"><span class="price">'+esc(price)+'</span><div class="langflags">'+flags+'</div></div>'
-        +(item.buy?'<button class="add" style="margin-top:10px">'+T2.order+'</button>':'<button class="add add--soon" style="margin-top:10px" disabled>'+T2.soon+'</button>');
+        +(buy?'<button class="add" style="margin-top:10px">'+T2.order+'</button>':'<button class="add add--soon" style="margin-top:10px" disabled>'+T2.soon+'</button>');
     }
     return '<article class="card" '+act+'>'+cov+'<div class="card-body">'+body+'</div></article>';
   };
@@ -151,7 +153,7 @@ function oulbig_evoice_js() {
   document.addEventListener('click',function(e){
     var c=e.target.closest('#bookGrid .card,#ebookGrid .card'); if(!c)return;
     if(c.dataset.yt){openYT(c.dataset.yt,c.dataset.title);}
-    else if(c.dataset.buy){window.open(c.dataset.buy,'_blank','noopener');}
+    else if(c.dataset.buy&&!e.target.closest('a')){window.open(c.dataset.buy,'_blank','noopener');}
   });
 
   setLang(LANG);
