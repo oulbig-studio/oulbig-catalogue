@@ -74,5 +74,10 @@
       }
     }
   },
-  "lang_overrides": {}
+  "music_only_artists": [
+    "TALIM"
+  ],
+  "lang_overrides": {
+    "bBWIohCTrto": "es"
+  }
 }

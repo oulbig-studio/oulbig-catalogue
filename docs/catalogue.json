@@ -31,12 +31,12 @@
    "podcasts": 18
   },
   "en": {
-   "songs": 164,
-   "podcasts": 17
+   "songs": 165,
+   "podcasts": 16
   },
   "es": {
-   "songs": 122,
-   "podcasts": 17
+   "songs": 124,
+   "podcasts": 15
   },
   "ar": {
    "songs": 146,
@@ -5432,7 +5432,7 @@
   {
    "lang": "en",
    "lang_source": "audio",
-   "type": "podcast",
+   "type": "song",
    "artist": "TALIM",
    "title": "Millionnaire",
    "published": "2026-10-19",
@@ -9392,7 +9392,7 @@
   {
    "lang": "es",
    "lang_source": "titre",
-   "type": "podcast",
+   "type": "song",
    "artist": "TALIM",
    "title": "Pequeño Hábito",
    "published": "2026-10-23",
@@ -9414,7 +9414,7 @@
   {
    "lang": "es",
    "lang_source": "titre",
-   "type": "podcast",
+   "type": "song",
    "artist": "TALIM",
    "title": "Vive El Momento",
    "published": "2026-10-23",
