@@ -2,7 +2,7 @@
 /**
  * Plugin Name: OULBIG Catalogue
  * Description: Affiche automatiquement la musique, les podcasts et le Hit Parade OULBIG (YouTube + Spotify) à partir du fichier catalogue.json. Shortcodes : [oulbig_musique], [oulbig_podcasts], [oulbig_audiolivres], [oulbig_hitparade], [oulbig_lien], [oulbig_radio].
- * Version: 1.1.0
+ * Version: 1.2.0
  * Plugin URI: https://radio.almoqayada.com
  * Author: OULBIG
  * Text Domain: oulbig-catalogue
@@ -145,15 +145,29 @@ class OULBIG_Catalogue {
     }
     /**
      * Épisodes de podcast présentés comme extraits gratuits de livres audio.
-     * [oulbig_audiolivres lang="all" limite="100" ordre="ancien" livres="fr:URL,en:URL" filtres="1"]
+     * [oulbig_audiolivres lang="all" limite="100" ordre="ancien" livres="fr:URL,en:URL" filtres="1" artiste="OULBIG"]
      * - livres : lien « Le livre complet » par langue (fr, en, es, ar, ma).
      * - filtres : affiche les boutons de langue quand lang="all".
+     * - artiste : seuls les épisodes de cet artiste (la musique de TALIM est exclue).
+     * Textes traduisibles avec le filtre « oulbig_audiolivres_labels ».
+     * Un seul extrait joue à la fois : lancer un extrait arrête le précédent.
      */
     public function sc_audiolivres($a) {
-        $a = shortcode_atts(['lang' => 'all', 'limite' => 100, 'ordre' => 'ancien', 'livres' => '', 'filtres' => '1'], $a);
-        $list = $this->items($a['lang'], 'podcast', $a['limite'], $a['ordre']);
+        $a = shortcode_atts(['lang' => 'all', 'limite' => 100, 'ordre' => 'ancien', 'livres' => '', 'filtres' => '1', 'artiste' => 'OULBIG'], $a);
+        $list = $this->items($a['lang'], 'podcast', 1000, $a['ordre']);
+        if ($a['artiste'] !== '') {
+            $want = array_map('trim', explode(',', $a['artiste']));
+            $list = array_values(array_filter($list, function ($i) use ($want) { return in_array($i['artist'] ?? '', $want, true); }));
+        }
+        $list = array_slice($list, 0, max(1, intval($a['limite'])));
         if (!$list) return '';
         $names = ['fr' => 'Français', 'en' => 'English', 'es' => 'Español', 'ar' => 'العربية', 'ma' => 'الدارجة'];
+        $t = apply_filters('oulbig_audiolivres_labels', [
+            'all'    => 'Toutes les langues',
+            'kicker' => 'Livre audio · extrait gratuit',
+            'book'   => 'Le livre complet',
+            'listen' => 'Écouter',
+        ]);
         $books = [];
         foreach (array_filter(array_map('trim', explode(',', $a['livres']))) as $pair) {
             $p = explode(':', $pair, 2);
@@ -162,7 +176,7 @@ class OULBIG_Catalogue {
         $langs = array_values(array_unique(array_map(function ($i) { return $i['lang']; }, $list)));
         $h = '<div class="ob-al">';
         if ($a['lang'] === 'all' && $a['filtres'] && count($langs) > 1) {
-            $h .= '<div class="ob-al-filters"><button type="button" class="is-active" data-l="">Toutes les langues</button>';
+            $h .= '<div class="ob-al-filters"><button type="button" class="is-active" data-l="">' . esc_html($t['all']) . '</button>';
             foreach ($names as $code => $n) {
                 if (in_array($code, $langs, true)) $h .= '<button type="button" data-l="' . esc_attr($code) . '">' . esc_html($n) . '</button>';
             }
@@ -175,21 +189,21 @@ class OULBIG_Catalogue {
             $url  = $yt['url'] ?? ($i['spotify']['url'] ?? ($i['rss']['url'] ?? ''));
             $img  = $i['thumb'] ? '<img src="' . esc_url($i['thumb']) . '" alt="" loading="lazy">' : '<span class="ob-ph">' . esc_html(mb_substr($i['title'], 0, 1)) . '</span>';
             $play = $ok
-                ? '<button type="button" class="ob-al-play" data-yt="' . esc_attr($yt['id']) . '" aria-label="Écouter : ' . esc_attr($i['title']) . '">' . $img . '<span class="ob-al-icon">▶</span></button>'
+                ? '<button type="button" class="ob-al-play" data-yt="' . esc_attr($yt['id']) . '" aria-label="' . esc_attr($t['listen'] . ' : ' . $i['title']) . '">' . $img . '<span class="ob-al-icon">▶</span></button>'
                 : '<a class="ob-al-play" href="' . esc_url($url) . '" target="_blank" rel="noopener">' . $img . '<span class="ob-al-icon">▶</span></a>';
-            $h .= '<article class="ob-al-card" data-l="' . esc_attr($i['lang']) . '"' . $this->rtl($i['lang']) . '>';
+            $h .= '<article class="ob-al-card notranslate" data-l="' . esc_attr($i['lang']) . '"' . $this->rtl($i['lang']) . '>';
             $h .= '<div class="ob-al-media">' . $play . '</div>';
-            $h .= '<p class="ob-al-kicker">Livre audio · extrait gratuit · ' . esc_html($names[$i['lang']] ?? strtoupper($i['lang'])) . ($i['duration'] ? ' · ' . $this->dur($i['duration']) : '') . '</p>';
+            $h .= '<p class="ob-al-kicker">' . esc_html($t['kicker']) . ' · ' . esc_html($names[$i['lang']] ?? strtoupper($i['lang'])) . ($i['duration'] ? ' · ' . $this->dur($i['duration']) : '') . '</p>';
             $h .= '<h3>' . esc_html($i['title']) . '</h3>';
             $h .= '<div class="ob-btns">' . $this->buttons($i);
-            if (!empty($books[$i['lang']])) $h .= '<a class="ob-btn ob-al-book" href="' . $books[$i['lang']] . '">Le livre complet</a>';
+            if (!empty($books[$i['lang']])) $h .= '<a class="ob-btn ob-al-book" href="' . $books[$i['lang']] . '">' . esc_html($t['book']) . '</a>';
             $h .= '</div></article>';
         }
         $h .= '</div></div>';
         static $js = false;
         if (!$js) {
             $js = true;
-            $h .= '<script>(function(){document.addEventListener("click",function(e){var b=e.target.closest(".ob-al-play[data-yt]");if(b){var f=document.createElement("iframe");f.src="https://www.youtube-nocookie.com/embed/"+encodeURIComponent(b.dataset.yt)+"?autoplay=1&rel=0";f.title=b.getAttribute("aria-label")||"";f.allow="autoplay; encrypted-media; picture-in-picture";f.allowFullscreen=true;b.parentNode.replaceChild(f,b);return;}var t=e.target.closest(".ob-al-filters button");if(!t)return;var w=t.closest(".ob-al");w.querySelectorAll(".ob-al-filters button").forEach(function(x){x.classList.remove("is-active")});t.classList.add("is-active");w.querySelectorAll(".ob-al-card").forEach(function(c){c.hidden=!!t.dataset.l&&c.dataset.l!==t.dataset.l;});});})();</script>';
+            $h .= '<script>(function(){var cur=null;function stop(){if(cur&&cur.f.parentNode){cur.f.parentNode.replaceChild(cur.b,cur.f);}cur=null;}document.addEventListener("click",function(e){var b=e.target.closest(".ob-al-play[data-yt]");if(b){stop();var f=document.createElement("iframe");f.src="https://www.youtube-nocookie.com/embed/"+encodeURIComponent(b.dataset.yt)+"?autoplay=1&rel=0";f.title=b.getAttribute("aria-label")||"";f.allow="autoplay; encrypted-media; picture-in-picture";f.allowFullscreen=true;b.parentNode.replaceChild(f,b);cur={f:f,b:b};return;}var t=e.target.closest(".ob-al-filters button");if(!t)return;var w=t.closest(".ob-al");w.querySelectorAll(".ob-al-filters button").forEach(function(x){x.classList.remove("is-active")});t.classList.add("is-active");w.querySelectorAll(".ob-al-card").forEach(function(c){c.hidden=!!t.dataset.l&&c.dataset.l!==t.dataset.l;if(c.hidden&&cur&&c.contains(cur.f))stop();});});})();</script>';
         }
         return $h;
     }

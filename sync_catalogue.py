@@ -416,6 +416,8 @@ def collect_youtube(cfg):
             lang, src = overrides[vid], "manuel"
         typ = typ or detect_type(v["title"], duration=v.get("duration", 0))
         artist = artist or chan_artist.get(v.get("channel", "")) or re.sub(r"\s*-\s*Topic$", "", v.get("channel_title", "")) or cfg.get("artist", "OULBIG")
+        if artist in (cfg.get("music_only_artists") or []):
+            typ = "song"  # ex. TALIM : uniquement de la musique, jamais classé en podcast
         v = {k: x for k, x in v.items() if k not in ("desc", "audio", "channel", "channel_title")}
         out.append({"source": "youtube", "lang": lang, "lang_source": src, "type": typ, "artist": artist, **v})
     log(f"YouTube : {len(out)} vidéos retenues")
