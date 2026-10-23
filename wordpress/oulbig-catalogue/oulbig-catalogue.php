@@ -196,4 +196,4 @@ class OULBIG_Catalogue {
 <?php }
 }
 new OULBIG_Catalogue();
-require_once __DIR__ . '/inc/importer.php';
+if (!class_exists('OULBIG_Catalogue_Importer')) require_once __DIR__ . '/inc/importer.php';

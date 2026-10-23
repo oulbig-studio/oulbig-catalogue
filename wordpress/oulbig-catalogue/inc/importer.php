@@ -18,13 +18,14 @@ class OULBIG_Catalogue_Importer {
         add_action('admin_init', [$this, 'settings']);
         add_action('admin_post_oulbig_import_now', [$this, 'run_now']);
         add_action('oulbig_import_cron', [$this, 'cron']);
+        add_action('oulbig_import_catchup', [$this, 'cron']);
         add_action('init', function () {
             if (!wp_next_scheduled('oulbig_import_cron')) wp_schedule_event(time() + 120, 'hourly', 'oulbig_import_cron');
         });
     }
 
     public static function defaults() {
-        $rule = ['post_type' => '', 'status' => 'publish', 'meta_url' => '', 'meta_thumb' => '', 'taxonomy' => '', 'term' => '', 'thumb' => 1, 'max' => 60, 'artists' => ['OULBIG', 'TALIM'], 'langs' => ['fr', 'en', 'es', 'ar', 'ma']];
+        $rule = ['post_type' => '', 'status' => 'publish', 'meta_url' => '', 'meta_thumb' => '', 'taxonomy' => '', 'term' => '', 'thumb' => 1, 'meta_extra' => '', 'max' => 60, 'artists' => ['OULBIG', 'TALIM'], 'langs' => ['fr', 'en', 'es', 'ar', 'ma']];
         return ['song' => $rule, 'podcast' => array_merge($rule, ['max' => 40]), 'auto' => 1];
     }
     public static function opt() {
@@ -107,6 +108,7 @@ class OULBIG_Catalogue_Importer {
                     update_post_meta($pid, '_oulbig_youtube', $url);
                     if ($r['meta_url'])   update_post_meta($pid, sanitize_key($r['meta_url']), $url);
                     if ($r['meta_thumb']) update_post_meta($pid, sanitize_key($r['meta_thumb']), $i['thumb']);
+                    foreach (self::extra_meta($r['meta_extra'], $i, $url) as $mk => $mv) update_post_meta($pid, $mk, $mv);
                     if ($r['taxonomy'] && $r['term'] && taxonomy_exists($r['taxonomy'])) wp_set_object_terms($pid, $r['term'], $r['taxonomy'], true);
                     if ($r['thumb'] && !empty($i['thumb'])) {
                         require_once ABSPATH . 'wp-admin/includes/media.php';
@@ -121,6 +123,10 @@ class OULBIG_Catalogue_Importer {
                     $stats[$type][0]++;
                 } else {
                     $stats[$type][1]++;
+                    // Contenus déjà importés : on complète les champs du thème restés vides (jamais d'écrasement).
+                    $fill = self::extra_meta($r['meta_extra'], $i, $url);
+                    if ($r['meta_url']) $fill = [sanitize_key($r['meta_url']) => $url] + $fill;
+                    foreach ($fill as $mk => $mv) if (get_post_meta($pid, $mk, true) === '') update_post_meta($pid, $mk, $mv);
                 }
                 update_post_meta($pid, '_oulbig_views', (int) ($yt['views'] ?? 0));
             }
@@ -129,7 +135,28 @@ class OULBIG_Catalogue_Importer {
         return $stats;
     }
 
-    public function cron() { if (self::opt()['auto']) $this->run(25); }
+    /** Champs supplémentaires « cle={url} » (un par ligne) : {url} {artist} {lang} {duration} {spotify} {thumb} {title}. */
+    public static function extra_meta($spec, $i, $url) {
+        $out = [];
+        $rep = ['{url}' => $url, '{artist}' => $i['artist'], '{lang}' => $i['lang'], '{title}' => $i['title'],
+            '{duration}' => !empty($i['duration']) ? floor($i['duration'] / 60) . ':' . str_pad($i['duration'] % 60, 2, '0', STR_PAD_LEFT) : '',
+            '{spotify}' => $i['spotify']['url'] ?? '', '{thumb}' => $i['thumb'] ?? ''];
+        foreach (preg_split('/[\r\n]+/', (string) $spec) as $line) {
+            if (strpos($line, '=') === false) continue;
+            list($k, $v) = array_map('trim', explode('=', $line, 2));
+            $k = sanitize_key($k);
+            $v = strtr($v, $rep);
+            if ($k && $v !== '') $out[$k] = $v;
+        }
+        return apply_filters('oulbig_import_extra_meta', $out, $i, $url);
+    }
+
+    public function cron() {
+        if (!self::opt()['auto']) return;
+        $s = $this->run(25);
+        // Premier import : tant qu'il reste des contenus en attente, un nouveau lot une minute plus tard.
+        if (($s['song'][2] || $s['podcast'][2]) && !wp_next_scheduled('oulbig_import_catchup')) wp_schedule_single_event(time() + 60, 'oulbig_import_catchup');
+    }
 
     public function run_now() {
         check_admin_referer('oulbig_import_now');
@@ -156,6 +183,7 @@ class OULBIG_Catalogue_Importer {
                     'taxonomy'   => sanitize_key($r['taxonomy'] ?? ''),
                     'term'       => sanitize_text_field($r['term'] ?? ''),
                     'thumb'      => empty($r['thumb']) ? 0 : 1,
+                    'meta_extra' => sanitize_textarea_field($r['meta_extra'] ?? ''),
                     'max'        => max(1, min(1000, absint($r['max'] ?? 60))),
                     'artists'    => array_values(array_intersect((array) ($r['artists'] ?? []), ['OULBIG', 'TALIM'])),
                     'langs'      => array_values(array_intersect((array) ($r['langs'] ?? []), ['fr', 'en', 'es', 'ar', 'ma'])),
@@ -199,6 +227,7 @@ class OULBIG_Catalogue_Importer {
                         <tr><th>Image mise en avant</th><td><label><input type="checkbox" name="<?php echo $n; ?>[thumb]" value="1" <?php checked($r['thumb'], 1); ?>> Télécharger la miniature YouTube</label></td></tr>
                         <tr><th>Champ du lien (facultatif)</th><td><input type="text" name="<?php echo $n; ?>[meta_url]" value="<?php echo esc_attr($r['meta_url']); ?>" placeholder="ex. _video_url"> <span class="description">Clé du champ personnalisé où le thème attend le lien vidéo/audio.</span></td></tr>
                         <tr><th>Champ de l'image (facultatif)</th><td><input type="text" name="<?php echo $n; ?>[meta_thumb]" value="<?php echo esc_attr($r['meta_thumb']); ?>"></td></tr>
+                        <tr><th>Autres champs (facultatif)</th><td><textarea rows="3" cols="50" name="<?php echo $n; ?>[meta_extra]" placeholder="abs_youtube={url}&#10;abs_duration={duration}"><?php echo esc_textarea($r['meta_extra']); ?></textarea><p class="description">Un champ par ligne, « clé=valeur ». Variables : {url} {artist} {lang} {duration} {spotify} {thumb} {title}.</p></td></tr>
                         <tr><th>Classer dans (facultatif)</th><td><input type="text" name="<?php echo $n; ?>[taxonomy]" value="<?php echo esc_attr($r['taxonomy']); ?>" placeholder="taxonomie, ex. category"> <input type="text" name="<?php echo $n; ?>[term]" value="<?php echo esc_attr($r['term']); ?>" placeholder="terme, ex. Musique OULBIG"></td></tr>
                     </table>
                 <?php endforeach; ?>
@@ -209,4 +238,4 @@ class OULBIG_Catalogue_Importer {
         <?php
     }
 }
-new OULBIG_Catalogue_Importer();
+if (empty($GLOBALS['oulbig_importer'])) $GLOBALS['oulbig_importer'] = new OULBIG_Catalogue_Importer();
