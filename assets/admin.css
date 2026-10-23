@@ -1,0 +1,22 @@
+.mcl-fields label{display:block;font-weight:600;margin-bottom:4px}
+.mcl-fields input[type=text],.mcl-fields input[type=url],.mcl-fields select,.mcl-fields textarea{width:100%;margin-top:4px}
+.mcl-fields small{display:block;color:#777;margin-top:4px}
+.mcl-row2{display:grid;grid-template-columns:2fr 1fr;gap:14px}
+.mcl-row4{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.mcl-inline{display:flex;gap:8px;align-items:center}.mcl-inline input{flex:1}
+.mcl-tabs-admin nav{display:flex;gap:4px;border-bottom:1px solid #dcdcde;margin:10px 0 0}
+.mcl-tabs-admin nav a{padding:7px 12px;text-decoration:none;border:1px solid transparent;border-bottom:0;border-radius:6px 6px 0 0;color:#50575e}
+.mcl-tabs-admin nav a.is-active{background:#fff;border-color:#dcdcde;color:#c4521f;font-weight:600;margin-bottom:-1px}
+.mcl-tab{display:none}.mcl-tab.is-active{display:block}.mcl-tab textarea{font:14px/1.6 ui-monospace,Menlo,monospace;border-top:0;border-radius:0 0 6px 6px}
+.mcl-ref{font-size:13px;color:#777;margin:0 0 10px}
+.mcl-req-table{width:100%;border-collapse:collapse}
+.mcl-req-table th{width:200px;text-align:left;vertical-align:top;padding:9px 12px;background:#faf3ec;color:#7a4a2e;border-bottom:1px solid #f0e6dc}
+.mcl-req-table td{padding:9px 12px;border-bottom:1px solid #f0f0f0;white-space:normal;line-height:1.55}
+.mcl-status{display:inline-block;padding:3px 9px;border-radius:20px;font-size:12px;font-weight:600;background:#eee}
+.mcl-status--new{background:#fde3d6;color:#b2441a}.mcl-status--progress{background:#fff1c9;color:#8a6100}
+.mcl-status--sent{background:#dbeafe;color:#1e40af}.mcl-status--done{background:#d9f2e3;color:#17663a}.mcl-status--archived{background:#eee;color:#666}
+.mcl-pill{display:inline-block;padding:1px 7px;border-radius:10px;background:#e8642c;color:#fff;font-size:11px}
+.column-mcl_cover{width:56px}
+@media(max-width:782px){.mcl-row2,.mcl-row4{grid-template-columns:1fr}}
+.mcl-pill--svc{background:#2b6cb0}
+.mcl-pill--book{background:#7b4bb7}.mcl-pill--pod{background:#1f8a70}

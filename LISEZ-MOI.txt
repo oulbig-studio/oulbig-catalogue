@@ -1,0 +1,102 @@
+MUSICOLOGY — Thème WordPress (v1.4.1)
+=====================================
+
+INSTALLATION
+1. WordPress > Apparence > Thèmes > Ajouter > Téléverser un thème > musicology.zip > Installer > Activer.
+2. Réglages > Permaliens > cliquez simplement « Enregistrer » (pour activer les adresses /chansons/, /hit-parade/…).
+3. À l'activation, le thème crée automatiquement :
+   - la page « Hit-Parade »
+   - 4 pages de demande distinctes : /demande-speciale/ (FR), /special-request/ (EN),
+     /pedido-especial/ (ES), /talab-khass/ (AR, de droite à gauche)
+   - les genres (Pop, Rap, Raï, Chaabi, R&B, Oriental, Gnaoua, Andalou, Piano-voix, Soul)
+   - 5 titres de démonstration (bouton « Supprimer les démos » en haut de l'admin)
+   - 8 services avec leur page et leur formulaire de commande (menu « Services »)
+   - une page « Accueil » (page d'accueil) et une page « Blog », avec 7 articles de départ
+   Déjà installé en 1.0 ? Téléversez la nouvelle version et remplacez : services, blog
+   et articles sont ajoutés automatiquement, sans toucher à vos chansons ni à vos demandes.
+
+AJOUTER UNE CHANSON / UN CLIP — menu « Musicology » > Ajouter un titre
+- Titre + image mise en avant (la pochette). Sans image, la miniature YouTube est utilisée.
+- 🎧 Lien audio : MP3/M4A/WAV (lecteur Musicology), SoundCloud, Spotify, Deezer, Audiomack, YouTube…
+- 🎬 Lien vidéo : YouTube (Shorts compris), Vimeo, Dailymotion, TikTok, Google Drive, MP4…
+  Un titre avec un lien vidéo apparaît aussi dans « Clips » et dans le Top clips.
+- 📝 Paroles : originale + traductions FR / EN / ES / AR (onglets sur le site).
+  Écrivez [Refrain] ou [Couplet 2] pour mettre en valeur une partie.
+- 🌍 Titre traduit (facultatif) dans chaque langue.
+
+HIT-PARADE
+- Chaque lecture audio = 1 écoute, chaque lancement de clip = 1 vue
+  (1 seule fois par visiteur et par titre toutes les 30 min, pour éviter la triche).
+- Classements : Top chansons / Top clips × Depuis toujours / Ce mois-ci.
+- Les compteurs sont modifiables dans la fiche du titre (encadré « Hit-parade »).
+
+DEMANDES DE MUSIQUE SPÉCIALE — menu « Demandes musique »
+- Chaque formulaire envoyé est enregistré ici (nom du demandeur) ET envoyé par email
+  à musicology4242@gmail.com (modifiable dans Demandes musique > Réglages).
+- Le demandeur reçoit un accusé de réception dans sa langue.
+- Pour chaque demande : ⬇ Télécharger (.txt), 🖨 Fiche PDF, photo jointe, statut, notes internes.
+- Bouton « Exporter en CSV (Excel) » pour toutes les demandes.
+- Recherche par nom du demandeur, prénom célébré, email ou téléphone.
+
+LANGUES
+- Sélecteur FR / EN / ES / ع en haut du site (mémorisé par cookie). L'arabe passe en RTL.
+- Langue par défaut : Demandes musique > Réglages.
+- Tous les textes de l'interface sont dans inc/i18n.php (fonction mcl_dict()).
+- Couleurs et polices : variables :root au début de style.css.
+
+RÉGLAGES — Demandes musique > Réglages
+- Email(s) de réception, téléphone, WhatsApp, adresse 📍, réseaux sociaux,
+  vidéo pub « La chanson de tes rêves » (s'affiche sur l'accueil si renseignée).
+
+CONSEILS
+- Si les emails n'arrivent pas : installez « WP Mail SMTP » (les demandes restent enregistrées).
+- Logo : Apparence > Personnaliser > Identité du site.
+- Avec un plugin de cache, excluez le cookie « mcl_lang » ou désactivez le cache des pages
+  pour que le changement de langue fonctionne.
+
+SERVICES — menu « Services »
+- Pack Song, Pack Cover, Clip vidéo (600 DH / clip), Cover complet, Chanson originale,
+  Cover à distance, Lyrics video, Renouvellement distribution : prix, inclus, formules et textes dans les 4 langues.
+- Chaque service a sa page (/services/nom-du-service/) avec un formulaire de commande
+  et un bouton WhatsApp pré-rempli. La page /services/ les présente tous + étapes + FAQ.
+- Les commandes arrivent dans « Demandes musique » (type « Service ») avec la formule choisie,
+  les liens vers les fichiers et les détails ; email de notification + accusé au client.
+- Ajouter un service : Services > Ajouter. « Attributs > Ordre » règle la position.
+
+BLOG — menu « Articles »
+- Écrire un article comme d'habitude, choisir sa langue dans l'encadré « Langue de l'article ».
+  Chaque visiteur voit les articles de sa langue (+ ceux « Toutes les langues »).
+- L'accueil affiche les 3 derniers articles ; la page /blog/ les liste par catégorie.
+- Les articles de départ sont supprimés avec le bouton « Supprimer les démos ».
+
+TARIFS DE LA CHANSON PERSONNALISÉE — Demandes musique > Réglages
+- Chanson : 199 DH (au lieu de 349 DH, prix barré facultatif) · Clip vidéo : +600 DH / clip
+  · Livraison express 24 h : +79 DH (au lieu de 4 jours) · Pourboire : 5 / 10 / 15 % ou montant libre.
+- Le client voit le total en direct à la dernière étape ; le total est recalculé côté serveur
+  et apparaît dans la demande (colonne « Total », email, CSV). Aucun paiement en ligne :
+  le paiement se règle après confirmation sur WhatsApp.
+- Deux numéros WhatsApp : +212 661 42 62 03 et +212 661 69 20 67 (modifiables dans les réglages).
+
+LIVRES AUDIO & PODCASTS (3e pôle) — page /livres-audio/ (créée automatiquement)
+- Production de livres audio à partir de livres imprimés, romans, nouvelles et ebooks
+  (PDF, EPUB, Word) : narration 1 ou plusieurs voix, ambiances, mastering, chapitres MP3/M4B.
+- « Exemple de page de livre audio » : couverture, infos, synopsis, extrait et chapitres
+  (exemple fictif « Les Jardins de Mogador », à remplacer par vos propres livres audio).
+- Option Podcast : enregistrement guidé, montage, jingle, publication sur les plateformes.
+- Formulaire de devis (Livre audio / Podcast) : arrive dans « Demandes musique »
+  (types « Livre audio » et « Podcast », filtrables), email + accusé au client.
+- Extraits audio d'exemple : Demandes musique > Réglages > « Livres audio & podcasts ».
+
+RÉPERTOIRE OULBIG / TALIM SYNCHRONISÉ (v1.4) — menu Musicology › 🔄 Synchronisation
+- Le thème importe les vraies chansons depuis le catalogue officiel
+  https://oulbig-studio.github.io/oulbig-catalogue/catalogue.json (mis à jour chaque jour à partir de
+  YouTube @OULBIG, OULBIG – Topic, @TALIM4Art et Spotify) : tous les titres de TALIM, puis les titres
+  OULBIG les plus vus (150 par défaut, réglable).
+- Vidéos de la chaîne principale → aussi dans « Clips » ; vidéos « – Topic » → écoute seule.
+- Les vues YouTube alimentent le Hit-Parade (et « Ce mois-ci » avec la progression des vues).
+- Synchro automatique toutes les heures + bouton « Synchroniser maintenant » (import par lots de 40).
+- Les titres de démonstration sont supprimés automatiquement à la première synchro.
+- Page Livres audio & podcasts : l'exemple est « Introduction : 37 étapes + 1 » (saga L'Étincelle, tome 1)
+  avec les épisodes du podcast Étincelle comme extraits ; l'option podcast montre les derniers épisodes
+  OULBIG dans la langue du visiteur. Vraie couverture du livre : Demandes musique › Réglages.
+- Si le serveur ne peut pas joindre le catalogue, le thème utilise la copie incluse (assets/data).
