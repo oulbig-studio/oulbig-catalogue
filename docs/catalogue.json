@@ -12,7 +12,7 @@
    "spotify": "https://open.spotify.com/artist/2FAKBSpY965IRet4aXTmEm"
   }
  },
- "generated": "2026-10-25T09:49:16Z",
+ "generated": "2026-10-26T11:08:10Z",
  "links": {
   "youtube": "https://www.youtube.com/@OULBIG",
   "youtube_topic": "https://www.youtube.com/channel/UCpWPGzDk5xXbE2fc48AeM8Q",
@@ -39,11 +39,11 @@
    "podcasts": 18
   },
   "ar": {
-   "songs": 169,
+   "songs": 188,
    "podcasts": 18
   },
   "ma": {
-   "songs": 62,
+   "songs": 84,
    "podcasts": 0
   }
  },
@@ -245,8 +245,8 @@
     "yt-gFhnggVXkq8",
     "yt-xlIdBErkNCQ",
     "yt-tY5v6YYI01Y",
-    "yt-5GySH_I8UCY",
-    "yt-8V44n2qtE8U"
+    "yt-8V44n2qtE8U",
+    "yt-5GySH_I8UCY"
    ]
   },
   "en": {
@@ -635,6 +635,25 @@
   },
   "ar": {
    "songs": [
+    "yt-GOPJpNEnI8c",
+    "yt-1XssxEM4oZU",
+    "yt-2_D9cUBIDAk",
+    "yt-TpdJ0WeMhh4",
+    "yt-MsKnQDL2a3Q",
+    "yt-Ex933yMhR54",
+    "yt-sV4BAM2Ojpo",
+    "yt-kMU-TOFUhVI",
+    "yt-8Jx-6dOgDIU",
+    "yt-O9cSySjjT00",
+    "yt-Djmek6Hjv9A",
+    "yt-GM5b3nfwD58",
+    "yt-OkDTVaF4lio",
+    "yt-0kSoBrpMpVA",
+    "yt-Yp9WpbiK1S8",
+    "yt-QSVk1GLQEis",
+    "yt-2soS5wU-9ko",
+    "yt-6X_I9-FjDFk",
+    "yt-rKKq_lla7pw",
     "yt-yYtL1piHFnU",
     "yt-mvT4EW5Mluc",
     "yt--3hi8tZNzMI",
@@ -840,6 +859,28 @@
   },
   "ma": {
    "songs": [
+    "yt-mFIvJmSh-AE",
+    "yt-vQ5-8FqIC0s",
+    "yt-T6BPBn_DZQY",
+    "yt-HXbqKHpRouA",
+    "yt-6kf_If0UsHw",
+    "yt-o736KbxH_LA",
+    "yt-WVzuAyvhCwY",
+    "yt-Q_yZcb4G4rU",
+    "yt-sk8KSovj24I",
+    "yt-Td_BdZn_QvE",
+    "yt-dDx3sjGEeB0",
+    "yt-IKVsKF9e0Qs",
+    "yt-qt21lHIY2uA",
+    "yt-2BR5G4LuVPk",
+    "yt-t1XCDddLGRc",
+    "yt-H1jE6J6ijmU",
+    "yt-0spQ9xvKigI",
+    "yt-RML_79Y0yAM",
+    "yt-M_JG6zXnwKw",
+    "yt-n1MW31-7UOw",
+    "yt-F_GH0MB3nTE",
+    "yt-GzYALW-o9Os",
     "yt-JjpGTlFHzUU",
     "yt-8_QpdieFJ2M",
     "yt-VdVYOyZzWBM",
@@ -1327,7 +1368,7 @@
    "youtube": {
     "id": "VSwVdis_QLA",
     "url": "https://www.youtube.com/watch?v=VSwVdis_QLA",
-    "views": 1352,
+    "views": 1353,
     "embeddable": true
    },
    "spotify": null,
@@ -1371,7 +1412,7 @@
    "youtube": {
     "id": "PO0vxboJMtU",
     "url": "https://www.youtube.com/watch?v=PO0vxboJMtU",
-    "views": 482,
+    "views": 488,
     "embeddable": true
    },
    "spotify": null,
@@ -1393,15 +1434,15 @@
    "youtube": {
     "id": "ttsM0MjGPSk",
     "url": "https://www.youtube.com/watch?v=ttsM0MjGPSk",
-    "views": 338,
+    "views": 341,
     "embeddable": true
    },
    "spotify": null,
    "rss": null,
    "id": "yt-ttsM0MjGPSk",
    "rank": 4,
-   "prev_rank": 5,
-   "trend": "up"
+   "prev_rank": 4,
+   "trend": "same"
   },
   {
    "lang": "fr",
@@ -1415,15 +1456,15 @@
    "youtube": {
     "id": "It-L-dzcM04",
     "url": "https://www.youtube.com/watch?v=It-L-dzcM04",
-    "views": 301,
+    "views": 302,
     "embeddable": true
    },
    "spotify": null,
    "rss": null,
    "id": "yt-It-L-dzcM04",
    "rank": 5,
-   "prev_rank": 6,
-   "trend": "up"
+   "prev_rank": 5,
+   "trend": "same"
   },
   {
    "lang": "fr",
@@ -1437,15 +1478,15 @@
    "youtube": {
     "id": "gFhnggVXkq8",
     "url": "https://www.youtube.com/watch?v=gFhnggVXkq8",
-    "views": 295,
+    "views": 299,
     "embeddable": true
    },
    "spotify": null,
    "rss": null,
    "id": "yt-gFhnggVXkq8",
    "rank": 6,
-   "prev_rank": 7,
-   "trend": "up"
+   "prev_rank": 6,
+   "trend": "same"
   },
   {
    "lang": "fr",
@@ -1459,15 +1500,15 @@
    "youtube": {
     "id": "xlIdBErkNCQ",
     "url": "https://www.youtube.com/watch?v=xlIdBErkNCQ",
-    "views": 285,
+    "views": 287,
     "embeddable": true
    },
    "spotify": null,
    "rss": null,
    "id": "yt-xlIdBErkNCQ",
    "rank": 7,
-   "prev_rank": 8,
-   "trend": "up"
+   "prev_rank": 7,
+   "trend": "same"
   },
   {
    "lang": "fr",
@@ -1488,6 +1529,28 @@
    "rss": null,
    "id": "yt-tY5v6YYI01Y",
    "rank": 8,
+   "prev_rank": 8,
+   "trend": "same"
+  },
+  {
+   "lang": "fr",
+   "lang_source": "titre",
+   "type": "song",
+   "artist": "OULBIG",
+   "title": "La fille de mon pays",
+   "published": "2026-09-15",
+   "duration": 183,
+   "thumb": "https://i.ytimg.com/vi/8V44n2qtE8U/hqdefault.jpg",
+   "youtube": {
+    "id": "8V44n2qtE8U",
+    "url": "https://www.youtube.com/watch?v=8V44n2qtE8U",
+    "views": 189,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-8V44n2qtE8U",
+   "rank": 9,
    "prev_rank": 10,
    "trend": "up"
   },
@@ -1509,31 +1572,9 @@
    "spotify": null,
    "rss": null,
    "id": "yt-5GySH_I8UCY",
-   "rank": 9,
-   "prev_rank": 0,
-   "trend": "new"
-  },
-  {
-   "lang": "fr",
-   "lang_source": "titre",
-   "type": "song",
-   "artist": "OULBIG",
-   "title": "La fille de mon pays",
-   "published": "2026-09-15",
-   "duration": 183,
-   "thumb": "https://i.ytimg.com/vi/8V44n2qtE8U/hqdefault.jpg",
-   "youtube": {
-    "id": "8V44n2qtE8U",
-    "url": "https://www.youtube.com/watch?v=8V44n2qtE8U",
-    "views": 187,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-8V44n2qtE8U",
    "rank": 10,
-   "prev_rank": 0,
-   "trend": "new"
+   "prev_rank": 9,
+   "trend": "down"
   },
   {
    "lang": "fr",
@@ -1613,7 +1654,7 @@
    "youtube": {
     "id": "HAXYgUKKbKw",
     "url": "https://www.youtube.com/watch?v=HAXYgUKKbKw",
-    "views": 46,
+    "views": 47,
     "embeddable": true
    },
    "spotify": null,
@@ -1657,7 +1698,7 @@
    "youtube": {
     "id": "Zp59u4D21pU",
     "url": "https://www.youtube.com/watch?v=Zp59u4D21pU",
-    "views": 26,
+    "views": 27,
     "embeddable": true
    },
    "spotify": null,
@@ -1701,7 +1742,7 @@
    "youtube": {
     "id": "wvKMaJjQb_4",
     "url": "https://www.youtube.com/watch?v=wvKMaJjQb_4",
-    "views": 32,
+    "views": 33,
     "embeddable": true
    },
    "spotify": null,
@@ -1745,7 +1786,7 @@
    "youtube": {
     "id": "I0o8TSI5Y_4",
     "url": "https://www.youtube.com/watch?v=I0o8TSI5Y_4",
-    "views": 18,
+    "views": 19,
     "embeddable": true
    },
    "spotify": null,
@@ -1943,7 +1984,7 @@
    "youtube": {
     "id": "nemVQjHEz_8",
     "url": "https://www.youtube.com/watch?v=nemVQjHEz_8",
-    "views": 102,
+    "views": 103,
     "embeddable": true
    },
    "spotify": null,
@@ -2273,7 +2314,7 @@
    "youtube": {
     "id": "b_XMHI51adY",
     "url": "https://www.youtube.com/watch?v=b_XMHI51adY",
-    "views": 10,
+    "views": 11,
     "embeddable": true
    },
    "spotify": null,
@@ -2295,7 +2336,7 @@
    "youtube": {
     "id": "y_VoWo_XULo",
     "url": "https://www.youtube.com/watch?v=y_VoWo_XULo",
-    "views": 95,
+    "views": 97,
     "embeddable": true
    },
    "spotify": null,
@@ -2757,7 +2798,7 @@
    "youtube": {
     "id": "Dh0-Ndx3PmQ",
     "url": "https://www.youtube.com/watch?v=Dh0-Ndx3PmQ",
-    "views": 88,
+    "views": 89,
     "embeddable": true
    },
    "spotify": null,
@@ -2911,7 +2952,7 @@
    "youtube": {
     "id": "NtiUwXcEFaY",
     "url": "https://www.youtube.com/watch?v=NtiUwXcEFaY",
-    "views": 41,
+    "views": 44,
     "embeddable": true
    },
    "spotify": null,
@@ -2933,7 +2974,7 @@
    "youtube": {
     "id": "wPRwl8v8U7c",
     "url": "https://www.youtube.com/watch?v=wPRwl8v8U7c",
-    "views": 30,
+    "views": 31,
     "embeddable": true
    },
    "spotify": null,
@@ -2999,7 +3040,7 @@
    "youtube": {
     "id": "bu6BVOfp9Wg",
     "url": "https://www.youtube.com/watch?v=bu6BVOfp9Wg",
-    "views": 55,
+    "views": 58,
     "embeddable": true
    },
    "spotify": null,
@@ -3065,7 +3106,7 @@
    "youtube": {
     "id": "B-9AQHy-UtU",
     "url": "https://www.youtube.com/watch?v=B-9AQHy-UtU",
-    "views": 80,
+    "views": 81,
     "embeddable": true
    },
    "spotify": null,
@@ -3087,7 +3128,7 @@
    "youtube": {
     "id": "wyp6NlxJb0I",
     "url": "https://www.youtube.com/watch?v=wyp6NlxJb0I",
-    "views": 29,
+    "views": 37,
     "embeddable": true
    },
    "spotify": null,
@@ -3153,7 +3194,7 @@
    "youtube": {
     "id": "xi9zxmWgM50",
     "url": "https://www.youtube.com/watch?v=xi9zxmWgM50",
-    "views": 41,
+    "views": 42,
     "embeddable": true
    },
    "spotify": null,
@@ -3197,7 +3238,7 @@
    "youtube": {
     "id": "rKRBfJC7Lrg",
     "url": "https://www.youtube.com/watch?v=rKRBfJC7Lrg",
-    "views": 32,
+    "views": 33,
     "embeddable": true
    },
    "spotify": null,
@@ -3241,7 +3282,7 @@
    "youtube": {
     "id": "N3__RK0D-QA",
     "url": "https://www.youtube.com/watch?v=N3__RK0D-QA",
-    "views": 20,
+    "views": 24,
     "embeddable": true
    },
    "spotify": null,
@@ -3263,7 +3304,7 @@
    "youtube": {
     "id": "GkTQkjayAmY",
     "url": "https://www.youtube.com/watch?v=GkTQkjayAmY",
-    "views": 83,
+    "views": 84,
     "embeddable": true
    },
    "spotify": null,
@@ -3329,7 +3370,7 @@
    "youtube": {
     "id": "f7YlybXFdQA",
     "url": "https://www.youtube.com/watch?v=f7YlybXFdQA",
-    "views": 86,
+    "views": 88,
     "embeddable": true
    },
    "spotify": null,
@@ -3483,7 +3524,7 @@
    "youtube": {
     "id": "L5HhbKTYEDM",
     "url": "https://www.youtube.com/watch?v=L5HhbKTYEDM",
-    "views": 37,
+    "views": 46,
     "embeddable": true
    },
    "spotify": null,
@@ -3571,7 +3612,7 @@
    "youtube": {
     "id": "9mtdAU3h_rk",
     "url": "https://www.youtube.com/watch?v=9mtdAU3h_rk",
-    "views": 2,
+    "views": 3,
     "embeddable": true
    },
    "spotify": null,
@@ -3593,7 +3634,7 @@
    "youtube": {
     "id": "fYbQ-TQlhqE",
     "url": "https://www.youtube.com/watch?v=fYbQ-TQlhqE",
-    "views": 16,
+    "views": 17,
     "embeddable": true
    },
    "spotify": null,
@@ -3637,7 +3678,7 @@
    "youtube": {
     "id": "cmEfgZMA8ZI",
     "url": "https://www.youtube.com/watch?v=cmEfgZMA8ZI",
-    "views": 77,
+    "views": 78,
     "embeddable": true
    },
    "spotify": null,
@@ -3813,7 +3854,7 @@
    "youtube": {
     "id": "rRIs_MgcmPU",
     "url": "https://www.youtube.com/watch?v=rRIs_MgcmPU",
-    "views": 10,
+    "views": 11,
     "embeddable": true
    },
    "spotify": null,
@@ -3857,7 +3898,7 @@
    "youtube": {
     "id": "pH92saROYqU",
     "url": "https://www.youtube.com/watch?v=pH92saROYqU",
-    "views": 10,
+    "views": 12,
     "embeddable": true
    },
    "spotify": null,
@@ -3879,7 +3920,7 @@
    "youtube": {
     "id": "eLzbUK1It08",
     "url": "https://www.youtube.com/watch?v=eLzbUK1It08",
-    "views": 18,
+    "views": 20,
     "embeddable": true
    },
    "spotify": null,
@@ -3901,7 +3942,7 @@
    "youtube": {
     "id": "rhN67_DfycE",
     "url": "https://www.youtube.com/watch?v=rhN67_DfycE",
-    "views": 21,
+    "views": 23,
     "embeddable": true
    },
    "spotify": null,
@@ -3989,7 +4030,7 @@
    "youtube": {
     "id": "aHCC4Y7r_cA",
     "url": "https://www.youtube.com/watch?v=aHCC4Y7r_cA",
-    "views": 10,
+    "views": 11,
     "embeddable": true
    },
    "spotify": null,
@@ -4055,7 +4096,7 @@
    "youtube": {
     "id": "t9FM3_aEwoY",
     "url": "https://www.youtube.com/watch?v=t9FM3_aEwoY",
-    "views": 36,
+    "views": 40,
     "embeddable": true
    },
    "spotify": null,
@@ -4231,7 +4272,7 @@
    "youtube": {
     "id": "95qUHLhMEBM",
     "url": "https://www.youtube.com/watch?v=95qUHLhMEBM",
-    "views": 22,
+    "views": 23,
     "embeddable": true
    },
    "spotify": null,
@@ -4385,7 +4426,7 @@
    "youtube": {
     "id": "ykCXJc1-FRk",
     "url": "https://www.youtube.com/watch?v=ykCXJc1-FRk",
-    "views": 60,
+    "views": 62,
     "embeddable": true
    },
    "spotify": null,
@@ -4583,7 +4624,7 @@
    "youtube": {
     "id": "HTxgRcIHpIY",
     "url": "https://www.youtube.com/watch?v=HTxgRcIHpIY",
-    "views": 99,
+    "views": 101,
     "embeddable": true
    },
    "spotify": null,
@@ -5331,15 +5372,15 @@
    "youtube": {
     "id": "QI9svjJbSPw",
     "url": "https://www.youtube.com/watch?v=QI9svjJbSPw",
-    "views": 362,
+    "views": 363,
     "embeddable": true
    },
    "spotify": null,
    "rss": null,
    "id": "yt-QI9svjJbSPw",
    "rank": 1,
-   "prev_rank": 4,
-   "trend": "up"
+   "prev_rank": 1,
+   "trend": "same"
   },
   {
    "lang": "en",
@@ -5360,8 +5401,8 @@
    "rss": null,
    "id": "yt-Azbo5VA4wjk",
    "rank": 2,
-   "prev_rank": 1,
-   "trend": "down"
+   "prev_rank": 2,
+   "trend": "same"
   },
   {
    "lang": "en",
@@ -5375,15 +5416,15 @@
    "youtube": {
     "id": "47kZ9OHzGoA",
     "url": "https://www.youtube.com/watch?v=47kZ9OHzGoA",
-    "views": 238,
+    "views": 239,
     "embeddable": true
    },
    "spotify": null,
    "rss": null,
    "id": "yt-47kZ9OHzGoA",
    "rank": 3,
-   "prev_rank": 9,
-   "trend": "up"
+   "prev_rank": 3,
+   "trend": "same"
   },
   {
    "lang": "en",
@@ -5397,15 +5438,15 @@
    "youtube": {
     "id": "0dic1q2reIU",
     "url": "https://www.youtube.com/watch?v=0dic1q2reIU",
-    "views": 211,
+    "views": 214,
     "embeddable": true
    },
    "spotify": null,
    "rss": null,
    "id": "yt-0dic1q2reIU",
    "rank": 4,
-   "prev_rank": 2,
-   "trend": "down"
+   "prev_rank": 4,
+   "trend": "same"
   },
   {
    "lang": "en",
@@ -5419,15 +5460,15 @@
    "youtube": {
     "id": "UKXZU6Sl2uY",
     "url": "https://www.youtube.com/watch?v=UKXZU6Sl2uY",
-    "views": 165,
+    "views": 167,
     "embeddable": true
    },
    "spotify": null,
    "rss": null,
    "id": "yt-UKXZU6Sl2uY",
    "rank": 5,
-   "prev_rank": 3,
-   "trend": "down"
+   "prev_rank": 5,
+   "trend": "same"
   },
   {
    "lang": "en",
@@ -5441,15 +5482,15 @@
    "youtube": {
     "id": "C5640ya3rq0",
     "url": "https://www.youtube.com/watch?v=C5640ya3rq0",
-    "views": 158,
+    "views": 160,
     "embeddable": true
    },
    "spotify": null,
    "rss": null,
    "id": "yt-C5640ya3rq0",
    "rank": 6,
-   "prev_rank": 4,
-   "trend": "down"
+   "prev_rank": 6,
+   "trend": "same"
   },
   {
    "lang": "en",
@@ -5463,15 +5504,15 @@
    "youtube": {
     "id": "1sWV7kRu0h4",
     "url": "https://www.youtube.com/watch?v=1sWV7kRu0h4",
-    "views": 132,
+    "views": 133,
     "embeddable": true
    },
    "spotify": null,
    "rss": null,
    "id": "yt-1sWV7kRu0h4",
    "rank": 7,
-   "prev_rank": 5,
-   "trend": "down"
+   "prev_rank": 7,
+   "trend": "same"
   },
   {
    "lang": "en",
@@ -5485,15 +5526,15 @@
    "youtube": {
     "id": "WWrJ0eYp7jc",
     "url": "https://www.youtube.com/watch?v=WWrJ0eYp7jc",
-    "views": 126,
+    "views": 129,
     "embeddable": true
    },
    "spotify": null,
    "rss": null,
    "id": "yt-WWrJ0eYp7jc",
    "rank": 8,
-   "prev_rank": 6,
-   "trend": "down"
+   "prev_rank": 8,
+   "trend": "same"
   },
   {
    "lang": "en",
@@ -5507,15 +5548,15 @@
    "youtube": {
     "id": "w8QHpeD4IKY",
     "url": "https://www.youtube.com/watch?v=w8QHpeD4IKY",
-    "views": 120,
+    "views": 121,
     "embeddable": true
    },
    "spotify": null,
    "rss": null,
    "id": "yt-w8QHpeD4IKY",
    "rank": 9,
-   "prev_rank": 7,
-   "trend": "down"
+   "prev_rank": 9,
+   "trend": "same"
   },
   {
    "lang": "en",
@@ -5536,8 +5577,8 @@
    "rss": null,
    "id": "yt-b1VF8sMqTPs",
    "rank": 10,
-   "prev_rank": 8,
-   "trend": "down"
+   "prev_rank": 10,
+   "trend": "same"
   },
   {
    "lang": "en",
@@ -5683,7 +5724,7 @@
    "youtube": {
     "id": "XJD0B8d9h_A",
     "url": "https://www.youtube.com/watch?v=XJD0B8d9h_A",
-    "views": 14,
+    "views": 15,
     "embeddable": true
    },
    "spotify": null,
@@ -5903,7 +5944,7 @@
    "youtube": {
     "id": "ybARdqSzRCM",
     "url": "https://www.youtube.com/watch?v=ybARdqSzRCM",
-    "views": 39,
+    "views": 41,
     "embeddable": true
    },
    "spotify": null,
@@ -5925,7 +5966,7 @@
    "youtube": {
     "id": "9rC-nrv3x9E",
     "url": "https://www.youtube.com/watch?v=9rC-nrv3x9E",
-    "views": 25,
+    "views": 26,
     "embeddable": true
    },
    "spotify": null,
@@ -5947,7 +5988,7 @@
    "youtube": {
     "id": "cqOx3aZs688",
     "url": "https://www.youtube.com/watch?v=cqOx3aZs688",
-    "views": 52,
+    "views": 53,
     "embeddable": true
    },
    "spotify": null,
@@ -6189,7 +6230,7 @@
    "youtube": {
     "id": "KGuHkzO7D7k",
     "url": "https://www.youtube.com/watch?v=KGuHkzO7D7k",
-    "views": 52,
+    "views": 53,
     "embeddable": true
    },
    "spotify": null,
@@ -6255,7 +6296,7 @@
    "youtube": {
     "id": "YCco6QjKdkA",
     "url": "https://www.youtube.com/watch?v=YCco6QjKdkA",
-    "views": 10,
+    "views": 11,
     "embeddable": true
    },
    "spotify": null,
@@ -6629,7 +6670,7 @@
    "youtube": {
     "id": "Yzo3ocsLbu4",
     "url": "https://www.youtube.com/watch?v=Yzo3ocsLbu4",
-    "views": 60,
+    "views": 61,
     "embeddable": true
    },
    "spotify": null,
@@ -6761,7 +6802,7 @@
    "youtube": {
     "id": "ylLoUP15WEo",
     "url": "https://www.youtube.com/watch?v=ylLoUP15WEo",
-    "views": 11,
+    "views": 14,
     "embeddable": true
    },
    "spotify": null,
@@ -6783,7 +6824,7 @@
    "youtube": {
     "id": "upOl4gSoNkU",
     "url": "https://www.youtube.com/watch?v=upOl4gSoNkU",
-    "views": 35,
+    "views": 36,
     "embeddable": true
    },
    "spotify": null,
@@ -6805,7 +6846,7 @@
    "youtube": {
     "id": "U7_ew00aL0Y",
     "url": "https://www.youtube.com/watch?v=U7_ew00aL0Y",
-    "views": 6,
+    "views": 7,
     "embeddable": true
    },
    "spotify": null,
@@ -6959,7 +7000,7 @@
    "youtube": {
     "id": "TFpiI3uTkSk",
     "url": "https://www.youtube.com/watch?v=TFpiI3uTkSk",
-    "views": 84,
+    "views": 90,
     "embeddable": true
    },
    "spotify": null,
@@ -7025,7 +7066,7 @@
    "youtube": {
     "id": "1xIEsvdpv5A",
     "url": "https://www.youtube.com/watch?v=1xIEsvdpv5A",
-    "views": 5,
+    "views": 6,
     "embeddable": true
    },
    "spotify": null,
@@ -7201,7 +7242,7 @@
    "youtube": {
     "id": "qIAhBsj-uFI",
     "url": "https://www.youtube.com/watch?v=qIAhBsj-uFI",
-    "views": 45,
+    "views": 46,
     "embeddable": true
    },
    "spotify": null,
@@ -7245,7 +7286,7 @@
    "youtube": {
     "id": "-vP31svzNq8",
     "url": "https://www.youtube.com/watch?v=-vP31svzNq8",
-    "views": 26,
+    "views": 27,
     "embeddable": true
    },
    "spotify": null,
@@ -7333,7 +7374,7 @@
    "youtube": {
     "id": "0A9JRF2jYVQ",
     "url": "https://www.youtube.com/watch?v=0A9JRF2jYVQ",
-    "views": 47,
+    "views": 50,
     "embeddable": true
    },
    "spotify": null,
@@ -7377,7 +7418,7 @@
    "youtube": {
     "id": "9vAsgj4LQa4",
     "url": "https://www.youtube.com/watch?v=9vAsgj4LQa4",
-    "views": 26,
+    "views": 28,
     "embeddable": true
    },
    "spotify": null,
@@ -7641,7 +7682,7 @@
    "youtube": {
     "id": "0jOYfR3UQkE",
     "url": "https://www.youtube.com/watch?v=0jOYfR3UQkE",
-    "views": 71,
+    "views": 72,
     "embeddable": true
    },
    "spotify": null,
@@ -7883,7 +7924,7 @@
    "youtube": {
     "id": "iYdPoiHQql4",
     "url": "https://www.youtube.com/watch?v=iYdPoiHQql4",
-    "views": 23,
+    "views": 24,
     "embeddable": true
    },
    "spotify": null,
@@ -7949,7 +7990,7 @@
    "youtube": {
     "id": "s5JvuXbE0ng",
     "url": "https://www.youtube.com/watch?v=s5JvuXbE0ng",
-    "views": 52,
+    "views": 55,
     "embeddable": true
    },
    "spotify": null,
@@ -8169,7 +8210,7 @@
    "youtube": {
     "id": "wGMDS8KrO8E",
     "url": "https://www.youtube.com/watch?v=wGMDS8KrO8E",
-    "views": 19,
+    "views": 20,
     "embeddable": true
    },
    "spotify": null,
@@ -8279,7 +8320,7 @@
    "youtube": {
     "id": "Hr-MtyZO7ik",
     "url": "https://www.youtube.com/watch?v=Hr-MtyZO7ik",
-    "views": 31,
+    "views": 33,
     "embeddable": true
    },
    "spotify": null,
@@ -8323,7 +8364,7 @@
    "youtube": {
     "id": "mbsp0NU9INo",
     "url": "https://www.youtube.com/watch?v=mbsp0NU9INo",
-    "views": 18,
+    "views": 19,
     "embeddable": true
    },
    "spotify": null,
@@ -8433,7 +8474,7 @@
    "youtube": {
     "id": "vflJQxB0tnE",
     "url": "https://www.youtube.com/watch?v=vflJQxB0tnE",
-    "views": 6,
+    "views": 7,
     "embeddable": true
    },
    "spotify": null,
@@ -8609,7 +8650,7 @@
    "youtube": {
     "id": "XnM0jdvwmDc",
     "url": "https://www.youtube.com/watch?v=XnM0jdvwmDc",
-    "views": 15,
+    "views": 16,
     "embeddable": true
    },
    "spotify": null,
@@ -8719,7 +8760,7 @@
    "youtube": {
     "id": "fSA7QX_VlVE",
     "url": "https://www.youtube.com/watch?v=fSA7QX_VlVE",
-    "views": 9,
+    "views": 12,
     "embeddable": true
    },
    "spotify": null,
@@ -8873,7 +8914,7 @@
    "youtube": {
     "id": "8WyvcU8XfPQ",
     "url": "https://www.youtube.com/watch?v=8WyvcU8XfPQ",
-    "views": 34,
+    "views": 33,
     "embeddable": true
    },
    "spotify": null,
@@ -9423,7 +9464,7 @@
    "youtube": {
     "id": "kRLD2nbylIk",
     "url": "https://www.youtube.com/watch?v=kRLD2nbylIk",
-    "views": 21,
+    "views": 22,
     "embeddable": true
    },
    "spotify": null,
@@ -9753,7 +9794,7 @@
    "youtube": {
     "id": "AAlFp3UVqfQ",
     "url": "https://www.youtube.com/watch?v=AAlFp3UVqfQ",
-    "views": 0,
+    "views": 1,
     "embeddable": true
    },
    "spotify": null,
@@ -9797,7 +9838,7 @@
    "youtube": {
     "id": "Td9c9ccT6ao",
     "url": "https://www.youtube.com/watch?v=Td9c9ccT6ao",
-    "views": 465,
+    "views": 467,
     "embeddable": true
    },
    "spotify": null,
@@ -9819,7 +9860,7 @@
    "youtube": {
     "id": "ODESIVB-6kA",
     "url": "https://www.youtube.com/watch?v=ODESIVB-6kA",
-    "views": 440,
+    "views": 454,
     "embeddable": true
    },
    "spotify": null,
@@ -9841,7 +9882,7 @@
    "youtube": {
     "id": "iskiQbrLOfc",
     "url": "https://www.youtube.com/watch?v=iskiQbrLOfc",
-    "views": 413,
+    "views": 417,
     "embeddable": true
    },
    "spotify": null,
@@ -9863,7 +9904,7 @@
    "youtube": {
     "id": "PgjtcDSpB5o",
     "url": "https://www.youtube.com/watch?v=PgjtcDSpB5o",
-    "views": 260,
+    "views": 263,
     "embeddable": true
    },
    "spotify": null,
@@ -9907,7 +9948,7 @@
    "youtube": {
     "id": "mLvgRKYT-yk",
     "url": "https://www.youtube.com/watch?v=mLvgRKYT-yk",
-    "views": 197,
+    "views": 198,
     "embeddable": true
    },
    "spotify": null,
@@ -9929,7 +9970,7 @@
    "youtube": {
     "id": "Kz6MmT99xTU",
     "url": "https://www.youtube.com/watch?v=Kz6MmT99xTU",
-    "views": 164,
+    "views": 166,
     "embeddable": true
    },
    "spotify": null,
@@ -9973,7 +10014,7 @@
    "youtube": {
     "id": "_j_4UmcGDdc",
     "url": "https://www.youtube.com/watch?v=_j_4UmcGDdc",
-    "views": 138,
+    "views": 140,
     "embeddable": true
    },
    "spotify": null,
@@ -10083,7 +10124,7 @@
    "youtube": {
     "id": "hZO0FG_aFbU",
     "url": "https://www.youtube.com/watch?v=hZO0FG_aFbU",
-    "views": 87,
+    "views": 89,
     "embeddable": true
    },
    "spotify": null,
@@ -10149,7 +10190,7 @@
    "youtube": {
     "id": "xADvphwvn6k",
     "url": "https://www.youtube.com/watch?v=xADvphwvn6k",
-    "views": 36,
+    "views": 37,
     "embeddable": true
    },
    "spotify": null,
@@ -10237,7 +10278,7 @@
    "youtube": {
     "id": "YrH7RslGVYo",
     "url": "https://www.youtube.com/watch?v=YrH7RslGVYo",
-    "views": 95,
+    "views": 97,
     "embeddable": true
    },
    "spotify": null,
@@ -10369,7 +10410,7 @@
    "youtube": {
     "id": "GxZZUReDob4",
     "url": "https://www.youtube.com/watch?v=GxZZUReDob4",
-    "views": 10,
+    "views": 11,
     "embeddable": true
    },
    "spotify": null,
@@ -10633,7 +10674,7 @@
    "youtube": {
     "id": "-JZfzmzbqZg",
     "url": "https://www.youtube.com/watch?v=-JZfzmzbqZg",
-    "views": 38,
+    "views": 41,
     "embeddable": true
    },
    "spotify": null,
@@ -10721,7 +10762,7 @@
    "youtube": {
     "id": "Izfk9LgrhY0",
     "url": "https://www.youtube.com/watch?v=Izfk9LgrhY0",
-    "views": 0,
+    "views": 1,
     "embeddable": true
    },
    "spotify": null,
@@ -10853,7 +10894,7 @@
    "youtube": {
     "id": "QH1OM51PE78",
     "url": "https://www.youtube.com/watch?v=QH1OM51PE78",
-    "views": 18,
+    "views": 21,
     "embeddable": true
    },
    "spotify": null,
@@ -10941,7 +10982,7 @@
    "youtube": {
     "id": "H1hQiuQRW38",
     "url": "https://www.youtube.com/watch?v=H1hQiuQRW38",
-    "views": 31,
+    "views": 35,
     "embeddable": true
    },
    "spotify": null,
@@ -10963,7 +11004,7 @@
    "youtube": {
     "id": "IfulyQ-aiCY",
     "url": "https://www.youtube.com/watch?v=IfulyQ-aiCY",
-    "views": 1,
+    "views": 2,
     "embeddable": true
    },
    "spotify": null,
@@ -10985,7 +11026,7 @@
    "youtube": {
     "id": "JMip5NsSmOs",
     "url": "https://www.youtube.com/watch?v=JMip5NsSmOs",
-    "views": 3,
+    "views": 4,
     "embeddable": true
    },
    "spotify": null,
@@ -11293,7 +11334,7 @@
    "youtube": {
     "id": "ed6NGzxk31g",
     "url": "https://www.youtube.com/watch?v=ed6NGzxk31g",
-    "views": 17,
+    "views": 19,
     "embeddable": true
    },
    "spotify": null,
@@ -11337,7 +11378,7 @@
    "youtube": {
     "id": "_UbE8Cw2ItI",
     "url": "https://www.youtube.com/watch?v=_UbE8Cw2ItI",
-    "views": 21,
+    "views": 22,
     "embeddable": true
    },
    "spotify": null,
@@ -11491,7 +11532,7 @@
    "youtube": {
     "id": "zrsSOPjdfPA",
     "url": "https://www.youtube.com/watch?v=zrsSOPjdfPA",
-    "views": 29,
+    "views": 31,
     "embeddable": true
    },
    "spotify": null,
@@ -11579,7 +11620,7 @@
    "youtube": {
     "id": "lkAiPiNtgA0",
     "url": "https://www.youtube.com/watch?v=lkAiPiNtgA0",
-    "views": 61,
+    "views": 64,
     "embeddable": true
    },
    "spotify": null,
@@ -11733,7 +11774,7 @@
    "youtube": {
     "id": "OBaQyiuKq8Q",
     "url": "https://www.youtube.com/watch?v=OBaQyiuKq8Q",
-    "views": 13,
+    "views": 14,
     "embeddable": true
    },
    "spotify": null,
@@ -11755,7 +11796,7 @@
    "youtube": {
     "id": "-HaT2X6syf8",
     "url": "https://www.youtube.com/watch?v=-HaT2X6syf8",
-    "views": 77,
+    "views": 78,
     "embeddable": true
    },
    "spotify": null,
@@ -11777,7 +11818,7 @@
    "youtube": {
     "id": "QvGaaLiTgH0",
     "url": "https://www.youtube.com/watch?v=QvGaaLiTgH0",
-    "views": 90,
+    "views": 95,
     "embeddable": true
    },
    "spotify": null,
@@ -11865,7 +11906,7 @@
    "youtube": {
     "id": "jKDaQR6l-98",
     "url": "https://www.youtube.com/watch?v=jKDaQR6l-98",
-    "views": 73,
+    "views": 74,
     "embeddable": true
    },
    "spotify": null,
@@ -11997,7 +12038,7 @@
    "youtube": {
     "id": "i0Yq-yIRByQ",
     "url": "https://www.youtube.com/watch?v=i0Yq-yIRByQ",
-    "views": 70,
+    "views": 71,
     "embeddable": true
    },
    "spotify": null,
@@ -12679,7 +12720,7 @@
    "youtube": {
     "id": "3V9PQ8LajGg",
     "url": "https://www.youtube.com/watch?v=3V9PQ8LajGg",
-    "views": 44,
+    "views": 46,
     "embeddable": true
    },
    "spotify": null,
@@ -12723,7 +12764,7 @@
    "youtube": {
     "id": "glI2s87EA88",
     "url": "https://www.youtube.com/watch?v=glI2s87EA88",
-    "views": 4,
+    "views": 5,
     "embeddable": true
    },
    "spotify": null,
@@ -12943,7 +12984,7 @@
    "youtube": {
     "id": "x3Rk98KlLV0",
     "url": "https://www.youtube.com/watch?v=x3Rk98KlLV0",
-    "views": 7,
+    "views": 8,
     "embeddable": true
    },
    "spotify": null,
@@ -13031,7 +13072,7 @@
    "youtube": {
     "id": "AbEhLDbHDTU",
     "url": "https://www.youtube.com/watch?v=AbEhLDbHDTU",
-    "views": 889,
+    "views": 900,
     "embeddable": true
    },
    "spotify": null,
@@ -13053,7 +13094,7 @@
    "youtube": {
     "id": "gB8USBmtutI",
     "url": "https://www.youtube.com/watch?v=gB8USBmtutI",
-    "views": 807,
+    "views": 809,
     "embeddable": true
    },
    "spotify": null,
@@ -13163,7 +13204,7 @@
    "youtube": {
     "id": "DDgh64--UBQ",
     "url": "https://www.youtube.com/watch?v=DDgh64--UBQ",
-    "views": 271,
+    "views": 273,
     "embeddable": true
    },
    "spotify": null,
@@ -13185,7 +13226,7 @@
    "youtube": {
     "id": "2QsMQGMSwzo",
     "url": "https://www.youtube.com/watch?v=2QsMQGMSwzo",
-    "views": 257,
+    "views": 260,
     "embeddable": true
    },
    "spotify": null,
@@ -13207,7 +13248,7 @@
    "youtube": {
     "id": "pl0hJCq3Wzs",
     "url": "https://www.youtube.com/watch?v=pl0hJCq3Wzs",
-    "views": 250,
+    "views": 251,
     "embeddable": true
    },
    "spotify": null,
@@ -13273,7 +13314,7 @@
    "youtube": {
     "id": "mVpY8bvlNnI",
     "url": "https://www.youtube.com/watch?v=mVpY8bvlNnI",
-    "views": 216,
+    "views": 218,
     "embeddable": true
    },
    "spotify": null,
@@ -13339,7 +13380,7 @@
    "youtube": {
     "id": "JwkvNkyfD_g",
     "url": "https://www.youtube.com/watch?v=JwkvNkyfD_g",
-    "views": 13,
+    "views": 15,
     "embeddable": true
    },
    "spotify": null,
@@ -13449,7 +13490,7 @@
    "youtube": {
     "id": "3wsRAHjhu9g",
     "url": "https://www.youtube.com/watch?v=3wsRAHjhu9g",
-    "views": 24,
+    "views": 25,
     "embeddable": true
    },
    "spotify": null,
@@ -13471,7 +13512,7 @@
    "youtube": {
     "id": "sMw-qfcsb54",
     "url": "https://www.youtube.com/watch?v=sMw-qfcsb54",
-    "views": 104,
+    "views": 105,
     "embeddable": true
    },
    "spotify": null,
@@ -13493,7 +13534,7 @@
    "youtube": {
     "id": "g4fPcgxheMA",
     "url": "https://www.youtube.com/watch?v=g4fPcgxheMA",
-    "views": 30,
+    "views": 31,
     "embeddable": true
    },
    "spotify": null,
@@ -13515,7 +13556,7 @@
    "youtube": {
     "id": "MeRS2T4EBXE",
     "url": "https://www.youtube.com/watch?v=MeRS2T4EBXE",
-    "views": 37,
+    "views": 38,
     "embeddable": true
    },
    "spotify": null,
@@ -13713,7 +13754,7 @@
    "youtube": {
     "id": "kHuL22XK0IQ",
     "url": "https://www.youtube.com/watch?v=kHuL22XK0IQ",
-    "views": 42,
+    "views": 44,
     "embeddable": true
    },
    "spotify": null,
@@ -13757,7 +13798,7 @@
    "youtube": {
     "id": "n9VUj31K3r0",
     "url": "https://www.youtube.com/watch?v=n9VUj31K3r0",
-    "views": 8,
+    "views": 11,
     "embeddable": true
    },
    "spotify": null,
@@ -13801,7 +13842,7 @@
    "youtube": {
     "id": "YujJMKvY2wA",
     "url": "https://www.youtube.com/watch?v=YujJMKvY2wA",
-    "views": 28,
+    "views": 31,
     "embeddable": true
    },
    "spotify": null,
@@ -13867,7 +13908,7 @@
    "youtube": {
     "id": "JYuAGhwBeiY",
     "url": "https://www.youtube.com/watch?v=JYuAGhwBeiY",
-    "views": 44,
+    "views": 45,
     "embeddable": true
    },
    "spotify": null,
@@ -13999,7 +14040,7 @@
    "youtube": {
     "id": "IwRSMfVshJI",
     "url": "https://www.youtube.com/watch?v=IwRSMfVshJI",
-    "views": 139,
+    "views": 140,
     "embeddable": true
    },
    "spotify": null,
@@ -14131,7 +14172,7 @@
    "youtube": {
     "id": "-1RzlKEEmRA",
     "url": "https://www.youtube.com/watch?v=-1RzlKEEmRA",
-    "views": 204,
+    "views": 207,
     "embeddable": true
    },
    "spotify": null,
@@ -14175,7 +14216,7 @@
    "youtube": {
     "id": "LGE1QCyWydM",
     "url": "https://www.youtube.com/watch?v=LGE1QCyWydM",
-    "views": 5,
+    "views": 6,
     "embeddable": true
    },
    "spotify": null,
@@ -14351,7 +14392,7 @@
    "youtube": {
     "id": "_ImwW3jLuLg",
     "url": "https://www.youtube.com/watch?v=_ImwW3jLuLg",
-    "views": 9,
+    "views": 10,
     "embeddable": true
    },
    "spotify": null,
@@ -14439,7 +14480,7 @@
    "youtube": {
     "id": "uMM3bJ72Icc",
     "url": "https://www.youtube.com/watch?v=uMM3bJ72Icc",
-    "views": 4,
+    "views": 5,
     "embeddable": true
    },
    "spotify": null,
@@ -14483,7 +14524,7 @@
    "youtube": {
     "id": "UcSPINsTXr8",
     "url": "https://www.youtube.com/watch?v=UcSPINsTXr8",
-    "views": 178,
+    "views": 182,
     "embeddable": true
    },
    "spotify": null,
@@ -14549,7 +14590,7 @@
    "youtube": {
     "id": "o3aURcp0s28",
     "url": "https://www.youtube.com/watch?v=o3aURcp0s28",
-    "views": 133,
+    "views": 135,
     "embeddable": true
    },
    "spotify": null,
@@ -14659,7 +14700,7 @@
    "youtube": {
     "id": "d0vVpX_UYk0",
     "url": "https://www.youtube.com/watch?v=d0vVpX_UYk0",
-    "views": 130,
+    "views": 133,
     "embeddable": true
    },
    "spotify": null,
@@ -14703,7 +14744,7 @@
    "youtube": {
     "id": "NrobrmKWMpM",
     "url": "https://www.youtube.com/watch?v=NrobrmKWMpM",
-    "views": 3,
+    "views": 4,
     "embeddable": true
    },
    "spotify": null,
@@ -14835,7 +14876,7 @@
    "youtube": {
     "id": "XogKJ5zT0L4",
     "url": "https://www.youtube.com/watch?v=XogKJ5zT0L4",
-    "views": 107,
+    "views": 108,
     "embeddable": true
    },
    "spotify": null,
@@ -14945,7 +14986,7 @@
    "youtube": {
     "id": "ULkGVxkM01U",
     "url": "https://www.youtube.com/watch?v=ULkGVxkM01U",
-    "views": 54,
+    "views": 55,
     "embeddable": true
    },
    "spotify": null,
@@ -14989,7 +15030,7 @@
    "youtube": {
     "id": "by9LCBhMdMc",
     "url": "https://www.youtube.com/watch?v=by9LCBhMdMc",
-    "views": 45,
+    "views": 48,
     "embeddable": true
    },
    "spotify": null,
@@ -15011,7 +15052,7 @@
    "youtube": {
     "id": "HpHCdCMro-Q",
     "url": "https://www.youtube.com/watch?v=HpHCdCMro-Q",
-    "views": 112,
+    "views": 113,
     "embeddable": true
    },
    "spotify": null,
@@ -15077,7 +15118,7 @@
    "youtube": {
     "id": "p13Kr9f3aIc",
     "url": "https://www.youtube.com/watch?v=p13Kr9f3aIc",
-    "views": 125,
+    "views": 127,
     "embeddable": true
    },
    "spotify": null,
@@ -15121,7 +15162,7 @@
    "youtube": {
     "id": "_UbpV-i1S8U",
     "url": "https://www.youtube.com/watch?v=_UbpV-i1S8U",
-    "views": 79,
+    "views": 81,
     "embeddable": true
    },
    "spotify": null,
@@ -15187,7 +15228,7 @@
    "youtube": {
     "id": "IDVK1n8vY90",
     "url": "https://www.youtube.com/watch?v=IDVK1n8vY90",
-    "views": 32,
+    "views": 33,
     "embeddable": true
    },
    "spotify": null,
@@ -15319,7 +15360,7 @@
    "youtube": {
     "id": "w8ZIWTOspLI",
     "url": "https://www.youtube.com/watch?v=w8ZIWTOspLI",
-    "views": 97,
+    "views": 98,
     "embeddable": true
    },
    "spotify": null,
@@ -15341,7 +15382,7 @@
    "youtube": {
     "id": "QgSruGY4Qws",
     "url": "https://www.youtube.com/watch?v=QgSruGY4Qws",
-    "views": 6,
+    "views": 7,
     "embeddable": true
    },
    "spotify": null,
@@ -15363,7 +15404,7 @@
    "youtube": {
     "id": "p4dvpOIan3U",
     "url": "https://www.youtube.com/watch?v=p4dvpOIan3U",
-    "views": 43,
+    "views": 44,
     "embeddable": true
    },
    "spotify": null,
@@ -15583,7 +15624,7 @@
    "youtube": {
     "id": "zoTfQ8jNFdU",
     "url": "https://www.youtube.com/watch?v=zoTfQ8jNFdU",
-    "views": 91,
+    "views": 93,
     "embeddable": true
    },
    "spotify": null,
@@ -15649,7 +15690,7 @@
    "youtube": {
     "id": "sERxTFEB3sA",
     "url": "https://www.youtube.com/watch?v=sERxTFEB3sA",
-    "views": 169,
+    "views": 173,
     "embeddable": true
    },
    "spotify": null,
@@ -15693,7 +15734,7 @@
    "youtube": {
     "id": "WUXWnjUWI9Y",
     "url": "https://www.youtube.com/watch?v=WUXWnjUWI9Y",
-    "views": 2,
+    "views": 4,
     "embeddable": true
    },
    "spotify": null,
@@ -15737,7 +15778,7 @@
    "youtube": {
     "id": "MyJqpgpgAeA",
     "url": "https://www.youtube.com/watch?v=MyJqpgpgAeA",
-    "views": 7,
+    "views": 8,
     "embeddable": true
    },
    "spotify": null,
@@ -15891,7 +15932,7 @@
    "youtube": {
     "id": "uk93JV09ftc",
     "url": "https://www.youtube.com/watch?v=uk93JV09ftc",
-    "views": 2,
+    "views": 3,
     "embeddable": true
    },
    "spotify": null,
@@ -16001,7 +16042,7 @@
    "youtube": {
     "id": "B6qNvD6XUY0",
     "url": "https://www.youtube.com/watch?v=B6qNvD6XUY0",
-    "views": 5,
+    "views": 7,
     "embeddable": true
    },
    "spotify": null,
@@ -16353,7 +16394,7 @@
    "youtube": {
     "id": "lTNHBe45zAE",
     "url": "https://www.youtube.com/watch?v=lTNHBe45zAE",
-    "views": 0,
+    "views": 2,
     "embeddable": true
    },
    "spotify": null,
@@ -16397,7 +16438,7 @@
    "youtube": {
     "id": "t9qakc5NooU",
     "url": "https://www.youtube.com/watch?v=t9qakc5NooU",
-    "views": 0,
+    "views": 1,
     "embeddable": true
    },
    "spotify": null,
@@ -16716,6 +16757,424 @@
    "trend": ""
   },
   {
+   "lang": "ar",
+   "lang_source": "titre",
+   "type": "song",
+   "artist": "TALIM",
+   "title": "خطّ الوصول",
+   "published": "2026-10-25",
+   "duration": 242,
+   "thumb": "https://i.ytimg.com/vi/GOPJpNEnI8c/hqdefault.jpg",
+   "youtube": {
+    "id": "GOPJpNEnI8c",
+    "url": "https://www.youtube.com/watch?v=GOPJpNEnI8c",
+    "views": 0,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-GOPJpNEnI8c",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "ar",
+   "lang_source": "titre",
+   "type": "song",
+   "artist": "TALIM",
+   "title": "حقيقة وحدة",
+   "published": "2026-10-25",
+   "duration": 197,
+   "thumb": "https://i.ytimg.com/vi/1XssxEM4oZU/hqdefault.jpg",
+   "youtube": {
+    "id": "1XssxEM4oZU",
+    "url": "https://www.youtube.com/watch?v=1XssxEM4oZU",
+    "views": 0,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-1XssxEM4oZU",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "ar",
+   "lang_source": "titre",
+   "type": "song",
+   "artist": "TALIM",
+   "title": "كون واجد",
+   "published": "2026-10-25",
+   "duration": 192,
+   "thumb": "https://i.ytimg.com/vi/2_D9cUBIDAk/hqdefault.jpg",
+   "youtube": {
+    "id": "2_D9cUBIDAk",
+    "url": "https://www.youtube.com/watch?v=2_D9cUBIDAk",
+    "views": 0,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-2_D9cUBIDAk",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "ar",
+   "lang_source": "titre",
+   "type": "song",
+   "artist": "TALIM",
+   "title": "الجّْدْرْ",
+   "published": "2026-10-25",
+   "duration": 207,
+   "thumb": "https://i.ytimg.com/vi/TpdJ0WeMhh4/hqdefault.jpg",
+   "youtube": {
+    "id": "TpdJ0WeMhh4",
+    "url": "https://www.youtube.com/watch?v=TpdJ0WeMhh4",
+    "views": 0,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-TpdJ0WeMhh4",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "ar",
+   "lang_source": "titre",
+   "type": "song",
+   "artist": "TALIM",
+   "title": "سمع ليه",
+   "published": "2026-10-25",
+   "duration": 229,
+   "thumb": "https://i.ytimg.com/vi/MsKnQDL2a3Q/hqdefault.jpg",
+   "youtube": {
+    "id": "MsKnQDL2a3Q",
+    "url": "https://www.youtube.com/watch?v=MsKnQDL2a3Q",
+    "views": 0,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-MsKnQDL2a3Q",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "ar",
+   "lang_source": "titre",
+   "type": "song",
+   "artist": "TALIM",
+   "title": "ختار الأحسن",
+   "published": "2026-10-25",
+   "duration": 219,
+   "thumb": "https://i.ytimg.com/vi/Ex933yMhR54/hqdefault.jpg",
+   "youtube": {
+    "id": "Ex933yMhR54",
+    "url": "https://www.youtube.com/watch?v=Ex933yMhR54",
+    "views": 0,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-Ex933yMhR54",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "ar",
+   "lang_source": "titre",
+   "type": "song",
+   "artist": "TALIM",
+   "title": "سَدّْ فُمّْكْ، حَلّْ عَقْلَكْ",
+   "published": "2026-10-25",
+   "duration": 198,
+   "thumb": "https://i.ytimg.com/vi/sV4BAM2Ojpo/hqdefault.jpg",
+   "youtube": {
+    "id": "sV4BAM2Ojpo",
+    "url": "https://www.youtube.com/watch?v=sV4BAM2Ojpo",
+    "views": 0,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-sV4BAM2Ojpo",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "ar",
+   "lang_source": "titre",
+   "type": "song",
+   "artist": "TALIM",
+   "title": "الفِعْلْ الصّْحِيحْ",
+   "published": "2026-10-25",
+   "duration": 227,
+   "thumb": "https://i.ytimg.com/vi/kMU-TOFUhVI/hqdefault.jpg",
+   "youtube": {
+    "id": "kMU-TOFUhVI",
+    "url": "https://www.youtube.com/watch?v=kMU-TOFUhVI",
+    "views": 0,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-kMU-TOFUhVI",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "ar",
+   "lang_source": "titre",
+   "type": "song",
+   "artist": "TALIM",
+   "title": "كون راجل",
+   "published": "2026-10-25",
+   "duration": 328,
+   "thumb": "https://i.ytimg.com/vi/8Jx-6dOgDIU/hqdefault.jpg",
+   "youtube": {
+    "id": "8Jx-6dOgDIU",
+    "url": "https://www.youtube.com/watch?v=8Jx-6dOgDIU",
+    "views": 0,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-8Jx-6dOgDIU",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "ar",
+   "lang_source": "titre",
+   "type": "song",
+   "artist": "TALIM",
+   "title": "المِلْيُونِيرْ",
+   "published": "2026-10-25",
+   "duration": 174,
+   "thumb": "https://i.ytimg.com/vi/O9cSySjjT00/hqdefault.jpg",
+   "youtube": {
+    "id": "O9cSySjjT00",
+    "url": "https://www.youtube.com/watch?v=O9cSySjjT00",
+    "views": 0,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-O9cSySjjT00",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "ar",
+   "lang_source": "titre",
+   "type": "song",
+   "artist": "TALIM",
+   "title": "رجع حياتك",
+   "published": "2026-10-25",
+   "duration": 201,
+   "thumb": "https://i.ytimg.com/vi/Djmek6Hjv9A/hqdefault.jpg",
+   "youtube": {
+    "id": "Djmek6Hjv9A",
+    "url": "https://www.youtube.com/watch?v=Djmek6Hjv9A",
+    "views": 0,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-Djmek6Hjv9A",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "ar",
+   "lang_source": "titre",
+   "type": "song",
+   "artist": "TALIM",
+   "title": "خطوة",
+   "published": "2026-10-25",
+   "duration": 194,
+   "thumb": "https://i.ytimg.com/vi/GM5b3nfwD58/hqdefault.jpg",
+   "youtube": {
+    "id": "GM5b3nfwD58",
+    "url": "https://www.youtube.com/watch?v=GM5b3nfwD58",
+    "views": 0,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-GM5b3nfwD58",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "ar",
+   "lang_source": "titre",
+   "type": "song",
+   "artist": "TALIM",
+   "title": "بحال الشّْجْرَة",
+   "published": "2026-10-25",
+   "duration": 184,
+   "thumb": "https://i.ytimg.com/vi/OkDTVaF4lio/hqdefault.jpg",
+   "youtube": {
+    "id": "OkDTVaF4lio",
+    "url": "https://www.youtube.com/watch?v=OkDTVaF4lio",
+    "views": 0,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-OkDTVaF4lio",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "ar",
+   "lang_source": "titre",
+   "type": "song",
+   "artist": "TALIM",
+   "title": "جاوب بلا ما تخبّي",
+   "published": "2026-10-25",
+   "duration": 226,
+   "thumb": "https://i.ytimg.com/vi/0kSoBrpMpVA/hqdefault.jpg",
+   "youtube": {
+    "id": "0kSoBrpMpVA",
+    "url": "https://www.youtube.com/watch?v=0kSoBrpMpVA",
+    "views": 0,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-0kSoBrpMpVA",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "ar",
+   "lang_source": "titre",
+   "type": "song",
+   "artist": "TALIM",
+   "title": "سوّل",
+   "published": "2026-10-25",
+   "duration": 332,
+   "thumb": "https://i.ytimg.com/vi/Yp9WpbiK1S8/hqdefault.jpg",
+   "youtube": {
+    "id": "Yp9WpbiK1S8",
+    "url": "https://www.youtube.com/watch?v=Yp9WpbiK1S8",
+    "views": 0,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-Yp9WpbiK1S8",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "ar",
+   "lang_source": "titre",
+   "type": "song",
+   "artist": "TALIM",
+   "title": "رَاكْ حَيّْ",
+   "published": "2026-10-25",
+   "duration": 206,
+   "thumb": "https://i.ytimg.com/vi/QSVk1GLQEis/hqdefault.jpg",
+   "youtube": {
+    "id": "QSVk1GLQEis",
+    "url": "https://www.youtube.com/watch?v=QSVk1GLQEis",
+    "views": 0,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-QSVk1GLQEis",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "ar",
+   "lang_source": "titre",
+   "type": "song",
+   "artist": "TALIM",
+   "title": "شدّ اللّْجَامْ",
+   "published": "2026-10-25",
+   "duration": 221,
+   "thumb": "https://i.ytimg.com/vi/2soS5wU-9ko/hqdefault.jpg",
+   "youtube": {
+    "id": "2soS5wU-9ko",
+    "url": "https://www.youtube.com/watch?v=2soS5wU-9ko",
+    "views": 0,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-2soS5wU-9ko",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "ar",
+   "lang_source": "titre",
+   "type": "song",
+   "artist": "TALIM",
+   "title": "الحياة الصّْحِيحَة",
+   "published": "2026-10-25",
+   "duration": 193,
+   "thumb": "https://i.ytimg.com/vi/6X_I9-FjDFk/hqdefault.jpg",
+   "youtube": {
+    "id": "6X_I9-FjDFk",
+    "url": "https://www.youtube.com/watch?v=6X_I9-FjDFk",
+    "views": 0,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-6X_I9-FjDFk",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "ar",
+   "lang_source": "titre",
+   "type": "song",
+   "artist": "TALIM",
+   "title": "تبغي وتقدر",
+   "published": "2026-10-25",
+   "duration": 210,
+   "thumb": "https://i.ytimg.com/vi/rKKq_lla7pw/hqdefault.jpg",
+   "youtube": {
+    "id": "rKKq_lla7pw",
+    "url": "https://www.youtube.com/watch?v=rKKq_lla7pw",
+    "views": 0,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-rKKq_lla7pw",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
    "lang": "ma",
    "lang_source": "titre",
    "type": "song",
@@ -16727,7 +17186,7 @@
    "youtube": {
     "id": "Uj1lx44PYTQ",
     "url": "https://www.youtube.com/watch?v=Uj1lx44PYTQ",
-    "views": 2416,
+    "views": 2428,
     "embeddable": true
    },
    "spotify": null,
@@ -16749,7 +17208,7 @@
    "youtube": {
     "id": "xwGtuMw6k90",
     "url": "https://www.youtube.com/watch?v=xwGtuMw6k90",
-    "views": 1200,
+    "views": 1211,
     "embeddable": true
    },
    "spotify": null,
@@ -16793,7 +17252,7 @@
    "youtube": {
     "id": "8_QpdieFJ2M",
     "url": "https://www.youtube.com/watch?v=8_QpdieFJ2M",
-    "views": 693,
+    "views": 695,
     "embeddable": true
    },
    "spotify": null,
@@ -16859,7 +17318,7 @@
    "youtube": {
     "id": "kZaI0h_uQnU",
     "url": "https://www.youtube.com/watch?v=kZaI0h_uQnU",
-    "views": 339,
+    "views": 342,
     "embeddable": true
    },
    "spotify": null,
@@ -16881,7 +17340,7 @@
    "youtube": {
     "id": "-oCkS9ObkXg",
     "url": "https://www.youtube.com/watch?v=-oCkS9ObkXg",
-    "views": 331,
+    "views": 333,
     "embeddable": true
    },
    "spotify": null,
@@ -16969,7 +17428,7 @@
    "youtube": {
     "id": "fXwC70BkhQo",
     "url": "https://www.youtube.com/watch?v=fXwC70BkhQo",
-    "views": 31,
+    "views": 32,
     "embeddable": true
    },
    "spotify": null,
@@ -16991,7 +17450,7 @@
    "youtube": {
     "id": "h-E9OKS0f_M",
     "url": "https://www.youtube.com/watch?v=h-E9OKS0f_M",
-    "views": 157,
+    "views": 159,
     "embeddable": true
    },
    "spotify": null,
@@ -17101,7 +17560,7 @@
    "youtube": {
     "id": "1-L2MYoGSS8",
     "url": "https://www.youtube.com/watch?v=1-L2MYoGSS8",
-    "views": 79,
+    "views": 80,
     "embeddable": true
    },
    "spotify": null,
@@ -17123,7 +17582,7 @@
    "youtube": {
     "id": "UsRt3DSj-3I",
     "url": "https://www.youtube.com/watch?v=UsRt3DSj-3I",
-    "views": 149,
+    "views": 150,
     "embeddable": true
    },
    "spotify": null,
@@ -17211,7 +17670,7 @@
    "youtube": {
     "id": "9gD7ewEeyeQ",
     "url": "https://www.youtube.com/watch?v=9gD7ewEeyeQ",
-    "views": 125,
+    "views": 126,
     "embeddable": true
    },
    "spotify": null,
@@ -17387,7 +17846,7 @@
    "youtube": {
     "id": "H2QSHrkwoKg",
     "url": "https://www.youtube.com/watch?v=H2QSHrkwoKg",
-    "views": 10,
+    "views": 11,
     "embeddable": true
    },
    "spotify": null,
@@ -17409,7 +17868,7 @@
    "youtube": {
     "id": "PsDWmtXTmOE",
     "url": "https://www.youtube.com/watch?v=PsDWmtXTmOE",
-    "views": 81,
+    "views": 82,
     "embeddable": true
    },
    "spotify": null,
@@ -17431,7 +17890,7 @@
    "youtube": {
     "id": "1MGhR7cve_Y",
     "url": "https://www.youtube.com/watch?v=1MGhR7cve_Y",
-    "views": 82,
+    "views": 87,
     "embeddable": true
    },
    "spotify": null,
@@ -17519,7 +17978,7 @@
    "youtube": {
     "id": "kAE9f_ei_EE",
     "url": "https://www.youtube.com/watch?v=kAE9f_ei_EE",
-    "views": 82,
+    "views": 83,
     "embeddable": true
    },
    "spotify": null,
@@ -17541,7 +18000,7 @@
    "youtube": {
     "id": "AxGIuQws72k",
     "url": "https://www.youtube.com/watch?v=AxGIuQws72k",
-    "views": 24,
+    "views": 25,
     "embeddable": true
    },
    "spotify": null,
@@ -17629,7 +18088,7 @@
    "youtube": {
     "id": "309L64RrTZQ",
     "url": "https://www.youtube.com/watch?v=309L64RrTZQ",
-    "views": 12,
+    "views": 13,
     "embeddable": true
    },
    "spotify": null,
@@ -17673,7 +18132,7 @@
    "youtube": {
     "id": "IS6giYZpXRw",
     "url": "https://www.youtube.com/watch?v=IS6giYZpXRw",
-    "views": 17,
+    "views": 18,
     "embeddable": true
    },
    "spotify": null,
@@ -17695,7 +18154,7 @@
    "youtube": {
     "id": "4VAdTSru8oA",
     "url": "https://www.youtube.com/watch?v=4VAdTSru8oA",
-    "views": 90,
+    "views": 91,
     "embeddable": true
    },
    "spotify": null,
@@ -17717,7 +18176,7 @@
    "youtube": {
     "id": "KSbEnhIqCPc",
     "url": "https://www.youtube.com/watch?v=KSbEnhIqCPc",
-    "views": 73,
+    "views": 74,
     "embeddable": true
    },
    "spotify": null,
@@ -17761,7 +18220,7 @@
    "youtube": {
     "id": "I2ocnjIyep0",
     "url": "https://www.youtube.com/watch?v=I2ocnjIyep0",
-    "views": 46,
+    "views": 47,
     "embeddable": true
    },
    "spotify": null,
@@ -17827,7 +18286,7 @@
    "youtube": {
     "id": "1U4kbj_64sg",
     "url": "https://www.youtube.com/watch?v=1U4kbj_64sg",
-    "views": 63,
+    "views": 64,
     "embeddable": true
    },
    "spotify": null,
@@ -17871,7 +18330,7 @@
    "youtube": {
     "id": "VdVYOyZzWBM",
     "url": "https://www.youtube.com/watch?v=VdVYOyZzWBM",
-    "views": 33,
+    "views": 34,
     "embeddable": true
    },
    "spotify": null,
@@ -18025,7 +18484,7 @@
    "youtube": {
     "id": "7dzBV54Dpl0",
     "url": "https://www.youtube.com/watch?v=7dzBV54Dpl0",
-    "views": 11,
+    "views": 12,
     "embeddable": true
    },
    "spotify": null,
@@ -18047,7 +18506,7 @@
    "youtube": {
     "id": "L6Ch5-Egk5Y",
     "url": "https://www.youtube.com/watch?v=L6Ch5-Egk5Y",
-    "views": 17,
+    "views": 18,
     "embeddable": true
    },
    "spotify": null,
@@ -18075,6 +18534,490 @@
    "spotify": null,
    "rss": null,
    "id": "yt-JjpGTlFHzUU",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "ma",
+   "lang_source": "titre",
+   "type": "song",
+   "artist": "TALIM",
+   "title": "كلّ واحد خْبِيرْ فْ شي حاجة",
+   "published": "2026-10-25",
+   "duration": 195,
+   "thumb": "https://i.ytimg.com/vi/mFIvJmSh-AE/hqdefault.jpg",
+   "youtube": {
+    "id": "mFIvJmSh-AE",
+    "url": "https://www.youtube.com/watch?v=mFIvJmSh-AE",
+    "views": 0,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-mFIvJmSh-AE",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "ma",
+   "lang_source": "titre",
+   "type": "song",
+   "artist": "TALIM",
+   "title": "الأفكار غادي تْدوز",
+   "published": "2026-10-25",
+   "duration": 212,
+   "thumb": "https://i.ytimg.com/vi/vQ5-8FqIC0s/hqdefault.jpg",
+   "youtube": {
+    "id": "vQ5-8FqIC0s",
+    "url": "https://www.youtube.com/watch?v=vQ5-8FqIC0s",
+    "views": 0,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-vQ5-8FqIC0s",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "ma",
+   "lang_source": "titre",
+   "type": "song",
+   "artist": "TALIM",
+   "title": "بْقِيتْ بُوحْدِي",
+   "published": "2026-10-25",
+   "duration": 226,
+   "thumb": "https://i.ytimg.com/vi/T6BPBn_DZQY/hqdefault.jpg",
+   "youtube": {
+    "id": "T6BPBn_DZQY",
+    "url": "https://www.youtube.com/watch?v=T6BPBn_DZQY",
+    "views": 0,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-T6BPBn_DZQY",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "ma",
+   "lang_source": "titre",
+   "type": "song",
+   "artist": "TALIM",
+   "title": "كِيفَاشْ هَادْ النّْهَارْ دَازْ",
+   "published": "2026-10-25",
+   "duration": 216,
+   "thumb": "https://i.ytimg.com/vi/HXbqKHpRouA/hqdefault.jpg",
+   "youtube": {
+    "id": "HXbqKHpRouA",
+    "url": "https://www.youtube.com/watch?v=HXbqKHpRouA",
+    "views": 0,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-HXbqKHpRouA",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "ma",
+   "lang_source": "titre",
+   "type": "song",
+   "artist": "TALIM",
+   "title": "السّرّ كامل",
+   "published": "2026-10-25",
+   "duration": 283,
+   "thumb": "https://i.ytimg.com/vi/6kf_If0UsHw/hqdefault.jpg",
+   "youtube": {
+    "id": "6kf_If0UsHw",
+    "url": "https://www.youtube.com/watch?v=6kf_If0UsHw",
+    "views": 0,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-6kf_If0UsHw",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "ma",
+   "lang_source": "titre",
+   "type": "song",
+   "artist": "TALIM",
+   "title": "الأحلام ديالك",
+   "published": "2026-10-25",
+   "duration": 190,
+   "thumb": "https://i.ytimg.com/vi/o736KbxH_LA/hqdefault.jpg",
+   "youtube": {
+    "id": "o736KbxH_LA",
+    "url": "https://www.youtube.com/watch?v=o736KbxH_LA",
+    "views": 0,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-o736KbxH_LA",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "ma",
+   "lang_source": "titre",
+   "type": "song",
+   "artist": "TALIM",
+   "title": "مَاشِي بْالصّْدَاعْ",
+   "published": "2026-10-25",
+   "duration": 194,
+   "thumb": "https://i.ytimg.com/vi/WVzuAyvhCwY/hqdefault.jpg",
+   "youtube": {
+    "id": "WVzuAyvhCwY",
+    "url": "https://www.youtube.com/watch?v=WVzuAyvhCwY",
+    "views": 0,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-WVzuAyvhCwY",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "ma",
+   "lang_source": "titre",
+   "type": "song",
+   "artist": "TALIM",
+   "title": "زْرَعْ رْوَابْطْ",
+   "published": "2026-10-25",
+   "duration": 259,
+   "thumb": "https://i.ytimg.com/vi/Q_yZcb4G4rU/hqdefault.jpg",
+   "youtube": {
+    "id": "Q_yZcb4G4rU",
+    "url": "https://www.youtube.com/watch?v=Q_yZcb4G4rU",
+    "views": 0,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-Q_yZcb4G4rU",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "ma",
+   "lang_source": "titre",
+   "type": "song",
+   "artist": "TALIM",
+   "title": "مَاشِي بُطُولَة",
+   "published": "2026-10-25",
+   "duration": 200,
+   "thumb": "https://i.ytimg.com/vi/sk8KSovj24I/hqdefault.jpg",
+   "youtube": {
+    "id": "sk8KSovj24I",
+    "url": "https://www.youtube.com/watch?v=sk8KSovj24I",
+    "views": 0,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-sk8KSovj24I",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "ma",
+   "lang_source": "titre",
+   "type": "song",
+   "artist": "TALIM",
+   "title": "بْغَاوْ الفْلُوسْ",
+   "published": "2026-10-25",
+   "duration": 197,
+   "thumb": "https://i.ytimg.com/vi/Td_BdZn_QvE/hqdefault.jpg",
+   "youtube": {
+    "id": "Td_BdZn_QvE",
+    "url": "https://www.youtube.com/watch?v=Td_BdZn_QvE",
+    "views": 0,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-Td_BdZn_QvE",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "ma",
+   "lang_source": "titre",
+   "type": "song",
+   "artist": "TALIM",
+   "title": "غادي تدوز",
+   "published": "2026-10-25",
+   "duration": 235,
+   "thumb": "https://i.ytimg.com/vi/dDx3sjGEeB0/hqdefault.jpg",
+   "youtube": {
+    "id": "dDx3sjGEeB0",
+    "url": "https://www.youtube.com/watch?v=dDx3sjGEeB0",
+    "views": 0,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-dDx3sjGEeB0",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "ma",
+   "lang_source": "titre",
+   "type": "song",
+   "artist": "TALIM",
+   "title": "نْطِيحْ لْقُدَّامْ",
+   "published": "2026-10-25",
+   "duration": 160,
+   "thumb": "https://i.ytimg.com/vi/IKVsKF9e0Qs/hqdefault.jpg",
+   "youtube": {
+    "id": "IKVsKF9e0Qs",
+    "url": "https://www.youtube.com/watch?v=IKVsKF9e0Qs",
+    "views": 0,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-IKVsKF9e0Qs",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "ma",
+   "lang_source": "titre",
+   "type": "song",
+   "artist": "TALIM",
+   "title": "بلاصة مْزْيَانَة",
+   "published": "2026-10-25",
+   "duration": 191,
+   "thumb": "https://i.ytimg.com/vi/qt21lHIY2uA/hqdefault.jpg",
+   "youtube": {
+    "id": "qt21lHIY2uA",
+    "url": "https://www.youtube.com/watch?v=qt21lHIY2uA",
+    "views": 0,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-qt21lHIY2uA",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "ma",
+   "lang_source": "titre",
+   "type": "song",
+   "artist": "TALIM",
+   "title": "سْمَعْ كْثَرْ",
+   "published": "2026-10-25",
+   "duration": 259,
+   "thumb": "https://i.ytimg.com/vi/2BR5G4LuVPk/hqdefault.jpg",
+   "youtube": {
+    "id": "2BR5G4LuVPk",
+    "url": "https://www.youtube.com/watch?v=2BR5G4LuVPk",
+    "views": 1,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-2BR5G4LuVPk",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "ma",
+   "lang_source": "titre",
+   "type": "song",
+   "artist": "TALIM",
+   "title": "شْوِيَّة بْشْوِيَّة",
+   "published": "2026-10-25",
+   "duration": 193,
+   "thumb": "https://i.ytimg.com/vi/t1XCDddLGRc/hqdefault.jpg",
+   "youtube": {
+    "id": "t1XCDddLGRc",
+    "url": "https://www.youtube.com/watch?v=t1XCDddLGRc",
+    "views": 0,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-t1XCDddLGRc",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "ma",
+   "lang_source": "titre",
+   "type": "song",
+   "artist": "TALIM",
+   "title": "بْدَا اللِّيلَة",
+   "published": "2026-10-25",
+   "duration": 206,
+   "thumb": "https://i.ytimg.com/vi/H1jE6J6ijmU/hqdefault.jpg",
+   "youtube": {
+    "id": "H1jE6J6ijmU",
+    "url": "https://www.youtube.com/watch?v=H1jE6J6ijmU",
+    "views": 0,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-H1jE6J6ijmU",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "ma",
+   "lang_source": "titre",
+   "type": "song",
+   "artist": "TALIM",
+   "title": "مَا شْفْتْهَاشْ دَازْتْ",
+   "published": "2026-10-25",
+   "duration": 211,
+   "thumb": "https://i.ytimg.com/vi/0spQ9xvKigI/hqdefault.jpg",
+   "youtube": {
+    "id": "0spQ9xvKigI",
+    "url": "https://www.youtube.com/watch?v=0spQ9xvKigI",
+    "views": 0,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-0spQ9xvKigI",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "ma",
+   "lang_source": "titre",
+   "type": "song",
+   "artist": "TALIM",
+   "title": "مازال ما وْجْدْتْشْ",
+   "published": "2026-10-25",
+   "duration": 209,
+   "thumb": "https://i.ytimg.com/vi/RML_79Y0yAM/hqdefault.jpg",
+   "youtube": {
+    "id": "RML_79Y0yAM",
+    "url": "https://www.youtube.com/watch?v=RML_79Y0yAM",
+    "views": 1,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-RML_79Y0yAM",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "ma",
+   "lang_source": "titre",
+   "type": "song",
+   "artist": "TALIM",
+   "title": "صْفْحَة بْصْفْحَة",
+   "published": "2026-10-25",
+   "duration": 196,
+   "thumb": "https://i.ytimg.com/vi/M_JG6zXnwKw/hqdefault.jpg",
+   "youtube": {
+    "id": "M_JG6zXnwKw",
+    "url": "https://www.youtube.com/watch?v=M_JG6zXnwKw",
+    "views": 0,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-M_JG6zXnwKw",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "ma",
+   "lang_source": "titre",
+   "type": "song",
+   "artist": "TALIM",
+   "title": "نْهَارْ وَاحْدْ",
+   "published": "2026-10-25",
+   "duration": 243,
+   "thumb": "https://i.ytimg.com/vi/n1MW31-7UOw/hqdefault.jpg",
+   "youtube": {
+    "id": "n1MW31-7UOw",
+    "url": "https://www.youtube.com/watch?v=n1MW31-7UOw",
+    "views": 0,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-n1MW31-7UOw",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "ma",
+   "lang_source": "titre",
+   "type": "song",
+   "artist": "TALIM",
+   "title": "عْقَلْ عليها",
+   "published": "2026-10-25",
+   "duration": 205,
+   "thumb": "https://i.ytimg.com/vi/F_GH0MB3nTE/hqdefault.jpg",
+   "youtube": {
+    "id": "F_GH0MB3nTE",
+    "url": "https://www.youtube.com/watch?v=F_GH0MB3nTE",
+    "views": 0,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-F_GH0MB3nTE",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "ma",
+   "lang_source": "titre",
+   "type": "song",
+   "artist": "TALIM",
+   "title": "كتسنّى الأحلام ديالك",
+   "published": "2026-10-25",
+   "duration": 205,
+   "thumb": "https://i.ytimg.com/vi/GzYALW-o9Os/hqdefault.jpg",
+   "youtube": {
+    "id": "GzYALW-o9Os",
+    "url": "https://www.youtube.com/watch?v=GzYALW-o9Os",
+    "views": 0,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-GzYALW-o9Os",
    "rank": 0,
    "prev_rank": 0,
    "trend": ""
