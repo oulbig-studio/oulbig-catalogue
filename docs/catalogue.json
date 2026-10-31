@@ -12,7 +12,7 @@
    "spotify": "https://open.spotify.com/artist/2FAKBSpY965IRet4aXTmEm"
   }
  },
- "generated": "2026-10-30T11:24:43Z",
+ "generated": "2026-10-31T10:55:52Z",
  "links": {
   "youtube": "https://www.youtube.com/@OULBIG",
   "youtube_topic": "https://www.youtube.com/channel/UCpWPGzDk5xXbE2fc48AeM8Q",
@@ -27,23 +27,23 @@
  },
  "counts": {
   "fr": {
-   "songs": 164,
+   "songs": 158,
    "podcasts": 18
   },
   "en": {
-   "songs": 178,
+   "songs": 172,
    "podcasts": 16
   },
   "es": {
-   "songs": 115,
-   "podcasts": 16
+   "songs": 107,
+   "podcasts": 15
   },
   "ar": {
-   "songs": 162,
-   "podcasts": 18
+   "songs": 143,
+   "podcasts": 17
   },
   "ma": {
-   "songs": 70,
+   "songs": 62,
    "podcasts": 0
   }
  },
@@ -59,12 +59,6 @@
     "yt-0QipnPWGel4",
     "yt-d5FVrKOpido",
     "yt-t7oudEIGS4M",
-    "yt-6wuzs5JbyW4",
-    "yt-NG4hoNRFOSE",
-    "yt-5aefzoYIU7A",
-    "yt-E6RKqSFb3z0",
-    "yt-NzOQHdN-i5k",
-    "yt-3Wd-8_7WHF8",
     "yt-HTxgRcIHpIY",
     "yt-5tIu19RZ8FU",
     "yt-ykCXJc1-FRk",
@@ -256,14 +250,8 @@
     "yt-h_MUw1U-4jg",
     "yt-uMiN4rhHeRQ",
     "yt-jPmRW5YwGo4",
-    "yt-Lq1NP-B5etI",
-    "yt-KOwygb_8l6w",
-    "yt-GSfuye3xrPA",
-    "yt-1OF75gWiVOI",
-    "yt-QZ1EX3CT644",
     "yt-KTTCl3mXXMQ",
     "yt-DDushiS8o9I",
-    "yt-45OEyDUxWLY",
     "yt-gdh9DXmcvwA",
     "yt-A_H7ZgeOV0E",
     "yt-8WyvcU8XfPQ",
@@ -462,14 +450,6 @@
   },
   "es": {
    "songs": [
-    "yt-EmLMKJ7Ibqk",
-    "yt-JdefdOyUvxM",
-    "yt-1p9QSDsdwH8",
-    "yt-3dhjXw8DlEU",
-    "yt--S0uFLMphSg",
-    "yt-ShVzD5eTvVo",
-    "yt-0FBvOS3ubGo",
-    "yt-OQzkQj-EPyg",
     "yt-zlcoW3e5Jls",
     "yt-TvImuxLshK8",
     "yt-T70aDet5ykk",
@@ -593,8 +573,7 @@
     "yt-LCrzcsVdVGo",
     "yt-bBWIohCTrto",
     "yt-guKLP7JsFIg",
-    "yt-vZ3MHJciLno",
-    "yt-8vAKRNZz4EE"
+    "yt-vZ3MHJciLno"
    ],
    "hit_parade": [
     "yt-gNNR0IAvhYw",
@@ -611,25 +590,6 @@
   },
   "ar": {
    "songs": [
-    "yt-1XssxEM4oZU",
-    "yt-2_D9cUBIDAk",
-    "yt-TpdJ0WeMhh4",
-    "yt-O9cSySjjT00",
-    "yt-Djmek6Hjv9A",
-    "yt-GM5b3nfwD58",
-    "yt-OkDTVaF4lio",
-    "yt-2soS5wU-9ko",
-    "yt-6X_I9-FjDFk",
-    "yt--3hi8tZNzMI",
-    "yt--3w_CpA2HR8",
-    "yt-F40PsRZUCQA",
-    "yt-D7j7rx-zlxk",
-    "yt-RfjHDq_7Q5Q",
-    "yt-9Clw5SyG25o",
-    "yt-BGlMa-ot1ok",
-    "yt-NNRuIbtnNgY",
-    "yt-PISVClzKG44",
-    "yt-QsypGmq9PVA",
     "yt-jetfApP6s-k",
     "yt-WghpB_87NUk",
     "yt-kcP1vj7ZZxU",
@@ -791,8 +751,7 @@
     "yt-4HwmJVdsb5c",
     "yt-HJvcm0rrvOI",
     "yt-x3Rk98KlLV0",
-    "yt-LrOFTqWfZFE",
-    "yt-J-jbPi_JYyY"
+    "yt-LrOFTqWfZFE"
    ],
    "hit_parade": [
     "yt-CQywoxxKKfE",
@@ -809,14 +768,6 @@
   },
   "ma": {
    "songs": [
-    "yt-HXbqKHpRouA",
-    "yt-Q_yZcb4G4rU",
-    "yt-Td_BdZn_QvE",
-    "yt-IKVsKF9e0Qs",
-    "yt-2BR5G4LuVPk",
-    "yt-0spQ9xvKigI",
-    "yt-RML_79Y0yAM",
-    "yt-F_GH0MB3nTE",
     "yt-JjpGTlFHzUU",
     "yt-8_QpdieFJ2M",
     "yt-VdVYOyZzWBM",
@@ -829,10 +780,10 @@
     "yt-7dzBV54Dpl0",
     "yt-L6Ch5-Egk5Y",
     "yt-FKLwc1O3OmY",
-    "yt-CI4qdSU5LNk",
     "yt-chtz8oHlE7o",
     "yt-F_GDx2WMOJI",
     "yt-1U4kbj_64sg",
+    "yt-CI4qdSU5LNk",
     "yt-dJoPFXgWx7s",
     "yt-KSbEnhIqCPc",
     "yt-o1LiGORXkuk",
@@ -875,9 +826,9 @@
     "yt-PDg8-7D-XCE",
     "yt-vsCc1GgJR4g",
     "yt-IVkj97LyJ1Q",
+    "yt-h-E9OKS0f_M",
     "yt-mxMciVy3K4w",
     "yt-fXwC70BkhQo",
-    "yt-h-E9OKS0f_M",
     "yt-hyTjCMw2m28"
    ],
    "podcasts": [],
@@ -891,7 +842,7 @@
     "yt-kZaI0h_uQnU",
     "yt--oCkS9ObkXg",
     "yt-dJoPFXgWx7s",
-    "yt-CI4qdSU5LNk"
+    "yt-h-E9OKS0f_M"
    ]
   }
  },
@@ -974,7 +925,7 @@
    "youtube": {
     "id": "_D3PaSj-xlU",
     "url": "https://www.youtube.com/watch?v=_D3PaSj-xlU",
-    "views": 9,
+    "views": 10,
     "embeddable": true
    },
    "spotify": null,
@@ -1326,7 +1277,7 @@
    "youtube": {
     "id": "KcLNZKF76qM",
     "url": "https://www.youtube.com/watch?v=KcLNZKF76qM",
-    "views": 579,
+    "views": 580,
     "embeddable": true
    },
    "spotify": null,
@@ -1348,7 +1299,7 @@
    "youtube": {
     "id": "PO0vxboJMtU",
     "url": "https://www.youtube.com/watch?v=PO0vxboJMtU",
-    "views": 508,
+    "views": 516,
     "embeddable": true
    },
    "spotify": null,
@@ -1392,7 +1343,7 @@
    "youtube": {
     "id": "It-L-dzcM04",
     "url": "https://www.youtube.com/watch?v=It-L-dzcM04",
-    "views": 327,
+    "views": 334,
     "embeddable": true
    },
    "spotify": null,
@@ -1414,7 +1365,7 @@
    "youtube": {
     "id": "gFhnggVXkq8",
     "url": "https://www.youtube.com/watch?v=gFhnggVXkq8",
-    "views": 318,
+    "views": 324,
     "embeddable": true
    },
    "spotify": null,
@@ -1436,7 +1387,7 @@
    "youtube": {
     "id": "xlIdBErkNCQ",
     "url": "https://www.youtube.com/watch?v=xlIdBErkNCQ",
-    "views": 297,
+    "views": 301,
     "embeddable": true
    },
    "spotify": null,
@@ -1678,7 +1629,7 @@
    "youtube": {
     "id": "wvKMaJjQb_4",
     "url": "https://www.youtube.com/watch?v=wvKMaJjQb_4",
-    "views": 34,
+    "views": 35,
     "embeddable": true
    },
    "spotify": null,
@@ -1744,7 +1695,7 @@
    "youtube": {
     "id": "1JZlbK-jP-s",
     "url": "https://www.youtube.com/watch?v=1JZlbK-jP-s",
-    "views": 32,
+    "views": 33,
     "embeddable": true
    },
    "spotify": null,
@@ -1788,7 +1739,7 @@
    "youtube": {
     "id": "Ol4y3Zo5YTQ",
     "url": "https://www.youtube.com/watch?v=Ol4y3Zo5YTQ",
-    "views": 24,
+    "views": 25,
     "embeddable": true
    },
    "spotify": null,
@@ -1898,7 +1849,7 @@
    "youtube": {
     "id": "iVQzbpJrXyw",
     "url": "https://www.youtube.com/watch?v=iVQzbpJrXyw",
-    "views": 44,
+    "views": 45,
     "embeddable": true
    },
    "spotify": null,
@@ -1920,7 +1871,7 @@
    "youtube": {
     "id": "nemVQjHEz_8",
     "url": "https://www.youtube.com/watch?v=nemVQjHEz_8",
-    "views": 103,
+    "views": 105,
     "embeddable": true
    },
    "spotify": null,
@@ -2272,7 +2223,7 @@
    "youtube": {
     "id": "y_VoWo_XULo",
     "url": "https://www.youtube.com/watch?v=y_VoWo_XULo",
-    "views": 98,
+    "views": 99,
     "embeddable": true
    },
    "spotify": null,
@@ -2734,7 +2685,7 @@
    "youtube": {
     "id": "Dh0-Ndx3PmQ",
     "url": "https://www.youtube.com/watch?v=Dh0-Ndx3PmQ",
-    "views": 92,
+    "views": 93,
     "embeddable": true
    },
    "spotify": null,
@@ -2778,7 +2729,7 @@
    "youtube": {
     "id": "7hC0hdm7aMo",
     "url": "https://www.youtube.com/watch?v=7hC0hdm7aMo",
-    "views": 46,
+    "views": 47,
     "embeddable": true
    },
    "spotify": null,
@@ -2844,7 +2795,7 @@
    "youtube": {
     "id": "ts6qrUERDiI",
     "url": "https://www.youtube.com/watch?v=ts6qrUERDiI",
-    "views": 77,
+    "views": 78,
     "embeddable": true
    },
    "spotify": null,
@@ -2888,7 +2839,7 @@
    "youtube": {
     "id": "NtiUwXcEFaY",
     "url": "https://www.youtube.com/watch?v=NtiUwXcEFaY",
-    "views": 57,
+    "views": 58,
     "embeddable": true
    },
    "spotify": null,
@@ -2932,7 +2883,7 @@
    "youtube": {
     "id": "DQC2nBmILrs",
     "url": "https://www.youtube.com/watch?v=DQC2nBmILrs",
-    "views": 10,
+    "views": 13,
     "embeddable": true
    },
    "spotify": null,
@@ -3240,7 +3191,7 @@
    "youtube": {
     "id": "GkTQkjayAmY",
     "url": "https://www.youtube.com/watch?v=GkTQkjayAmY",
-    "views": 104,
+    "views": 106,
     "embeddable": true
    },
    "spotify": null,
@@ -3306,7 +3257,7 @@
    "youtube": {
     "id": "f7YlybXFdQA",
     "url": "https://www.youtube.com/watch?v=f7YlybXFdQA",
-    "views": 96,
+    "views": 97,
     "embeddable": true
    },
    "spotify": null,
@@ -3614,7 +3565,7 @@
    "youtube": {
     "id": "cmEfgZMA8ZI",
     "url": "https://www.youtube.com/watch?v=cmEfgZMA8ZI",
-    "views": 82,
+    "views": 83,
     "embeddable": true
    },
    "spotify": null,
@@ -3658,7 +3609,7 @@
    "youtube": {
     "id": "1em-HQFTzHM",
     "url": "https://www.youtube.com/watch?v=1em-HQFTzHM",
-    "views": 4,
+    "views": 5,
     "embeddable": true
    },
    "spotify": null,
@@ -3768,7 +3719,7 @@
    "youtube": {
     "id": "DnezG77a_kc",
     "url": "https://www.youtube.com/watch?v=DnezG77a_kc",
-    "views": 5,
+    "views": 6,
     "embeddable": true
    },
    "spotify": null,
@@ -3834,7 +3785,7 @@
    "youtube": {
     "id": "pH92saROYqU",
     "url": "https://www.youtube.com/watch?v=pH92saROYqU",
-    "views": 12,
+    "views": 14,
     "embeddable": true
    },
    "spotify": null,
@@ -3878,7 +3829,7 @@
    "youtube": {
     "id": "rhN67_DfycE",
     "url": "https://www.youtube.com/watch?v=rhN67_DfycE",
-    "views": 29,
+    "views": 31,
     "embeddable": true
    },
    "spotify": null,
@@ -3966,7 +3917,7 @@
    "youtube": {
     "id": "aHCC4Y7r_cA",
     "url": "https://www.youtube.com/watch?v=aHCC4Y7r_cA",
-    "views": 14,
+    "views": 17,
     "embeddable": true
    },
    "spotify": null,
@@ -4208,7 +4159,7 @@
    "youtube": {
     "id": "95qUHLhMEBM",
     "url": "https://www.youtube.com/watch?v=95qUHLhMEBM",
-    "views": 31,
+    "views": 32,
     "embeddable": true
    },
    "spotify": null,
@@ -4572,138 +4523,6 @@
   },
   {
    "lang": "fr",
-   "lang_source": "audio",
-   "type": "song",
-   "artist": "TALIM",
-   "title": "Première Heure",
-   "published": "2026-10-19",
-   "duration": 194,
-   "thumb": "https://i.ytimg.com/vi/6wuzs5JbyW4/hqdefault.jpg",
-   "youtube": {
-    "id": "6wuzs5JbyW4",
-    "url": "https://www.youtube.com/watch?v=6wuzs5JbyW4",
-    "views": 3,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-6wuzs5JbyW4",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "fr",
-   "lang_source": "titre",
-   "type": "song",
-   "artist": "TALIM",
-   "title": "Qui Je Prétends Être",
-   "published": "2026-10-19",
-   "duration": 204,
-   "thumb": "https://i.ytimg.com/vi/NG4hoNRFOSE/hqdefault.jpg",
-   "youtube": {
-    "id": "NG4hoNRFOSE",
-    "url": "https://www.youtube.com/watch?v=NG4hoNRFOSE",
-    "views": 1,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-NG4hoNRFOSE",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "fr",
-   "lang_source": "audio",
-   "type": "song",
-   "artist": "TALIM",
-   "title": "Le trait entre deux dates",
-   "published": "2026-10-19",
-   "duration": 218,
-   "thumb": "https://i.ytimg.com/vi/5aefzoYIU7A/hqdefault.jpg",
-   "youtube": {
-    "id": "5aefzoYIU7A",
-    "url": "https://www.youtube.com/watch?v=5aefzoYIU7A",
-    "views": 1,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-5aefzoYIU7A",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "fr",
-   "lang_source": "titre",
-   "type": "song",
-   "artist": "TALIM",
-   "title": "Au Bord du Cercle",
-   "published": "2026-10-19",
-   "duration": 208,
-   "thumb": "https://i.ytimg.com/vi/E6RKqSFb3z0/hqdefault.jpg",
-   "youtube": {
-    "id": "E6RKqSFb3z0",
-    "url": "https://www.youtube.com/watch?v=E6RKqSFb3z0",
-    "views": 1,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-E6RKqSFb3z0",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "fr",
-   "lang_source": "titre",
-   "type": "song",
-   "artist": "TALIM",
-   "title": "Arrose Ce Qui Compte",
-   "published": "2026-10-19",
-   "duration": 157,
-   "thumb": "https://i.ytimg.com/vi/NzOQHdN-i5k/hqdefault.jpg",
-   "youtube": {
-    "id": "NzOQHdN-i5k",
-    "url": "https://www.youtube.com/watch?v=NzOQHdN-i5k",
-    "views": 0,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-NzOQHdN-i5k",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "fr",
-   "lang_source": "titre",
-   "type": "song",
-   "artist": "TALIM",
-   "title": "Ferme la bouche, ouvre l'esprit",
-   "published": "2026-10-19",
-   "duration": 180,
-   "thumb": "https://i.ytimg.com/vi/3Wd-8_7WHF8/hqdefault.jpg",
-   "youtube": {
-    "id": "3Wd-8_7WHF8",
-    "url": "https://www.youtube.com/watch?v=3Wd-8_7WHF8",
-    "views": 2,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-3Wd-8_7WHF8",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "fr",
    "lang_source": "titre",
    "type": "song",
    "artist": "TALIM",
@@ -4802,7 +4621,7 @@
    "youtube": {
     "id": "uLnB2kk1HTY",
     "url": "https://www.youtube.com/watch?v=uLnB2kk1HTY",
-    "views": 0,
+    "views": 4,
     "embeddable": true
    },
    "spotify": null,
@@ -5330,7 +5149,7 @@
    "youtube": {
     "id": "0dic1q2reIU",
     "url": "https://www.youtube.com/watch?v=0dic1q2reIU",
-    "views": 233,
+    "views": 237,
     "embeddable": true
    },
    "spotify": null,
@@ -5352,7 +5171,7 @@
    "youtube": {
     "id": "UKXZU6Sl2uY",
     "url": "https://www.youtube.com/watch?v=UKXZU6Sl2uY",
-    "views": 170,
+    "views": 171,
     "embeddable": true
    },
    "spotify": null,
@@ -5396,7 +5215,7 @@
    "youtube": {
     "id": "WWrJ0eYp7jc",
     "url": "https://www.youtube.com/watch?v=WWrJ0eYp7jc",
-    "views": 150,
+    "views": 155,
     "embeddable": true
    },
    "spotify": null,
@@ -5616,7 +5435,7 @@
    "youtube": {
     "id": "XJD0B8d9h_A",
     "url": "https://www.youtube.com/watch?v=XJD0B8d9h_A",
-    "views": 18,
+    "views": 20,
     "embeddable": true
    },
    "spotify": null,
@@ -5836,7 +5655,7 @@
    "youtube": {
     "id": "ybARdqSzRCM",
     "url": "https://www.youtube.com/watch?v=ybARdqSzRCM",
-    "views": 45,
+    "views": 46,
     "embeddable": true
    },
    "spotify": null,
@@ -6056,7 +5875,7 @@
    "youtube": {
     "id": "lWMwzyL0Ttk",
     "url": "https://www.youtube.com/watch?v=lWMwzyL0Ttk",
-    "views": 22,
+    "views": 23,
     "embeddable": true
    },
    "spotify": null,
@@ -6210,7 +6029,7 @@
    "youtube": {
     "id": "6V4zPFsrAQw",
     "url": "https://www.youtube.com/watch?v=6V4zPFsrAQw",
-    "views": 46,
+    "views": 47,
     "embeddable": true
    },
    "spotify": null,
@@ -6540,7 +6359,7 @@
    "youtube": {
     "id": "Yzo3ocsLbu4",
     "url": "https://www.youtube.com/watch?v=Yzo3ocsLbu4",
-    "views": 64,
+    "views": 66,
     "embeddable": true
    },
    "spotify": null,
@@ -6848,7 +6667,7 @@
    "youtube": {
     "id": "zQxZYuNAwnk",
     "url": "https://www.youtube.com/watch?v=zQxZYuNAwnk",
-    "views": 3,
+    "views": 4,
     "embeddable": true
    },
    "spotify": null,
@@ -6870,7 +6689,7 @@
    "youtube": {
     "id": "TFpiI3uTkSk",
     "url": "https://www.youtube.com/watch?v=TFpiI3uTkSk",
-    "views": 107,
+    "views": 109,
     "embeddable": true
    },
    "spotify": null,
@@ -7112,7 +6931,7 @@
    "youtube": {
     "id": "qIAhBsj-uFI",
     "url": "https://www.youtube.com/watch?v=qIAhBsj-uFI",
-    "views": 47,
+    "views": 48,
     "embeddable": true
    },
    "spotify": null,
@@ -7288,7 +7107,7 @@
    "youtube": {
     "id": "9vAsgj4LQa4",
     "url": "https://www.youtube.com/watch?v=9vAsgj4LQa4",
-    "views": 31,
+    "views": 32,
     "embeddable": true
    },
    "spotify": null,
@@ -7310,7 +7129,7 @@
    "youtube": {
     "id": "FNYz42czG1s",
     "url": "https://www.youtube.com/watch?v=FNYz42czG1s",
-    "views": 102,
+    "views": 103,
     "embeddable": true
    },
    "spotify": null,
@@ -7486,7 +7305,7 @@
    "youtube": {
     "id": "xEfTQroYTDo",
     "url": "https://www.youtube.com/watch?v=xEfTQroYTDo",
-    "views": 72,
+    "views": 75,
     "embeddable": true
    },
    "spotify": null,
@@ -7816,7 +7635,7 @@
    "youtube": {
     "id": "iYdPoiHQql4",
     "url": "https://www.youtube.com/watch?v=iYdPoiHQql4",
-    "views": 27,
+    "views": 30,
     "embeddable": true
    },
    "spotify": null,
@@ -7838,7 +7657,7 @@
    "youtube": {
     "id": "llA3wv4_Pls",
     "url": "https://www.youtube.com/watch?v=llA3wv4_Pls",
-    "views": 5,
+    "views": 6,
     "embeddable": true
    },
    "spotify": null,
@@ -7882,7 +7701,7 @@
    "youtube": {
     "id": "s5JvuXbE0ng",
     "url": "https://www.youtube.com/watch?v=s5JvuXbE0ng",
-    "views": 57,
+    "views": 58,
     "embeddable": true
    },
    "spotify": null,
@@ -8234,7 +8053,7 @@
    "youtube": {
     "id": "kCPYsquARwI",
     "url": "https://www.youtube.com/watch?v=kCPYsquARwI",
-    "views": 17,
+    "views": 18,
     "embeddable": true
    },
    "spotify": null,
@@ -8454,7 +8273,7 @@
    "youtube": {
     "id": "pqM3Iv0QApI",
     "url": "https://www.youtube.com/watch?v=pqM3Iv0QApI",
-    "views": 65,
+    "views": 66,
     "embeddable": true
    },
    "spotify": null,
@@ -8542,7 +8361,7 @@
    "youtube": {
     "id": "XnM0jdvwmDc",
     "url": "https://www.youtube.com/watch?v=XnM0jdvwmDc",
-    "views": 17,
+    "views": 18,
     "embeddable": true
    },
    "spotify": null,
@@ -8586,7 +8405,7 @@
    "youtube": {
     "id": "4xrGzWsBo34",
     "url": "https://www.youtube.com/watch?v=4xrGzWsBo34",
-    "views": 57,
+    "views": 58,
     "embeddable": true
    },
    "spotify": null,
@@ -8652,7 +8471,7 @@
    "youtube": {
     "id": "fSA7QX_VlVE",
     "url": "https://www.youtube.com/watch?v=fSA7QX_VlVE",
-    "views": 14,
+    "views": 15,
     "embeddable": true
    },
    "spotify": null,
@@ -8740,7 +8559,7 @@
    "youtube": {
     "id": "NbDSoqeQtgY",
     "url": "https://www.youtube.com/watch?v=NbDSoqeQtgY",
-    "views": 5,
+    "views": 6,
     "embeddable": true
    },
    "spotify": null,
@@ -8856,138 +8675,6 @@
    "spotify": null,
    "rss": null,
    "id": "yt-A_H7ZgeOV0E",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "en",
-   "lang_source": "audio",
-   "type": "song",
-   "artist": "TALIM",
-   "title": "Tomber En Avant",
-   "published": "2026-10-19",
-   "duration": 126,
-   "thumb": "https://i.ytimg.com/vi/45OEyDUxWLY/hqdefault.jpg",
-   "youtube": {
-    "id": "45OEyDUxWLY",
-    "url": "https://www.youtube.com/watch?v=45OEyDUxWLY",
-    "views": 3,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-45OEyDUxWLY",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "en",
-   "lang_source": "audio",
-   "type": "song",
-   "artist": "TALIM",
-   "title": "Take Control",
-   "published": "2026-10-20",
-   "duration": 160,
-   "thumb": "https://i.ytimg.com/vi/Lq1NP-B5etI/hqdefault.jpg",
-   "youtube": {
-    "id": "Lq1NP-B5etI",
-    "url": "https://www.youtube.com/watch?v=Lq1NP-B5etI",
-    "views": 0,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-Lq1NP-B5etI",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "en",
-   "lang_source": "audio",
-   "type": "song",
-   "artist": "TALIM",
-   "title": "You're Alive",
-   "published": "2026-10-20",
-   "duration": 190,
-   "thumb": "https://i.ytimg.com/vi/KOwygb_8l6w/hqdefault.jpg",
-   "youtube": {
-    "id": "KOwygb_8l6w",
-    "url": "https://www.youtube.com/watch?v=KOwygb_8l6w",
-    "views": 0,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-KOwygb_8l6w",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "en",
-   "lang_source": "titre",
-   "type": "song",
-   "artist": "TALIM",
-   "title": "Take the Jump",
-   "published": "2026-10-20",
-   "duration": 212,
-   "thumb": "https://i.ytimg.com/vi/GSfuye3xrPA/hqdefault.jpg",
-   "youtube": {
-    "id": "GSfuye3xrPA",
-    "url": "https://www.youtube.com/watch?v=GSfuye3xrPA",
-    "views": 0,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-GSfuye3xrPA",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "en",
-   "lang_source": "audio",
-   "type": "song",
-   "artist": "TALIM",
-   "title": "Paper Circle",
-   "published": "2026-10-20",
-   "duration": 204,
-   "thumb": "https://i.ytimg.com/vi/1OF75gWiVOI/hqdefault.jpg",
-   "youtube": {
-    "id": "1OF75gWiVOI",
-    "url": "https://www.youtube.com/watch?v=1OF75gWiVOI",
-    "views": 0,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-1OF75gWiVOI",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "en",
-   "lang_source": "audio",
-   "type": "song",
-   "artist": "TALIM",
-   "title": "Unforgettable Ones",
-   "published": "2026-10-20",
-   "duration": 125,
-   "thumb": "https://i.ytimg.com/vi/QZ1EX3CT644/hqdefault.jpg",
-   "youtube": {
-    "id": "QZ1EX3CT644",
-    "url": "https://www.youtube.com/watch?v=QZ1EX3CT644",
-    "views": 2,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-QZ1EX3CT644",
    "rank": 0,
    "prev_rank": 0,
    "trend": ""
@@ -9246,7 +8933,7 @@
    "youtube": {
     "id": "gUupJ7zAcSM",
     "url": "https://www.youtube.com/watch?v=gUupJ7zAcSM",
-    "views": 6,
+    "views": 7,
     "embeddable": true
    },
    "spotify": null,
@@ -9501,28 +9188,6 @@
   {
    "lang": "es",
    "lang_source": "titre",
-   "type": "podcast",
-   "artist": "TALIM",
-   "title": "Un pequeño hábito",
-   "published": "2026-10-23",
-   "duration": 202,
-   "thumb": "https://i.ytimg.com/vi/8vAKRNZz4EE/hqdefault.jpg",
-   "youtube": {
-    "id": "8vAKRNZz4EE",
-    "url": "https://www.youtube.com/watch?v=8vAKRNZz4EE",
-    "views": 0,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-8vAKRNZz4EE",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "es",
-   "lang_source": "titre",
    "type": "song",
    "artist": "OULBIG",
    "title": "Plazo de equilibrio",
@@ -9554,7 +9219,7 @@
    "youtube": {
     "id": "ODESIVB-6kA",
     "url": "https://www.youtube.com/watch?v=ODESIVB-6kA",
-    "views": 487,
+    "views": 492,
     "embeddable": true
    },
    "spotify": null,
@@ -9598,7 +9263,7 @@
    "youtube": {
     "id": "iskiQbrLOfc",
     "url": "https://www.youtube.com/watch?v=iskiQbrLOfc",
-    "views": 444,
+    "views": 448,
     "embeddable": true
    },
    "spotify": null,
@@ -9686,7 +9351,7 @@
    "youtube": {
     "id": "Kz6MmT99xTU",
     "url": "https://www.youtube.com/watch?v=Kz6MmT99xTU",
-    "views": 182,
+    "views": 185,
     "embeddable": true
    },
    "spotify": null,
@@ -9708,7 +9373,7 @@
    "youtube": {
     "id": "_j_4UmcGDdc",
     "url": "https://www.youtube.com/watch?v=_j_4UmcGDdc",
-    "views": 178,
+    "views": 184,
     "embeddable": true
    },
    "spotify": null,
@@ -9840,7 +9505,7 @@
    "youtube": {
     "id": "hZO0FG_aFbU",
     "url": "https://www.youtube.com/watch?v=hZO0FG_aFbU",
-    "views": 90,
+    "views": 91,
     "embeddable": true
    },
    "spotify": null,
@@ -9994,7 +9659,7 @@
    "youtube": {
     "id": "YrH7RslGVYo",
     "url": "https://www.youtube.com/watch?v=YrH7RslGVYo",
-    "views": 97,
+    "views": 99,
     "embeddable": true
    },
    "spotify": null,
@@ -10390,7 +10055,7 @@
    "youtube": {
     "id": "-JZfzmzbqZg",
     "url": "https://www.youtube.com/watch?v=-JZfzmzbqZg",
-    "views": 46,
+    "views": 47,
     "embeddable": true
    },
    "spotify": null,
@@ -11248,7 +10913,7 @@
    "youtube": {
     "id": "zrsSOPjdfPA",
     "url": "https://www.youtube.com/watch?v=zrsSOPjdfPA",
-    "views": 38,
+    "views": 42,
     "embeddable": true
    },
    "spotify": null,
@@ -11490,7 +11155,7 @@
    "youtube": {
     "id": "OBaQyiuKq8Q",
     "url": "https://www.youtube.com/watch?v=OBaQyiuKq8Q",
-    "views": 15,
+    "views": 16,
     "embeddable": true
    },
    "spotify": null,
@@ -11512,7 +11177,7 @@
    "youtube": {
     "id": "-HaT2X6syf8",
     "url": "https://www.youtube.com/watch?v=-HaT2X6syf8",
-    "views": 93,
+    "views": 94,
     "embeddable": true
    },
    "spotify": null,
@@ -11534,7 +11199,7 @@
    "youtube": {
     "id": "QvGaaLiTgH0",
     "url": "https://www.youtube.com/watch?v=QvGaaLiTgH0",
-    "views": 108,
+    "views": 110,
     "embeddable": true
    },
    "spotify": null,
@@ -11622,7 +11287,7 @@
    "youtube": {
     "id": "jKDaQR6l-98",
     "url": "https://www.youtube.com/watch?v=jKDaQR6l-98",
-    "views": 78,
+    "views": 79,
     "embeddable": true
    },
    "spotify": null,
@@ -11710,7 +11375,7 @@
    "youtube": {
     "id": "7BT0wYlFdyQ",
     "url": "https://www.youtube.com/watch?v=7BT0wYlFdyQ",
-    "views": 58,
+    "views": 59,
     "embeddable": true
    },
    "spotify": null,
@@ -11875,182 +11540,6 @@
    "trend": ""
   },
   {
-   "lang": "es",
-   "lang_source": "titre",
-   "type": "song",
-   "artist": "TALIM",
-   "title": "Ya Tienes Lo Necesario",
-   "published": "2026-10-23",
-   "duration": 208,
-   "thumb": "https://i.ytimg.com/vi/EmLMKJ7Ibqk/hqdefault.jpg",
-   "youtube": {
-    "id": "EmLMKJ7Ibqk",
-    "url": "https://www.youtube.com/watch?v=EmLMKJ7Ibqk",
-    "views": 0,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-EmLMKJ7Ibqk",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "es",
-   "lang_source": "titre",
-   "type": "song",
-   "artist": "TALIM",
-   "title": "Pequeño Gesto",
-   "published": "2026-10-23",
-   "duration": 210,
-   "thumb": "https://i.ytimg.com/vi/JdefdOyUvxM/hqdefault.jpg",
-   "youtube": {
-    "id": "JdefdOyUvxM",
-    "url": "https://www.youtube.com/watch?v=JdefdOyUvxM",
-    "views": 1,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-JdefdOyUvxM",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "es",
-   "lang_source": "titre",
-   "type": "song",
-   "artist": "TALIM",
-   "title": "No Temas Alcanzarla",
-   "published": "2026-10-23",
-   "duration": 191,
-   "thumb": "https://i.ytimg.com/vi/1p9QSDsdwH8/hqdefault.jpg",
-   "youtube": {
-    "id": "1p9QSDsdwH8",
-    "url": "https://www.youtube.com/watch?v=1p9QSDsdwH8",
-    "views": 0,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-1p9QSDsdwH8",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "es",
-   "lang_source": "audio",
-   "type": "song",
-   "artist": "TALIM",
-   "title": "La vida justa",
-   "published": "2026-10-23",
-   "duration": 207,
-   "thumb": "https://i.ytimg.com/vi/3dhjXw8DlEU/hqdefault.jpg",
-   "youtube": {
-    "id": "3dhjXw8DlEU",
-    "url": "https://www.youtube.com/watch?v=3dhjXw8DlEU",
-    "views": 1,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-3dhjXw8DlEU",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "es",
-   "lang_source": "titre",
-   "type": "song",
-   "artist": "TALIM",
-   "title": "El Lugar Correcto",
-   "published": "2026-10-23",
-   "duration": 200,
-   "thumb": "https://i.ytimg.com/vi/-S0uFLMphSg/hqdefault.jpg",
-   "youtube": {
-    "id": "-S0uFLMphSg",
-    "url": "https://www.youtube.com/watch?v=-S0uFLMphSg",
-    "views": 0,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt--S0uFLMphSg",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "es",
-   "lang_source": "audio",
-   "type": "song",
-   "artist": "TALIM",
-   "title": "Boca Cerrada, Mente Abierta",
-   "published": "2026-10-23",
-   "duration": 213,
-   "thumb": "https://i.ytimg.com/vi/ShVzD5eTvVo/hqdefault.jpg",
-   "youtube": {
-    "id": "ShVzD5eTvVo",
-    "url": "https://www.youtube.com/watch?v=ShVzD5eTvVo",
-    "views": 1,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-ShVzD5eTvVo",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "es",
-   "lang_source": "titre",
-   "type": "song",
-   "artist": "TALIM",
-   "title": "El Lugar Adecuado",
-   "published": "2026-10-23",
-   "duration": 193,
-   "thumb": "https://i.ytimg.com/vi/0FBvOS3ubGo/hqdefault.jpg",
-   "youtube": {
-    "id": "0FBvOS3ubGo",
-    "url": "https://www.youtube.com/watch?v=0FBvOS3ubGo",
-    "views": 1,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-0FBvOS3ubGo",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "es",
-   "lang_source": "titre",
-   "type": "song",
-   "artist": "TALIM",
-   "title": "El Ritmo De Los Grandes",
-   "published": "2026-10-23",
-   "duration": 203,
-   "thumb": "https://i.ytimg.com/vi/OQzkQj-EPyg/hqdefault.jpg",
-   "youtube": {
-    "id": "OQzkQj-EPyg",
-    "url": "https://www.youtube.com/watch?v=OQzkQj-EPyg",
-    "views": 1,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-OQzkQj-EPyg",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
    "lang": "ar",
    "lang_source": "titre",
    "type": "podcast",
@@ -12106,7 +11595,7 @@
    "youtube": {
     "id": "EvFKU_UsPts",
     "url": "https://www.youtube.com/watch?v=EvFKU_UsPts",
-    "views": 69,
+    "views": 72,
     "embeddable": true
    },
    "spotify": null,
@@ -12427,28 +11916,6 @@
   {
    "lang": "ar",
    "lang_source": "titre",
-   "type": "podcast",
-   "artist": "TALIM",
-   "title": "عِش اللحظة",
-   "published": "2026-10-24",
-   "duration": 236,
-   "thumb": "https://i.ytimg.com/vi/J-jbPi_JYyY/hqdefault.jpg",
-   "youtube": {
-    "id": "J-jbPi_JYyY",
-    "url": "https://www.youtube.com/watch?v=J-jbPi_JYyY",
-    "views": 0,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-J-jbPi_JYyY",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "ar",
-   "lang_source": "titre",
    "type": "song",
    "artist": "OULBIG",
    "title": "أنتِ أنا",
@@ -12480,7 +11947,7 @@
    "youtube": {
     "id": "AbEhLDbHDTU",
     "url": "https://www.youtube.com/watch?v=AbEhLDbHDTU",
-    "views": 933,
+    "views": 940,
     "embeddable": true
    },
    "spotify": null,
@@ -12502,7 +11969,7 @@
    "youtube": {
     "id": "gB8USBmtutI",
     "url": "https://www.youtube.com/watch?v=gB8USBmtutI",
-    "views": 819,
+    "views": 823,
     "embeddable": true
    },
    "spotify": null,
@@ -12546,7 +12013,7 @@
    "youtube": {
     "id": "kJEgargCDq0",
     "url": "https://www.youtube.com/watch?v=kJEgargCDq0",
-    "views": 357,
+    "views": 361,
     "embeddable": true
    },
    "spotify": null,
@@ -12590,15 +12057,15 @@
    "youtube": {
     "id": "DDgh64--UBQ",
     "url": "https://www.youtube.com/watch?v=DDgh64--UBQ",
-    "views": 285,
+    "views": 286,
     "embeddable": true
    },
    "spotify": null,
    "rss": null,
    "id": "yt-DDgh64--UBQ",
    "rank": 7,
-   "prev_rank": 8,
-   "trend": "up"
+   "prev_rank": 7,
+   "trend": "same"
   },
   {
    "lang": "ar",
@@ -12619,8 +12086,8 @@
    "rss": null,
    "id": "yt-cQqCmwwSdzE",
    "rank": 8,
-   "prev_rank": 7,
-   "trend": "down"
+   "prev_rank": 8,
+   "trend": "same"
   },
   {
    "lang": "ar",
@@ -12722,7 +12189,7 @@
    "youtube": {
     "id": "mVpY8bvlNnI",
     "url": "https://www.youtube.com/watch?v=mVpY8bvlNnI",
-    "views": 220,
+    "views": 222,
     "embeddable": true
    },
    "spotify": null,
@@ -12832,7 +12299,7 @@
    "youtube": {
     "id": "dQ3PEibUweA",
     "url": "https://www.youtube.com/watch?v=dQ3PEibUweA",
-    "views": 7,
+    "views": 8,
     "embeddable": true
    },
    "spotify": null,
@@ -12876,7 +12343,7 @@
    "youtube": {
     "id": "s8TcivDYu2w",
     "url": "https://www.youtube.com/watch?v=s8TcivDYu2w",
-    "views": 53,
+    "views": 54,
     "embeddable": true
    },
    "spotify": null,
@@ -12920,7 +12387,7 @@
    "youtube": {
     "id": "sMw-qfcsb54",
     "url": "https://www.youtube.com/watch?v=sMw-qfcsb54",
-    "views": 106,
+    "views": 107,
     "embeddable": true
    },
    "spotify": null,
@@ -12964,7 +12431,7 @@
    "youtube": {
     "id": "MeRS2T4EBXE",
     "url": "https://www.youtube.com/watch?v=MeRS2T4EBXE",
-    "views": 39,
+    "views": 40,
     "embeddable": true
    },
    "spotify": null,
@@ -13162,7 +12629,7 @@
    "youtube": {
     "id": "kHuL22XK0IQ",
     "url": "https://www.youtube.com/watch?v=kHuL22XK0IQ",
-    "views": 46,
+    "views": 47,
     "embeddable": true
    },
    "spotify": null,
@@ -13360,7 +12827,7 @@
    "youtube": {
     "id": "UgORlVSa1uQ",
     "url": "https://www.youtube.com/watch?v=UgORlVSa1uQ",
-    "views": 21,
+    "views": 22,
     "embeddable": true
    },
    "spotify": null,
@@ -13492,7 +12959,7 @@
    "youtube": {
     "id": "s74UabMHJ8w",
     "url": "https://www.youtube.com/watch?v=s74UabMHJ8w",
-    "views": 17,
+    "views": 18,
     "embeddable": true
    },
    "spotify": null,
@@ -13558,7 +13025,7 @@
    "youtube": {
     "id": "EFqvE5wlwt8",
     "url": "https://www.youtube.com/watch?v=EFqvE5wlwt8",
-    "views": 27,
+    "views": 28,
     "embeddable": true
    },
    "spotify": null,
@@ -13580,7 +13047,7 @@
    "youtube": {
     "id": "-1RzlKEEmRA",
     "url": "https://www.youtube.com/watch?v=-1RzlKEEmRA",
-    "views": 214,
+    "views": 217,
     "embeddable": true
    },
    "spotify": null,
@@ -13734,7 +13201,7 @@
    "youtube": {
     "id": "iqprLI9KiOE",
     "url": "https://www.youtube.com/watch?v=iqprLI9KiOE",
-    "views": 12,
+    "views": 14,
     "embeddable": true
    },
    "spotify": null,
@@ -13800,7 +13267,7 @@
    "youtube": {
     "id": "_ImwW3jLuLg",
     "url": "https://www.youtube.com/watch?v=_ImwW3jLuLg",
-    "views": 14,
+    "views": 16,
     "embeddable": true
    },
    "spotify": null,
@@ -13910,7 +13377,7 @@
    "youtube": {
     "id": "nu84kHYpg1E",
     "url": "https://www.youtube.com/watch?v=nu84kHYpg1E",
-    "views": 123,
+    "views": 124,
     "embeddable": true
    },
    "spotify": null,
@@ -13976,7 +13443,7 @@
    "youtube": {
     "id": "N6yWNt97Y0c",
     "url": "https://www.youtube.com/watch?v=N6yWNt97Y0c",
-    "views": 56,
+    "views": 59,
     "embeddable": true
    },
    "spotify": null,
@@ -13998,7 +13465,7 @@
    "youtube": {
     "id": "o3aURcp0s28",
     "url": "https://www.youtube.com/watch?v=o3aURcp0s28",
-    "views": 138,
+    "views": 140,
     "embeddable": true
    },
    "spotify": null,
@@ -14108,7 +13575,7 @@
    "youtube": {
     "id": "d0vVpX_UYk0",
     "url": "https://www.youtube.com/watch?v=d0vVpX_UYk0",
-    "views": 137,
+    "views": 139,
     "embeddable": true
    },
    "spotify": null,
@@ -14438,7 +13905,7 @@
    "youtube": {
     "id": "by9LCBhMdMc",
     "url": "https://www.youtube.com/watch?v=by9LCBhMdMc",
-    "views": 50,
+    "views": 51,
     "embeddable": true
    },
    "spotify": null,
@@ -14526,7 +13993,7 @@
    "youtube": {
     "id": "p13Kr9f3aIc",
     "url": "https://www.youtube.com/watch?v=p13Kr9f3aIc",
-    "views": 128,
+    "views": 129,
     "embeddable": true
    },
    "spotify": null,
@@ -14702,7 +14169,7 @@
    "youtube": {
     "id": "kQuSnxRWCPM",
     "url": "https://www.youtube.com/watch?v=kQuSnxRWCPM",
-    "views": 10,
+    "views": 11,
     "embeddable": true
    },
    "spotify": null,
@@ -14878,7 +14345,7 @@
    "youtube": {
     "id": "iVPTxBjYMQk",
     "url": "https://www.youtube.com/watch?v=iVPTxBjYMQk",
-    "views": 26,
+    "views": 28,
     "embeddable": true
    },
    "spotify": null,
@@ -15032,7 +14499,7 @@
    "youtube": {
     "id": "zoTfQ8jNFdU",
     "url": "https://www.youtube.com/watch?v=zoTfQ8jNFdU",
-    "views": 104,
+    "views": 105,
     "embeddable": true
    },
    "spotify": null,
@@ -15098,7 +14565,7 @@
    "youtube": {
     "id": "sERxTFEB3sA",
     "url": "https://www.youtube.com/watch?v=sERxTFEB3sA",
-    "views": 182,
+    "views": 186,
     "embeddable": true
    },
    "spotify": null,
@@ -15428,7 +14895,7 @@
    "youtube": {
     "id": "Kij0fg7--34",
     "url": "https://www.youtube.com/watch?v=Kij0fg7--34",
-    "views": 2,
+    "views": 3,
     "embeddable": true
    },
    "spotify": null,
@@ -15472,7 +14939,7 @@
    "youtube": {
     "id": "xaairkWKxzU",
     "url": "https://www.youtube.com/watch?v=xaairkWKxzU",
-    "views": 4,
+    "views": 5,
     "embeddable": true
    },
    "spotify": null,
@@ -15593,424 +15060,6 @@
    "trend": ""
   },
   {
-   "lang": "ar",
-   "lang_source": "titre",
-   "type": "song",
-   "artist": "TALIM",
-   "title": "الوقتُ هو الحياة",
-   "published": "2026-10-24",
-   "duration": 266,
-   "thumb": "https://i.ytimg.com/vi/-3hi8tZNzMI/hqdefault.jpg",
-   "youtube": {
-    "id": "-3hi8tZNzMI",
-    "url": "https://www.youtube.com/watch?v=-3hi8tZNzMI",
-    "views": 0,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt--3hi8tZNzMI",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "ar",
-   "lang_source": "titre",
-   "type": "song",
-   "artist": "TALIM",
-   "title": "ازْرَعْ",
-   "published": "2026-10-24",
-   "duration": 227,
-   "thumb": "https://i.ytimg.com/vi/-3w_CpA2HR8/hqdefault.jpg",
-   "youtube": {
-    "id": "-3w_CpA2HR8",
-    "url": "https://www.youtube.com/watch?v=-3w_CpA2HR8",
-    "views": 0,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt--3w_CpA2HR8",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "ar",
-   "lang_source": "titre",
-   "type": "song",
-   "artist": "TALIM",
-   "title": "أَصْغِ لِتَفْهَمَ",
-   "published": "2026-10-24",
-   "duration": 238,
-   "thumb": "https://i.ytimg.com/vi/F40PsRZUCQA/hqdefault.jpg",
-   "youtube": {
-    "id": "F40PsRZUCQA",
-    "url": "https://www.youtube.com/watch?v=F40PsRZUCQA",
-    "views": 0,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-F40PsRZUCQA",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "ar",
-   "lang_source": "titre",
-   "type": "song",
-   "artist": "TALIM",
-   "title": "تَغْيِيرٌ أَعْظَمْ",
-   "published": "2026-10-24",
-   "duration": 237,
-   "thumb": "https://i.ytimg.com/vi/D7j7rx-zlxk/hqdefault.jpg",
-   "youtube": {
-    "id": "D7j7rx-zlxk",
-    "url": "https://www.youtube.com/watch?v=D7j7rx-zlxk",
-    "views": 1,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-D7j7rx-zlxk",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "ar",
-   "lang_source": "titre",
-   "type": "song",
-   "artist": "TALIM",
-   "title": "فُرْصَتُكَ",
-   "published": "2026-10-24",
-   "duration": 232,
-   "thumb": "https://i.ytimg.com/vi/RfjHDq_7Q5Q/hqdefault.jpg",
-   "youtube": {
-    "id": "RfjHDq_7Q5Q",
-    "url": "https://www.youtube.com/watch?v=RfjHDq_7Q5Q",
-    "views": 0,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-RfjHDq_7Q5Q",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "ar",
-   "lang_source": "titre",
-   "type": "song",
-   "artist": "TALIM",
-   "title": "امْشِ بِلَا خَوْفْ",
-   "published": "2026-10-24",
-   "duration": 253,
-   "thumb": "https://i.ytimg.com/vi/9Clw5SyG25o/hqdefault.jpg",
-   "youtube": {
-    "id": "9Clw5SyG25o",
-    "url": "https://www.youtube.com/watch?v=9Clw5SyG25o",
-    "views": 0,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-9Clw5SyG25o",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "ar",
-   "lang_source": "titre",
-   "type": "song",
-   "artist": "TALIM",
-   "title": "كنتُ أركضُ بسرعةٍ مفرطة",
-   "published": "2026-10-24",
-   "duration": 254,
-   "thumb": "https://i.ytimg.com/vi/BGlMa-ot1ok/hqdefault.jpg",
-   "youtube": {
-    "id": "BGlMa-ot1ok",
-    "url": "https://www.youtube.com/watch?v=BGlMa-ot1ok",
-    "views": 0,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-BGlMa-ot1ok",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "ar",
-   "lang_source": "titre",
-   "type": "song",
-   "artist": "TALIM",
-   "title": "إِلَى الْأَمَامِ أَسْقُطُ",
-   "published": "2026-10-24",
-   "duration": 192,
-   "thumb": "https://i.ytimg.com/vi/NNRuIbtnNgY/hqdefault.jpg",
-   "youtube": {
-    "id": "NNRuIbtnNgY",
-    "url": "https://www.youtube.com/watch?v=NNRuIbtnNgY",
-    "views": 0,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-NNRuIbtnNgY",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "ar",
-   "lang_source": "titre",
-   "type": "song",
-   "artist": "TALIM",
-   "title": "زِنْ كُلَّ شَيْءٍ بِحَجْمِهِ",
-   "published": "2026-10-24",
-   "duration": 213,
-   "thumb": "https://i.ytimg.com/vi/PISVClzKG44/hqdefault.jpg",
-   "youtube": {
-    "id": "PISVClzKG44",
-    "url": "https://www.youtube.com/watch?v=PISVClzKG44",
-    "views": 0,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-PISVClzKG44",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "ar",
-   "lang_source": "titre",
-   "type": "song",
-   "artist": "TALIM",
-   "title": "قَرِّرْ بِهُدُوءٍ",
-   "published": "2026-10-24",
-   "duration": 304,
-   "thumb": "https://i.ytimg.com/vi/QsypGmq9PVA/hqdefault.jpg",
-   "youtube": {
-    "id": "QsypGmq9PVA",
-    "url": "https://www.youtube.com/watch?v=QsypGmq9PVA",
-    "views": 0,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-QsypGmq9PVA",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "ar",
-   "lang_source": "titre",
-   "type": "song",
-   "artist": "TALIM",
-   "title": "حقيقة وحدة",
-   "published": "2026-10-25",
-   "duration": 197,
-   "thumb": "https://i.ytimg.com/vi/1XssxEM4oZU/hqdefault.jpg",
-   "youtube": {
-    "id": "1XssxEM4oZU",
-    "url": "https://www.youtube.com/watch?v=1XssxEM4oZU",
-    "views": 0,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-1XssxEM4oZU",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "ar",
-   "lang_source": "titre",
-   "type": "song",
-   "artist": "TALIM",
-   "title": "كون واجد",
-   "published": "2026-10-25",
-   "duration": 192,
-   "thumb": "https://i.ytimg.com/vi/2_D9cUBIDAk/hqdefault.jpg",
-   "youtube": {
-    "id": "2_D9cUBIDAk",
-    "url": "https://www.youtube.com/watch?v=2_D9cUBIDAk",
-    "views": 0,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-2_D9cUBIDAk",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "ar",
-   "lang_source": "titre",
-   "type": "song",
-   "artist": "TALIM",
-   "title": "الجّْدْرْ",
-   "published": "2026-10-25",
-   "duration": 207,
-   "thumb": "https://i.ytimg.com/vi/TpdJ0WeMhh4/hqdefault.jpg",
-   "youtube": {
-    "id": "TpdJ0WeMhh4",
-    "url": "https://www.youtube.com/watch?v=TpdJ0WeMhh4",
-    "views": 0,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-TpdJ0WeMhh4",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "ar",
-   "lang_source": "titre",
-   "type": "song",
-   "artist": "TALIM",
-   "title": "المِلْيُونِيرْ",
-   "published": "2026-10-25",
-   "duration": 174,
-   "thumb": "https://i.ytimg.com/vi/O9cSySjjT00/hqdefault.jpg",
-   "youtube": {
-    "id": "O9cSySjjT00",
-    "url": "https://www.youtube.com/watch?v=O9cSySjjT00",
-    "views": 0,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-O9cSySjjT00",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "ar",
-   "lang_source": "titre",
-   "type": "song",
-   "artist": "TALIM",
-   "title": "رجع حياتك",
-   "published": "2026-10-25",
-   "duration": 201,
-   "thumb": "https://i.ytimg.com/vi/Djmek6Hjv9A/hqdefault.jpg",
-   "youtube": {
-    "id": "Djmek6Hjv9A",
-    "url": "https://www.youtube.com/watch?v=Djmek6Hjv9A",
-    "views": 0,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-Djmek6Hjv9A",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "ar",
-   "lang_source": "titre",
-   "type": "song",
-   "artist": "TALIM",
-   "title": "خطوة",
-   "published": "2026-10-25",
-   "duration": 194,
-   "thumb": "https://i.ytimg.com/vi/GM5b3nfwD58/hqdefault.jpg",
-   "youtube": {
-    "id": "GM5b3nfwD58",
-    "url": "https://www.youtube.com/watch?v=GM5b3nfwD58",
-    "views": 2,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-GM5b3nfwD58",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "ar",
-   "lang_source": "titre",
-   "type": "song",
-   "artist": "TALIM",
-   "title": "بحال الشّْجْرَة",
-   "published": "2026-10-25",
-   "duration": 184,
-   "thumb": "https://i.ytimg.com/vi/OkDTVaF4lio/hqdefault.jpg",
-   "youtube": {
-    "id": "OkDTVaF4lio",
-    "url": "https://www.youtube.com/watch?v=OkDTVaF4lio",
-    "views": 0,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-OkDTVaF4lio",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "ar",
-   "lang_source": "titre",
-   "type": "song",
-   "artist": "TALIM",
-   "title": "شدّ اللّْجَامْ",
-   "published": "2026-10-25",
-   "duration": 221,
-   "thumb": "https://i.ytimg.com/vi/2soS5wU-9ko/hqdefault.jpg",
-   "youtube": {
-    "id": "2soS5wU-9ko",
-    "url": "https://www.youtube.com/watch?v=2soS5wU-9ko",
-    "views": 0,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-2soS5wU-9ko",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "ar",
-   "lang_source": "titre",
-   "type": "song",
-   "artist": "TALIM",
-   "title": "الحياة الصّْحِيحَة",
-   "published": "2026-10-25",
-   "duration": 193,
-   "thumb": "https://i.ytimg.com/vi/6X_I9-FjDFk/hqdefault.jpg",
-   "youtube": {
-    "id": "6X_I9-FjDFk",
-    "url": "https://www.youtube.com/watch?v=6X_I9-FjDFk",
-    "views": 0,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-6X_I9-FjDFk",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
    "lang": "ma",
    "lang_source": "titre",
    "type": "song",
@@ -16022,7 +15071,7 @@
    "youtube": {
     "id": "Uj1lx44PYTQ",
     "url": "https://www.youtube.com/watch?v=Uj1lx44PYTQ",
-    "views": 2465,
+    "views": 2477,
     "embeddable": true
    },
    "spotify": null,
@@ -16044,7 +15093,7 @@
    "youtube": {
     "id": "xwGtuMw6k90",
     "url": "https://www.youtube.com/watch?v=xwGtuMw6k90",
-    "views": 1267,
+    "views": 1283,
     "embeddable": true
    },
    "spotify": null,
@@ -16088,7 +15137,7 @@
    "youtube": {
     "id": "8_QpdieFJ2M",
     "url": "https://www.youtube.com/watch?v=8_QpdieFJ2M",
-    "views": 708,
+    "views": 710,
     "embeddable": true
    },
    "spotify": null,
@@ -16154,7 +15203,7 @@
    "youtube": {
     "id": "kZaI0h_uQnU",
     "url": "https://www.youtube.com/watch?v=kZaI0h_uQnU",
-    "views": 349,
+    "views": 351,
     "embeddable": true
    },
    "spotify": null,
@@ -16176,7 +15225,7 @@
    "youtube": {
     "id": "-oCkS9ObkXg",
     "url": "https://www.youtube.com/watch?v=-oCkS9ObkXg",
-    "views": 341,
+    "views": 343,
     "embeddable": true
    },
    "spotify": null,
@@ -16198,7 +15247,7 @@
    "youtube": {
     "id": "dJoPFXgWx7s",
     "url": "https://www.youtube.com/watch?v=dJoPFXgWx7s",
-    "views": 207,
+    "views": 210,
     "embeddable": true
    },
    "spotify": null,
@@ -16213,22 +15262,22 @@
    "lang_source": "titre",
    "type": "song",
    "artist": "OULBIG",
-   "title": "بغيت نشوفك",
-   "published": "2026-09-05",
-   "duration": 190,
-   "thumb": "https://i.ytimg.com/vi/CI4qdSU5LNk/hqdefault.jpg",
+   "title": "HALA MAGHRIB Original Darija",
+   "published": "2026-07-06",
+   "duration": 211,
+   "thumb": "https://i.ytimg.com/vi/h-E9OKS0f_M/hqdefault.jpg",
    "youtube": {
-    "id": "CI4qdSU5LNk",
-    "url": "https://www.youtube.com/watch?v=CI4qdSU5LNk",
-    "views": 190,
+    "id": "h-E9OKS0f_M",
+    "url": "https://www.youtube.com/watch?v=h-E9OKS0f_M",
+    "views": 192,
     "embeddable": true
    },
    "spotify": null,
    "rss": null,
-   "id": "yt-CI4qdSU5LNk",
+   "id": "yt-h-E9OKS0f_M",
    "rank": 10,
-   "prev_rank": 10,
-   "trend": "same"
+   "prev_rank": 0,
+   "trend": "new"
   },
   {
    "lang": "ma",
@@ -16264,34 +15313,12 @@
    "youtube": {
     "id": "fXwC70BkhQo",
     "url": "https://www.youtube.com/watch?v=fXwC70BkhQo",
-    "views": 32,
+    "views": 34,
     "embeddable": true
    },
    "spotify": null,
    "rss": null,
    "id": "yt-fXwC70BkhQo",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "ma",
-   "lang_source": "titre",
-   "type": "song",
-   "artist": "OULBIG",
-   "title": "HALA MAGHRIB Original Darija",
-   "published": "2026-07-06",
-   "duration": 211,
-   "thumb": "https://i.ytimg.com/vi/h-E9OKS0f_M/hqdefault.jpg",
-   "youtube": {
-    "id": "h-E9OKS0f_M",
-    "url": "https://www.youtube.com/watch?v=h-E9OKS0f_M",
-    "views": 188,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-h-E9OKS0f_M",
    "rank": 0,
    "prev_rank": 0,
    "trend": ""
@@ -16330,7 +15357,7 @@
    "youtube": {
     "id": "0Xh8JlNiuJA",
     "url": "https://www.youtube.com/watch?v=0Xh8JlNiuJA",
-    "views": 120,
+    "views": 121,
     "embeddable": true
    },
    "spotify": null,
@@ -16396,7 +15423,7 @@
    "youtube": {
     "id": "1-L2MYoGSS8",
     "url": "https://www.youtube.com/watch?v=1-L2MYoGSS8",
-    "views": 84,
+    "views": 86,
     "embeddable": true
    },
    "spotify": null,
@@ -16418,7 +15445,7 @@
    "youtube": {
     "id": "UsRt3DSj-3I",
     "url": "https://www.youtube.com/watch?v=UsRt3DSj-3I",
-    "views": 156,
+    "views": 157,
     "embeddable": true
    },
    "spotify": null,
@@ -16462,7 +15489,7 @@
    "youtube": {
     "id": "_L4M0ZxGfVs",
     "url": "https://www.youtube.com/watch?v=_L4M0ZxGfVs",
-    "views": 105,
+    "views": 107,
     "embeddable": true
    },
    "spotify": null,
@@ -16660,7 +15687,7 @@
    "youtube": {
     "id": "9g4vJhUk65Y",
     "url": "https://www.youtube.com/watch?v=9g4vJhUk65Y",
-    "views": 29,
+    "views": 31,
     "embeddable": true
    },
    "spotify": null,
@@ -16726,7 +15753,7 @@
    "youtube": {
     "id": "1MGhR7cve_Y",
     "url": "https://www.youtube.com/watch?v=1MGhR7cve_Y",
-    "views": 95,
+    "views": 98,
     "embeddable": true
    },
    "spotify": null,
@@ -16902,7 +15929,7 @@
    "youtube": {
     "id": "0JLThTK9Qv0",
     "url": "https://www.youtube.com/watch?v=0JLThTK9Qv0",
-    "views": 44,
+    "views": 45,
     "embeddable": true
    },
    "spotify": null,
@@ -17012,7 +16039,7 @@
    "youtube": {
     "id": "KSbEnhIqCPc",
     "url": "https://www.youtube.com/watch?v=KSbEnhIqCPc",
-    "views": 88,
+    "views": 92,
     "embeddable": true
    },
    "spotify": null,
@@ -17056,7 +16083,7 @@
    "youtube": {
     "id": "I2ocnjIyep0",
     "url": "https://www.youtube.com/watch?v=I2ocnjIyep0",
-    "views": 50,
+    "views": 52,
     "embeddable": true
    },
    "spotify": null,
@@ -17128,6 +16155,28 @@
    "spotify": null,
    "rss": null,
    "id": "yt-1U4kbj_64sg",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "ma",
+   "lang_source": "titre",
+   "type": "song",
+   "artist": "OULBIG",
+   "title": "بغيت نشوفك",
+   "published": "2026-09-05",
+   "duration": 190,
+   "thumb": "https://i.ytimg.com/vi/CI4qdSU5LNk/hqdefault.jpg",
+   "youtube": {
+    "id": "CI4qdSU5LNk",
+    "url": "https://www.youtube.com/watch?v=CI4qdSU5LNk",
+    "views": 190,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-CI4qdSU5LNk",
    "rank": 0,
    "prev_rank": 0,
    "trend": ""
@@ -17370,182 +16419,6 @@
    "spotify": null,
    "rss": null,
    "id": "yt-JjpGTlFHzUU",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "ma",
-   "lang_source": "titre",
-   "type": "song",
-   "artist": "TALIM",
-   "title": "كِيفَاشْ هَادْ النّْهَارْ دَازْ",
-   "published": "2026-10-25",
-   "duration": 216,
-   "thumb": "https://i.ytimg.com/vi/HXbqKHpRouA/hqdefault.jpg",
-   "youtube": {
-    "id": "HXbqKHpRouA",
-    "url": "https://www.youtube.com/watch?v=HXbqKHpRouA",
-    "views": 1,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-HXbqKHpRouA",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "ma",
-   "lang_source": "titre",
-   "type": "song",
-   "artist": "TALIM",
-   "title": "زْرَعْ رْوَابْطْ",
-   "published": "2026-10-25",
-   "duration": 259,
-   "thumb": "https://i.ytimg.com/vi/Q_yZcb4G4rU/hqdefault.jpg",
-   "youtube": {
-    "id": "Q_yZcb4G4rU",
-    "url": "https://www.youtube.com/watch?v=Q_yZcb4G4rU",
-    "views": 1,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-Q_yZcb4G4rU",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "ma",
-   "lang_source": "titre",
-   "type": "song",
-   "artist": "TALIM",
-   "title": "بْغَاوْ الفْلُوسْ",
-   "published": "2026-10-25",
-   "duration": 197,
-   "thumb": "https://i.ytimg.com/vi/Td_BdZn_QvE/hqdefault.jpg",
-   "youtube": {
-    "id": "Td_BdZn_QvE",
-    "url": "https://www.youtube.com/watch?v=Td_BdZn_QvE",
-    "views": 0,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-Td_BdZn_QvE",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "ma",
-   "lang_source": "titre",
-   "type": "song",
-   "artist": "TALIM",
-   "title": "نْطِيحْ لْقُدَّامْ",
-   "published": "2026-10-25",
-   "duration": 160,
-   "thumb": "https://i.ytimg.com/vi/IKVsKF9e0Qs/hqdefault.jpg",
-   "youtube": {
-    "id": "IKVsKF9e0Qs",
-    "url": "https://www.youtube.com/watch?v=IKVsKF9e0Qs",
-    "views": 0,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-IKVsKF9e0Qs",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "ma",
-   "lang_source": "titre",
-   "type": "song",
-   "artist": "TALIM",
-   "title": "سْمَعْ كْثَرْ",
-   "published": "2026-10-25",
-   "duration": 259,
-   "thumb": "https://i.ytimg.com/vi/2BR5G4LuVPk/hqdefault.jpg",
-   "youtube": {
-    "id": "2BR5G4LuVPk",
-    "url": "https://www.youtube.com/watch?v=2BR5G4LuVPk",
-    "views": 3,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-2BR5G4LuVPk",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "ma",
-   "lang_source": "titre",
-   "type": "song",
-   "artist": "TALIM",
-   "title": "مَا شْفْتْهَاشْ دَازْتْ",
-   "published": "2026-10-25",
-   "duration": 211,
-   "thumb": "https://i.ytimg.com/vi/0spQ9xvKigI/hqdefault.jpg",
-   "youtube": {
-    "id": "0spQ9xvKigI",
-    "url": "https://www.youtube.com/watch?v=0spQ9xvKigI",
-    "views": 1,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-0spQ9xvKigI",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "ma",
-   "lang_source": "titre",
-   "type": "song",
-   "artist": "TALIM",
-   "title": "مازال ما وْجْدْتْشْ",
-   "published": "2026-10-25",
-   "duration": 209,
-   "thumb": "https://i.ytimg.com/vi/RML_79Y0yAM/hqdefault.jpg",
-   "youtube": {
-    "id": "RML_79Y0yAM",
-    "url": "https://www.youtube.com/watch?v=RML_79Y0yAM",
-    "views": 1,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-RML_79Y0yAM",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "ma",
-   "lang_source": "titre",
-   "type": "song",
-   "artist": "TALIM",
-   "title": "عْقَلْ عليها",
-   "published": "2026-10-25",
-   "duration": 205,
-   "thumb": "https://i.ytimg.com/vi/F_GH0MB3nTE/hqdefault.jpg",
-   "youtube": {
-    "id": "F_GH0MB3nTE",
-    "url": "https://www.youtube.com/watch?v=F_GH0MB3nTE",
-    "views": 0,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-F_GH0MB3nTE",
    "rank": 0,
    "prev_rank": 0,
    "trend": ""
