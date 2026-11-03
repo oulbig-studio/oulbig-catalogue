@@ -46,9 +46,17 @@ add_action( 'phpmailer_init', function ( $mailer ) {
 	$mailer->Username   = ORAD_SMTP_USER;
 	$mailer->Password   = ORAD_SMTP_PASS;
 	$mailer->Sender     = ORAD_SMTP_USER;
-	if ( 0 === strpos( (string) $mailer->From, 'wordpress@' ) || '' === (string) $mailer->From ) {
-		$mailer->From = ORAD_SMTP_USER;
+	// Hostinger refuse tout expéditeur qui n'est pas la boîte connectée : on l'impose toujours,
+	// et l'adresse d'origine (ex. une adresse Gmail réglée par une extension) passe en « Répondre à ».
+	$orig = (string) $mailer->From;
+	if ( $orig && strtolower( $orig ) !== strtolower( ORAD_SMTP_USER ) && 0 !== strpos( $orig, 'wordpress@' ) && is_email( $orig ) && ! $mailer->getReplyToAddresses() ) {
+		$mailer->addReplyTo( $orig, $mailer->FromName );
 	}
+	$mailer->From = ORAD_SMTP_USER;
+	if ( '' === (string) $mailer->FromName || 'WordPress' === $mailer->FromName ) {
+		$mailer->FromName = 'OULBIG Radio';
+	}
+	$mailer->Timeout = 20;
 } );
 
 /** État de l'envoi, affiché dans OULBIG Radio → Réglages. */
@@ -60,7 +68,9 @@ function orad_mail_status() {
 
 /** Dernière erreur d'envoi, affichée dans les réglages. */
 add_action( 'wp_mail_failed', function ( $err ) {
-	update_option( 'orad_mail_error', gmdate( 'Y-m-d H:i' ) . ' UTC — ' . wp_strip_all_tags( $err->get_error_message() ), false );
+	$d    = $err->get_error_data();
+	$subj = is_array( $d ) && isset( $d['subject'] ) ? ' [« ' . wp_strip_all_tags( $d['subject'] ) . ' »]' : '';
+	update_option( 'orad_mail_error', gmdate( 'Y-m-d H:i' ) . ' UTC — ' . wp_strip_all_tags( $err->get_error_message() ) . $subj, false );
 } );
 add_action( 'wp_mail_succeeded', function () {
 	delete_option( 'orad_mail_error' );
