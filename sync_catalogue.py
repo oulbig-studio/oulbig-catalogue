@@ -274,6 +274,19 @@ TALK_RE = re.compile("|".join([
     r"conversation", r"conversación", r"محادثة", r"consejos", r"conseils", r"interesting people",
     r"gens intéressants", r"personas interesantes", r"أعظم مدرسة", r"greatest school", r"plus grande école",
     r"leadership", r"liderazgo", r"القيادة",
+    r"art (de|of) (vivre|living)", r"arte de vivir", r"فنّ? العيش",
+    r"r[ée]veil de la conscience", r"power of awareness", r"despertar de la conciencia", r"يقظة الوعي",
+    r"plus grand pouvoir", r"power of thinking", r"mayor poder", r"أعظم قوّ?ةٍ? فيك",
+    r"pour mieux avancer", r"to move better", r"para avanzar mejor", r"لتتقدّ?م أكثر",
+    r"quatre [ée]tapes", r"four stages", r"cuatro etapas", r"أربع مراحل",
+    r"obstacle qui te r[ée]v[èe]le", r"obstacles reveal you", r"obst[áa]culo que te revela", r"العقبة التي تكشفك",
+    # Série « L'Étincelle » d'octobre 2026 (6 épisodes × 4 langues)
+    r"l'art de vivre", r"art of living", r"arte de vivir", r"فنّ? العيش",
+    r"réveil de la conscience", r"power of awareness", r"despertar de la conciencia", r"يقظة الوعي",
+    r"ton plus grand pouvoir", r"power of thinking", r"tu mayor poder", r"أعظم قوّ?ةٍ? فيك",
+    r"pour mieux avancer", r"to move better", r"para avanzar mejor", r"لتتقدّ?م أكثر",
+    r"quatre étapes", r"four stages", r"cuatro etapas", r"أربع مراحل",
+    r"l'obstacle qui te révèle", r"obstacles reveal you", r"obstáculos te revelan", r"العقبة التي تكشفك",
 ]), re.I)
 
 
@@ -445,6 +458,8 @@ def collect_youtube(cfg):
 
     exclude = [w.lower() for w in yc.get("exclude_keywords", [])]
     overrides = {k: v for k, v in (cfg.get("lang_overrides") or {}).items() if v in LANGS}
+    type_overrides = {k: v for k, v in (cfg.get("type_overrides") or {}).items() if v in ("song", "podcast")}
+    type_over = cfg.get("type_overrides") or {}  # videoId -> "song" | "podcast"
     out = []
     for vid, v in items.items():
         if any(w in v["title"].lower() for w in exclude):
@@ -458,6 +473,10 @@ def collect_youtube(cfg):
         if vid in overrides:
             lang, src = overrides[vid], "manuel"
         typ = typ or detect_type(v["title"], duration=v.get("duration", 0))
+        if vid in type_overrides:
+            typ = type_overrides[vid]
+        if type_over.get(vid) in ("song", "podcast"):
+            typ = type_over[vid]
         artist = artist or chan_artist.get(v.get("channel", "")) or re.sub(r"\s*-\s*Topic$", "", v.get("channel_title", "")) or cfg.get("artist", "OULBIG")
         v = {k: x for k, x in v.items() if k not in ("desc", "audio", "channel", "channel_title")}
         out.append({"source": "youtube", "lang": lang, "lang_source": src, "type": typ, "artist": artist, **v})
