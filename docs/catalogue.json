@@ -12,7 +12,7 @@
    "spotify": "https://open.spotify.com/artist/2FAKBSpY965IRet4aXTmEm"
   }
  },
- "generated": "2026-11-03T13:21:54Z",
+ "generated": "2026-11-03T13:23:03Z",
  "links": {
   "youtube": "https://www.youtube.com/@OULBIG",
   "youtube_topic": "https://www.youtube.com/channel/UCpWPGzDk5xXbE2fc48AeM8Q",
@@ -27,7 +27,7 @@
  },
  "counts": {
   "fr": {
-   "songs": 172,
+   "songs": 171,
    "podcasts": 18
   },
   "en": {
@@ -35,7 +35,7 @@
    "podcasts": 17
   },
   "es": {
-   "songs": 131,
+   "songs": 135,
    "podcasts": 18
   },
   "ar": {
@@ -50,13 +50,12 @@
  "langs": {
   "fr": {
    "songs": [
-    "yt-NWswmZDMZY0",
     "yt-tsU6V-ZEoIY",
     "yt-uLnB2kk1HTY",
     "yt-oeWUynK9xLI",
     "yt-FY77-XgG8HY",
-    "yt-98TzJ-Sd9ro",
     "yt-IqaBIw-IRlY",
+    "yt-98TzJ-Sd9ro",
     "yt-gxeGMmk9yUQ",
     "yt-0QipnPWGel4",
     "yt-d5FVrKOpido",
@@ -235,8 +234,8 @@
     "yt-81NEBAl5HsA",
     "yt-sX-Xih8xqpo",
     "yt-rMRth_IFjvo",
-    "yt-7DoBex9N58g",
     "yt-NWTwZTzVGZk",
+    "yt-7DoBex9N58g",
     "yt-xS_EJqqH0YY",
     "yt-ctrkypEvQpU",
     "yt-6t_DV0m4m58",
@@ -262,8 +261,8 @@
     "yt-uMiN4rhHeRQ",
     "yt-jPmRW5YwGo4",
     "yt-NfZjgmJrGLw",
-    "yt-JXEDUufqcMA",
     "yt-1v-GtInbGzo",
+    "yt-JXEDUufqcMA",
     "yt-Lq1NP-B5etI",
     "yt-XycQFEsgPzE",
     "yt-KOwygb_8l6w",
@@ -484,7 +483,11 @@
   "es": {
    "songs": [
     "yt-p3_AzO2fzks",
+    "yt-53E1rNcOtm4",
+    "yt-QQr55bTwSds",
     "yt-mC3QpBNnDS4",
+    "yt-WeEuqk_DPHw",
+    "yt-NWswmZDMZY0",
     "yt-EmLMKJ7Ibqk",
     "yt-aUjd-u5uWEI",
     "yt-ex-9lU30s2M",
@@ -726,20 +729,20 @@
     "yt-fUmWbE65wSo",
     "yt-xaairkWKxzU",
     "yt-jo_c8AWEBvw",
-    "yt-UtzR80ZC8rA",
-    "yt-K5themr_JTQ",
+    "yt-QgSruGY4Qws",
     "yt-3JYeOydUUIs",
     "yt-62t1p_x5Ziw",
     "yt-R-b4AIYOunU",
     "yt-IZyDka-6SO8",
+    "yt-UtzR80ZC8rA",
     "yt-TmjLdEF6fX4",
     "yt-MyJqpgpgAeA",
     "yt-9ZjE23AX7K0",
+    "yt-K5themr_JTQ",
     "yt-2OcApwK6Q7E",
     "yt-Kij0fg7--34",
     "yt-CnhqjA6aSoM",
     "yt-TaRZg_M3o8o",
-    "yt-QgSruGY4Qws",
     "yt-Pc5qc2v1SLI",
     "yt-JNNuu7KVsgc",
     "yt-B6qNvD6XUY0",
@@ -909,9 +912,9 @@
     "yt-qnE7jpA9FPI",
     "yt-sxEgY8823Vo",
     "yt-yD6L6ykLE4o",
+    "yt-U9ajP5TQIbE",
     "yt-0tFXYnR8veo",
     "yt-L6Ch5-Egk5Y",
-    "yt-U9ajP5TQIbE",
     "yt-7dzBV54Dpl0",
     "yt-FKLwc1O3OmY",
     "yt-chtz8oHlE7o",
@@ -1225,28 +1228,6 @@
   },
   {
    "lang": "fr",
-   "lang_source": "audio",
-   "type": "podcast",
-   "artist": "OULBIG",
-   "title": "Petites Habitudes, Grands Changements",
-   "published": "2026-09-25",
-   "duration": 412,
-   "thumb": "https://i.ytimg.com/vi/7DoBex9N58g/hqdefault.jpg",
-   "youtube": {
-    "id": "7DoBex9N58g",
-    "url": "https://www.youtube.com/watch?v=7DoBex9N58g",
-    "views": 4,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-7DoBex9N58g",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "fr",
    "lang_source": "titre",
    "type": "podcast",
    "artist": "OULBIG",
@@ -1263,6 +1244,28 @@
    "spotify": null,
    "rss": null,
    "id": "yt-NWTwZTzVGZk",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "fr",
+   "lang_source": "audio",
+   "type": "podcast",
+   "artist": "OULBIG",
+   "title": "Petites Habitudes, Grands Changements",
+   "published": "2026-09-25",
+   "duration": 412,
+   "thumb": "https://i.ytimg.com/vi/7DoBex9N58g/hqdefault.jpg",
+   "youtube": {
+    "id": "7DoBex9N58g",
+    "url": "https://www.youtube.com/watch?v=7DoBex9N58g",
+    "views": 4,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-7DoBex9N58g",
    "rank": 0,
    "prev_rank": 0,
    "trend": ""
@@ -1462,8 +1465,8 @@
    "rss": null,
    "id": "yt-It-L-dzcM04",
    "rank": 4,
-   "prev_rank": 6,
-   "trend": "up"
+   "prev_rank": 4,
+   "trend": "same"
   },
   {
    "lang": "fr",
@@ -1506,8 +1509,8 @@
    "rss": null,
    "id": "yt-gFhnggVXkq8",
    "rank": 6,
-   "prev_rank": 7,
-   "trend": "up"
+   "prev_rank": 6,
+   "trend": "same"
   },
   {
    "lang": "fr",
@@ -1528,8 +1531,8 @@
    "rss": null,
    "id": "yt-xlIdBErkNCQ",
    "rank": 7,
-   "prev_rank": 8,
-   "trend": "up"
+   "prev_rank": 7,
+   "trend": "same"
   },
   {
    "lang": "fr",
@@ -1550,8 +1553,8 @@
    "rss": null,
    "id": "yt-tY5v6YYI01Y",
    "rank": 8,
-   "prev_rank": 5,
-   "trend": "down"
+   "prev_rank": 8,
+   "trend": "same"
   },
   {
    "lang": "fr",
@@ -3171,7 +3174,7 @@
    "youtube": {
     "id": "f7YlybXFdQA",
     "url": "https://www.youtube.com/watch?v=f7YlybXFdQA",
-    "views": 106,
+    "views": 105,
     "embeddable": true
    },
    "spotify": null,
@@ -5100,28 +5103,6 @@
    "lang_source": "titre",
    "type": "song",
    "artist": "OULBIG",
-   "title": "L'art De Vivre",
-   "published": "2026-10-29",
-   "duration": 247,
-   "thumb": "https://i.ytimg.com/vi/98TzJ-Sd9ro/hqdefault.jpg",
-   "youtube": {
-    "id": "98TzJ-Sd9ro",
-    "url": "https://www.youtube.com/watch?v=98TzJ-Sd9ro",
-    "views": 0,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-98TzJ-Sd9ro",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "fr",
-   "lang_source": "titre",
-   "type": "song",
-   "artist": "OULBIG",
    "title": "Le réveil de la conscience",
    "published": "2026-10-29",
    "duration": 239,
@@ -5144,19 +5125,19 @@
    "lang_source": "titre",
    "type": "song",
    "artist": "OULBIG",
-   "title": "El despertar de la conciencia",
-   "published": "2026-10-31",
-   "duration": 285,
-   "thumb": "https://i.ytimg.com/vi/NWswmZDMZY0/hqdefault.jpg",
+   "title": "L'art De Vivre",
+   "published": "2026-10-29",
+   "duration": 247,
+   "thumb": "https://i.ytimg.com/vi/98TzJ-Sd9ro/hqdefault.jpg",
    "youtube": {
-    "id": "NWswmZDMZY0",
-    "url": "https://www.youtube.com/watch?v=NWswmZDMZY0",
-    "views": 3,
+    "id": "98TzJ-Sd9ro",
+    "url": "https://www.youtube.com/watch?v=98TzJ-Sd9ro",
+    "views": 0,
     "embeddable": true
    },
    "spotify": null,
    "rss": null,
-   "id": "yt-NWswmZDMZY0",
+   "id": "yt-98TzJ-Sd9ro",
    "rank": 0,
    "prev_rank": 0,
    "trend": ""
@@ -5554,8 +5535,8 @@
    "rss": null,
    "id": "yt-QI9svjJbSPw",
    "rank": 1,
-   "prev_rank": 4,
-   "trend": "up"
+   "prev_rank": 1,
+   "trend": "same"
   },
   {
    "lang": "en",
@@ -5576,8 +5557,8 @@
    "rss": null,
    "id": "yt-Azbo5VA4wjk",
    "rank": 2,
-   "prev_rank": 1,
-   "trend": "down"
+   "prev_rank": 2,
+   "trend": "same"
   },
   {
    "lang": "en",
@@ -5598,8 +5579,8 @@
    "rss": null,
    "id": "yt-47kZ9OHzGoA",
    "rank": 3,
-   "prev_rank": 10,
-   "trend": "up"
+   "prev_rank": 3,
+   "trend": "same"
   },
   {
    "lang": "en",
@@ -5642,8 +5623,8 @@
    "rss": null,
    "id": "yt-UKXZU6Sl2uY",
    "rank": 5,
-   "prev_rank": 2,
-   "trend": "down"
+   "prev_rank": 5,
+   "trend": "same"
   },
   {
    "lang": "en",
@@ -5664,8 +5645,8 @@
    "rss": null,
    "id": "yt-WWrJ0eYp7jc",
    "rank": 6,
-   "prev_rank": 4,
-   "trend": "down"
+   "prev_rank": 6,
+   "trend": "same"
   },
   {
    "lang": "en",
@@ -5730,8 +5711,8 @@
    "rss": null,
    "id": "yt-w8QHpeD4IKY",
    "rank": 9,
-   "prev_rank": 3,
-   "trend": "down"
+   "prev_rank": 9,
+   "trend": "same"
   },
   {
    "lang": "en",
@@ -5855,7 +5836,7 @@
    "youtube": {
     "id": "XJD0B8d9h_A",
     "url": "https://www.youtube.com/watch?v=XJD0B8d9h_A",
-    "views": 21,
+    "views": 22,
     "embeddable": true
    },
    "spotify": null,
@@ -9676,28 +9657,6 @@
    "lang_source": "titre",
    "type": "song",
    "artist": "OULBIG",
-   "title": "The Challenge Obstacles Reveal You",
-   "published": "2026-10-30",
-   "duration": 216,
-   "thumb": "https://i.ytimg.com/vi/JXEDUufqcMA/hqdefault.jpg",
-   "youtube": {
-    "id": "JXEDUufqcMA",
-    "url": "https://www.youtube.com/watch?v=JXEDUufqcMA",
-    "views": 0,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-JXEDUufqcMA",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "en",
-   "lang_source": "titre",
-   "type": "song",
-   "artist": "OULBIG",
    "title": "Waking up the Power of Awareness",
    "published": "2026-10-30",
    "duration": 250,
@@ -9711,6 +9670,28 @@
    "spotify": null,
    "rss": null,
    "id": "yt-1v-GtInbGzo",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "en",
+   "lang_source": "titre",
+   "type": "song",
+   "artist": "OULBIG",
+   "title": "The Challenge Obstacles Reveal You",
+   "published": "2026-10-30",
+   "duration": 216,
+   "thumb": "https://i.ytimg.com/vi/JXEDUufqcMA/hqdefault.jpg",
+   "youtube": {
+    "id": "JXEDUufqcMA",
+    "url": "https://www.youtube.com/watch?v=JXEDUufqcMA",
+    "views": 0,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-JXEDUufqcMA",
    "rank": 0,
    "prev_rank": 0,
    "trend": ""
@@ -10130,8 +10111,8 @@
    "rss": null,
    "id": "yt-gNNR0IAvhYw",
    "rank": 1,
-   "prev_rank": 4,
-   "trend": "up"
+   "prev_rank": 1,
+   "trend": "same"
   },
   {
    "lang": "es",
@@ -10152,8 +10133,8 @@
    "rss": null,
    "id": "yt-ODESIVB-6kA",
    "rank": 2,
-   "prev_rank": 3,
-   "trend": "up"
+   "prev_rank": 2,
+   "trend": "same"
   },
   {
    "lang": "es",
@@ -10174,8 +10155,8 @@
    "rss": null,
    "id": "yt-Td9c9ccT6ao",
    "rank": 3,
-   "prev_rank": 6,
-   "trend": "up"
+   "prev_rank": 3,
+   "trend": "same"
   },
   {
    "lang": "es",
@@ -10196,8 +10177,8 @@
    "rss": null,
    "id": "yt-iskiQbrLOfc",
    "rank": 4,
-   "prev_rank": 9,
-   "trend": "up"
+   "prev_rank": 4,
+   "trend": "same"
   },
   {
    "lang": "es",
@@ -10240,8 +10221,8 @@
    "rss": null,
    "id": "yt-lm0ZGv9ZI4Y",
    "rank": 6,
-   "prev_rank": 9,
-   "trend": "up"
+   "prev_rank": 6,
+   "trend": "same"
   },
   {
    "lang": "es",
@@ -10262,8 +10243,8 @@
    "rss": null,
    "id": "yt-mLvgRKYT-yk",
    "rank": 7,
-   "prev_rank": 4,
-   "trend": "down"
+   "prev_rank": 7,
+   "trend": "same"
   },
   {
    "lang": "es",
@@ -10284,8 +10265,8 @@
    "rss": null,
    "id": "yt-_j_4UmcGDdc",
    "rank": 8,
-   "prev_rank": 5,
-   "trend": "down"
+   "prev_rank": 8,
+   "trend": "same"
   },
   {
    "lang": "es",
@@ -10328,8 +10309,8 @@
    "rss": null,
    "id": "yt-f0W_jGReDko",
    "rank": 10,
-   "prev_rank": 6,
-   "trend": "down"
+   "prev_rank": 10,
+   "trend": "same"
   },
   {
    "lang": "es",
@@ -12976,6 +12957,50 @@
    "lang_source": "titre",
    "type": "song",
    "artist": "OULBIG",
+   "title": "Liberarse Las Cuatro Etapas",
+   "published": "2026-10-31",
+   "duration": 242,
+   "thumb": "https://i.ytimg.com/vi/53E1rNcOtm4/hqdefault.jpg",
+   "youtube": {
+    "id": "53E1rNcOtm4",
+    "url": "https://www.youtube.com/watch?v=53E1rNcOtm4",
+    "views": 0,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-53E1rNcOtm4",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "es",
+   "lang_source": "titre",
+   "type": "song",
+   "artist": "OULBIG",
+   "title": "El Arte De Vivir",
+   "published": "2026-10-31",
+   "duration": 280,
+   "thumb": "https://i.ytimg.com/vi/QQr55bTwSds/hqdefault.jpg",
+   "youtube": {
+    "id": "QQr55bTwSds",
+    "url": "https://www.youtube.com/watch?v=QQr55bTwSds",
+    "views": 0,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-QQr55bTwSds",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "es",
+   "lang_source": "titre",
+   "type": "song",
+   "artist": "OULBIG",
    "title": "Pensar Tu Mayor Poder",
    "published": "2026-10-31",
    "duration": 253,
@@ -12989,6 +13014,50 @@
    "spotify": null,
    "rss": null,
    "id": "yt-mC3QpBNnDS4",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "es",
+   "lang_source": "titre",
+   "type": "song",
+   "artist": "OULBIG",
+   "title": "El Desafío Los Obstáculos Te Revelan",
+   "published": "2026-10-31",
+   "duration": 245,
+   "thumb": "https://i.ytimg.com/vi/WeEuqk_DPHw/hqdefault.jpg",
+   "youtube": {
+    "id": "WeEuqk_DPHw",
+    "url": "https://www.youtube.com/watch?v=WeEuqk_DPHw",
+    "views": 0,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-WeEuqk_DPHw",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "es",
+   "lang_source": "manuel",
+   "type": "song",
+   "artist": "OULBIG",
+   "title": "El despertar de la conciencia",
+   "published": "2026-10-31",
+   "duration": 285,
+   "thumb": "https://i.ytimg.com/vi/NWswmZDMZY0/hqdefault.jpg",
+   "youtube": {
+    "id": "NWswmZDMZY0",
+    "url": "https://www.youtube.com/watch?v=NWswmZDMZY0",
+    "views": 3,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-NWswmZDMZY0",
    "rank": 0,
    "prev_rank": 0,
    "trend": ""
@@ -13540,8 +13609,8 @@
    "rss": null,
    "id": "yt-DDgh64--UBQ",
    "rank": 7,
-   "prev_rank": 8,
-   "trend": "up"
+   "prev_rank": 7,
+   "trend": "same"
   },
   {
    "lang": "ar",
@@ -13562,8 +13631,8 @@
    "rss": null,
    "id": "yt-cQqCmwwSdzE",
    "rank": 8,
-   "prev_rank": 7,
-   "trend": "down"
+   "prev_rank": 8,
+   "trend": "same"
   },
   {
    "lang": "ar",
@@ -13584,8 +13653,8 @@
    "rss": null,
    "id": "yt-pl0hJCq3Wzs",
    "rank": 9,
-   "prev_rank": 10,
-   "trend": "up"
+   "prev_rank": 9,
+   "trend": "same"
   },
   {
    "lang": "ar",
@@ -13606,8 +13675,8 @@
    "rss": null,
    "id": "yt-2QsMQGMSwzo",
    "rank": 10,
-   "prev_rank": 9,
-   "trend": "down"
+   "prev_rank": 10,
+   "trend": "same"
   },
   {
    "lang": "ar",
@@ -16100,41 +16169,19 @@
    "lang_source": "titre",
    "type": "song",
    "artist": "OULBIG",
-   "title": "كان يا ما كان",
+   "title": "لو لم يأتِ الغد",
    "published": "2026-09-17",
-   "duration": 192,
-   "thumb": "https://i.ytimg.com/vi/UtzR80ZC8rA/hqdefault.jpg",
+   "duration": 231,
+   "thumb": "https://i.ytimg.com/vi/QgSruGY4Qws/hqdefault.jpg",
    "youtube": {
-    "id": "UtzR80ZC8rA",
-    "url": "https://www.youtube.com/watch?v=UtzR80ZC8rA",
-    "views": 24,
+    "id": "QgSruGY4Qws",
+    "url": "https://www.youtube.com/watch?v=QgSruGY4Qws",
+    "views": 7,
     "embeddable": true
    },
    "spotify": null,
    "rss": null,
-   "id": "yt-UtzR80ZC8rA",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "ar",
-   "lang_source": "titre",
-   "type": "song",
-   "artist": "OULBIG",
-   "title": "حاولتُ دومًا",
-   "published": "2026-09-17",
-   "duration": 184,
-   "thumb": "https://i.ytimg.com/vi/K5themr_JTQ/hqdefault.jpg",
-   "youtube": {
-    "id": "K5themr_JTQ",
-    "url": "https://www.youtube.com/watch?v=K5themr_JTQ",
-    "views": 55,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-K5themr_JTQ",
+   "id": "yt-QgSruGY4Qws",
    "rank": 0,
    "prev_rank": 0,
    "trend": ""
@@ -16232,6 +16279,28 @@
    "lang_source": "titre",
    "type": "song",
    "artist": "OULBIG",
+   "title": "كان يا ما كان",
+   "published": "2026-09-17",
+   "duration": 192,
+   "thumb": "https://i.ytimg.com/vi/UtzR80ZC8rA/hqdefault.jpg",
+   "youtube": {
+    "id": "UtzR80ZC8rA",
+    "url": "https://www.youtube.com/watch?v=UtzR80ZC8rA",
+    "views": 24,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-UtzR80ZC8rA",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "ar",
+   "lang_source": "titre",
+   "type": "song",
+   "artist": "OULBIG",
    "title": "فرصة فهاد الدنيا",
    "published": "2026-09-17",
    "duration": 163,
@@ -16289,6 +16358,28 @@
    "spotify": null,
    "rss": null,
    "id": "yt-9ZjE23AX7K0",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "ar",
+   "lang_source": "titre",
+   "type": "song",
+   "artist": "OULBIG",
+   "title": "حاولتُ دومًا",
+   "published": "2026-09-17",
+   "duration": 184,
+   "thumb": "https://i.ytimg.com/vi/K5themr_JTQ/hqdefault.jpg",
+   "youtube": {
+    "id": "K5themr_JTQ",
+    "url": "https://www.youtube.com/watch?v=K5themr_JTQ",
+    "views": 55,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-K5themr_JTQ",
    "rank": 0,
    "prev_rank": 0,
    "trend": ""
@@ -16377,28 +16468,6 @@
    "spotify": null,
    "rss": null,
    "id": "yt-TaRZg_M3o8o",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "ar",
-   "lang_source": "titre",
-   "type": "song",
-   "artist": "OULBIG",
-   "title": "لو لم يأتِ الغد",
-   "published": "2026-09-17",
-   "duration": 231,
-   "thumb": "https://i.ytimg.com/vi/QgSruGY4Qws/hqdefault.jpg",
-   "youtube": {
-    "id": "QgSruGY4Qws",
-    "url": "https://www.youtube.com/watch?v=QgSruGY4Qws",
-    "views": 7,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-QgSruGY4Qws",
    "rank": 0,
    "prev_rank": 0,
    "trend": ""
@@ -17691,7 +17760,7 @@
    "youtube": {
     "id": "xwGtuMw6k90",
     "url": "https://www.youtube.com/watch?v=xwGtuMw6k90",
-    "views": 1338,
+    "views": 1337,
     "embeddable": true
    },
    "spotify": null,
@@ -17720,8 +17789,8 @@
    "rss": null,
    "id": "yt-vsCc1GgJR4g",
    "rank": 3,
-   "prev_rank": 2,
-   "trend": "down"
+   "prev_rank": 3,
+   "trend": "same"
   },
   {
    "lang": "ma",
@@ -17742,8 +17811,8 @@
    "rss": null,
    "id": "yt-8_QpdieFJ2M",
    "rank": 4,
-   "prev_rank": 6,
-   "trend": "up"
+   "prev_rank": 4,
+   "trend": "same"
   },
   {
    "lang": "ma",
@@ -17764,8 +17833,8 @@
    "rss": null,
    "id": "yt-IVkj97LyJ1Q",
    "rank": 5,
-   "prev_rank": 3,
-   "trend": "down"
+   "prev_rank": 5,
+   "trend": "same"
   },
   {
    "lang": "ma",
@@ -17786,8 +17855,8 @@
    "rss": null,
    "id": "yt-Rf1XXzLziR0",
    "rank": 6,
-   "prev_rank": 8,
-   "trend": "up"
+   "prev_rank": 6,
+   "trend": "same"
   },
   {
    "lang": "ma",
@@ -17830,8 +17899,8 @@
    "rss": null,
    "id": "yt--oCkS9ObkXg",
    "rank": 8,
-   "prev_rank": 9,
-   "trend": "up"
+   "prev_rank": 8,
+   "trend": "same"
   },
   {
    "lang": "ma",
@@ -17845,15 +17914,15 @@
    "youtube": {
     "id": "h-E9OKS0f_M",
     "url": "https://www.youtube.com/watch?v=h-E9OKS0f_M",
-    "views": 211,
+    "views": 212,
     "embeddable": true
    },
    "spotify": null,
    "rss": null,
    "id": "yt-h-E9OKS0f_M",
    "rank": 9,
-   "prev_rank": 10,
-   "trend": "up"
+   "prev_rank": 9,
+   "trend": "same"
   },
   {
    "lang": "ma",
@@ -17874,8 +17943,8 @@
    "rss": null,
    "id": "yt-dJoPFXgWx7s",
    "rank": 10,
-   "prev_rank": 5,
-   "trend": "down"
+   "prev_rank": 10,
+   "trend": "same"
   },
   {
    "lang": "ma",
@@ -18916,6 +18985,28 @@
    "lang_source": "titre",
    "type": "song",
    "artist": "OULBIG",
+   "title": "نسيتي شكون أنا",
+   "published": "2026-09-17",
+   "duration": 184,
+   "thumb": "https://i.ytimg.com/vi/U9ajP5TQIbE/hqdefault.jpg",
+   "youtube": {
+    "id": "U9ajP5TQIbE",
+    "url": "https://www.youtube.com/watch?v=U9ajP5TQIbE",
+    "views": 14,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-U9ajP5TQIbE",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "ma",
+   "lang_source": "titre",
+   "type": "song",
+   "artist": "OULBIG",
    "title": "ملي نشوفك",
    "published": "2026-09-17",
    "duration": 151,
@@ -18951,28 +19042,6 @@
    "spotify": null,
    "rss": null,
    "id": "yt-L6Ch5-Egk5Y",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "ma",
-   "lang_source": "titre",
-   "type": "song",
-   "artist": "OULBIG",
-   "title": "نسيتي شكون أنا",
-   "published": "2026-09-17",
-   "duration": 184,
-   "thumb": "https://i.ytimg.com/vi/U9ajP5TQIbE/hqdefault.jpg",
-   "youtube": {
-    "id": "U9ajP5TQIbE",
-    "url": "https://www.youtube.com/watch?v=U9ajP5TQIbE",
-    "views": 14,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-U9ajP5TQIbE",
    "rank": 0,
    "prev_rank": 0,
    "trend": ""
