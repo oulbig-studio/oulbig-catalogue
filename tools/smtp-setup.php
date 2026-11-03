@@ -29,7 +29,11 @@ if ( ! is_file( $pub . '/wp-load.php' ) ) {
 $secret_file = dirname( $pub ) . '/orad-smtp.txt';
 $status_file = $pub . '/wp-content/uploads/orad-mail-status.txt';
 
-$pass = isset( $argv[1] ) ? trim( $argv[1] ) : '';
+$pass  = isset( $argv[1] ) ? trim( $argv[1] ) : '';
+$force = ( '--test' === $pass );
+if ( $force ) {
+	$pass = '';
+}
 if ( '' !== $pass ) {
 	if ( ! preg_match( '/^[A-Za-z0-9_.\-]{8,128}$/', $pass ) ) {
 		fwrite( STDERR, "Mot de passe refusé (caractères autorisés : lettres, chiffres, _ . -)\n" );
@@ -40,7 +44,7 @@ if ( '' !== $pass ) {
 }
 
 // Un seul e-mail de test : on ne renvoie pas si le résultat est déjà noté.
-if ( is_file( $status_file ) ) {
+if ( ! $force && is_file( $status_file ) ) {
 	echo "Déjà testé : " . file_get_contents( $status_file ) . "\n";
 	exit( 0 );
 }
@@ -50,8 +54,9 @@ $_SERVER['REQUEST_URI'] = '/';
 define( 'WP_USE_THEMES', false );
 require $pub . '/wp-load.php';
 
+$before = (string) get_option( 'orad_mail_error' );
 $ok   = wp_mail( get_option( 'admin_email' ), 'OULBIG Radio — test des e-mails', "Les e-mails du site radio.almoqayada.com fonctionnent.\n\n— OULBIG Radio" );
-$line = gmdate( 'Y-m-d H:i' ) . ' UTC | ' . ( function_exists( 'orad_mail_status' ) ? orad_mail_status() : 'thème inactif' ) . ' | ' . ( $ok ? 'ENVOI OK' : 'ECHEC : ' . get_option( 'orad_mail_error' ) );
+$line = gmdate( 'Y-m-d H:i' ) . ' UTC | ' . ( function_exists( 'orad_mail_status' ) ? orad_mail_status() : 'thème inactif' ) . ' | ' . ( $ok ? 'ENVOI OK' : 'ECHEC : ' . get_option( 'orad_mail_error' ) ) . ' | erreur précédente : ' . ( $before ? $before : 'aucune' ) . ' | expéditeur WP : ' . apply_filters( 'wp_mail_from', 'wordpress@radio.almoqayada.com' );
 wp_mkdir_p( dirname( $status_file ) );
 file_put_contents( $status_file, $line . "\n" );
 echo $line . "\n";
