@@ -1,36 +1,32 @@
-"""Diagnostic : ce que l'API YouTube renvoie pour chaque source du catalogue (aucune écriture)."""
-import json, os, urllib.parse, urllib.request
+"""Diagnostic : statut actuel des vidéos sorties du catalogue + titres TALIM trouvés par la recherche."""
+import json, os, urllib.parse, urllib.request, collections
 K = os.environ["YT_API_KEY"]
 def get(path, **q):
     q["key"] = K
-    try:
-        with urllib.request.urlopen("https://www.googleapis.com/youtube/v3/" + path + "?" + urllib.parse.urlencode(q), timeout=30) as r:
-            return json.load(r)
-    except urllib.error.HTTPError as e:
-        return {"error": e.code, "body": e.read().decode()[:200]}
-def pl_count(pid):
-    n, tok, pages = 0, "", 0
-    while True:
-        d = get("playlistItems", part="contentDetails", playlistId=pid, maxResults=50, pageToken=tok)
-        if "error" in d: return f"ERREUR {d['error']} après {n}"
-        n += len(d.get("items", [])); pages += 1
-        tok = d.get("nextPageToken")
-        if not tok: return f"{n} ids ({pages} pages, total annoncé {d.get('pageInfo',{}).get('totalResults')})"
-for ch in ["UCmLAQNmYAFjFfYDmnN36LHg", "UCpWPGzDk5xXbE2fc48AeM8Q", "UCqLXTRscQHOkMjI8RZzU7KQ", "UCduWsxZ5-V1PXxAHa2NDe4Q"]:
-    d = get("channels", part="snippet,statistics,contentDetails", id=ch)
-    it = (d.get("items") or [{}])[0]
-    print("==", ch, it.get("snippet", {}).get("title"), it.get("snippet", {}).get("customUrl"), "videoCount:", it.get("statistics", {}).get("videoCount"))
-    up = it.get("contentDetails", {}).get("relatedPlaylists", {}).get("uploads")
-    print("   uploads", up, "→", pl_count(up) if up else "aucun")
-    p = get("playlists", part="snippet,contentDetails", channelId=ch, maxResults=50)
-    pls = p.get("items", [])
-    print("   playlists:", len(pls), p.get("error", ""))
-    for x in pls[:30]:
-        print("     ", x["id"], x["contentDetails"]["itemCount"], x["snippet"]["title"][:60])
-    s = get("search", part="id", channelId=ch, type="video", maxResults=50, order="date")
-    print("   search:", s.get("pageInfo", {}).get("totalResults"), "résultats", s.get("error", ""))
-for h in ["@TALIM4Art", "@OULBIG"]:
-    d = get("channels", part="snippet,statistics", forHandle=h)
+    with urllib.request.urlopen("https://www.googleapis.com/youtube/v3/" + path + "?" + urllib.parse.urlencode(q), timeout=30) as r:
+        return json.load(r)
+lost = json.load(open("tools/lost_ids.json"))
+ids = list(lost); found = {}
+for i in range(0, len(ids), 50):
+    for v in get("videos", part="snippet,status", id=",".join(ids[i:i+50])).get("items", []):
+        found[v["id"]] = (v["status"]["privacyStatus"], v["snippet"]["channelTitle"], v["snippet"]["channelId"])
+c = collections.Counter()
+for vid, meta in lost.items():
+    st = found.get(vid, ("supprimée", "-", "-"))
+    c[(meta[0], meta[1], st[0], st[1], st[2])] += 1
+for k, n in c.most_common(): print(n, k)
+print("--- TALIM Topic via search")
+tok, n = "", 0
+while True:
+    d = get("search", part="snippet", channelId="UCqLXTRscQHOkMjI8RZzU7KQ", type="video", maxResults=50, order="date", pageToken=tok)
     for it in d.get("items", []):
-        print("handle", h, "→", it["id"], it["snippet"]["title"], it["statistics"].get("videoCount"))
-print("radio playlist →", pl_count("PLx1bfRrl4XWPEGJS3QzmR_NUvmIVtahKX"))
+        n += 1; print(" ", it["id"]["videoId"], it["snippet"]["publishedAt"][:10], it["snippet"]["title"][:60])
+    tok = d.get("nextPageToken")
+    if not tok or n > 300: break
+print("total", n)
+print("--- TALIM Art uploads")
+for it in get("playlistItems", part="snippet", playlistId="UUduWsxZ5-V1PXxAHa2NDe4Q", maxResults=50).get("items", []):
+    print(" ", it["snippet"]["publishedAt"][:10], it["snippet"]["title"][:60])
+print("--- OULBIG main : 15 dernières")
+for it in get("playlistItems", part="snippet", playlistId="UUmLAQNmYAFjFfYDmnN36LHg", maxResults=15).get("items", []):
+    print(" ", it["snippet"]["publishedAt"][:10], it["snippet"]["title"][:60])
