@@ -297,6 +297,30 @@ def yt_playlist_video_ids(pid, key):
             return ids
 
 
+def yt_search_video_ids(channel_id, key, max_pages=12):
+    """Vidéos d'une chaîne via la recherche : indispensable pour les chaînes « - Topic »
+    dont la playlist « uploads » est incomplète ou introuvable (404)."""
+    ids, token = [], ""
+    for _ in range(max_pages):
+        q = urllib.parse.urlencode({"part": "id", "channelId": channel_id, "type": "video", "order": "date",
+                                    "maxResults": 50, "key": key, "pageToken": token})
+        data = http_json("https://www.googleapis.com/youtube/v3/search?" + q)
+        ids += [it["id"]["videoId"] for it in data.get("items", []) if it.get("id", {}).get("videoId")]
+        token = data.get("nextPageToken")
+        if not token:
+            break
+    return ids
+
+
+def yt_channel_titles(channels, key):
+    out = {}
+    for i in range(0, len(channels), 50):
+        q = urllib.parse.urlencode({"part": "snippet", "id": ",".join(channels[i:i + 50]), "key": key})
+        for it in http_json("https://www.googleapis.com/youtube/v3/channels?" + q).get("items", []):
+            out[it["id"]] = it["snippet"]["title"]
+    return out
+
+
 def yt_videos(ids, key):
     out = {}
     for i in range(0, len(ids), 50):
@@ -392,13 +416,32 @@ def collect_youtube(cfg):
             except RuntimeError as e:
                 log("playlist ignorée", pl.get("id"), "→", e)
         ids = list(assigned)
+        try:
+            titles = yt_channel_titles(channels, key)
+        except RuntimeError as e:
+            titles = {}
+            log("titres des chaînes indisponibles →", e)
         for ch in channels:
             uploads = "UU" + ch[2:] if ch.startswith("UC") else ch
+            got, topic = [], titles.get(ch, "").endswith(" - Topic")
             try:
-                ids += yt_playlist_video_ids(uploads, key)
+                got = yt_playlist_video_ids(uploads, key)
             except RuntimeError as e:
-                log("chaîne ignorée", ch, "→", e)
-        items = yt_videos(list(dict.fromkeys(ids)), key)
+                log("playlist uploads indisponible", ch, "→", str(e)[:80])
+            if topic or not got:
+                try:
+                    found = yt_search_video_ids(ch, key)
+                    log(f"Chaîne {titles.get(ch, ch)} : {len(got)} via uploads, {len(found)} via recherche")
+                    got += found
+                except RuntimeError as e:
+                    log("recherche ignorée", ch, "→", str(e)[:80])
+            ids += got
+        # Cumulatif : les vidéos déjà connues restent tant qu'elles sont publiques sur YouTube
+        # (les playlists « uploads » des chaînes Topic perdent parfois des titres).
+        known = [i for i in KNOWN_YT if i not in set(ids)]
+        if known:
+            log(f"{len(known)} vidéos déjà connues revérifiées")
+        items = yt_videos(list(dict.fromkeys(ids + known)), key)
 
     exclude = [w.lower() for w in yc.get("exclude_keywords", [])]
     overrides = {k: v for k, v in (cfg.get("lang_overrides") or {}).items() if v in LANGS}
@@ -647,6 +690,9 @@ def demo_sources():
 
 
 # ---------------------------------------------------------------- main
+KNOWN_YT = []  # identifiants YouTube du catalogue précédent
+
+
 def main():
     ap = argparse.ArgumentParser(description="Synchronise le catalogue OULBIG")
     ap.add_argument("--config", default="config.json")
@@ -665,6 +711,11 @@ def main():
         except Exception:
             pass
 
+    for it in (previous or {}).get("items", []):
+        yt_ref = it.get("youtube") or {}
+        vid = yt_ref.get("id") if isinstance(yt_ref, dict) else None
+        if vid:
+            KNOWN_YT.append(vid)
     if a.demo:
         yt, sp, rss = demo_sources(), [], []
     else:
