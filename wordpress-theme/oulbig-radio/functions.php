@@ -7,7 +7,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'ORAD_VERSION', '2.0.4' );
+define( 'ORAD_VERSION', '2.0.5' );
 
 require_once __DIR__ . '/inc/settings.php';
 require_once __DIR__ . '/inc/db.php';
