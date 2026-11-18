@@ -397,7 +397,7 @@ SPOT_IDS = set()  # jingles et pubs : jamais comptés comme titres
 
 def collect_spots(cfg):
     """Jingles et pubs de la radio, une playlist YouTube par langue (config : youtube.spots).
-    Court (≤ jingle_max s) → jingle ; plus long → pub vidéo. Une pub dont le titre parle du
+    Court (≤ jingle_max s) ou titré « jingle » → jingle ; sinon → pub vidéo. Une pub dont le titre parle du
     service de chansons sur mesure est rattachée à Musicology, les autres à OULBIG Radio."""
     sc = (cfg.get("youtube") or {}).get("spots") or {}
     key = os.environ.get("YT_API_KEY", "").strip()
@@ -422,7 +422,7 @@ def collect_spots(cfg):
                 continue
             SPOT_IDS.add(vid)
             d = int(v.get("duration") or 0)
-            if d and d <= jmax:
+            if (d and d <= jmax) or re.search(r"\bjingle\b", v["title"], re.I):
                 jing.append({"yt": vid, "title": v["title"], "dur": d})
             else:
                 muso = bool(rx.search(v["title"]))
