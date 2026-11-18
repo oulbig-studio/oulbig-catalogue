@@ -1,0 +1,9 @@
+name: Diagnostic jingles (temporaire)
+on: workflow_dispatch
+jobs:
+  diag:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 tools/diag_jingles.py
+        env: { YT_API_KEY: "${{ secrets.YT_API_KEY }}" }
