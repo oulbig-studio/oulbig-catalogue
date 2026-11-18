@@ -21,7 +21,16 @@
       "live stream",
       "en direct de"
     ],
-    "min_duration": 61
+    "min_duration": 61,
+    "spots": {
+      "playlists": {
+        "fr": "PLG8nCC0ZwJyw",
+        "en": "PLeH99dOLMlRE"
+      },
+      "jingle_max": 15,
+      "radio_url": "https://radio.almoqayada.com",
+      "musicology_url": "https://musicology.almoqayada.com"
+    }
   },
   "spotify": {
     "market": "MA",

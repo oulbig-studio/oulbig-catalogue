@@ -392,6 +392,49 @@ def yt_rss(channel_id):
     return out
 
 
+SPOT_IDS = set()  # jingles et pubs : jamais comptés comme titres
+
+
+def collect_spots(cfg):
+    """Jingles et pubs de la radio, une playlist YouTube par langue (config : youtube.spots).
+    Court (≤ jingle_max s) → jingle ; plus long → pub vidéo. Une pub dont le titre parle du
+    service de chansons sur mesure est rattachée à Musicology, les autres à OULBIG Radio."""
+    sc = (cfg.get("youtube") or {}).get("spots") or {}
+    key = os.environ.get("YT_API_KEY", "").strip()
+    out = {"jingles": {}, "ads": []}
+    if not key or not sc.get("playlists"):
+        return out
+    jmax = int(sc.get("jingle_max", 15))
+    rx = re.compile(sc.get("musicology_pattern", r"chanson de tes r[êe]ves|song of your dreams|canci[óo]n de tus sue[ñn]os|musicology"), re.I)
+    for lang, pid in sc["playlists"].items():
+        if lang not in LANGS or not pid:
+            continue
+        try:
+            ids = yt_playlist_video_ids(pid, key)
+            vids = yt_videos(ids, key)
+        except RuntimeError as e:
+            log("playlist jingles/pubs indisponible", lang, "→", str(e)[:80])
+            continue
+        jing = []
+        for vid in ids:
+            v = vids.get(vid)
+            if not v or not v.get("embeddable", True):
+                continue
+            SPOT_IDS.add(vid)
+            d = int(v.get("duration") or 0)
+            if d and d <= jmax:
+                jing.append({"yt": vid, "title": v["title"], "dur": d})
+            else:
+                muso = bool(rx.search(v["title"]))
+                out["ads"].append({"lang": lang, "yt": vid, "title": v["title"], "dur": d or 30,
+                                   "label": "Musicology" if muso else "OULBIG Radio",
+                                   "url": sc.get("musicology_url", "https://musicology.almoqayada.com") if muso else sc.get("radio_url", "")})
+        if jing:
+            out["jingles"][lang] = jing
+        log(f"Jingles/pubs {lang.upper()} : {len(jing)} jingles, {sum(1 for a in out['ads'] if a['lang'] == lang)} pubs")
+    return out
+
+
 def collect_youtube(cfg):
     yc = cfg.get("youtube", {})
     key = os.environ.get("YT_API_KEY", "").strip()
@@ -462,7 +505,7 @@ def collect_youtube(cfg):
     type_over = cfg.get("type_overrides") or {}  # videoId -> "song" | "podcast"
     out = []
     for vid, v in items.items():
-        if any(w in v["title"].lower() for w in exclude):
+        if vid in SPOT_IDS or any(w in v["title"].lower() for w in exclude):
             continue
         if yc.get("min_duration") and v["duration"] and v["duration"] < yc["min_duration"]:
             continue  # écarte les Shorts / teasers
@@ -737,13 +780,18 @@ def main():
             KNOWN_YT.append(vid)
     if a.demo:
         yt, sp, rss = demo_sources(), [], []
+        spots = {"jingles": {}, "ads": []}
     else:
+        spots = collect_spots(cfg)
         yt, sp, rss = collect_youtube(cfg), collect_spotify(cfg), collect_rss(cfg)
     if not (yt or sp or rss):
         log("Aucun contenu récupéré : catalogue existant conservé.")
         sys.exit(1)
 
     cat = build(merge(yt, sp, rss, cfg, previous), cfg)
+    if not (spots["jingles"] or spots["ads"]) and previous and previous.get("spots"):
+        spots = previous["spots"]  # API indisponible : on garde les jingles/pubs connus
+    cat["spots"] = spots
     os.makedirs(os.path.dirname(os.path.abspath(a.out)), exist_ok=True)
     with open(a.out, "w", encoding="utf-8") as f:
         json.dump(cat, f, ensure_ascii=False, indent=1)
