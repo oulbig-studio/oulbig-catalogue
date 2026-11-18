@@ -164,6 +164,7 @@ function demoApi() {
    5. Catalogue → pistes par station
    ===================================================================== */
 function ingest(feed) {
+  S.spots = (feed && feed.spots) || null;
   const tracks = {};
   (feed && feed.items || []).forEach((i) => {
     if (!i.youtube || !i.youtube.id || i.youtube.embeddable === false) return;
@@ -212,19 +213,29 @@ const rankOf = (t) => { const l = S.db[langOf(t)]; const i = l ? l.hits.indexOf(
    6. Grille : podcast / titre … jingle, Hit Parade 10 → 1, pubs vidéo
    ===================================================================== */
 const EPOCH = Date.UTC(2026, 9, 1, 0, 0, 0);
-function jingle(l) { const j = CFG.jingles[l] || {}; const yt = ytId(j.yt); return yt ? { id: 'jingle-' + l, special: 'jingle', title: T('jingle_title'), artist: 'OULBIG Radio', yt, dur: +j.dur || 8 } : null; }
-function adsFor(l) { return (CFG.ads || []).map((a, i) => ({ a, i })).filter(({ a }) => ytId(a.yt) && (a.lang === 'all' || a.lang === l)).map(({ a, i }) => ({ id: 'ad-' + i, special: 'ad', title: a.label, artist: T('kind_ad'), yt: ytId(a.yt), dur: +a.dur || 30, url: a.url || '' })); }
+/* Jingles : celui des Réglages WordPress s'il est renseigné, sinon ceux de la playlist YouTube de la langue (catalogue), en rotation */
+function jinglesFor(l) {
+  const j = (CFG.jingles || {})[l] || {}, yt = ytId(j.yt);
+  if (yt) return [{ id: 'jingle-' + l, special: 'jingle', title: T('jingle_title'), artist: 'OULBIG Radio', yt, dur: +j.dur || 8 }];
+  return (((S.spots || {}).jingles || {})[l] || []).filter((x) => ytId(x.yt)).map((x, i) => ({ id: 'jingle-' + l + '-' + i, special: 'jingle', title: T('jingle_title'), artist: 'OULBIG Radio', yt: ytId(x.yt), dur: +x.dur || 8 }));
+}
+function adsFor(l) {
+  const mine = (CFG.ads || []).map((a, i) => ({ a, i })).filter(({ a }) => ytId(a.yt) && (a.lang === 'all' || a.lang === l)).map(({ a, i }) => ({ id: 'ad-' + i, special: 'ad', title: a.label, artist: T('kind_ad'), yt: ytId(a.yt), dur: +a.dur || 30, url: a.url || '' }));
+  const cat = ((S.spots || {}).ads || []).filter((a) => ytId(a.yt) && (a.lang === 'all' || a.lang === l)).map((a, i) => ({ id: 'ad-' + l + '-' + i, special: 'ad', title: a.label || 'OULBIG Radio', artist: T('kind_ad'), yt: ytId(a.yt), dur: +a.dur || 30, url: a.url || (a.label === 'OULBIG Radio' ? (CFG.site || '') : '') }));
+  return mine.concat(cat);
+}
 function cycle(l, k) {
   const d = S.db[l], n = d.songs.length, km = ((k % n) + n) % n, key = l + '|' + km;
   if (S.memo[key]) return S.memo[key];
   const content = [];
   if (d.pods.length) d.pods.forEach((p, i) => { content.push({ kind: 'pod', ref: p }); content.push({ kind: 'song', ref: d.songs[(km * d.pods.length + i) % n] }); });
   else for (let i = 0; i < Math.min(8, n); i++) content.push({ kind: 'song', ref: d.songs[(km * 8 + i) % n] });
-  const J = jingle(l), ads = adsFor(l), every = Math.max(2, +CFG.adEvery || 6);
+  const JL = jinglesFor(l), ads = adsFor(l), every = Math.max(2, +CFG.adEvery || 6);
+  const J = JL.length ? JL[km % JL.length] : null, J2 = JL.length ? JL[(km + 1) % JL.length] : null;
   const items = []; let ai = km;
   if (J) items.push({ kind: 'jingle', ref: J });
   content.forEach((it, i) => { items.push(it); if (ads.length && (i + 1) % every === 0) items.push({ kind: 'ad', ref: ads[(ai++) % ads.length] }); });
-  if (J) items.push({ kind: 'jingle', ref: J });
+  if (J2) items.push({ kind: 'jingle', ref: J2 });
   d.hits.slice().reverse().forEach((h) => items.push({ kind: 'hit', ref: h }));
   if (ads.length) items.push({ kind: 'ad', ref: ads[(ai++) % ads.length] });
   let t = 0; items.forEach((it) => { it.start = t; t += it.ref.dur; });
