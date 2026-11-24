@@ -1,0 +1,54 @@
+case	type	personnage	texte
+1.1	narration	Narrateur	Salé. Super Slaoui a hérité de la boutique de bateaux de son grand-père...
+1.2	pensée	Slaoui	Personne. Encore une journée vide.
+1.3	parole	Ami à la casquette rouge	Le commerce, c'est mort !
+1.3	parole	Ami en noir (à droite)	De toute façon, rien ne change jamais ici.
+1.4	parole	L3arbi	On dit que tu es la moyenne des cinq personnes avec qui tu passes le plus de temps.
+1.5	titre	—	Épisode 08 — Lis pour grandir
+2.1	parole	Slaoui	Et alors ? Je ne vais pas changer d'amis !
+2.1	parole	L3arbi	Non. Ajoute-en d'autres. Viens.
+2.2	parole	L3arbi	Et si tu pouvais ajouter à ton cercle les esprits les plus brillants qui aient jamais vécu ?
+2.3	bruitage	—	FLOUUUF !
+2.4	parole	L3arbi	Un livre, ce sont les idées d'une personne posées sur le papier... comme si elle te parlait.
+2.5	parole	Arwa	Moi, j'invite Ibn Battûta ! Il est allé jusqu'aux rives de la Volga.
+2.5	parole	Slaoui	Choisir un livre... c'est choisir qui j'invite à ma table.
+3.1	parole	Aicha	Toi, lire ? Tu mets un mois pour finir un livre !
+3.1	parole	L3arbi	Lire vite n'est pas un don. C'est un muscle.
+3.2	narration	Narrateur	Un : mesure ta vitesse. Puis vise l'essentiel, pas chaque mot.
+3.3	narration	Narrateur	Deux : l'œil avance par petits sauts. Fais taire la petite voix qui prononce chaque mot.
+3.4	narration	Narrateur	Trois : un guide sous la ligne. Moins d'arrêts, jamais de retour en arrière.
+3.5	narration	Narrateur	Quatre : résume avec tes mots et explique-le. Cinq : survole, hiérarchise, puis creuse les passages clés.
+3.5	parole	Aicha	Tu l'as lu hier... et tu l'expliques mieux que le livre !
+4.1	narration	Narrateur	Ce que les grands livres t'apprennent.
+4.1	parole	Esprit du vieux marchand	Partage les profits. Motive, écoute tout le monde, et célèbre chaque réussite.
+4.2	parole	Slaoui	Aicha, à partir d'aujourd'hui, on partage les bénéfices.
+4.2	parole	Aicha	Associée ? Pour de vrai ?!
+4.3	parole	Touriste	Moi, je rêverais de naviguer comme une vraie corsaire !
+4.3	pensée	Slaoui	Écouter... et dépasser ses attentes.
+4.4	narration	Narrateur	Contrôle tes dépenses... et ose nager à contre-courant.
+4.5	parole	Slaoui	Ce n'est jamais une question de prix. C'est une question de confiance.
+5.1	narration	Narrateur	Trois mois et vingt livres plus tard...
+5.2	narration	Narrateur	Deux à trois livres par semaine : à l'aube, au café, au port.
+5.3	parole	Un des amis	Mais... qu'est-ce qui lui est arrivé ?!
+5.4	parole	Slaoui	Rien de magique. J'ai juste ajouté du monde à ma table. Tiens, commence par celui-là.
+5.5	parole	L3arbi	Mes élèves terminent l'année. Je veux que tu leur parles.
+5.5	parole	Slaoui	Moi ?!
+6.1	narration	Narrateur	La fête de fin d'année de l'école de Super L3arbi.
+6.2	parole	Slaoui	Un jour, j'ai lu un discours célèbre fait devant de jeunes diplômés. Il tenait en trois leçons.
+6.3	parole	Slaoui	Un : mets l'essentiel avant tout. Garde le sens et la gratitude au centre de ta vie : ça te garde humble.
+6.4	parole (voix off)	Slaoui	Deux : ose échouer en grand. Mais des rêves sans objectifs restent des rêves : fixe-toi des buts par année, par mois, par jour.
+6.4	bruitage	—	PLOUF !
+6.5	parole	Slaoui	Et ne confonds jamais l'agitation avec le progrès !
+7.1	parole	Slaoui	Trois : le dernier voyage ne prend pas de bagages. Ce qui compte, ce n'est pas ce que tu as...
+7.2	parole (voix off)	Slaoui	... c'est ce que tu en fais.
+7.3	parole	Slaoui	Toi. Tu veux apprendre à construire des bateaux cet été ?
+7.3	parole	Jeune apprenti	Moi ?!
+7.4	bruitage	—	CLAP CLAP CLAP !
+7.5	parole	L3arbi	Tu as compris la plus belle leçon : quand tu réussis, tends la main à un autre.
+8.1	narration	Narrateur	La nouvelle table de Slaoui.
+8.2	parole	Aicha	Il était une fois, à Salé, un capitaine qui avait peur des livres...
+8.3	narration	Narrateur	S'entourer des meilleurs. Lire vite et bien. Partager. Écouter. Oser échouer. Des objectifs. Tendre la main.
+8.4	parole	Oulbig	Un carnet de lecture : une idée par livre. Et chaque idée, tu la partages.
+8.4	parole	Slaoui	Chaque livre ouvert, chaque personne qu'on aide à monter... c'est une trace qu'on laisse.
+8.5	parole	Oulbig	Ne cherche pas seulement à gagner ta vie. Cherche à faire une différence. Lis, apprends, donne — dès aujourd'hui.
+8.5	titre	—	À suivre : Épisode 09
