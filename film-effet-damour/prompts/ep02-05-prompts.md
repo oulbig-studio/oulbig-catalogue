@@ -24,7 +24,9 @@ Les durées de plan sont calées sur les fichiers audio de `voix-off/epXX/`. Dan
 |---|---|
 | H, 23 ans | ✅ `references/H-reference.webp` |
 | H, 13-17 ans | à générer à partir de la planche de H : `same face as reference at 16, clean-shaven, slimmer, hoodie and school backpack` (le même prompt avec 13 ans pour l'épisode 3) |
-| Béa, 17 ans (rêve) | à générer une fois la planche de Béa validée |
+| Béa, 23 ans | ✅ `references/Bea-reference.webp` |
+| Béa, 17 ans (rêve, lycée) | à générer à partir de la planche de Béa (en cours) |
+| Safaa, 17 ans | ✅ `references/Safaa-reference.jpg` (pour les épisodes 11 et suivants) |
 | Mère, Père, Sœur, Frère | `Moroccan mother, 50, warm face, headscarf loosely tied, apron` · `Moroccan father, 55, grey stubble, calm, gardener's hands` · `Moroccan young woman, 19, artist, paint on her fingers` · `Moroccan teenage boy, 16, tall and lanky` |
 | KALL, 23 et 17 ans | `Moroccan young man, relaxed charismatic smile, short fade haircut, stylish casual jacket, gold chain, always at ease` |
 | Zed, 23 et 17 ans | `Moroccan young man, slim, quiet observant eyes, glasses, plain dark sweater, deadpan expression` |
@@ -39,7 +41,7 @@ Les durées de plan sont calées sur les fichiers audio de `voix-off/epXX/`. Dan
 | # | Durée | Prompt vidéo | Audio |
 |---|---|---|---|
 | 1 | 5 s | `Dark bedroom at dawn, H (23) wakes up abruptly in a narrow single bed, sitting up breathing hard, soft grey morning light through the curtains, a painting of green trees on the wall in front of the bed` | ep02_01_H (6,4 s), début |
-| 2 | 5 s | `Dream sequence: a bedroom with deep midnight-blue walls, a young woman (Béa, 17, dark hair loose) sits on the floor with her back against the wall, knees folded, laughing softly, pale November afternoon light, dreamy soft glow, slow push-in` | ep02_01_H, fin + ep02_02_H (7,6 s) |
+| 2 | 5 s | `Dream sequence: a bedroom with deep midnight-blue walls, a young woman (Béa, 17, dark curly hair loose, light freckles) sits on the floor with her back against the wall, knees folded, laughing softly, pale November afternoon light, dreamy soft glow, slow push-in` | ep02_01_H, fin + ep02_02_H (7,6 s) |
 | 3 | 5 s | `Dream: close-up of Béa tilting her head as she smiles, blue light, hair moving slightly, the image slowly blurs and dissolves into white` | ep02_02_H, fin |
 | 4 | 5 s | `H (23) lying back in bed staring at the ceiling, eyes wet, morning light, the green painting on the wall, silence of a sleeping house, static camera` | ep02_03_H (4,8 s) |
 | 5 | 5 s | `H walks through a Moroccan family living room: new navy-blue armchairs, warm golden-beige walls, he sits in one armchair and touches the fabric, gentle morning light from the garden window` | — (ambiance, oiseaux) |

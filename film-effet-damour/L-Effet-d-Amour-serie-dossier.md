@@ -30,19 +30,18 @@ Le roman décrit peu le physique de H. Les traits ci-dessous sont **des proposit
 | Personnage | Âges | Prompt de référence (en anglais, plus fiable pour les modèles) |
 |---|---|---|
 | **H** (narrateur) | 23 ans (présent), 15-17 ans (lycée) | **Image de référence : `references/H-reference.webp`** (face, profil, dos). `young man, 23, light-brown skin, very short black curly buzz cut, dark brown eyes, thick straight eyebrows, light stubble, calm reserved gaze, camel wool overcoat, cream ribbed sweater, charcoal trousers, dark brown Chelsea boots` · Version lycée : `same face at 16, clean-shaven, slimmer, school backpack, hoodie, shy posture` · Exil (pluie) : garder le manteau camel et ajouter le parapluie transparent de la fiche |
-| **Béa** | 16-17 ans, 23 ans | **Visage original à générer** (voir la note sous le tableau). `young woman, dark brown hair slicked back with a deep side part, low bun, warm olive skin, expressive dark eyes, wide radiant smile with a playful half-smile at rest, tall and upright, tilts her head when she smiles, elegant and neat, colour-coded notebooks (blue, red, green)` · Lycée : `same face at 17, hair loose or in a ponytail, school bag` · Présent : `same face at 23, refined minimalist style` |
+| **Béa** | 16-17 ans, 23 ans | **Image de référence : `references/Bea-reference.webp`** (planche « Nour », validée). `young woman, 23, light olive skin with light freckles, dark curly hair pulled back in a low bun with loose curls framing the face, centre parting, warm amber-brown eyes, thick defined eyebrows, small gold hoop earrings, calm reserved expression with a restrained half smile, tall and upright, long cream wool coat, charcoal ribbed turtleneck, wide camel trousers, dark brown ankle boots, transparent umbrella` · Lycée : `same face at 17, curly hair loose, school bag, colour-coded notebooks (blue, red, green)` · Rêve : `same face at 17, sitting against a midnight-blue wall, laughing softly` |
 | **La mère de Béa** | ~50 ans | `tall blonde elegant businesswoman, charismatic, precise gaze, tailored coat` |
 | **KALL** | 16 / 23 ans | `relaxed charismatic Moroccan guy, easy smile, always 10 minutes late, knows everyone, casual stylish clothes` |
 | **Zed** | 16 / 23 ans | `quiet observant Moroccan guy, dry humour, phone always face down on the table` |
 | **Anis** | 23 ans | `direct passionate Moroccan engineering student, black coffee, talks with his hands` |
-| **Safaa** | 17 ans | `cheerful enthusiastic Moroccan high-school girl, warm and talkative` |
+| **Safaa** | 17 ans | **Image de référence : `references/Safaa-reference.jpg`** (ancienne Béa v2, version mince). `young woman, sleek dark hair in a low side-parted bun, warm olive skin, wide radiant smile, olive green jacket, black top, dark trousers, black ankle boots` · Lycée : `same face at 17, cheerful, talkative, school bag` |
 | **N.** | 20 ans | `natural young woman reading Dostoevsky in a rainy canteen, unpretentious, kind direct eyes` |
 | **Le calligraphe** | ~75 ans | `old Moroccan calligrapher sitting cross-legged on a worn burgundy velvet cushion, fine pen, small oil lamp` |
 | **La famille** | — | Mère (cuisine, msemen), Père (jardin, arrosoir, pêcher), Sœur (peintre), Frère (grand ado) |
 | **Minou** | chat | `small grey and white tabby cat, irregular spots on forehead, curved question-mark tail, insolent golden-yellow eyes` |
 | **CSK** | voix seulement | voix radio grave et veloutée (jamais de visage) |
 
-> **Note sur Béa :** la photo envoyée sert seulement d'inspiration pour l'allure (cheveux plaqués, raie sur le côté, sourire, ton sépia). Le visage de Béa doit être **un visage original généré**, qui ne ressemble pas à une personne réelle identifiable. Les plateformes (TikTok, YouTube, Meta) et Higgsfield interdisent de reproduire le visage d'une vraie personne sans son accord. Méthode : générer 4 à 8 visages avec le prompt ci-dessus, en choisir un, puis en faire une planche face, profil et dos comme celle de H.
 
 **Lieux récurrents** : médina au crépuscule (lanternes en fer forgé, murs ocre), la maison familiale (fauteuils bleu marine, murs beige doré, tableaux de la sœur), le jardin (pêcher, jasmin), le lycée (lumière oblique de novembre, poussière de craie), la terrasse de Guéliz face aux remparts, le lac Thacker, la ville d'exil (pluie, résidence de 12 m²), le supermarché (néons).
 
