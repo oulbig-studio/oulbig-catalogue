@@ -88,7 +88,7 @@ function orad_migrate_sponsors() {
 		$k = strtolower( $d['name'] );
 		if ( ! isset( $known[ $k ] ) ) {
 			$list[] = $d;
-		} elseif ( empty( $list[ $known[ $k ] ]['url'] ) && ! empty( $d['url'] ) ) {
+		} elseif ( ( empty( $list[ $known[ $k ] ]['url'] ) || 'https://www.youtube.com/@OULBIG' === $list[ $known[ $k ] ]['url'] && 'oulbig studios' === $k ) && ! empty( $d['url'] ) ) {
 			$list[ $known[ $k ] ]['url'] = $d['url'];
 		}
 	}
