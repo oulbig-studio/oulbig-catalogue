@@ -236,7 +236,18 @@ function cycle(l, k) {
   const d = S.db[l], n = d.songs.length, km = ((k % n) + n) % n, key = l + '|' + km;
   if (S.memo[key]) return S.memo[key];
   const content = [];
-  if (d.pods.length) d.pods.forEach((p, i) => { content.push({ kind: 'pod', ref: p }); content.push({ kind: 'song', ref: d.songs[(km * d.pods.length + i) % n] }); });
+  if (d.pods.length) {
+    // Après chaque podcast : assez de titres pour égaler (environ) sa durée — musique et parole s'équilibrent
+    const ratio = +CFG.musicRatio || 1, avg = d.songs.reduce((a, s) => a + (+s.dur || 210), 0) / n || 210;
+    const podTot = d.pods.reduce((a, p) => a + (+p.dur || 0), 0);
+    let ptr = km * Math.max(d.pods.length, Math.round(podTot * ratio / avg));
+    d.pods.forEach((p) => {
+      content.push({ kind: 'pod', ref: p });
+      let music = 0, c = 0;
+      do { const s = d.songs[ptr++ % n]; content.push({ kind: 'song', ref: s }); music += +s.dur || 210; c++; }
+      while (music < (+p.dur || 0) * ratio - avg / 2 && c < 12 && c < n);
+    });
+  }
   else for (let i = 0; i < Math.min(8, n); i++) content.push({ kind: 'song', ref: d.songs[(km * 8 + i) % n] });
   const JL = jinglesFor(l), ads = adsFor(l), every = Math.max(2, +CFG.adEvery || 6);
   const J = JL.length ? JL[km % JL.length] : null, J2 = JL.length ? JL[(km + 1) % JL.length] : null;
