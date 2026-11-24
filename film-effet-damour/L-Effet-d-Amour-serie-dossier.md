@@ -29,8 +29,8 @@ Le roman décrit peu le physique de H. Les traits ci-dessous sont **des proposit
 
 | Personnage | Âges | Prompt de référence (en anglais, plus fiable pour les modèles) |
 |---|---|---|
-| **H** (narrateur) | 23 ans (présent), 15-17 ans (lycée) | `Moroccan young man, 23, short black hair, light beard, warm brown eyes, thoughtful reserved expression, simple dark jacket, carries a rolling suitcase` · version lycée : `same face at 16, clean-shaven, slimmer, school backpack, shy posture` |
-| **Béa** | 16-17 ans, 23 ans | `tall young woman, long dark hair, confident upright posture, slightly forward-leaning walk, half smile at the corner of the mouth, tilts her head when she smiles, neat and elegant, colour-coded notebooks (blue, red, green)` |
+| **H** (narrateur) | 23 ans (présent), 15-17 ans (lycée) | **Image de référence : `references/H-reference.webp`** (face, profil, dos). `young man, 23, light-brown skin, very short black curly buzz cut, dark brown eyes, thick straight eyebrows, light stubble, calm reserved gaze, camel wool overcoat, cream ribbed sweater, charcoal trousers, dark brown Chelsea boots` · Version lycée : `same face at 16, clean-shaven, slimmer, school backpack, hoodie, shy posture` · Exil (pluie) : garder le manteau camel et ajouter le parapluie transparent de la fiche |
+| **Béa** | 16-17 ans, 23 ans | **Visage original à générer** (voir la note sous le tableau). `young woman, dark brown hair slicked back with a deep side part, low bun, warm olive skin, expressive dark eyes, wide radiant smile with a playful half-smile at rest, tall and upright, tilts her head when she smiles, elegant and neat, colour-coded notebooks (blue, red, green)` · Lycée : `same face at 17, hair loose or in a ponytail, school bag` · Présent : `same face at 23, refined minimalist style` |
 | **La mère de Béa** | ~50 ans | `tall blonde elegant businesswoman, charismatic, precise gaze, tailored coat` |
 | **KALL** | 16 / 23 ans | `relaxed charismatic Moroccan guy, easy smile, always 10 minutes late, knows everyone, casual stylish clothes` |
 | **Zed** | 16 / 23 ans | `quiet observant Moroccan guy, dry humour, phone always face down on the table` |
@@ -41,6 +41,8 @@ Le roman décrit peu le physique de H. Les traits ci-dessous sont **des proposit
 | **La famille** | — | Mère (cuisine, msemen), Père (jardin, arrosoir, pêcher), Sœur (peintre), Frère (grand ado) |
 | **Minou** | chat | `small grey and white tabby cat, irregular spots on forehead, curved question-mark tail, insolent golden-yellow eyes` |
 | **CSK** | voix seulement | voix radio grave et veloutée (jamais de visage) |
+
+> **Note sur Béa :** la photo envoyée sert seulement d'inspiration pour l'allure (cheveux plaqués, raie sur le côté, sourire, ton sépia). Le visage de Béa doit être **un visage original généré**, qui ne ressemble pas à une personne réelle identifiable. Les plateformes (TikTok, YouTube, Meta) et Higgsfield interdisent de reproduire le visage d'une vraie personne sans son accord. Méthode : générer 4 à 8 visages avec le prompt ci-dessus, en choisir un, puis en faire une planche face, profil et dos comme celle de H.
 
 **Lieux récurrents** : médina au crépuscule (lanternes en fer forgé, murs ocre), la maison familiale (fauteuils bleu marine, murs beige doré, tableaux de la sœur), le jardin (pêcher, jasmin), le lycée (lumière oblique de novembre, poussière de craie), la terrasse de Guéliz face aux remparts, le lac Thacker, la ville d'exil (pluie, résidence de 12 m²), le supermarché (néons).
 
