@@ -1,6 +1,6 @@
 /* OULBIG Radio — textes de l'interface (5 langues). Chargé avant radio.js. */
 window.ORAD_I18N = {
-fr:{nav_live:"Direct",nav_hit:"Hit Parade",nav_playlists:"Playlists",nav_artists:"Artistes",nav_publish:"Publier",
+fr:{install:"Installer l'app",install_ios:"Sur iPhone ou iPad : touchez le bouton Partager de Safari, puis « Sur l'écran d'accueil ».",install_other:"Ouvrez le menu de votre navigateur (⋮ ou ⋯) et choisissez « Installer l'application » ou « Ajouter à l'écran d'accueil ». Sur ordinateur, l'icône d'installation se trouve aussi dans la barre d'adresse.",install_done:"OULBIG Radio est installée !",nav_live:"Direct",nav_hit:"Hit Parade",nav_playlists:"Playlists",nav_artists:"Artistes",nav_publish:"Publier",
 on_air:"En direct",listen:"Écouter le direct",pause:"Pause",back_live:"Revenir au direct",mode_live:"En direct",mode_queue:"Playlist",
 kind_pod:"Podcast",kind_song:"Titre",kind_hit:"Hit Parade",kind_jingle:"Jingle",kind_ad:"Pub",
 add_pl:"Ajouter à une playlist",wrong_lang:"Pas la bonne langue ?",yt:"YouTube",sp:"Spotify",
@@ -27,7 +27,7 @@ preview:"Aperçu : la lecture YouTube est bloquée ici. Sur le site de la radio,
 type_song:"Titre",type_pod:"Podcast",jingle_title:"Jingle OULBIG Radio",err:"Une erreur est survenue. Réessaie.",
 lang_fr:"Français",lang_en:"Anglais",lang_es:"Espagnol",lang_ar:"Arabe (fusha)",lang_ma:"Darija"},
 
-en:{nav_live:"Live",nav_hit:"Hit Parade",nav_playlists:"Playlists",nav_artists:"Artists",nav_publish:"Publish",
+en:{install:"Install the app",install_ios:"On iPhone or iPad: tap Safari's Share button, then “Add to Home Screen”.",install_other:"Open your browser menu (⋮ or ⋯) and choose “Install app” or “Add to Home screen”. On a computer, the install icon is also in the address bar.",install_done:"OULBIG Radio is installed!",nav_live:"Live",nav_hit:"Hit Parade",nav_playlists:"Playlists",nav_artists:"Artists",nav_publish:"Publish",
 on_air:"Live",listen:"Listen live",pause:"Pause",back_live:"Back to live",mode_live:"Live",mode_queue:"Playlist",
 kind_pod:"Podcast",kind_song:"Song",kind_hit:"Hit Parade",kind_jingle:"Jingle",kind_ad:"Ad",
 add_pl:"Add to a playlist",wrong_lang:"Wrong language?",yt:"YouTube",sp:"Spotify",
@@ -54,7 +54,7 @@ preview:"Preview: YouTube playback is blocked here. On the radio's website, vide
 type_song:"Song",type_pod:"Podcast",jingle_title:"OULBIG Radio jingle",err:"Something went wrong. Try again.",
 lang_fr:"French",lang_en:"English",lang_es:"Spanish",lang_ar:"Arabic (Fusha)",lang_ma:"Darija"},
 
-es:{nav_live:"Directo",nav_hit:"Hit Parade",nav_playlists:"Listas",nav_artists:"Artistas",nav_publish:"Publicar",
+es:{install:"Instalar la app",install_ios:"En iPhone o iPad: toca el botón Compartir de Safari y luego «Añadir a pantalla de inicio».",install_other:"Abre el menú del navegador (⋮ o ⋯) y elige «Instalar aplicación» o «Añadir a pantalla de inicio». En el ordenador, el icono de instalación también está en la barra de direcciones.",install_done:"¡OULBIG Radio está instalada!",nav_live:"Directo",nav_hit:"Hit Parade",nav_playlists:"Listas",nav_artists:"Artistas",nav_publish:"Publicar",
 on_air:"En directo",listen:"Escuchar en directo",pause:"Pausa",back_live:"Volver al directo",mode_live:"En directo",mode_queue:"Lista",
 kind_pod:"Pódcast",kind_song:"Canción",kind_hit:"Hit Parade",kind_jingle:"Jingle",kind_ad:"Anuncio",
 add_pl:"Añadir a una lista",wrong_lang:"¿Idioma equivocado?",yt:"YouTube",sp:"Spotify",
@@ -81,7 +81,7 @@ preview:"Vista previa: aquí YouTube está bloqueado. En la web de la radio, los
 type_song:"Canción",type_pod:"Pódcast",jingle_title:"Jingle de OULBIG Radio",err:"Algo salió mal. Inténtalo de nuevo.",
 lang_fr:"Francés",lang_en:"Inglés",lang_es:"Español",lang_ar:"Árabe (fusha)",lang_ma:"Darija"},
 
-ar:{nav_live:"البث المباشر",nav_hit:"قائمة الأفضل",nav_playlists:"قوائم التشغيل",nav_artists:"الفنانون",nav_publish:"انشر",
+ar:{install:"ثبّت التطبيق",install_ios:"على آيفون أو آيباد: اضغط زر المشاركة في سفاري ثم «إضافة إلى الشاشة الرئيسية».",install_other:"افتح قائمة المتصفح (⋮ أو ⋯) واختر «تثبيت التطبيق» أو «إضافة إلى الشاشة الرئيسية». على الحاسوب تجد أيقونة التثبيت أيضًا في شريط العنوان.",install_done:"تم تثبيت OULBIG Radio!",nav_live:"البث المباشر",nav_hit:"قائمة الأفضل",nav_playlists:"قوائم التشغيل",nav_artists:"الفنانون",nav_publish:"انشر",
 on_air:"مباشر",listen:"استمع إلى البث المباشر",pause:"إيقاف مؤقت",back_live:"العودة إلى البث المباشر",mode_live:"مباشر",mode_queue:"قائمة تشغيل",
 kind_pod:"بودكاست",kind_song:"أغنية",kind_hit:"قائمة الأفضل",kind_jingle:"فاصل",kind_ad:"إعلان",
 add_pl:"أضف إلى قائمة تشغيل",wrong_lang:"اللغة غير صحيحة؟",yt:"يوتيوب",sp:"سبوتيفاي",
@@ -108,7 +108,7 @@ preview:"معاينة: تشغيل يوتيوب محجوب هنا. على موق�
 type_song:"أغنية",type_pod:"بودكاست",jingle_title:"فاصل OULBIG Radio",err:"حدث خطأ. حاول مرة أخرى.",
 lang_fr:"الفرنسية",lang_en:"الإنجليزية",lang_es:"الإسبانية",lang_ar:"العربية الفصحى",lang_ma:"الدارجة"},
 
-ma:{nav_live:"لايف",nav_hit:"هيت باراد",nav_playlists:"البلايليست",nav_artists:"الفنانين",nav_publish:"نشر",
+ma:{install:"سطّب التطبيق",install_ios:"فالآيفون ولا الآيباد: ضغط على زر المشاركة فسفاري، ومن بعد «زيد للشاشة الرئيسية».",install_other:"حل القائمة ديال المتصفح (⋮ ولا ⋯) وختار «تثبيت التطبيق» ولا «زيد للشاشة الرئيسية». فالبيسي، الإيقونة ديال التثبيت كاينة حتى فشريط العنوان.",install_done:"OULBIG Radio تسطّبات!",nav_live:"لايف",nav_hit:"هيت باراد",nav_playlists:"البلايليست",nav_artists:"الفنانين",nav_publish:"نشر",
 on_air:"لايف",listen:"سمع البث المباشر",pause:"وقّف",back_live:"رجع للايف",mode_live:"لايف",mode_queue:"بلايليست",
 kind_pod:"بودكاست",kind_song:"غنية",kind_hit:"هيت باراد",kind_jingle:"جينغل",kind_ad:"إشهار",
 add_pl:"زيد لبلايليست",wrong_lang:"ماشي هادي اللغة؟",yt:"يوتيوب",sp:"سبوتيفاي",

@@ -7,7 +7,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-const ORAD_DB_VERSION = '2.0.0';
+const ORAD_DB_VERSION = '2.0.7';
 
 function orad_table( $name ) {
 	global $wpdb;
@@ -63,7 +63,38 @@ function orad_install() {
 	if ( $admin && ! $admin->has_cap( 'orad_publish' ) ) {
 		$admin->add_cap( 'orad_publish' );
 	}
+	orad_migrate_sponsors();
 	update_option( 'orad_db_version', ORAD_DB_VERSION );
+}
+
+/**
+ * Ajoute aux réglages déjà enregistrés les partenaires par défaut qui manquent (par nom)
+ * et complète l'adresse d'un partenaire existant resté vide. Ne retire ni ne modifie rien d'autre.
+ */
+function orad_migrate_sponsors() {
+	$saved = get_option( 'orad_settings' );
+	if ( ! is_array( $saved ) || empty( $saved['sponsors'] ) || ! is_array( $saved['sponsors'] ) ) {
+		return; // rien d'enregistré : les valeurs par défaut s'appliquent déjà
+	}
+	$list  = array_values( array_filter( $saved['sponsors'], function ( $x ) { return ! empty( $x['name'] ); } ) );
+	$known = array();
+	foreach ( $list as $i => $x ) {
+		$known[ strtolower( $x['name'] ) ] = $i;
+	}
+	foreach ( orad_defaults()['sponsors'] as $d ) {
+		if ( '' === $d['name'] ) {
+			continue;
+		}
+		$k = strtolower( $d['name'] );
+		if ( ! isset( $known[ $k ] ) ) {
+			$list[] = $d;
+		} elseif ( empty( $list[ $known[ $k ] ]['url'] ) && ! empty( $d['url'] ) ) {
+			$list[ $known[ $k ] ]['url'] = $d['url'];
+		}
+	}
+	$saved['sponsors'] = $list;
+	remove_all_filters( 'sanitize_option_orad_settings' );
+	update_option( 'orad_settings', $saved );
 }
 
 add_action( 'after_switch_theme', function () {

@@ -312,6 +312,10 @@ a.partner:hover{border-color:var(--mute)}
 .note-demo{padding:10px 12px;border-radius:12px;background:color-mix(in srgb,var(--amber) 12%,transparent);color:var(--ink);font-size:13px;border:1px dashed color-mix(in srgb,var(--amber) 60%,var(--line))}
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}html{scroll-behavior:auto}}
 
+
+/* Bouton « Installer l'app » */
+.install-btn{display:inline-flex;align-items:center;gap:6px;white-space:nowrap}.install-btn[hidden]{display:none}.install-btn svg{width:16px;height:16px;flex:none}
+@media (max-width:640px){.install-btn span{display:none}.install-btn{padding:8px 10px}}
 </style>
 </head>
 <body>
@@ -354,6 +358,7 @@ a.partner:hover{border-color:var(--mute)}
       <a href="#publier" data-i18n="nav_publish">Publier</a>
     </nav>
     <div class="socials" id="socials-top"></div>
+    <button type="button" class="btn ghost install-btn" id="install-btn" hidden><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M5 20h14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-i18n="install">Installer l'app</span></button>
     <div class="account" id="account"></div>
   </div>
 </header>
@@ -510,7 +515,7 @@ a.partner:hover{border-color:var(--mute)}
 <script>
 /* OULBIG Radio — textes de l'interface (5 langues). Chargé avant radio.js. */
 window.ORAD_I18N = {
-fr:{nav_live:"Direct",nav_hit:"Hit Parade",nav_playlists:"Playlists",nav_artists:"Artistes",nav_publish:"Publier",
+fr:{install:"Installer l'app",install_ios:"Sur iPhone ou iPad : touchez le bouton Partager de Safari, puis « Sur l'écran d'accueil ».",install_other:"Ouvrez le menu de votre navigateur (⋮ ou ⋯) et choisissez « Installer l'application » ou « Ajouter à l'écran d'accueil ». Sur ordinateur, l'icône d'installation se trouve aussi dans la barre d'adresse.",install_done:"OULBIG Radio est installée !",nav_live:"Direct",nav_hit:"Hit Parade",nav_playlists:"Playlists",nav_artists:"Artistes",nav_publish:"Publier",
 on_air:"En direct",listen:"Écouter le direct",pause:"Pause",back_live:"Revenir au direct",mode_live:"En direct",mode_queue:"Playlist",
 kind_pod:"Podcast",kind_song:"Titre",kind_hit:"Hit Parade",kind_jingle:"Jingle",kind_ad:"Pub",
 add_pl:"Ajouter à une playlist",wrong_lang:"Pas la bonne langue ?",yt:"YouTube",sp:"Spotify",
@@ -537,7 +542,7 @@ preview:"Aperçu : la lecture YouTube est bloquée ici. Sur le site de la radio,
 type_song:"Titre",type_pod:"Podcast",jingle_title:"Jingle OULBIG Radio",err:"Une erreur est survenue. Réessaie.",
 lang_fr:"Français",lang_en:"Anglais",lang_es:"Espagnol",lang_ar:"Arabe (fusha)",lang_ma:"Darija"},
 
-en:{nav_live:"Live",nav_hit:"Hit Parade",nav_playlists:"Playlists",nav_artists:"Artists",nav_publish:"Publish",
+en:{install:"Install the app",install_ios:"On iPhone or iPad: tap Safari's Share button, then “Add to Home Screen”.",install_other:"Open your browser menu (⋮ or ⋯) and choose “Install app” or “Add to Home screen”. On a computer, the install icon is also in the address bar.",install_done:"OULBIG Radio is installed!",nav_live:"Live",nav_hit:"Hit Parade",nav_playlists:"Playlists",nav_artists:"Artists",nav_publish:"Publish",
 on_air:"Live",listen:"Listen live",pause:"Pause",back_live:"Back to live",mode_live:"Live",mode_queue:"Playlist",
 kind_pod:"Podcast",kind_song:"Song",kind_hit:"Hit Parade",kind_jingle:"Jingle",kind_ad:"Ad",
 add_pl:"Add to a playlist",wrong_lang:"Wrong language?",yt:"YouTube",sp:"Spotify",
@@ -564,7 +569,7 @@ preview:"Preview: YouTube playback is blocked here. On the radio's website, vide
 type_song:"Song",type_pod:"Podcast",jingle_title:"OULBIG Radio jingle",err:"Something went wrong. Try again.",
 lang_fr:"French",lang_en:"English",lang_es:"Spanish",lang_ar:"Arabic (Fusha)",lang_ma:"Darija"},
 
-es:{nav_live:"Directo",nav_hit:"Hit Parade",nav_playlists:"Listas",nav_artists:"Artistas",nav_publish:"Publicar",
+es:{install:"Instalar la app",install_ios:"En iPhone o iPad: toca el botón Compartir de Safari y luego «Añadir a pantalla de inicio».",install_other:"Abre el menú del navegador (⋮ o ⋯) y elige «Instalar aplicación» o «Añadir a pantalla de inicio». En el ordenador, el icono de instalación también está en la barra de direcciones.",install_done:"¡OULBIG Radio está instalada!",nav_live:"Directo",nav_hit:"Hit Parade",nav_playlists:"Listas",nav_artists:"Artistas",nav_publish:"Publicar",
 on_air:"En directo",listen:"Escuchar en directo",pause:"Pausa",back_live:"Volver al directo",mode_live:"En directo",mode_queue:"Lista",
 kind_pod:"Pódcast",kind_song:"Canción",kind_hit:"Hit Parade",kind_jingle:"Jingle",kind_ad:"Anuncio",
 add_pl:"Añadir a una lista",wrong_lang:"¿Idioma equivocado?",yt:"YouTube",sp:"Spotify",
@@ -591,7 +596,7 @@ preview:"Vista previa: aquí YouTube está bloqueado. En la web de la radio, los
 type_song:"Canción",type_pod:"Pódcast",jingle_title:"Jingle de OULBIG Radio",err:"Algo salió mal. Inténtalo de nuevo.",
 lang_fr:"Francés",lang_en:"Inglés",lang_es:"Español",lang_ar:"Árabe (fusha)",lang_ma:"Darija"},
 
-ar:{nav_live:"البث المباشر",nav_hit:"قائمة الأفضل",nav_playlists:"قوائم التشغيل",nav_artists:"الفنانون",nav_publish:"انشر",
+ar:{install:"ثبّت التطبيق",install_ios:"على آيفون أو آيباد: اضغط زر المشاركة في سفاري ثم «إضافة إلى الشاشة الرئيسية».",install_other:"افتح قائمة المتصفح (⋮ أو ⋯) واختر «تثبيت التطبيق» أو «إضافة إلى الشاشة الرئيسية». على الحاسوب تجد أيقونة التثبيت أيضًا في شريط العنوان.",install_done:"تم تثبيت OULBIG Radio!",nav_live:"البث المباشر",nav_hit:"قائمة الأفضل",nav_playlists:"قوائم التشغيل",nav_artists:"الفنانون",nav_publish:"انشر",
 on_air:"مباشر",listen:"استمع إلى البث المباشر",pause:"إيقاف مؤقت",back_live:"العودة إلى البث المباشر",mode_live:"مباشر",mode_queue:"قائمة تشغيل",
 kind_pod:"بودكاست",kind_song:"أغنية",kind_hit:"قائمة الأفضل",kind_jingle:"فاصل",kind_ad:"إعلان",
 add_pl:"أضف إلى قائمة تشغيل",wrong_lang:"اللغة غير صحيحة؟",yt:"يوتيوب",sp:"سبوتيفاي",
@@ -618,7 +623,7 @@ preview:"معاينة: تشغيل يوتيوب محجوب هنا. على موق�
 type_song:"أغنية",type_pod:"بودكاست",jingle_title:"فاصل OULBIG Radio",err:"حدث خطأ. حاول مرة أخرى.",
 lang_fr:"الفرنسية",lang_en:"الإنجليزية",lang_es:"الإسبانية",lang_ar:"العربية الفصحى",lang_ma:"الدارجة"},
 
-ma:{nav_live:"لايف",nav_hit:"هيت باراد",nav_playlists:"البلايليست",nav_artists:"الفنانين",nav_publish:"نشر",
+ma:{install:"سطّب التطبيق",install_ios:"فالآيفون ولا الآيباد: ضغط على زر المشاركة فسفاري، ومن بعد «زيد للشاشة الرئيسية».",install_other:"حل القائمة ديال المتصفح (⋮ ولا ⋯) وختار «تثبيت التطبيق» ولا «زيد للشاشة الرئيسية». فالبيسي، الإيقونة ديال التثبيت كاينة حتى فشريط العنوان.",install_done:"OULBIG Radio تسطّبات!",nav_live:"لايف",nav_hit:"هيت باراد",nav_playlists:"البلايليست",nav_artists:"الفنانين",nav_publish:"نشر",
 on_air:"لايف",listen:"سمع البث المباشر",pause:"وقّف",back_live:"رجع للايف",mode_live:"لايف",mode_queue:"بلايليست",
 kind_pod:"بودكاست",kind_song:"غنية",kind_hit:"هيت باراد",kind_jingle:"جينغل",kind_ad:"إشهار",
 add_pl:"زيد لبلايليست",wrong_lang:"ماشي هادي اللغة؟",yt:"يوتيوب",sp:"سبوتيفاي",
@@ -680,9 +685,17 @@ const DEFAULTS = {
   sponsors: [
     { name: 'Musicology', url: 'https://musicology.almoqayada.com', accent: '#FF3D6E',
       tagline: { fr: 'La chanson de tes rêves, écrite et produite pour toi', en: 'The song of your dreams, written and produced for you', es: 'La canción de tus sueños, escrita y producida para ti', ar: 'أغنية أحلامك، نكتبها ونلحّنها لك', ma: 'الغنية اللي كتحلم بيها، كنكتبوها ونصاوبوها ليك' } },
-    { name: 'ABSProjects', url: '', accent: '#9D8BFF',
+    { name: 'ABSProjects', url: 'https://absprojects.almoqayada.com', accent: '#9D8BFF',
       tagline: { fr: "Le hub créatif d'OULBIG : vidéos, audiobooks, ebooks, design", en: "OULBIG's creative hub: videos, audiobooks, ebooks, design", es: 'El hub creativo de OULBIG: vídeos, audiolibros, ebooks, diseño', ar: 'مركز OULBIG الإبداعي: فيديو، كتب صوتية، كتب رقمية، تصميم', ma: 'المركز الإبداعي ديال OULBIG: فيديوهات، كتب صوتية، كتب رقمية، ديزاين' } },
-    { name: 'Almoqayada.com', url: 'https://almoqayada.com', accent: '#3DDC97',
+    { name: 'OULBIG Studios', url: 'https://www.youtube.com/@OULBIG', accent: '#4DA3FF',
+      tagline: { fr: 'Votre voix enregistrée : studio, voix et production', en: 'Your voice, recorded: studio, vocals and production', es: 'Tu voz grabada: estudio, voz y producción', ar: 'صوتك مسجَّل: استوديو، أداء صوتي وإنتاج', ma: 'صوتك مسجّل: ستوديو، صوت وإنتاج' } },
+    { name: 'Educaplat', url: 'https://educaplat.almoqayada.com', accent: '#3DDC97',
+      tagline: { fr: 'Ebooks et livres audio en 5 langues', en: 'Ebooks and audiobooks in 5 languages', es: 'Ebooks y audiolibros en 5 idiomas', ar: 'كتب رقمية وكتب صوتية بخمس لغات', ma: 'كتب رقمية وكتب صوتية بخمسة لغات' } },
+    { name: 'ABS Records', url: 'https://absrecords.almoqayada.com', accent: '#C084FC',
+      tagline: { fr: 'E-Voice : apprendre en écoutant', en: 'E-Voice: learn by listening', es: 'E-Voice: aprender escuchando', ar: 'E-Voice: تعلَّم بالاستماع', ma: 'E-Voice: تعلّم وانت كتسمع' } },
+    { name: 'OULBIG · Gumroad', url: 'https://oulbig.gumroad.com', accent: '#FF90E8',
+      tagline: { fr: 'Les livres et BD OULBIG en téléchargement', en: 'OULBIG books and comics to download', es: 'Libros y cómics de OULBIG para descargar', ar: 'كتب وقصص OULBIG المصوّرة للتحميل', ma: 'الكتب والبي دي ديال OULBIG للتحميل' } },
+    { name: 'Almoqayada.com', url: 'https://almoqayada.com', accent: '#2EC4B6',
       tagline: { fr: 'Troc et vente de biens, toutes catégories', en: 'Swap and sell goods in every category', es: 'Trueque y venta de bienes, todas las categorías', ar: 'مقايضة وبيع السلع في كل الفئات', ma: 'التبادل والبيع ديال السلعة، كاع الأصناف' } },
     { name: 'Almoqayada.pro', url: 'https://almoqayada.pro', accent: '#FFB347',
       tagline: { fr: 'Échange et vente de services entre pros et particuliers', en: 'Trade and sell services, pros and individuals', es: 'Intercambio y venta de servicios', ar: 'تبادل الخدمات وبيعها بين المهنيين والأفراد', ma: 'تبادل وبيع الخدمات بين المحترفين والناس' } }
@@ -1289,7 +1302,16 @@ Promise.all([boot, feed]).then(([, f]) => {
 
 /* Application installable (site WordPress / GitHub Pages) */
 let deferred = null;
-window.addEventListener('beforeinstallprompt', (e) => { e.preventDefault(); deferred = e; });
+const instBtn = $('install-btn');
+const isStandalone = () => (window.matchMedia && matchMedia('(display-mode: standalone)').matches) || navigator.standalone === true;
+const isIOS = /iphone|ipad|ipod/i.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+if (instBtn && !isStandalone()) instBtn.hidden = false;
+window.addEventListener('beforeinstallprompt', (e) => { e.preventDefault(); deferred = e; if (instBtn && !isStandalone()) instBtn.hidden = false; });
+window.addEventListener('appinstalled', () => { deferred = null; if (instBtn) instBtn.hidden = true; toast(T('install_done')); });
+if (instBtn) instBtn.addEventListener('click', async () => {
+  if (deferred) { const d = deferred; deferred = null; d.prompt(); try { const c = await d.userChoice; if (c && c.outcome === 'accepted') instBtn.hidden = true; } catch (e) {} return; }
+  openModal(T('install'), '<p>' + esc(T(isIOS ? 'install_ios' : 'install_other')) + '</p>');
+});
 try { if ('serviceWorker' in navigator && CFG.sw) navigator.serviceWorker.register(CFG.sw).catch(() => {}); } catch (e) {}
 })();
 
