@@ -334,13 +334,18 @@ def yt_channel_titles(channels, key):
     return out
 
 
+ALLOW_UNLISTED = set()  # vidéos « non répertoriées » acceptées (playlists qui l'autorisent)
+PL_EXCLUDE = {}  # videoId -> motifs de titre à écarter (par playlist)
+
+
 def yt_videos(ids, key):
     out = {}
     for i in range(0, len(ids), 50):
         q = urllib.parse.urlencode({"part": "snippet,contentDetails,statistics,status", "id": ",".join(ids[i:i + 50]), "key": key})
         # snippet : titre, description (paroles), chaîne, langue audio déclarée
         for v in http_json("https://www.googleapis.com/youtube/v3/videos?" + q).get("items", []):
-            if v.get("status", {}).get("privacyStatus") != "public":
+            privacy = v.get("status", {}).get("privacyStatus")
+            if privacy != "public" and not (privacy == "unlisted" and v["id"] in ALLOW_UNLISTED):
                 continue
             sn = v["snippet"]
             th = sn.get("thumbnails", {})
@@ -469,6 +474,10 @@ def collect_youtube(cfg):
             try:
                 for vid in yt_playlist_video_ids(pl["id"], key):
                     assigned[vid] = (pl.get("lang"), pl.get("type"), pl.get("artist"))
+                    if pl.get("allow_unlisted"):
+                        ALLOW_UNLISTED.add(vid)
+                    if pl.get("exclude_title"):
+                        PL_EXCLUDE[vid] = pl["exclude_title"]
             except RuntimeError as e:
                 log("playlist ignorée", pl.get("id"), "→", e)
         ids = list(assigned)
@@ -506,6 +515,8 @@ def collect_youtube(cfg):
     out = []
     for vid, v in items.items():
         if vid in SPOT_IDS or any(w in v["title"].lower() for w in exclude):
+            continue
+        if vid in PL_EXCLUDE and re.search(PL_EXCLUDE[vid], v["title"], re.I):
             continue
         if yc.get("min_duration") and v["duration"] and v["duration"] < yc["min_duration"]:
             continue  # écarte les Shorts / teasers

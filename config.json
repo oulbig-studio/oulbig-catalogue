@@ -8,8 +8,11 @@
     "playlists": [
       {
         "id": "PLx1bfRrl4XWPEGJS3QzmR_NUvmIVtahKX",
-        "type": "song",
-        "note": "Playlist officielle OULBIG Radio (langue détectée automatiquement)"
+        "type": "podcast",
+        "lang": "fr",
+        "allow_unlisted": true,
+        "exclude_title": "hit radio compil",
+        "note": "Playlist officielle OULBIG Radio : émissions OULBIG Show (non répertoriées), sans les « Hit Radio compile »"
       }
     ],
     "exclude_keywords": [
@@ -25,7 +28,8 @@
     "spots": {
       "playlists": {
         "fr": "PLG8nCC0ZwJyw",
-        "en": "PLeH99dOLMlRE"
+        "en": "PLeH99dOLMlRE",
+        "es": "PLRLtSY8rjZX4"
       },
       "jingle_max": 15,
       "radio_url": "https://radio.almoqayada.com",
