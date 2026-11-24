@@ -30,9 +30,17 @@ const DEFAULTS = {
   sponsors: [
     { name: 'Musicology', url: 'https://musicology.almoqayada.com', accent: '#FF3D6E',
       tagline: { fr: 'La chanson de tes rêves, écrite et produite pour toi', en: 'The song of your dreams, written and produced for you', es: 'La canción de tus sueños, escrita y producida para ti', ar: 'أغنية أحلامك، نكتبها ونلحّنها لك', ma: 'الغنية اللي كتحلم بيها، كنكتبوها ونصاوبوها ليك' } },
-    { name: 'ABSProjects', url: '', accent: '#9D8BFF',
+    { name: 'ABSProjects', url: 'https://absprojects.almoqayada.com', accent: '#9D8BFF',
       tagline: { fr: "Le hub créatif d'OULBIG : vidéos, audiobooks, ebooks, design", en: "OULBIG's creative hub: videos, audiobooks, ebooks, design", es: 'El hub creativo de OULBIG: vídeos, audiolibros, ebooks, diseño', ar: 'مركز OULBIG الإبداعي: فيديو، كتب صوتية، كتب رقمية، تصميم', ma: 'المركز الإبداعي ديال OULBIG: فيديوهات، كتب صوتية، كتب رقمية، ديزاين' } },
-    { name: 'Almoqayada.com', url: 'https://almoqayada.com', accent: '#3DDC97',
+    { name: 'OULBIG Studios', url: 'https://www.youtube.com/@OULBIG', accent: '#4DA3FF',
+      tagline: { fr: 'Votre voix enregistrée : studio, voix et production', en: 'Your voice, recorded: studio, vocals and production', es: 'Tu voz grabada: estudio, voz y producción', ar: 'صوتك مسجَّل: استوديو، أداء صوتي وإنتاج', ma: 'صوتك مسجّل: ستوديو، صوت وإنتاج' } },
+    { name: 'Educaplat', url: 'https://educaplat.almoqayada.com', accent: '#3DDC97',
+      tagline: { fr: 'Ebooks et livres audio en 5 langues', en: 'Ebooks and audiobooks in 5 languages', es: 'Ebooks y audiolibros en 5 idiomas', ar: 'كتب رقمية وكتب صوتية بخمس لغات', ma: 'كتب رقمية وكتب صوتية بخمسة لغات' } },
+    { name: 'ABS Records', url: 'https://absrecords.almoqayada.com', accent: '#C084FC',
+      tagline: { fr: 'E-Voice : apprendre en écoutant', en: 'E-Voice: learn by listening', es: 'E-Voice: aprender escuchando', ar: 'E-Voice: تعلَّم بالاستماع', ma: 'E-Voice: تعلّم وانت كتسمع' } },
+    { name: 'OULBIG · Gumroad', url: 'https://oulbig.gumroad.com', accent: '#FF90E8',
+      tagline: { fr: 'Les livres et BD OULBIG en téléchargement', en: 'OULBIG books and comics to download', es: 'Libros y cómics de OULBIG para descargar', ar: 'كتب وقصص OULBIG المصوّرة للتحميل', ma: 'الكتب والبي دي ديال OULBIG للتحميل' } },
+    { name: 'Almoqayada.com', url: 'https://almoqayada.com', accent: '#2EC4B6',
       tagline: { fr: 'Troc et vente de biens, toutes catégories', en: 'Swap and sell goods in every category', es: 'Trueque y venta de bienes, todas las categorías', ar: 'مقايضة وبيع السلع في كل الفئات', ma: 'التبادل والبيع ديال السلعة، كاع الأصناف' } },
     { name: 'Almoqayada.pro', url: 'https://almoqayada.pro', accent: '#FFB347',
       tagline: { fr: 'Échange et vente de services entre pros et particuliers', en: 'Trade and sell services, pros and individuals', es: 'Intercambio y venta de servicios', ar: 'تبادل الخدمات وبيعها بين المهنيين والأفراد', ma: 'تبادل وبيع الخدمات بين المحترفين والناس' } }
@@ -639,6 +647,15 @@ Promise.all([boot, feed]).then(([, f]) => {
 
 /* Application installable (site WordPress / GitHub Pages) */
 let deferred = null;
-window.addEventListener('beforeinstallprompt', (e) => { e.preventDefault(); deferred = e; });
+const instBtn = $('install-btn');
+const isStandalone = () => (window.matchMedia && matchMedia('(display-mode: standalone)').matches) || navigator.standalone === true;
+const isIOS = /iphone|ipad|ipod/i.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+if (instBtn && !isStandalone()) instBtn.hidden = false;
+window.addEventListener('beforeinstallprompt', (e) => { e.preventDefault(); deferred = e; if (instBtn && !isStandalone()) instBtn.hidden = false; });
+window.addEventListener('appinstalled', () => { deferred = null; if (instBtn) instBtn.hidden = true; toast(T('install_done')); });
+if (instBtn) instBtn.addEventListener('click', async () => {
+  if (deferred) { const d = deferred; deferred = null; d.prompt(); try { const c = await d.userChoice; if (c && c.outcome === 'accepted') instBtn.hidden = true; } catch (e) {} return; }
+  openModal(T('install'), '<p>' + esc(T(isIOS ? 'install_ios' : 'install_other')) + '</p>');
+});
 try { if ('serviceWorker' in navigator && CFG.sw) navigator.serviceWorker.register(CFG.sw).catch(() => {}); } catch (e) {}
 })();
