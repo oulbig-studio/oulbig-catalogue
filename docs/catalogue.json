@@ -12,7 +12,7 @@
    "spotify": "https://open.spotify.com/artist/2FAKBSpY965IRet4aXTmEm"
   }
  },
- "generated": "2026-11-23T15:58:44Z",
+ "generated": "2026-11-24T00:15:17Z",
  "links": {
   "youtube": "https://www.youtube.com/@OULBIG",
   "youtube_topic": "https://www.youtube.com/channel/UCpWPGzDk5xXbE2fc48AeM8Q",
@@ -28,7 +28,7 @@
  "counts": {
   "fr": {
    "songs": 170,
-   "podcasts": 24
+   "podcasts": 49
   },
   "en": {
    "songs": 196,
@@ -92,13 +92,18 @@
     "yt-x4SrbqbKpmw",
     "yt-cmEfgZMA8ZI",
     "yt-9mtdAU3h_rk",
+    "yt-bozjdQsfT0o",
     "yt-1em-HQFTzHM",
     "yt-aHCC4Y7r_cA",
     "yt-_YIeKcPLLEo",
+    "yt-rRIs_MgcmPU",
     "yt-c0w_-t3gkUI",
+    "yt-3FJiVRozlTc",
     "yt-uyrcytScBEU",
     "yt-rhN67_DfycE",
     "yt-DnezG77a_kc",
+    "yt-zJXttQZV9Gg",
+    "yt-HXGNMkWUG74",
     "yt-pH92saROYqU",
     "yt-LF971c2WlDo",
     "yt-eLzbUK1It08",
@@ -112,12 +117,7 @@
     "yt-95qUHLhMEBM",
     "yt-LrlZ7ANDVm8",
     "yt-98zBe4-gzYw",
-    "yt-bozjdQsfT0o",
-    "yt-rRIs_MgcmPU",
     "yt-ayRixRV-2fI",
-    "yt-3FJiVRozlTc",
-    "yt-zJXttQZV9Gg",
-    "yt-HXGNMkWUG74",
     "yt-207pvyaDJK0",
     "yt-fYbQ-TQlhqE",
     "yt-u1B2H3XBP3I",
@@ -222,6 +222,31 @@
     "yt-IKKg0-6VagI"
    ],
    "podcasts": [
+    "yt-DvpUEeoFacw",
+    "yt-wI90obx7fwI",
+    "yt-YRocN_Qdjdg",
+    "yt-ql5tfxvmL-8",
+    "yt-0PCOtkm5NHI",
+    "yt-FFp3RmhBD8Y",
+    "yt-sbksoKHHtrI",
+    "yt-nmqCIlHpla0",
+    "yt-a5_uaqKdcQ8",
+    "yt-xFTodEoFeNU",
+    "yt-weNZanDn-to",
+    "yt-x7HVlOe94pc",
+    "yt-p4vm4l_MLZI",
+    "yt-cwF20Lg0u-M",
+    "yt-gLUSXzZlbBU",
+    "yt-z2hi2VPW_4o",
+    "yt-PyRs1eqLmOY",
+    "yt-523s51W-WMM",
+    "yt-3520727d8AI",
+    "yt-W1qXj5DuPDQ",
+    "yt-dddYnM28A3Y",
+    "yt-wVSUE-21G10",
+    "yt-PhiYgacFtFc",
+    "yt-sylSe4fOvDg",
+    "yt--XXGxbwImaE",
     "yt-i4rOMvg-CgA",
     "yt-qwXoaOB0qMw",
     "yt-_D3PaSj-xlU",
@@ -321,27 +346,27 @@
     "yt-NbDSoqeQtgY",
     "yt-XnM0jdvwmDc",
     "yt-uM7E7jTRat4",
-    "yt-w3CBNzNeiYA",
-    "yt-92ZDyKe70H8",
-    "yt-CvViAxaxKXQ",
-    "yt-AebcK2tTbDs",
-    "yt-Xl9hmAR8PUA",
     "yt-AfdCK93vHwE",
     "yt-ERzw88j3xXc",
     "yt-pWuDgjWIPRo",
-    "yt-WyCN8CdyXUY",
-    "yt-lNKs1aCkTro",
-    "yt-Pb3FtrjK4P8",
     "yt-5dgcENmA_FQ",
     "yt-dsJr3pBCo5s",
+    "yt-w3CBNzNeiYA",
     "yt-jflyMxVLbiU",
     "yt-Sklx3UfSs_w",
     "yt-R2FSvBQMf3s",
     "yt-Bv2uvwZ7E-U",
+    "yt-WyCN8CdyXUY",
+    "yt-lNKs1aCkTro",
+    "yt-Pb3FtrjK4P8",
+    "yt-92ZDyKe70H8",
+    "yt-CvViAxaxKXQ",
+    "yt-AebcK2tTbDs",
+    "yt-Xl9hmAR8PUA",
     "yt-HzAJow9eGRI",
     "yt-SEQqgb1HSf0",
-    "yt-iYdPoiHQql4",
     "yt-llA3wv4_Pls",
+    "yt-iYdPoiHQql4",
     "yt-TLp4Nt0Zmxs",
     "yt-CrLZu-LouN4",
     "yt-DWDPjKuK4FQ",
@@ -363,7 +388,7 @@
     "yt-PLo_W5Nh5e0",
     "yt-urVAUKX0DJM",
     "yt-ZBKsgWJSPvw",
-    "yt-0LtlhAtWe-s",
+    "yt-A1ln13bAgXU",
     "yt-JLwaqg0CBQ8",
     "yt-5qWONUflqAs",
     "yt-0dic1q2reIU",
@@ -415,16 +440,16 @@
     "yt-QFfIyF5SBb0",
     "yt-mxxYoatWPhw",
     "yt-UKXZU6Sl2uY",
-    "yt-Hp8qLZZ_yIU",
-    "yt-HMH3feLq2iQ",
-    "yt-xBAgo0JDwT4",
-    "yt-zMP6KbtRfB4",
     "yt-6V4zPFsrAQw",
     "yt-EsJ42tpzjz0",
     "yt-nvxPart1UlA",
     "yt-YCco6QjKdkA",
     "yt-0-Z5uUd_4sw",
     "yt-K-1nCUaAL2I",
+    "yt-xBAgo0JDwT4",
+    "yt-zMP6KbtRfB4",
+    "yt-Hp8qLZZ_yIU",
+    "yt-HMH3feLq2iQ",
     "yt-KGuHkzO7D7k",
     "yt-zkOFw5caw3E",
     "yt-lWMwzyL0Ttk",
@@ -485,8 +510,8 @@
     "yt-jPmRW5YwGo4"
    ],
    "hit_parade": [
-    "yt-QI9svjJbSPw",
     "yt-0dic1q2reIU",
+    "yt-QI9svjJbSPw",
     "yt-Azbo5VA4wjk",
     "yt-WWrJ0eYp7jc",
     "yt-47kZ9OHzGoA",
@@ -549,6 +574,18 @@
     "yt-AZs1U49bLjk",
     "yt-QvGaaLiTgH0",
     "yt-_j_4UmcGDdc",
+    "yt-Png-sKVdRPU",
+    "yt-OBaQyiuKq8Q",
+    "yt-XUEsZFpQpfc",
+    "yt--HaT2X6syf8",
+    "yt-7ewlMNHCH7g",
+    "yt-_e5rp7vRhMk",
+    "yt-clq_vSMFhlY",
+    "yt-lkAiPiNtgA0",
+    "yt-zrsSOPjdfPA",
+    "yt-pDJrJed3YZc",
+    "yt-rAkOMnpSZ_c",
+    "yt-GgLrQUbCCaA",
     "yt-hLekNughpBQ",
     "yt-KzArSTZ3UL0",
     "yt-VeSZTTJNRfQ",
@@ -572,18 +609,6 @@
     "yt-zItAonvOUiI",
     "yt-eQWYTX4qsPs",
     "yt-xz8jBMcOAuQ",
-    "yt-Png-sKVdRPU",
-    "yt-OBaQyiuKq8Q",
-    "yt-XUEsZFpQpfc",
-    "yt--HaT2X6syf8",
-    "yt-7ewlMNHCH7g",
-    "yt-_e5rp7vRhMk",
-    "yt-clq_vSMFhlY",
-    "yt-lkAiPiNtgA0",
-    "yt-zrsSOPjdfPA",
-    "yt-pDJrJed3YZc",
-    "yt-rAkOMnpSZ_c",
-    "yt-GgLrQUbCCaA",
     "yt-sQli8Fb8130",
     "yt-Z2UMDs-vw0Y",
     "yt-Izfk9LgrhY0",
@@ -610,22 +635,22 @@
     "yt-Td9c9ccT6ao",
     "yt-iskiQbrLOfc",
     "yt-PgjtcDSpB5o",
-    "yt-lOtS8lJf09s",
     "yt-zAOaNtOPy9o",
     "yt-aUhsTemKOrA",
     "yt-Yek0Wyl2NdI",
     "yt-ia5S1EMUmk4",
     "yt-xADvphwvn6k",
+    "yt-H4gQSF6PSZE",
+    "yt-YrH7RslGVYo",
     "yt-2qDecajxA38",
     "yt-rMDGZsX-D6I",
     "yt-GxZZUReDob4",
+    "yt-BNRaDGyLQOo",
     "yt-xnwH96h6Pi0",
     "yt-Yu4uB3uYm3U",
-    "yt-FTFCMRYVEPw",
-    "yt-H4gQSF6PSZE",
-    "yt-YrH7RslGVYo",
-    "yt-BNRaDGyLQOo",
     "yt-kfPJcF02l30",
+    "yt-lOtS8lJf09s",
+    "yt-FTFCMRYVEPw",
     "yt-LDnvmn1vJYU",
     "yt--8wJYI3EaO8",
     "yt-UkB_WH5Pmnw",
@@ -877,9 +902,9 @@
     "yt-HJCbQHQ3jAQ",
     "yt-s8TcivDYu2w",
     "yt-MeRS2T4EBXE",
+    "yt-g4fPcgxheMA",
     "yt-sMw-qfcsb54",
     "yt-8EwkYCzQPT8",
-    "yt-g4fPcgxheMA",
     "yt-4e0IUEYy_d4",
     "yt-aJOTxDs4jqs",
     "yt-_gYWZ62BUhI",
@@ -1033,6 +1058,556 @@
  "items": [
   {
    "lang": "fr",
+   "lang_source": "playlist",
+   "type": "podcast",
+   "artist": "OULBIG",
+   "title": "EM1 OULBIG Show Coup de Foudre 2 eme partie.m2p",
+   "published": "2011-02-09",
+   "duration": 877,
+   "thumb": "https://i.ytimg.com/vi/DvpUEeoFacw/hqdefault.jpg",
+   "youtube": {
+    "id": "DvpUEeoFacw",
+    "url": "https://www.youtube.com/watch?v=DvpUEeoFacw",
+    "views": 14,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-DvpUEeoFacw",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "fr",
+   "lang_source": "playlist",
+   "type": "podcast",
+   "artist": "OULBIG",
+   "title": "OULBIG Show EM 8 Adolessance et conformisme Part 1.avi",
+   "published": "2011-02-09",
+   "duration": 876,
+   "thumb": "https://i.ytimg.com/vi/wI90obx7fwI/hqdefault.jpg",
+   "youtube": {
+    "id": "wI90obx7fwI",
+    "url": "https://www.youtube.com/watch?v=wI90obx7fwI",
+    "views": 28,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-wI90obx7fwI",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "fr",
+   "lang_source": "playlist",
+   "type": "podcast",
+   "artist": "OULBIG",
+   "title": "OULBIG Show EM 8 Adolessance et conformisme Part 3.avi",
+   "published": "2011-02-09",
+   "duration": 745,
+   "thumb": "https://i.ytimg.com/vi/YRocN_Qdjdg/hqdefault.jpg",
+   "youtube": {
+    "id": "YRocN_Qdjdg",
+    "url": "https://www.youtube.com/watch?v=YRocN_Qdjdg",
+    "views": 8,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-YRocN_Qdjdg",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "fr",
+   "lang_source": "playlist",
+   "type": "podcast",
+   "artist": "OULBIG",
+   "title": "OULBIG Show EM 9 Les conquettes avant et apres le mariage Part 2.avi",
+   "published": "2011-02-09",
+   "duration": 143,
+   "thumb": "https://i.ytimg.com/vi/ql5tfxvmL-8/hqdefault.jpg",
+   "youtube": {
+    "id": "ql5tfxvmL-8",
+    "url": "https://www.youtube.com/watch?v=ql5tfxvmL-8",
+    "views": 23,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-ql5tfxvmL-8",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "fr",
+   "lang_source": "playlist",
+   "type": "podcast",
+   "artist": "OULBIG",
+   "title": "EM1 OULBIG Show 1-2 Coup de Foudre 1-2.mpg",
+   "published": "2011-02-13",
+   "duration": 492,
+   "thumb": "https://i.ytimg.com/vi/0PCOtkm5NHI/hqdefault.jpg",
+   "youtube": {
+    "id": "0PCOtkm5NHI",
+    "url": "https://www.youtube.com/watch?v=0PCOtkm5NHI",
+    "views": 10,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-0PCOtkm5NHI",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "fr",
+   "lang_source": "playlist",
+   "type": "podcast",
+   "artist": "OULBIG",
+   "title": "EM1 OULBIG Show 2-2 Coup de Foudre 2-2.mpg",
+   "published": "2011-02-13",
+   "duration": 447,
+   "thumb": "https://i.ytimg.com/vi/FFp3RmhBD8Y/hqdefault.jpg",
+   "youtube": {
+    "id": "FFp3RmhBD8Y",
+    "url": "https://www.youtube.com/watch?v=FFp3RmhBD8Y",
+    "views": 36,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-FFp3RmhBD8Y",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "fr",
+   "lang_source": "playlist",
+   "type": "podcast",
+   "artist": "OULBIG",
+   "title": "EM1 OULBIG Show 3-1 Coup de Foudre 3-1.mpg",
+   "published": "2011-02-13",
+   "duration": 444,
+   "thumb": "https://i.ytimg.com/vi/sbksoKHHtrI/hqdefault.jpg",
+   "youtube": {
+    "id": "sbksoKHHtrI",
+    "url": "https://www.youtube.com/watch?v=sbksoKHHtrI",
+    "views": 7,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-sbksoKHHtrI",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "fr",
+   "lang_source": "playlist",
+   "type": "podcast",
+   "artist": "OULBIG",
+   "title": "EM1 OULBIG Show 3-2 Coup de Foudre 3-2.mpg",
+   "published": "2011-02-13",
+   "duration": 382,
+   "thumb": "https://i.ytimg.com/vi/nmqCIlHpla0/hqdefault.jpg",
+   "youtube": {
+    "id": "nmqCIlHpla0",
+    "url": "https://www.youtube.com/watch?v=nmqCIlHpla0",
+    "views": 5,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-nmqCIlHpla0",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "fr",
+   "lang_source": "playlist",
+   "type": "podcast",
+   "artist": "OULBIG",
+   "title": "Radio Realité CLEAN Sur OULBIG Show By MooN3ich.avi",
+   "published": "2011-05-12",
+   "duration": 882,
+   "thumb": "https://i.ytimg.com/vi/a5_uaqKdcQ8/hqdefault.jpg",
+   "youtube": {
+    "id": "a5_uaqKdcQ8",
+    "url": "https://www.youtube.com/watch?v=a5_uaqKdcQ8",
+    "views": 12,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-a5_uaqKdcQ8",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "fr",
+   "lang_source": "playlist",
+   "type": "podcast",
+   "artist": "OULBIG",
+   "title": "EM 6 Part 1 Maitrise de Soi 1 OULBIG Show By Brooks2",
+   "published": "2012-12-04",
+   "duration": 603,
+   "thumb": "https://i.ytimg.com/vi/xFTodEoFeNU/hqdefault.jpg",
+   "youtube": {
+    "id": "xFTodEoFeNU",
+    "url": "https://www.youtube.com/watch?v=xFTodEoFeNU",
+    "views": 18,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-xFTodEoFeNU",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "fr",
+   "lang_source": "playlist",
+   "type": "podcast",
+   "artist": "OULBIG",
+   "title": "EM 6 Part 2 Maitrise de Soi 1 OULBIG Show By Brooks2",
+   "published": "2012-12-04",
+   "duration": 576,
+   "thumb": "https://i.ytimg.com/vi/weNZanDn-to/hqdefault.jpg",
+   "youtube": {
+    "id": "weNZanDn-to",
+    "url": "https://www.youtube.com/watch?v=weNZanDn-to",
+    "views": 13,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-weNZanDn-to",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "fr",
+   "lang_source": "playlist",
+   "type": "podcast",
+   "artist": "OULBIG",
+   "title": "EM 6 Part 3 Maitrise de Soi 1 OULBIG Show By Brooks2",
+   "published": "2012-12-04",
+   "duration": 601,
+   "thumb": "https://i.ytimg.com/vi/x7HVlOe94pc/hqdefault.jpg",
+   "youtube": {
+    "id": "x7HVlOe94pc",
+    "url": "https://www.youtube.com/watch?v=x7HVlOe94pc",
+    "views": 11,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-x7HVlOe94pc",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "fr",
+   "lang_source": "playlist",
+   "type": "podcast",
+   "artist": "OULBIG",
+   "title": "EM 6 Part 4 Maitrise de Soi 1 OULBIG Show By Brooks2",
+   "published": "2012-12-04",
+   "duration": 592,
+   "thumb": "https://i.ytimg.com/vi/p4vm4l_MLZI/hqdefault.jpg",
+   "youtube": {
+    "id": "p4vm4l_MLZI",
+    "url": "https://www.youtube.com/watch?v=p4vm4l_MLZI",
+    "views": 10,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-p4vm4l_MLZI",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "fr",
+   "lang_source": "playlist",
+   "type": "podcast",
+   "artist": "OULBIG",
+   "title": "EM 5 Part 1 Marriage, organized marriage, planned children By Arnel2",
+   "published": "2012-12-04",
+   "duration": 600,
+   "thumb": "https://i.ytimg.com/vi/cwF20Lg0u-M/hqdefault.jpg",
+   "youtube": {
+    "id": "cwF20Lg0u-M",
+    "url": "https://www.youtube.com/watch?v=cwF20Lg0u-M",
+    "views": 5,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-cwF20Lg0u-M",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "fr",
+   "lang_source": "playlist",
+   "type": "podcast",
+   "artist": "OULBIG",
+   "title": "EM 5 Part 2 Marriage, organized marriage, planned children By Arnel3",
+   "published": "2012-12-04",
+   "duration": 592,
+   "thumb": "https://i.ytimg.com/vi/gLUSXzZlbBU/hqdefault.jpg",
+   "youtube": {
+    "id": "gLUSXzZlbBU",
+    "url": "https://www.youtube.com/watch?v=gLUSXzZlbBU",
+    "views": 11,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-gLUSXzZlbBU",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "fr",
+   "lang_source": "playlist",
+   "type": "podcast",
+   "artist": "OULBIG",
+   "title": "EM 5 Part 3 Marriage, organized marriage, planned children By Arnel",
+   "published": "2012-12-04",
+   "duration": 746,
+   "thumb": "https://i.ytimg.com/vi/z2hi2VPW_4o/hqdefault.jpg",
+   "youtube": {
+    "id": "z2hi2VPW_4o",
+    "url": "https://www.youtube.com/watch?v=z2hi2VPW_4o",
+    "views": 8,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-z2hi2VPW_4o",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "fr",
+   "lang_source": "playlist",
+   "type": "podcast",
+   "artist": "OULBIG",
+   "title": "EM 3 Part 1 Relation de couple By MooN3ich2",
+   "published": "2012-12-04",
+   "duration": 602,
+   "thumb": "https://i.ytimg.com/vi/PyRs1eqLmOY/hqdefault.jpg",
+   "youtube": {
+    "id": "PyRs1eqLmOY",
+    "url": "https://www.youtube.com/watch?v=PyRs1eqLmOY",
+    "views": 4,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-PyRs1eqLmOY",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "fr",
+   "lang_source": "playlist",
+   "type": "podcast",
+   "artist": "OULBIG",
+   "title": "EM 3 Part 2 Relation de couple By MooN3ich2",
+   "published": "2012-12-04",
+   "duration": 602,
+   "thumb": "https://i.ytimg.com/vi/523s51W-WMM/hqdefault.jpg",
+   "youtube": {
+    "id": "523s51W-WMM",
+    "url": "https://www.youtube.com/watch?v=523s51W-WMM",
+    "views": 3,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-523s51W-WMM",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "fr",
+   "lang_source": "playlist",
+   "type": "podcast",
+   "artist": "OULBIG",
+   "title": "EM 2 Part 1 LA LOI DE LA SEDUCTION By OULSISTER2",
+   "published": "2012-12-04",
+   "duration": 602,
+   "thumb": "https://i.ytimg.com/vi/3520727d8AI/hqdefault.jpg",
+   "youtube": {
+    "id": "3520727d8AI",
+    "url": "https://www.youtube.com/watch?v=3520727d8AI",
+    "views": 33,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-3520727d8AI",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "fr",
+   "lang_source": "playlist",
+   "type": "podcast",
+   "artist": "OULBIG",
+   "title": "EM 2 Part 2 LA LOI DE LA SEDUCTION By OULSISTER2",
+   "published": "2012-12-04",
+   "duration": 600,
+   "thumb": "https://i.ytimg.com/vi/W1qXj5DuPDQ/hqdefault.jpg",
+   "youtube": {
+    "id": "W1qXj5DuPDQ",
+    "url": "https://www.youtube.com/watch?v=W1qXj5DuPDQ",
+    "views": 7,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-W1qXj5DuPDQ",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "fr",
+   "lang_source": "playlist",
+   "type": "podcast",
+   "artist": "OULBIG",
+   "title": "OULBIG Show Interlude",
+   "published": "2013-09-09",
+   "duration": 301,
+   "thumb": "https://i.ytimg.com/vi/dddYnM28A3Y/hqdefault.jpg",
+   "youtube": {
+    "id": "dddYnM28A3Y",
+    "url": "https://www.youtube.com/watch?v=dddYnM28A3Y",
+    "views": 373,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-dddYnM28A3Y",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "fr",
+   "lang_source": "playlist",
+   "type": "podcast",
+   "artist": "OULBIG",
+   "title": "EM 11 Rap OULBIG Show By MooN3ich Part 1",
+   "published": "2013-09-09",
+   "duration": 658,
+   "thumb": "https://i.ytimg.com/vi/wVSUE-21G10/hqdefault.jpg",
+   "youtube": {
+    "id": "wVSUE-21G10",
+    "url": "https://www.youtube.com/watch?v=wVSUE-21G10",
+    "views": 10,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-wVSUE-21G10",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "fr",
+   "lang_source": "playlist",
+   "type": "podcast",
+   "artist": "OULBIG",
+   "title": "EM 11 Rap OULBIG Show By MooN3ich Part 2",
+   "published": "2013-09-09",
+   "duration": 620,
+   "thumb": "https://i.ytimg.com/vi/PhiYgacFtFc/hqdefault.jpg",
+   "youtube": {
+    "id": "PhiYgacFtFc",
+    "url": "https://www.youtube.com/watch?v=PhiYgacFtFc",
+    "views": 7,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-PhiYgacFtFc",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "fr",
+   "lang_source": "playlist",
+   "type": "podcast",
+   "artist": "OULBIG",
+   "title": "EM 8 Zanga Zanga sur OULBIG Show By Brooks Part 1",
+   "published": "2013-09-09",
+   "duration": 556,
+   "thumb": "https://i.ytimg.com/vi/sylSe4fOvDg/hqdefault.jpg",
+   "youtube": {
+    "id": "sylSe4fOvDg",
+    "url": "https://www.youtube.com/watch?v=sylSe4fOvDg",
+    "views": 11,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-sylSe4fOvDg",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "fr",
+   "lang_source": "playlist",
+   "type": "podcast",
+   "artist": "OULBIG",
+   "title": "EM 8 Zanga Zanga sur OULBIG Show By Brooks Part 2",
+   "published": "2013-09-09",
+   "duration": 505,
+   "thumb": "https://i.ytimg.com/vi/-XXGxbwImaE/hqdefault.jpg",
+   "youtube": {
+    "id": "-XXGxbwImaE",
+    "url": "https://www.youtube.com/watch?v=-XXGxbwImaE",
+    "views": 12,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt--XXGxbwImaE",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "fr",
    "lang_source": "titre",
    "type": "podcast",
    "artist": "OULBIG",
@@ -1109,7 +1684,7 @@
    "youtube": {
     "id": "COHgmSDbJqY",
     "url": "https://www.youtube.com/watch?v=COHgmSDbJqY",
-    "views": 3,
+    "views": 4,
     "embeddable": true
    },
    "spotify": null,
@@ -1637,7 +2212,7 @@
    "youtube": {
     "id": "gFhnggVXkq8",
     "url": "https://www.youtube.com/watch?v=gFhnggVXkq8",
-    "views": 449,
+    "views": 450,
     "embeddable": true
    },
    "spotify": null,
@@ -1923,7 +2498,7 @@
    "youtube": {
     "id": "fc-M9bQf_O4",
     "url": "https://www.youtube.com/watch?v=fc-M9bQf_O4",
-    "views": 36,
+    "views": 37,
     "embeddable": true
    },
    "spotify": null,
@@ -2297,7 +2872,7 @@
    "youtube": {
     "id": "kOWxYIiy50k",
     "url": "https://www.youtube.com/watch?v=kOWxYIiy50k",
-    "views": 126,
+    "views": 127,
     "embeddable": true
    },
    "spotify": null,
@@ -2913,7 +3488,7 @@
    "youtube": {
     "id": "2F2_VrBoB8Q",
     "url": "https://www.youtube.com/watch?v=2F2_VrBoB8Q",
-    "views": 74,
+    "views": 75,
     "embeddable": true
    },
    "spotify": null,
@@ -3001,7 +3576,7 @@
    "youtube": {
     "id": "Dh0-Ndx3PmQ",
     "url": "https://www.youtube.com/watch?v=Dh0-Ndx3PmQ",
-    "views": 121,
+    "views": 123,
     "embeddable": true
    },
    "spotify": null,
@@ -3111,7 +3686,7 @@
    "youtube": {
     "id": "ts6qrUERDiI",
     "url": "https://www.youtube.com/watch?v=ts6qrUERDiI",
-    "views": 102,
+    "views": 103,
     "embeddable": true
    },
    "spotify": null,
@@ -3155,7 +3730,7 @@
    "youtube": {
     "id": "wyp6NlxJb0I",
     "url": "https://www.youtube.com/watch?v=wyp6NlxJb0I",
-    "views": 43,
+    "views": 44,
     "embeddable": true
    },
    "spotify": null,
@@ -3485,7 +4060,7 @@
    "youtube": {
     "id": "GkTQkjayAmY",
     "url": "https://www.youtube.com/watch?v=GkTQkjayAmY",
-    "views": 145,
+    "views": 146,
     "embeddable": true
    },
    "spotify": null,
@@ -3874,6 +4449,28 @@
    "lang_source": "titre",
    "type": "song",
    "artist": "OULBIG",
+   "title": "Hors De Moi",
+   "published": "2026-09-15",
+   "duration": 272,
+   "thumb": "https://i.ytimg.com/vi/bozjdQsfT0o/hqdefault.jpg",
+   "youtube": {
+    "id": "bozjdQsfT0o",
+    "url": "https://www.youtube.com/watch?v=bozjdQsfT0o",
+    "views": 18,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-bozjdQsfT0o",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "fr",
+   "lang_source": "titre",
+   "type": "song",
+   "artist": "OULBIG",
    "title": "J'ai Essayé Sans Cesse",
    "published": "2026-09-15",
    "duration": 202,
@@ -3940,6 +4537,28 @@
    "lang_source": "titre",
    "type": "song",
    "artist": "OULBIG",
+   "title": "De jour comme la nuit",
+   "published": "2026-09-15",
+   "duration": 103,
+   "thumb": "https://i.ytimg.com/vi/rRIs_MgcmPU/hqdefault.jpg",
+   "youtube": {
+    "id": "rRIs_MgcmPU",
+    "url": "https://www.youtube.com/watch?v=rRIs_MgcmPU",
+    "views": 13,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-rRIs_MgcmPU",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "fr",
+   "lang_source": "titre",
+   "type": "song",
+   "artist": "OULBIG",
    "title": "T'as Oublié Qui Je Suis",
    "published": "2026-09-15",
    "duration": 267,
@@ -3953,6 +4572,28 @@
    "spotify": null,
    "rss": null,
    "id": "yt-c0w_-t3gkUI",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "fr",
+   "lang_source": "titre",
+   "type": "song",
+   "artist": "OULBIG",
+   "title": "Je Te Libère",
+   "published": "2026-09-15",
+   "duration": 278,
+   "thumb": "https://i.ytimg.com/vi/3FJiVRozlTc/hqdefault.jpg",
+   "youtube": {
+    "id": "3FJiVRozlTc",
+    "url": "https://www.youtube.com/watch?v=3FJiVRozlTc",
+    "views": 0,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-3FJiVRozlTc",
    "rank": 0,
    "prev_rank": 0,
    "trend": ""
@@ -4019,6 +4660,50 @@
    "spotify": null,
    "rss": null,
    "id": "yt-DnezG77a_kc",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "fr",
+   "lang_source": "titre",
+   "type": "song",
+   "artist": "OULBIG",
+   "title": "Il était une fois",
+   "published": "2026-09-15",
+   "duration": 172,
+   "thumb": "https://i.ytimg.com/vi/zJXttQZV9Gg/hqdefault.jpg",
+   "youtube": {
+    "id": "zJXttQZV9Gg",
+    "url": "https://www.youtube.com/watch?v=zJXttQZV9Gg",
+    "views": 3,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-zJXttQZV9Gg",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "fr",
+   "lang_source": "titre",
+   "type": "song",
+   "artist": "OULBIG",
+   "title": "Y'a Pas De Seconde Chance",
+   "published": "2026-09-15",
+   "duration": 188,
+   "thumb": "https://i.ytimg.com/vi/HXGNMkWUG74/hqdefault.jpg",
+   "youtube": {
+    "id": "HXGNMkWUG74",
+    "url": "https://www.youtube.com/watch?v=HXGNMkWUG74",
+    "views": 22,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-HXGNMkWUG74",
    "rank": 0,
    "prev_rank": 0,
    "trend": ""
@@ -4314,50 +4999,6 @@
    "lang_source": "titre",
    "type": "song",
    "artist": "OULBIG",
-   "title": "Hors De Moi",
-   "published": "2026-09-15",
-   "duration": 272,
-   "thumb": "https://i.ytimg.com/vi/bozjdQsfT0o/hqdefault.jpg",
-   "youtube": {
-    "id": "bozjdQsfT0o",
-    "url": "https://www.youtube.com/watch?v=bozjdQsfT0o",
-    "views": 18,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-bozjdQsfT0o",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "fr",
-   "lang_source": "titre",
-   "type": "song",
-   "artist": "OULBIG",
-   "title": "De jour comme la nuit",
-   "published": "2026-09-15",
-   "duration": 103,
-   "thumb": "https://i.ytimg.com/vi/rRIs_MgcmPU/hqdefault.jpg",
-   "youtube": {
-    "id": "rRIs_MgcmPU",
-    "url": "https://www.youtube.com/watch?v=rRIs_MgcmPU",
-    "views": 13,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-rRIs_MgcmPU",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "fr",
-   "lang_source": "titre",
-   "type": "song",
-   "artist": "OULBIG",
    "title": "Tout S'explique",
    "published": "2026-09-15",
    "duration": 138,
@@ -4371,72 +5012,6 @@
    "spotify": null,
    "rss": null,
    "id": "yt-ayRixRV-2fI",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "fr",
-   "lang_source": "titre",
-   "type": "song",
-   "artist": "OULBIG",
-   "title": "Je Te Libère",
-   "published": "2026-09-15",
-   "duration": 278,
-   "thumb": "https://i.ytimg.com/vi/3FJiVRozlTc/hqdefault.jpg",
-   "youtube": {
-    "id": "3FJiVRozlTc",
-    "url": "https://www.youtube.com/watch?v=3FJiVRozlTc",
-    "views": 0,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-3FJiVRozlTc",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "fr",
-   "lang_source": "titre",
-   "type": "song",
-   "artist": "OULBIG",
-   "title": "Il était une fois",
-   "published": "2026-09-15",
-   "duration": 172,
-   "thumb": "https://i.ytimg.com/vi/zJXttQZV9Gg/hqdefault.jpg",
-   "youtube": {
-    "id": "zJXttQZV9Gg",
-    "url": "https://www.youtube.com/watch?v=zJXttQZV9Gg",
-    "views": 3,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-zJXttQZV9Gg",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "fr",
-   "lang_source": "titre",
-   "type": "song",
-   "artist": "OULBIG",
-   "title": "Y'a Pas De Seconde Chance",
-   "published": "2026-09-15",
-   "duration": 188,
-   "thumb": "https://i.ytimg.com/vi/HXGNMkWUG74/hqdefault.jpg",
-   "youtube": {
-    "id": "HXGNMkWUG74",
-    "url": "https://www.youtube.com/watch?v=HXGNMkWUG74",
-    "views": 22,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-HXGNMkWUG74",
    "rank": 0,
    "prev_rank": 0,
    "trend": ""
@@ -4827,7 +5402,7 @@
    "youtube": {
     "id": "0RaFqcV8fZk",
     "url": "https://www.youtube.com/watch?v=0RaFqcV8fZk",
-    "views": 124,
+    "views": 125,
     "embeddable": true
    },
    "spotify": null,
@@ -5810,6 +6385,28 @@
    "lang_source": "audio",
    "type": "song",
    "artist": "OULBIG",
+   "title": "Skizoo",
+   "published": "2026-09-10",
+   "duration": 128,
+   "thumb": "https://i.ytimg.com/vi/0dic1q2reIU/hqdefault.jpg",
+   "youtube": {
+    "id": "0dic1q2reIU",
+    "url": "https://www.youtube.com/watch?v=0dic1q2reIU",
+    "views": 386,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-0dic1q2reIU",
+   "rank": 1,
+   "prev_rank": 2,
+   "trend": "up"
+  },
+  {
+   "lang": "en",
+   "lang_source": "audio",
+   "type": "song",
+   "artist": "OULBIG",
    "title": "Viré",
    "published": "2026-07-12",
    "duration": 133,
@@ -5823,31 +6420,9 @@
    "spotify": null,
    "rss": null,
    "id": "yt-QI9svjJbSPw",
-   "rank": 1,
-   "prev_rank": 1,
-   "trend": "same"
-  },
-  {
-   "lang": "en",
-   "lang_source": "audio",
-   "type": "song",
-   "artist": "OULBIG",
-   "title": "Skizoo",
-   "published": "2026-09-10",
-   "duration": 128,
-   "thumb": "https://i.ytimg.com/vi/0dic1q2reIU/hqdefault.jpg",
-   "youtube": {
-    "id": "0dic1q2reIU",
-    "url": "https://www.youtube.com/watch?v=0dic1q2reIU",
-    "views": 381,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-0dic1q2reIU",
    "rank": 2,
-   "prev_rank": 2,
-   "trend": "same"
+   "prev_rank": 1,
+   "trend": "down"
   },
   {
    "lang": "en",
@@ -5883,15 +6458,15 @@
    "youtube": {
     "id": "WWrJ0eYp7jc",
     "url": "https://www.youtube.com/watch?v=WWrJ0eYp7jc",
-    "views": 273,
+    "views": 277,
     "embeddable": true
    },
    "spotify": null,
    "rss": null,
    "id": "yt-WWrJ0eYp7jc",
    "rank": 4,
-   "prev_rank": 5,
-   "trend": "up"
+   "prev_rank": 4,
+   "trend": "same"
   },
   {
    "lang": "en",
@@ -5912,8 +6487,8 @@
    "rss": null,
    "id": "yt-47kZ9OHzGoA",
    "rank": 5,
-   "prev_rank": 4,
-   "trend": "down"
+   "prev_rank": 5,
+   "trend": "same"
   },
   {
    "lang": "en",
@@ -5927,7 +6502,7 @@
    "youtube": {
     "id": "UKXZU6Sl2uY",
     "url": "https://www.youtube.com/watch?v=UKXZU6Sl2uY",
-    "views": 198,
+    "views": 199,
     "embeddable": true
    },
    "spotify": null,
@@ -5971,7 +6546,7 @@
    "youtube": {
     "id": "9rC-nrv3x9E",
     "url": "https://www.youtube.com/watch?v=9rC-nrv3x9E",
-    "views": 181,
+    "views": 182,
     "embeddable": true
    },
    "spotify": null,
@@ -5993,7 +6568,7 @@
    "youtube": {
     "id": "TFpiI3uTkSk",
     "url": "https://www.youtube.com/watch?v=TFpiI3uTkSk",
-    "views": 172,
+    "views": 174,
     "embeddable": true
    },
    "spotify": null,
@@ -6015,7 +6590,7 @@
    "youtube": {
     "id": "1sWV7kRu0h4",
     "url": "https://www.youtube.com/watch?v=1sWV7kRu0h4",
-    "views": 143,
+    "views": 144,
     "embeddable": true
    },
    "spotify": null,
@@ -6433,7 +7008,7 @@
    "youtube": {
     "id": "cqOx3aZs688",
     "url": "https://www.youtube.com/watch?v=cqOx3aZs688",
-    "views": 77,
+    "views": 78,
     "embeddable": true
    },
    "spotify": null,
@@ -6499,7 +7074,7 @@
    "youtube": {
     "id": "l_Pj1uYBNUo",
     "url": "https://www.youtube.com/watch?v=l_Pj1uYBNUo",
-    "views": 119,
+    "views": 122,
     "embeddable": true
    },
    "spotify": null,
@@ -6687,94 +7262,6 @@
   },
   {
    "lang": "en",
-   "lang_source": "titre",
-   "type": "song",
-   "artist": "OULBIG",
-   "title": "Let Me Come In",
-   "published": "2026-08-01",
-   "duration": 185,
-   "thumb": "https://i.ytimg.com/vi/Hp8qLZZ_yIU/hqdefault.jpg",
-   "youtube": {
-    "id": "Hp8qLZZ_yIU",
-    "url": "https://www.youtube.com/watch?v=Hp8qLZZ_yIU",
-    "views": 2,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-Hp8qLZZ_yIU",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "en",
-   "lang_source": "titre",
-   "type": "song",
-   "artist": "OULBIG",
-   "title": "My Nights so Far from You",
-   "published": "2026-08-01",
-   "duration": 248,
-   "thumb": "https://i.ytimg.com/vi/HMH3feLq2iQ/hqdefault.jpg",
-   "youtube": {
-    "id": "HMH3feLq2iQ",
-    "url": "https://www.youtube.com/watch?v=HMH3feLq2iQ",
-    "views": 6,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-HMH3feLq2iQ",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "en",
-   "lang_source": "audio",
-   "type": "song",
-   "artist": "OULBIG",
-   "title": "Dearest Wish",
-   "published": "2026-08-01",
-   "duration": 209,
-   "thumb": "https://i.ytimg.com/vi/xBAgo0JDwT4/hqdefault.jpg",
-   "youtube": {
-    "id": "xBAgo0JDwT4",
-    "url": "https://www.youtube.com/watch?v=xBAgo0JDwT4",
-    "views": 5,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-xBAgo0JDwT4",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "en",
-   "lang_source": "audio",
-   "type": "song",
-   "artist": "OULBIG",
-   "title": "Like No One Befor",
-   "published": "2026-08-01",
-   "duration": 177,
-   "thumb": "https://i.ytimg.com/vi/zMP6KbtRfB4/hqdefault.jpg",
-   "youtube": {
-    "id": "zMP6KbtRfB4",
-    "url": "https://www.youtube.com/watch?v=zMP6KbtRfB4",
-    "views": 1,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-zMP6KbtRfB4",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "en",
    "lang_source": "audio",
    "type": "song",
    "artist": "OULBIG",
@@ -6901,6 +7388,94 @@
    "spotify": null,
    "rss": null,
    "id": "yt-K-1nCUaAL2I",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "en",
+   "lang_source": "audio",
+   "type": "song",
+   "artist": "OULBIG",
+   "title": "Dearest Wish",
+   "published": "2026-08-01",
+   "duration": 209,
+   "thumb": "https://i.ytimg.com/vi/xBAgo0JDwT4/hqdefault.jpg",
+   "youtube": {
+    "id": "xBAgo0JDwT4",
+    "url": "https://www.youtube.com/watch?v=xBAgo0JDwT4",
+    "views": 5,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-xBAgo0JDwT4",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "en",
+   "lang_source": "audio",
+   "type": "song",
+   "artist": "OULBIG",
+   "title": "Like No One Befor",
+   "published": "2026-08-01",
+   "duration": 177,
+   "thumb": "https://i.ytimg.com/vi/zMP6KbtRfB4/hqdefault.jpg",
+   "youtube": {
+    "id": "zMP6KbtRfB4",
+    "url": "https://www.youtube.com/watch?v=zMP6KbtRfB4",
+    "views": 1,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-zMP6KbtRfB4",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "en",
+   "lang_source": "titre",
+   "type": "song",
+   "artist": "OULBIG",
+   "title": "Let Me Come In",
+   "published": "2026-08-01",
+   "duration": 185,
+   "thumb": "https://i.ytimg.com/vi/Hp8qLZZ_yIU/hqdefault.jpg",
+   "youtube": {
+    "id": "Hp8qLZZ_yIU",
+    "url": "https://www.youtube.com/watch?v=Hp8qLZZ_yIU",
+    "views": 2,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-Hp8qLZZ_yIU",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "en",
+   "lang_source": "titre",
+   "type": "song",
+   "artist": "OULBIG",
+   "title": "My Nights so Far from You",
+   "published": "2026-08-01",
+   "duration": 248,
+   "thumb": "https://i.ytimg.com/vi/HMH3feLq2iQ/hqdefault.jpg",
+   "youtube": {
+    "id": "HMH3feLq2iQ",
+    "url": "https://www.youtube.com/watch?v=HMH3feLq2iQ",
+    "views": 6,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-HMH3feLq2iQ",
    "rank": 0,
    "prev_rank": 0,
    "trend": ""
@@ -7291,7 +7866,7 @@
    "youtube": {
     "id": "upOl4gSoNkU",
     "url": "https://www.youtube.com/watch?v=upOl4gSoNkU",
-    "views": 84,
+    "views": 85,
     "embeddable": true
    },
    "spotify": null,
@@ -8189,16 +8764,16 @@
    "title": "Regret",
    "published": "2026-09-12",
    "duration": 203,
-   "thumb": "https://i.ytimg.com/vi/0LtlhAtWe-s/hqdefault.jpg",
+   "thumb": "https://i.ytimg.com/vi/A1ln13bAgXU/hqdefault.jpg",
    "youtube": {
-    "id": "0LtlhAtWe-s",
-    "url": "https://www.youtube.com/watch?v=0LtlhAtWe-s",
-    "views": 44,
+    "id": "A1ln13bAgXU",
+    "url": "https://www.youtube.com/watch?v=A1ln13bAgXU",
+    "views": 51,
     "embeddable": true
    },
    "spotify": null,
    "rss": null,
-   "id": "yt-0LtlhAtWe-s",
+   "id": "yt-A1ln13bAgXU",
    "rank": 0,
    "prev_rank": 0,
    "trend": ""
@@ -8362,28 +8937,6 @@
    "lang_source": "audio",
    "type": "song",
    "artist": "OULBIG",
-   "title": "J'avance",
-   "published": "2026-09-15",
-   "duration": 147,
-   "thumb": "https://i.ytimg.com/vi/iYdPoiHQql4/hqdefault.jpg",
-   "youtube": {
-    "id": "iYdPoiHQql4",
-    "url": "https://www.youtube.com/watch?v=iYdPoiHQql4",
-    "views": 47,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-iYdPoiHQql4",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "en",
-   "lang_source": "audio",
-   "type": "song",
-   "artist": "OULBIG",
    "title": "J'm'en Fous",
    "published": "2026-09-15",
    "duration": 187,
@@ -8397,6 +8950,28 @@
    "spotify": null,
    "rss": null,
    "id": "yt-llA3wv4_Pls",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "en",
+   "lang_source": "audio",
+   "type": "song",
+   "artist": "OULBIG",
+   "title": "J'avance",
+   "published": "2026-09-15",
+   "duration": 147,
+   "thumb": "https://i.ytimg.com/vi/iYdPoiHQql4/hqdefault.jpg",
+   "youtube": {
+    "id": "iYdPoiHQql4",
+    "url": "https://www.youtube.com/watch?v=iYdPoiHQql4",
+    "views": 47,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-iYdPoiHQql4",
    "rank": 0,
    "prev_rank": 0,
    "trend": ""
@@ -8457,7 +9032,7 @@
    "youtube": {
     "id": "s5JvuXbE0ng",
     "url": "https://www.youtube.com/watch?v=s5JvuXbE0ng",
-    "views": 111,
+    "views": 112,
     "embeddable": true
    },
    "spotify": null,
@@ -8611,7 +9186,7 @@
    "youtube": {
     "id": "pqM3Iv0QApI",
     "url": "https://www.youtube.com/watch?v=pqM3Iv0QApI",
-    "views": 98,
+    "views": 101,
     "embeddable": true
    },
    "spotify": null,
@@ -8934,116 +9509,6 @@
    "lang_source": "titre",
    "type": "song",
    "artist": "OULBIG",
-   "title": "Let Me Finally Breathe",
-   "published": "2026-09-16",
-   "duration": 225,
-   "thumb": "https://i.ytimg.com/vi/w3CBNzNeiYA/hqdefault.jpg",
-   "youtube": {
-    "id": "w3CBNzNeiYA",
-    "url": "https://www.youtube.com/watch?v=w3CBNzNeiYA",
-    "views": 8,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-w3CBNzNeiYA",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "en",
-   "lang_source": "titre",
-   "type": "song",
-   "artist": "OULBIG",
-   "title": "It All Makes Sense",
-   "published": "2026-09-16",
-   "duration": 208,
-   "thumb": "https://i.ytimg.com/vi/92ZDyKe70H8/hqdefault.jpg",
-   "youtube": {
-    "id": "92ZDyKe70H8",
-    "url": "https://www.youtube.com/watch?v=92ZDyKe70H8",
-    "views": 1,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-92ZDyKe70H8",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "en",
-   "lang_source": "titre",
-   "type": "song",
-   "artist": "OULBIG",
-   "title": "I Gave All My Time",
-   "published": "2026-09-16",
-   "duration": 165,
-   "thumb": "https://i.ytimg.com/vi/CvViAxaxKXQ/hqdefault.jpg",
-   "youtube": {
-    "id": "CvViAxaxKXQ",
-    "url": "https://www.youtube.com/watch?v=CvViAxaxKXQ",
-    "views": 4,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-CvViAxaxKXQ",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "en",
-   "lang_source": "titre",
-   "type": "song",
-   "artist": "OULBIG",
-   "title": "I Believe It's Mine",
-   "published": "2026-09-16",
-   "duration": 205,
-   "thumb": "https://i.ytimg.com/vi/AebcK2tTbDs/hqdefault.jpg",
-   "youtube": {
-    "id": "AebcK2tTbDs",
-    "url": "https://www.youtube.com/watch?v=AebcK2tTbDs",
-    "views": 3,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-AebcK2tTbDs",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "en",
-   "lang_source": "titre",
-   "type": "song",
-   "artist": "OULBIG",
-   "title": "Never Come Back",
-   "published": "2026-09-16",
-   "duration": 183,
-   "thumb": "https://i.ytimg.com/vi/Xl9hmAR8PUA/hqdefault.jpg",
-   "youtube": {
-    "id": "Xl9hmAR8PUA",
-    "url": "https://www.youtube.com/watch?v=Xl9hmAR8PUA",
-    "views": 0,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-Xl9hmAR8PUA",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "en",
-   "lang_source": "titre",
-   "type": "song",
-   "artist": "OULBIG",
    "title": "I Tried Without End",
    "published": "2026-09-16",
    "duration": 198,
@@ -9107,72 +9572,6 @@
   },
   {
    "lang": "en",
-   "lang_source": "audio",
-   "type": "song",
-   "artist": "OULBIG",
-   "title": "Worth Living",
-   "published": "2026-09-16",
-   "duration": 254,
-   "thumb": "https://i.ytimg.com/vi/WyCN8CdyXUY/hqdefault.jpg",
-   "youtube": {
-    "id": "WyCN8CdyXUY",
-    "url": "https://www.youtube.com/watch?v=WyCN8CdyXUY",
-    "views": 5,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-WyCN8CdyXUY",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "en",
-   "lang_source": "titre",
-   "type": "song",
-   "artist": "OULBIG",
-   "title": "We Regret",
-   "published": "2026-09-16",
-   "duration": 190,
-   "thumb": "https://i.ytimg.com/vi/lNKs1aCkTro/hqdefault.jpg",
-   "youtube": {
-    "id": "lNKs1aCkTro",
-    "url": "https://www.youtube.com/watch?v=lNKs1aCkTro",
-    "views": 0,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-lNKs1aCkTro",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "en",
-   "lang_source": "titre",
-   "type": "song",
-   "artist": "OULBIG",
-   "title": "Soft and Strong",
-   "published": "2026-09-16",
-   "duration": 204,
-   "thumb": "https://i.ytimg.com/vi/Pb3FtrjK4P8/hqdefault.jpg",
-   "youtube": {
-    "id": "Pb3FtrjK4P8",
-    "url": "https://www.youtube.com/watch?v=Pb3FtrjK4P8",
-    "views": 1,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-Pb3FtrjK4P8",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "en",
    "lang_source": "titre",
    "type": "song",
    "artist": "OULBIG",
@@ -9211,6 +9610,28 @@
    "spotify": null,
    "rss": null,
    "id": "yt-dsJr3pBCo5s",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "en",
+   "lang_source": "titre",
+   "type": "song",
+   "artist": "OULBIG",
+   "title": "Let Me Finally Breathe",
+   "published": "2026-09-16",
+   "duration": 225,
+   "thumb": "https://i.ytimg.com/vi/w3CBNzNeiYA/hqdefault.jpg",
+   "youtube": {
+    "id": "w3CBNzNeiYA",
+    "url": "https://www.youtube.com/watch?v=w3CBNzNeiYA",
+    "views": 8,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-w3CBNzNeiYA",
    "rank": 0,
    "prev_rank": 0,
    "trend": ""
@@ -9299,6 +9720,160 @@
    "spotify": null,
    "rss": null,
    "id": "yt-Bv2uvwZ7E-U",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "en",
+   "lang_source": "audio",
+   "type": "song",
+   "artist": "OULBIG",
+   "title": "Worth Living",
+   "published": "2026-09-16",
+   "duration": 254,
+   "thumb": "https://i.ytimg.com/vi/WyCN8CdyXUY/hqdefault.jpg",
+   "youtube": {
+    "id": "WyCN8CdyXUY",
+    "url": "https://www.youtube.com/watch?v=WyCN8CdyXUY",
+    "views": 5,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-WyCN8CdyXUY",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "en",
+   "lang_source": "titre",
+   "type": "song",
+   "artist": "OULBIG",
+   "title": "We Regret",
+   "published": "2026-09-16",
+   "duration": 190,
+   "thumb": "https://i.ytimg.com/vi/lNKs1aCkTro/hqdefault.jpg",
+   "youtube": {
+    "id": "lNKs1aCkTro",
+    "url": "https://www.youtube.com/watch?v=lNKs1aCkTro",
+    "views": 0,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-lNKs1aCkTro",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "en",
+   "lang_source": "titre",
+   "type": "song",
+   "artist": "OULBIG",
+   "title": "Soft and Strong",
+   "published": "2026-09-16",
+   "duration": 204,
+   "thumb": "https://i.ytimg.com/vi/Pb3FtrjK4P8/hqdefault.jpg",
+   "youtube": {
+    "id": "Pb3FtrjK4P8",
+    "url": "https://www.youtube.com/watch?v=Pb3FtrjK4P8",
+    "views": 1,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-Pb3FtrjK4P8",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "en",
+   "lang_source": "titre",
+   "type": "song",
+   "artist": "OULBIG",
+   "title": "It All Makes Sense",
+   "published": "2026-09-16",
+   "duration": 208,
+   "thumb": "https://i.ytimg.com/vi/92ZDyKe70H8/hqdefault.jpg",
+   "youtube": {
+    "id": "92ZDyKe70H8",
+    "url": "https://www.youtube.com/watch?v=92ZDyKe70H8",
+    "views": 1,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-92ZDyKe70H8",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "en",
+   "lang_source": "titre",
+   "type": "song",
+   "artist": "OULBIG",
+   "title": "I Gave All My Time",
+   "published": "2026-09-16",
+   "duration": 165,
+   "thumb": "https://i.ytimg.com/vi/CvViAxaxKXQ/hqdefault.jpg",
+   "youtube": {
+    "id": "CvViAxaxKXQ",
+    "url": "https://www.youtube.com/watch?v=CvViAxaxKXQ",
+    "views": 4,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-CvViAxaxKXQ",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "en",
+   "lang_source": "titre",
+   "type": "song",
+   "artist": "OULBIG",
+   "title": "I Believe It's Mine",
+   "published": "2026-09-16",
+   "duration": 205,
+   "thumb": "https://i.ytimg.com/vi/AebcK2tTbDs/hqdefault.jpg",
+   "youtube": {
+    "id": "AebcK2tTbDs",
+    "url": "https://www.youtube.com/watch?v=AebcK2tTbDs",
+    "views": 3,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-AebcK2tTbDs",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "en",
+   "lang_source": "titre",
+   "type": "song",
+   "artist": "OULBIG",
+   "title": "Never Come Back",
+   "published": "2026-09-16",
+   "duration": 183,
+   "thumb": "https://i.ytimg.com/vi/Xl9hmAR8PUA/hqdefault.jpg",
+   "youtube": {
+    "id": "Xl9hmAR8PUA",
+    "url": "https://www.youtube.com/watch?v=Xl9hmAR8PUA",
+    "views": 0,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-Xl9hmAR8PUA",
    "rank": 0,
    "prev_rank": 0,
    "trend": ""
@@ -10107,7 +10682,7 @@
    "youtube": {
     "id": "7Or0iqlOJIk",
     "url": "https://www.youtube.com/watch?v=7Or0iqlOJIk",
-    "views": 3,
+    "views": 4,
     "embeddable": true
    },
    "spotify": null,
@@ -10657,7 +11232,7 @@
    "youtube": {
     "id": "ODESIVB-6kA",
     "url": "https://www.youtube.com/watch?v=ODESIVB-6kA",
-    "views": 735,
+    "views": 738,
     "embeddable": true
    },
    "spotify": null,
@@ -10701,7 +11276,7 @@
    "youtube": {
     "id": "iskiQbrLOfc",
     "url": "https://www.youtube.com/watch?v=iskiQbrLOfc",
-    "views": 536,
+    "views": 539,
     "embeddable": true
    },
    "spotify": null,
@@ -10767,15 +11342,15 @@
    "youtube": {
     "id": "Kz6MmT99xTU",
     "url": "https://www.youtube.com/watch?v=Kz6MmT99xTU",
-    "views": 240,
+    "views": 242,
     "embeddable": true
    },
    "spotify": null,
    "rss": null,
    "id": "yt-Kz6MmT99xTU",
    "rank": 6,
-   "prev_rank": 8,
-   "trend": "up"
+   "prev_rank": 6,
+   "trend": "same"
   },
   {
    "lang": "es",
@@ -10796,8 +11371,8 @@
    "rss": null,
    "id": "yt-lm0ZGv9ZI4Y",
    "rank": 7,
-   "prev_rank": 6,
-   "trend": "down"
+   "prev_rank": 7,
+   "trend": "same"
   },
   {
    "lang": "es",
@@ -10818,8 +11393,8 @@
    "rss": null,
    "id": "yt-_j_4UmcGDdc",
    "rank": 8,
-   "prev_rank": 7,
-   "trend": "down"
+   "prev_rank": 8,
+   "trend": "same"
   },
   {
    "lang": "es",
@@ -10833,7 +11408,7 @@
    "youtube": {
     "id": "mLvgRKYT-yk",
     "url": "https://www.youtube.com/watch?v=mLvgRKYT-yk",
-    "views": 221,
+    "views": 222,
     "embeddable": true
    },
    "spotify": null,
@@ -10855,7 +11430,7 @@
    "youtube": {
     "id": "QvGaaLiTgH0",
     "url": "https://www.youtube.com/watch?v=QvGaaLiTgH0",
-    "views": 164,
+    "views": 165,
     "embeddable": true
    },
    "spotify": null,
@@ -10965,7 +11540,7 @@
    "youtube": {
     "id": "UAnLzi3U06o",
     "url": "https://www.youtube.com/watch?v=UAnLzi3U06o",
-    "views": 133,
+    "views": 136,
     "embeddable": true
    },
    "spotify": null,
@@ -10987,34 +11562,12 @@
    "youtube": {
     "id": "hZO0FG_aFbU",
     "url": "https://www.youtube.com/watch?v=hZO0FG_aFbU",
-    "views": 99,
+    "views": 100,
     "embeddable": true
    },
    "spotify": null,
    "rss": null,
    "id": "yt-hZO0FG_aFbU",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "es",
-   "lang_source": "titre",
-   "type": "song",
-   "artist": "OULBIG",
-   "title": "Un momento contigo",
-   "published": "2026-08-03",
-   "duration": 288,
-   "thumb": "https://i.ytimg.com/vi/lOtS8lJf09s/hqdefault.jpg",
-   "youtube": {
-    "id": "lOtS8lJf09s",
-    "url": "https://www.youtube.com/watch?v=lOtS8lJf09s",
-    "views": 1,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-lOtS8lJf09s",
    "rank": 0,
    "prev_rank": 0,
    "trend": ""
@@ -11131,6 +11684,50 @@
   },
   {
    "lang": "es",
+   "lang_source": "description",
+   "type": "song",
+   "artist": "OULBIG",
+   "title": "Lo Mejor De Mí",
+   "published": "2026-08-03",
+   "duration": 162,
+   "thumb": "https://i.ytimg.com/vi/H4gQSF6PSZE/hqdefault.jpg",
+   "youtube": {
+    "id": "H4gQSF6PSZE",
+    "url": "https://www.youtube.com/watch?v=H4gQSF6PSZE",
+    "views": 14,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-H4gQSF6PSZE",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "es",
+   "lang_source": "titre",
+   "type": "song",
+   "artist": "OULBIG",
+   "title": "Tu Belleza Me Volvió Loco",
+   "published": "2026-08-03",
+   "duration": 203,
+   "thumb": "https://i.ytimg.com/vi/YrH7RslGVYo/hqdefault.jpg",
+   "youtube": {
+    "id": "YrH7RslGVYo",
+    "url": "https://www.youtube.com/watch?v=YrH7RslGVYo",
+    "views": 105,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-YrH7RslGVYo",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "es",
    "lang_source": "titre",
    "type": "song",
    "artist": "OULBIG",
@@ -11200,6 +11797,28 @@
    "lang_source": "description",
    "type": "song",
    "artist": "OULBIG",
+   "title": "Atrapado en El Pasado",
+   "published": "2026-08-03",
+   "duration": 173,
+   "thumb": "https://i.ytimg.com/vi/BNRaDGyLQOo/hqdefault.jpg",
+   "youtube": {
+    "id": "BNRaDGyLQOo",
+    "url": "https://www.youtube.com/watch?v=BNRaDGyLQOo",
+    "views": 19,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-BNRaDGyLQOo",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "es",
+   "lang_source": "description",
+   "type": "song",
+   "artist": "OULBIG",
    "title": "Dormía Bajo Nubes",
    "published": "2026-08-03",
    "duration": 200,
@@ -11241,94 +11860,6 @@
   },
   {
    "lang": "es",
-   "lang_source": "titre",
-   "type": "song",
-   "artist": "OULBIG",
-   "title": "Un Sueño Esta Noche",
-   "published": "2026-08-03",
-   "duration": 140,
-   "thumb": "https://i.ytimg.com/vi/FTFCMRYVEPw/hqdefault.jpg",
-   "youtube": {
-    "id": "FTFCMRYVEPw",
-    "url": "https://www.youtube.com/watch?v=FTFCMRYVEPw",
-    "views": 10,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-FTFCMRYVEPw",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "es",
-   "lang_source": "description",
-   "type": "song",
-   "artist": "OULBIG",
-   "title": "Lo Mejor De Mí",
-   "published": "2026-08-03",
-   "duration": 162,
-   "thumb": "https://i.ytimg.com/vi/H4gQSF6PSZE/hqdefault.jpg",
-   "youtube": {
-    "id": "H4gQSF6PSZE",
-    "url": "https://www.youtube.com/watch?v=H4gQSF6PSZE",
-    "views": 13,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-H4gQSF6PSZE",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "es",
-   "lang_source": "titre",
-   "type": "song",
-   "artist": "OULBIG",
-   "title": "Tu Belleza Me Volvió Loco",
-   "published": "2026-08-03",
-   "duration": 203,
-   "thumb": "https://i.ytimg.com/vi/YrH7RslGVYo/hqdefault.jpg",
-   "youtube": {
-    "id": "YrH7RslGVYo",
-    "url": "https://www.youtube.com/watch?v=YrH7RslGVYo",
-    "views": 105,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-YrH7RslGVYo",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "es",
-   "lang_source": "description",
-   "type": "song",
-   "artist": "OULBIG",
-   "title": "Atrapado en El Pasado",
-   "published": "2026-08-03",
-   "duration": 173,
-   "thumb": "https://i.ytimg.com/vi/BNRaDGyLQOo/hqdefault.jpg",
-   "youtube": {
-    "id": "BNRaDGyLQOo",
-    "url": "https://www.youtube.com/watch?v=BNRaDGyLQOo",
-    "views": 19,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-BNRaDGyLQOo",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "es",
    "lang_source": "description",
    "type": "song",
    "artist": "OULBIG",
@@ -11345,6 +11876,50 @@
    "spotify": null,
    "rss": null,
    "id": "yt-kfPJcF02l30",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "es",
+   "lang_source": "titre",
+   "type": "song",
+   "artist": "OULBIG",
+   "title": "Un momento contigo",
+   "published": "2026-08-03",
+   "duration": 288,
+   "thumb": "https://i.ytimg.com/vi/lOtS8lJf09s/hqdefault.jpg",
+   "youtube": {
+    "id": "lOtS8lJf09s",
+    "url": "https://www.youtube.com/watch?v=lOtS8lJf09s",
+    "views": 1,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-lOtS8lJf09s",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "es",
+   "lang_source": "titre",
+   "type": "song",
+   "artist": "OULBIG",
+   "title": "Un Sueño Esta Noche",
+   "published": "2026-08-03",
+   "duration": 140,
+   "thumb": "https://i.ytimg.com/vi/FTFCMRYVEPw/hqdefault.jpg",
+   "youtube": {
+    "id": "FTFCMRYVEPw",
+    "url": "https://www.youtube.com/watch?v=FTFCMRYVEPw",
+    "views": 10,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-FTFCMRYVEPw",
    "rank": 0,
    "prev_rank": 0,
    "trend": ""
@@ -11543,6 +12118,270 @@
    "spotify": null,
    "rss": null,
    "id": "yt--JZfzmzbqZg",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "es",
+   "lang_source": "titre",
+   "type": "song",
+   "artist": "OULBIG",
+   "title": "Sueños Perdidos",
+   "published": "2026-09-14",
+   "duration": 153,
+   "thumb": "https://i.ytimg.com/vi/Png-sKVdRPU/hqdefault.jpg",
+   "youtube": {
+    "id": "Png-sKVdRPU",
+    "url": "https://www.youtube.com/watch?v=Png-sKVdRPU",
+    "views": 2,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-Png-sKVdRPU",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "es",
+   "lang_source": "description",
+   "type": "song",
+   "artist": "OULBIG",
+   "title": "Intentaba Sin Cesar",
+   "published": "2026-09-14",
+   "duration": 166,
+   "thumb": "https://i.ytimg.com/vi/OBaQyiuKq8Q/hqdefault.jpg",
+   "youtube": {
+    "id": "OBaQyiuKq8Q",
+    "url": "https://www.youtube.com/watch?v=OBaQyiuKq8Q",
+    "views": 31,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-OBaQyiuKq8Q",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "es",
+   "lang_source": "titre",
+   "type": "song",
+   "artist": "OULBIG",
+   "title": "Poco a Poco",
+   "published": "2026-09-14",
+   "duration": 198,
+   "thumb": "https://i.ytimg.com/vi/XUEsZFpQpfc/hqdefault.jpg",
+   "youtube": {
+    "id": "XUEsZFpQpfc",
+    "url": "https://www.youtube.com/watch?v=XUEsZFpQpfc",
+    "views": 33,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-XUEsZFpQpfc",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "es",
+   "lang_source": "titre",
+   "type": "song",
+   "artist": "OULBIG",
+   "title": "Si Mañana No Llega",
+   "published": "2026-09-14",
+   "duration": 130,
+   "thumb": "https://i.ytimg.com/vi/-HaT2X6syf8/hqdefault.jpg",
+   "youtube": {
+    "id": "-HaT2X6syf8",
+    "url": "https://www.youtube.com/watch?v=-HaT2X6syf8",
+    "views": 137,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt--HaT2X6syf8",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "es",
+   "lang_source": "titre",
+   "type": "song",
+   "artist": "OULBIG",
+   "title": "Sueño Con Ella Sin Pensarlo",
+   "published": "2026-09-14",
+   "duration": 200,
+   "thumb": "https://i.ytimg.com/vi/7ewlMNHCH7g/hqdefault.jpg",
+   "youtube": {
+    "id": "7ewlMNHCH7g",
+    "url": "https://www.youtube.com/watch?v=7ewlMNHCH7g",
+    "views": 23,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-7ewlMNHCH7g",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "es",
+   "lang_source": "description",
+   "type": "song",
+   "artist": "OULBIG",
+   "title": "Algo En El Aire",
+   "published": "2026-09-14",
+   "duration": 150,
+   "thumb": "https://i.ytimg.com/vi/_e5rp7vRhMk/hqdefault.jpg",
+   "youtube": {
+    "id": "_e5rp7vRhMk",
+    "url": "https://www.youtube.com/watch?v=_e5rp7vRhMk",
+    "views": 7,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-_e5rp7vRhMk",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "es",
+   "lang_source": "description",
+   "type": "song",
+   "artist": "OULBIG",
+   "title": "Érase una vez",
+   "published": "2026-09-14",
+   "duration": 233,
+   "thumb": "https://i.ytimg.com/vi/clq_vSMFhlY/hqdefault.jpg",
+   "youtube": {
+    "id": "clq_vSMFhlY",
+    "url": "https://www.youtube.com/watch?v=clq_vSMFhlY",
+    "views": 6,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-clq_vSMFhlY",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "es",
+   "lang_source": "titre",
+   "type": "song",
+   "artist": "OULBIG",
+   "title": "Ahora Todo Tiene Sentido",
+   "published": "2026-09-14",
+   "duration": 164,
+   "thumb": "https://i.ytimg.com/vi/lkAiPiNtgA0/hqdefault.jpg",
+   "youtube": {
+    "id": "lkAiPiNtgA0",
+    "url": "https://www.youtube.com/watch?v=lkAiPiNtgA0",
+    "views": 104,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-lkAiPiNtgA0",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "es",
+   "lang_source": "description",
+   "type": "song",
+   "artist": "OULBIG",
+   "title": "Su Sonrisa Nunca Miente",
+   "published": "2026-09-14",
+   "duration": 178,
+   "thumb": "https://i.ytimg.com/vi/zrsSOPjdfPA/hqdefault.jpg",
+   "youtube": {
+    "id": "zrsSOPjdfPA",
+    "url": "https://www.youtube.com/watch?v=zrsSOPjdfPA",
+    "views": 66,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-zrsSOPjdfPA",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "es",
+   "lang_source": "titre",
+   "type": "song",
+   "artist": "OULBIG",
+   "title": "Tú Y Yo",
+   "published": "2026-09-14",
+   "duration": 200,
+   "thumb": "https://i.ytimg.com/vi/pDJrJed3YZc/hqdefault.jpg",
+   "youtube": {
+    "id": "pDJrJed3YZc",
+    "url": "https://www.youtube.com/watch?v=pDJrJed3YZc",
+    "views": 4,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-pDJrJed3YZc",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "es",
+   "lang_source": "titre",
+   "type": "song",
+   "artist": "OULBIG",
+   "title": "Yo Te Liberé",
+   "published": "2026-09-14",
+   "duration": 163,
+   "thumb": "https://i.ytimg.com/vi/rAkOMnpSZ_c/hqdefault.jpg",
+   "youtube": {
+    "id": "rAkOMnpSZ_c",
+    "url": "https://www.youtube.com/watch?v=rAkOMnpSZ_c",
+    "views": 4,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-rAkOMnpSZ_c",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "es",
+   "lang_source": "titre",
+   "type": "song",
+   "artist": "OULBIG",
+   "title": "Te Extraño",
+   "published": "2026-09-14",
+   "duration": 159,
+   "thumb": "https://i.ytimg.com/vi/GgLrQUbCCaA/hqdefault.jpg",
+   "youtube": {
+    "id": "GgLrQUbCCaA",
+    "url": "https://www.youtube.com/watch?v=GgLrQUbCCaA",
+    "views": 4,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-GgLrQUbCCaA",
    "rank": 0,
    "prev_rank": 0,
    "trend": ""
@@ -12049,270 +12888,6 @@
    "spotify": null,
    "rss": null,
    "id": "yt-xz8jBMcOAuQ",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "es",
-   "lang_source": "titre",
-   "type": "song",
-   "artist": "OULBIG",
-   "title": "Sueños Perdidos",
-   "published": "2026-09-14",
-   "duration": 153,
-   "thumb": "https://i.ytimg.com/vi/Png-sKVdRPU/hqdefault.jpg",
-   "youtube": {
-    "id": "Png-sKVdRPU",
-    "url": "https://www.youtube.com/watch?v=Png-sKVdRPU",
-    "views": 2,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-Png-sKVdRPU",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "es",
-   "lang_source": "description",
-   "type": "song",
-   "artist": "OULBIG",
-   "title": "Intentaba Sin Cesar",
-   "published": "2026-09-14",
-   "duration": 166,
-   "thumb": "https://i.ytimg.com/vi/OBaQyiuKq8Q/hqdefault.jpg",
-   "youtube": {
-    "id": "OBaQyiuKq8Q",
-    "url": "https://www.youtube.com/watch?v=OBaQyiuKq8Q",
-    "views": 29,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-OBaQyiuKq8Q",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "es",
-   "lang_source": "titre",
-   "type": "song",
-   "artist": "OULBIG",
-   "title": "Poco a Poco",
-   "published": "2026-09-14",
-   "duration": 198,
-   "thumb": "https://i.ytimg.com/vi/XUEsZFpQpfc/hqdefault.jpg",
-   "youtube": {
-    "id": "XUEsZFpQpfc",
-    "url": "https://www.youtube.com/watch?v=XUEsZFpQpfc",
-    "views": 32,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-XUEsZFpQpfc",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "es",
-   "lang_source": "titre",
-   "type": "song",
-   "artist": "OULBIG",
-   "title": "Si Mañana No Llega",
-   "published": "2026-09-14",
-   "duration": 130,
-   "thumb": "https://i.ytimg.com/vi/-HaT2X6syf8/hqdefault.jpg",
-   "youtube": {
-    "id": "-HaT2X6syf8",
-    "url": "https://www.youtube.com/watch?v=-HaT2X6syf8",
-    "views": 137,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt--HaT2X6syf8",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "es",
-   "lang_source": "titre",
-   "type": "song",
-   "artist": "OULBIG",
-   "title": "Sueño Con Ella Sin Pensarlo",
-   "published": "2026-09-14",
-   "duration": 200,
-   "thumb": "https://i.ytimg.com/vi/7ewlMNHCH7g/hqdefault.jpg",
-   "youtube": {
-    "id": "7ewlMNHCH7g",
-    "url": "https://www.youtube.com/watch?v=7ewlMNHCH7g",
-    "views": 23,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-7ewlMNHCH7g",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "es",
-   "lang_source": "description",
-   "type": "song",
-   "artist": "OULBIG",
-   "title": "Algo En El Aire",
-   "published": "2026-09-14",
-   "duration": 150,
-   "thumb": "https://i.ytimg.com/vi/_e5rp7vRhMk/hqdefault.jpg",
-   "youtube": {
-    "id": "_e5rp7vRhMk",
-    "url": "https://www.youtube.com/watch?v=_e5rp7vRhMk",
-    "views": 7,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-_e5rp7vRhMk",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "es",
-   "lang_source": "description",
-   "type": "song",
-   "artist": "OULBIG",
-   "title": "Érase una vez",
-   "published": "2026-09-14",
-   "duration": 233,
-   "thumb": "https://i.ytimg.com/vi/clq_vSMFhlY/hqdefault.jpg",
-   "youtube": {
-    "id": "clq_vSMFhlY",
-    "url": "https://www.youtube.com/watch?v=clq_vSMFhlY",
-    "views": 6,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-clq_vSMFhlY",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "es",
-   "lang_source": "titre",
-   "type": "song",
-   "artist": "OULBIG",
-   "title": "Ahora Todo Tiene Sentido",
-   "published": "2026-09-14",
-   "duration": 164,
-   "thumb": "https://i.ytimg.com/vi/lkAiPiNtgA0/hqdefault.jpg",
-   "youtube": {
-    "id": "lkAiPiNtgA0",
-    "url": "https://www.youtube.com/watch?v=lkAiPiNtgA0",
-    "views": 104,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-lkAiPiNtgA0",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "es",
-   "lang_source": "description",
-   "type": "song",
-   "artist": "OULBIG",
-   "title": "Su Sonrisa Nunca Miente",
-   "published": "2026-09-14",
-   "duration": 178,
-   "thumb": "https://i.ytimg.com/vi/zrsSOPjdfPA/hqdefault.jpg",
-   "youtube": {
-    "id": "zrsSOPjdfPA",
-    "url": "https://www.youtube.com/watch?v=zrsSOPjdfPA",
-    "views": 65,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-zrsSOPjdfPA",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "es",
-   "lang_source": "titre",
-   "type": "song",
-   "artist": "OULBIG",
-   "title": "Tú Y Yo",
-   "published": "2026-09-14",
-   "duration": 200,
-   "thumb": "https://i.ytimg.com/vi/pDJrJed3YZc/hqdefault.jpg",
-   "youtube": {
-    "id": "pDJrJed3YZc",
-    "url": "https://www.youtube.com/watch?v=pDJrJed3YZc",
-    "views": 4,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-pDJrJed3YZc",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "es",
-   "lang_source": "titre",
-   "type": "song",
-   "artist": "OULBIG",
-   "title": "Yo Te Liberé",
-   "published": "2026-09-14",
-   "duration": 163,
-   "thumb": "https://i.ytimg.com/vi/rAkOMnpSZ_c/hqdefault.jpg",
-   "youtube": {
-    "id": "rAkOMnpSZ_c",
-    "url": "https://www.youtube.com/watch?v=rAkOMnpSZ_c",
-    "views": 4,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-rAkOMnpSZ_c",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "es",
-   "lang_source": "titre",
-   "type": "song",
-   "artist": "OULBIG",
-   "title": "Te Extraño",
-   "published": "2026-09-14",
-   "duration": 159,
-   "thumb": "https://i.ytimg.com/vi/GgLrQUbCCaA/hqdefault.jpg",
-   "youtube": {
-    "id": "GgLrQUbCCaA",
-    "url": "https://www.youtube.com/watch?v=GgLrQUbCCaA",
-    "views": 4,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-GgLrQUbCCaA",
    "rank": 0,
    "prev_rank": 0,
    "trend": ""
@@ -13627,7 +14202,7 @@
    "youtube": {
     "id": "vobh6TIYKZ8",
     "url": "https://www.youtube.com/watch?v=vobh6TIYKZ8",
-    "views": 1,
+    "views": 2,
     "embeddable": true
    },
    "spotify": null,
@@ -13693,7 +14268,7 @@
    "youtube": {
     "id": "EvFKU_UsPts",
     "url": "https://www.youtube.com/watch?v=EvFKU_UsPts",
-    "views": 88,
+    "views": 89,
     "embeddable": true
    },
    "spotify": null,
@@ -14177,7 +14752,7 @@
    "youtube": {
     "id": "AbEhLDbHDTU",
     "url": "https://www.youtube.com/watch?v=AbEhLDbHDTU",
-    "views": 1181,
+    "views": 1185,
     "embeddable": true
    },
    "spotify": null,
@@ -14221,7 +14796,7 @@
    "youtube": {
     "id": "gB8USBmtutI",
     "url": "https://www.youtube.com/watch?v=gB8USBmtutI",
-    "views": 866,
+    "views": 867,
     "embeddable": true
    },
    "spotify": null,
@@ -14243,7 +14818,7 @@
    "youtube": {
     "id": "kJEgargCDq0",
     "url": "https://www.youtube.com/watch?v=kJEgargCDq0",
-    "views": 417,
+    "views": 420,
     "embeddable": true
    },
    "spotify": null,
@@ -14353,7 +14928,7 @@
    "youtube": {
     "id": "pl0hJCq3Wzs",
     "url": "https://www.youtube.com/watch?v=pl0hJCq3Wzs",
-    "views": 291,
+    "views": 292,
     "embeddable": true
    },
    "spotify": null,
@@ -14375,7 +14950,7 @@
    "youtube": {
     "id": "sERxTFEB3sA",
     "url": "https://www.youtube.com/watch?v=sERxTFEB3sA",
-    "views": 283,
+    "views": 287,
     "embeddable": true
    },
    "spotify": null,
@@ -14441,7 +15016,7 @@
    "youtube": {
     "id": "mVpY8bvlNnI",
     "url": "https://www.youtube.com/watch?v=mVpY8bvlNnI",
-    "views": 275,
+    "views": 277,
     "embeddable": true
    },
    "spotify": null,
@@ -14632,6 +15207,28 @@
    "lang_source": "titre",
    "type": "song",
    "artist": "OULBIG",
+   "title": "الساطة",
+   "published": "2026-08-24",
+   "duration": 203,
+   "thumb": "https://i.ytimg.com/vi/g4fPcgxheMA/hqdefault.jpg",
+   "youtube": {
+    "id": "g4fPcgxheMA",
+    "url": "https://www.youtube.com/watch?v=g4fPcgxheMA",
+    "views": 35,
+    "embeddable": true
+   },
+   "spotify": null,
+   "rss": null,
+   "id": "yt-g4fPcgxheMA",
+   "rank": 0,
+   "prev_rank": 0,
+   "trend": ""
+  },
+  {
+   "lang": "ar",
+   "lang_source": "titre",
+   "type": "song",
+   "artist": "OULBIG",
    "title": "لماذا",
    "published": "2026-08-24",
    "duration": 249,
@@ -14639,7 +15236,7 @@
    "youtube": {
     "id": "sMw-qfcsb54",
     "url": "https://www.youtube.com/watch?v=sMw-qfcsb54",
-    "views": 121,
+    "views": 122,
     "embeddable": true
    },
    "spotify": null,
@@ -14667,28 +15264,6 @@
    "spotify": null,
    "rss": null,
    "id": "yt-8EwkYCzQPT8",
-   "rank": 0,
-   "prev_rank": 0,
-   "trend": ""
-  },
-  {
-   "lang": "ar",
-   "lang_source": "titre",
-   "type": "song",
-   "artist": "OULBIG",
-   "title": "الساطة",
-   "published": "2026-08-24",
-   "duration": 203,
-   "thumb": "https://i.ytimg.com/vi/g4fPcgxheMA/hqdefault.jpg",
-   "youtube": {
-    "id": "g4fPcgxheMA",
-    "url": "https://www.youtube.com/watch?v=g4fPcgxheMA",
-    "views": 35,
-    "embeddable": true
-   },
-   "spotify": null,
-   "rss": null,
-   "id": "yt-g4fPcgxheMA",
    "rank": 0,
    "prev_rank": 0,
    "trend": ""
@@ -14903,7 +15478,7 @@
    "youtube": {
     "id": "UE6zw9e9ytI",
     "url": "https://www.youtube.com/watch?v=UE6zw9e9ytI",
-    "views": 39,
+    "views": 40,
     "embeddable": true
    },
    "spotify": null,
@@ -15101,7 +15676,7 @@
    "youtube": {
     "id": "EFqvE5wlwt8",
     "url": "https://www.youtube.com/watch?v=EFqvE5wlwt8",
-    "views": 37,
+    "views": 38,
     "embeddable": true
    },
    "spotify": null,
@@ -15123,7 +15698,7 @@
    "youtube": {
     "id": "UgORlVSa1uQ",
     "url": "https://www.youtube.com/watch?v=UgORlVSa1uQ",
-    "views": 30,
+    "views": 31,
     "embeddable": true
    },
    "spotify": null,
@@ -15189,7 +15764,7 @@
    "youtube": {
     "id": "JYuAGhwBeiY",
     "url": "https://www.youtube.com/watch?v=JYuAGhwBeiY",
-    "views": 48,
+    "views": 49,
     "embeddable": true
    },
    "spotify": null,
@@ -15277,7 +15852,7 @@
    "youtube": {
     "id": "IwRSMfVshJI",
     "url": "https://www.youtube.com/watch?v=IwRSMfVshJI",
-    "views": 162,
+    "views": 163,
     "embeddable": true
    },
    "spotify": null,
@@ -15299,7 +15874,7 @@
    "youtube": {
     "id": "Ig84DqmRXH0",
     "url": "https://www.youtube.com/watch?v=Ig84DqmRXH0",
-    "views": 31,
+    "views": 32,
     "embeddable": true
    },
    "spotify": null,
@@ -15321,7 +15896,7 @@
    "youtube": {
     "id": "_ImwW3jLuLg",
     "url": "https://www.youtube.com/watch?v=_ImwW3jLuLg",
-    "views": 45,
+    "views": 46,
     "embeddable": true
    },
    "spotify": null,
@@ -15343,7 +15918,7 @@
    "youtube": {
     "id": "o3aURcp0s28",
     "url": "https://www.youtube.com/watch?v=o3aURcp0s28",
-    "views": 215,
+    "views": 217,
     "embeddable": true
    },
    "spotify": null,
@@ -15739,7 +16314,7 @@
    "youtube": {
     "id": "dw5lwUMtNyk",
     "url": "https://www.youtube.com/watch?v=dw5lwUMtNyk",
-    "views": 29,
+    "views": 30,
     "embeddable": true
    },
    "spotify": null,
@@ -15761,7 +16336,7 @@
    "youtube": {
     "id": "3kQIUbkF4V8",
     "url": "https://www.youtube.com/watch?v=3kQIUbkF4V8",
-    "views": 127,
+    "views": 129,
     "embeddable": true
    },
    "spotify": null,
@@ -15805,7 +16380,7 @@
    "youtube": {
     "id": "d0vVpX_UYk0",
     "url": "https://www.youtube.com/watch?v=d0vVpX_UYk0",
-    "views": 170,
+    "views": 171,
     "embeddable": true
    },
    "spotify": null,
@@ -16003,7 +16578,7 @@
    "youtube": {
     "id": "XogKJ5zT0L4",
     "url": "https://www.youtube.com/watch?v=XogKJ5zT0L4",
-    "views": 131,
+    "views": 133,
     "embeddable": true
    },
    "spotify": null,
@@ -16025,7 +16600,7 @@
    "youtube": {
     "id": "mAiPjs9b9Yc",
     "url": "https://www.youtube.com/watch?v=mAiPjs9b9Yc",
-    "views": 117,
+    "views": 118,
     "embeddable": true
    },
    "spotify": null,
@@ -16135,7 +16710,7 @@
    "youtube": {
     "id": "PxFDUdpw7Tg",
     "url": "https://www.youtube.com/watch?v=PxFDUdpw7Tg",
-    "views": 51,
+    "views": 52,
     "embeddable": true
    },
    "spotify": null,
@@ -16465,7 +17040,7 @@
    "youtube": {
     "id": "CnhqjA6aSoM",
     "url": "https://www.youtube.com/watch?v=CnhqjA6aSoM",
-    "views": 24,
+    "views": 25,
     "embeddable": true
    },
    "spotify": null,
@@ -16531,7 +17106,7 @@
    "youtube": {
     "id": "w8ZIWTOspLI",
     "url": "https://www.youtube.com/watch?v=w8ZIWTOspLI",
-    "views": 102,
+    "views": 103,
     "embeddable": true
    },
    "spotify": null,
@@ -16553,7 +17128,7 @@
    "youtube": {
     "id": "zoTfQ8jNFdU",
     "url": "https://www.youtube.com/watch?v=zoTfQ8jNFdU",
-    "views": 173,
+    "views": 176,
     "embeddable": true
    },
    "spotify": null,
@@ -16597,7 +17172,7 @@
    "youtube": {
     "id": "iVPTxBjYMQk",
     "url": "https://www.youtube.com/watch?v=iVPTxBjYMQk",
-    "views": 48,
+    "views": 49,
     "embeddable": true
    },
    "spotify": null,
@@ -16663,7 +17238,7 @@
    "youtube": {
     "id": "b_aqmZDmfsk",
     "url": "https://www.youtube.com/watch?v=b_aqmZDmfsk",
-    "views": 102,
+    "views": 103,
     "embeddable": true
    },
    "spotify": null,
@@ -16927,7 +17502,7 @@
    "youtube": {
     "id": "K5themr_JTQ",
     "url": "https://www.youtube.com/watch?v=K5themr_JTQ",
-    "views": 106,
+    "views": 110,
     "embeddable": true
    },
    "spotify": null,
@@ -18445,7 +19020,7 @@
    "youtube": {
     "id": "HP_5lkM3tiU",
     "url": "https://www.youtube.com/watch?v=HP_5lkM3tiU",
-    "views": 34,
+    "views": 35,
     "embeddable": true
    },
    "spotify": null,
@@ -18731,7 +19306,7 @@
    "youtube": {
     "id": "Uj1lx44PYTQ",
     "url": "https://www.youtube.com/watch?v=Uj1lx44PYTQ",
-    "views": 2756,
+    "views": 2763,
     "embeddable": true
    },
    "spotify": null,
@@ -18753,7 +19328,7 @@
    "youtube": {
     "id": "xwGtuMw6k90",
     "url": "https://www.youtube.com/watch?v=xwGtuMw6k90",
-    "views": 1728,
+    "views": 1741,
     "embeddable": true
    },
    "spotify": null,
@@ -18841,7 +19416,7 @@
    "youtube": {
     "id": "kZaI0h_uQnU",
     "url": "https://www.youtube.com/watch?v=kZaI0h_uQnU",
-    "views": 421,
+    "views": 423,
     "embeddable": true
    },
    "spotify": null,
@@ -18863,7 +19438,7 @@
    "youtube": {
     "id": "-oCkS9ObkXg",
     "url": "https://www.youtube.com/watch?v=-oCkS9ObkXg",
-    "views": 375,
+    "views": 376,
     "embeddable": true
    },
    "spotify": null,
@@ -18907,7 +19482,7 @@
    "youtube": {
     "id": "h-E9OKS0f_M",
     "url": "https://www.youtube.com/watch?v=h-E9OKS0f_M",
-    "views": 278,
+    "views": 279,
     "embeddable": true
    },
    "spotify": null,
@@ -19017,7 +19592,7 @@
    "youtube": {
     "id": "EPQlSRJ7S_w",
     "url": "https://www.youtube.com/watch?v=EPQlSRJ7S_w",
-    "views": 94,
+    "views": 95,
     "embeddable": true
    },
    "spotify": null,
@@ -19105,7 +19680,7 @@
    "youtube": {
     "id": "UsRt3DSj-3I",
     "url": "https://www.youtube.com/watch?v=UsRt3DSj-3I",
-    "views": 183,
+    "views": 184,
     "embeddable": true
    },
    "spotify": null,
@@ -19413,7 +19988,7 @@
    "youtube": {
     "id": "H2QSHrkwoKg",
     "url": "https://www.youtube.com/watch?v=H2QSHrkwoKg",
-    "views": 28,
+    "views": 29,
     "embeddable": true
    },
    "spotify": null,
@@ -19457,7 +20032,7 @@
    "youtube": {
     "id": "kAE9f_ei_EE",
     "url": "https://www.youtube.com/watch?v=kAE9f_ei_EE",
-    "views": 120,
+    "views": 121,
     "embeddable": true
    },
    "spotify": null,
@@ -19677,7 +20252,7 @@
    "youtube": {
     "id": "KSbEnhIqCPc",
     "url": "https://www.youtube.com/watch?v=KSbEnhIqCPc",
-    "views": 132,
+    "views": 133,
     "embeddable": true
    },
    "spotify": null,
@@ -20721,6 +21296,33 @@
      "title": "Jingle d'identité  EN GEN OULBIG Radio",
      "dur": 10
     }
+   ],
+   "es": [
+    {
+     "yt": "eNT6xHX1Dyg",
+     "title": "Jingle d'identité ES OULBIG",
+     "dur": 8
+    },
+    {
+     "yt": "yICxa8IjaI8",
+     "title": "Jingle d'identité ES OULBIG 2",
+     "dur": 8
+    },
+    {
+     "yt": "W1KrCp3eQCs",
+     "title": "Jingle d'identité ES OULBIG",
+     "dur": 8
+    },
+    {
+     "yt": "cX-Lhs_IiDE",
+     "title": "Jingle d'identité ES GEN",
+     "dur": 11
+    },
+    {
+     "yt": "GWr1Svdjn28",
+     "title": "Jingle d'identité ES GEN 2",
+     "dur": 10
+    }
    ]
   },
   "ads": [
@@ -20857,6 +21459,126 @@
     "yt": "v4-k0RAtSUA",
     "title": "Oul Big Radio EN",
     "dur": 33,
+    "label": "OULBIG Radio",
+    "url": "https://radio.almoqayada.com"
+   },
+   {
+    "lang": "es",
+    "yt": "KItc09CJiG4",
+    "title": "Tu Música, Tu Idioma",
+    "dur": 31,
+    "label": "OULBIG Radio",
+    "url": "https://radio.almoqayada.com"
+   },
+   {
+    "lang": "es",
+    "yt": "LTZkX7ppMvE",
+    "title": "Oul Big Radio ES2",
+    "dur": 52,
+    "label": "OULBIG Radio",
+    "url": "https://radio.almoqayada.com"
+   },
+   {
+    "lang": "es",
+    "yt": "30wn3jWaiLI",
+    "title": "Oul Big Radio ES",
+    "dur": 43,
+    "label": "OULBIG Radio",
+    "url": "https://radio.almoqayada.com"
+   },
+   {
+    "lang": "es",
+    "yt": "GPgRPhAIOTc",
+    "title": "Tu Música, Tu Idioma",
+    "dur": 31,
+    "label": "OULBIG Radio",
+    "url": "https://radio.almoqayada.com"
+   },
+   {
+    "lang": "es",
+    "yt": "-pBK8bPY7Iw",
+    "title": "Tu música  Tu idioma  Sin parar 6",
+    "dur": 28,
+    "label": "OULBIG Radio",
+    "url": "https://radio.almoqayada.com"
+   },
+   {
+    "lang": "es",
+    "yt": "9BXReTmz1O8",
+    "title": "Tu música  Tu idioma  Sin parar GEN 2",
+    "dur": 31,
+    "label": "OULBIG Radio",
+    "url": "https://radio.almoqayada.com"
+   },
+   {
+    "lang": "es",
+    "yt": "WeFoZ9qo7So",
+    "title": "Tu música  Tu idioma  Sin parar OULBIG",
+    "dur": 27,
+    "label": "OULBIG Radio",
+    "url": "https://radio.almoqayada.com"
+   },
+   {
+    "lang": "es",
+    "yt": "hX3jsQfjgIM",
+    "title": "Tu música  Tu idioma  Sin parar OULBIG 5",
+    "dur": 29,
+    "label": "OULBIG Radio",
+    "url": "https://radio.almoqayada.com"
+   },
+   {
+    "lang": "es",
+    "yt": "3WlKNT0p2Ak",
+    "title": "Tu música  Tu idioma  Sin parar OULBIG 4",
+    "dur": 27,
+    "label": "OULBIG Radio",
+    "url": "https://radio.almoqayada.com"
+   },
+   {
+    "lang": "es",
+    "yt": "OriEeJKHNJw",
+    "title": "Tu música  Tu idioma  Sin parar OULBIG 3",
+    "dur": 37,
+    "label": "OULBIG Radio",
+    "url": "https://radio.almoqayada.com"
+   },
+   {
+    "lang": "es",
+    "yt": "VVJ8uUNTwyA",
+    "title": "Tu música  Tu idioma  Sin parar OULBIG 2",
+    "dur": 28,
+    "label": "OULBIG Radio",
+    "url": "https://radio.almoqayada.com"
+   },
+   {
+    "lang": "es",
+    "yt": "CHe8q1TwLY4",
+    "title": "Tu música  Tu idioma  Sin parar GEN",
+    "dur": 31,
+    "label": "OULBIG Radio",
+    "url": "https://radio.almoqayada.com"
+   },
+   {
+    "lang": "es",
+    "yt": "jqKRHqijK4s",
+    "title": "Tu Música, Tu Idioma",
+    "dur": 33,
+    "label": "OULBIG Radio",
+    "url": "https://radio.almoqayada.com"
+   },
+   {
+    "lang": "es",
+    "yt": "Sb29AR8WXII",
+    "title": "OULBIG Radio ES",
+    "dur": 37,
+    "label": "OULBIG Radio",
+    "url": "https://radio.almoqayada.com"
+   },
+   {
+    "lang": "es",
+    "yt": "SMSZPMWKwzk",
+    "title": "Oul Big Radio Mascul ES",
+    "dur": 31,
     "label": "OULBIG Radio",
     "url": "https://radio.almoqayada.com"
    }
