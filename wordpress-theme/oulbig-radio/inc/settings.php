@@ -37,7 +37,7 @@ function orad_defaults() {
 		'sponsors'        => array(
 			array( 'name' => 'Musicology', 'url' => 'https://musicology.almoqayada.com', 'tagline' => '', 'accent' => '#FF3D6E' ),
 			array( 'name' => 'ABSProjects', 'url' => 'https://absprojects.almoqayada.com', 'tagline' => '', 'accent' => '#9D8BFF' ),
-			array( 'name' => 'OULBIG Studios', 'url' => 'https://www.youtube.com/@OULBIG', 'tagline' => '', 'accent' => '#4DA3FF' ),
+			array( 'name' => 'OULBIG Studios', 'url' => 'https://ostudios.almoqayada.com', 'tagline' => '', 'accent' => '#4DA3FF' ),
 			array( 'name' => 'Educaplat', 'url' => 'https://educaplat.almoqayada.com', 'tagline' => '', 'accent' => '#3DDC97' ),
 			array( 'name' => 'ABS Records', 'url' => 'https://absrecords.almoqayada.com', 'tagline' => '', 'accent' => '#C084FC' ),
 			array( 'name' => 'OULBIG · Gumroad', 'url' => 'https://oulbig.gumroad.com', 'tagline' => '', 'accent' => '#FF90E8' ),
