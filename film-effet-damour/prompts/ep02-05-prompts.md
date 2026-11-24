@@ -25,7 +25,7 @@ Les durées de plan sont calées sur les fichiers audio de `voix-off/epXX/`. Dan
 | H, 23 ans | ✅ `references/H-reference.webp` |
 | H, 13-17 ans | à générer à partir de la planche de H : `same face as reference at 16, clean-shaven, slimmer, hoodie and school backpack` (le même prompt avec 13 ans pour l'épisode 3) |
 | Béa, 23 ans | ✅ `references/Bea-reference.webp` |
-| Béa, 17 ans (rêve, lycée) | à générer à partir de la planche de Béa (en cours) |
+| Béa, 17 ans (rêve, lycée) | ✅ `references/Bea-17ans-reference.jpg` |
 | Safaa, 17 ans | ✅ `references/Safaa-reference.jpg` (pour les épisodes 11 et suivants) |
 | Mère, Père, Sœur, Frère | `Moroccan mother, 50, warm face, headscarf loosely tied, apron` · `Moroccan father, 55, grey stubble, calm, gardener's hands` · `Moroccan young woman, 19, artist, paint on her fingers` · `Moroccan teenage boy, 16, tall and lanky` |
 | KALL, 23 et 17 ans | `Moroccan young man, relaxed charismatic smile, short fade haircut, stylish casual jacket, gold chain, always at ease` |
