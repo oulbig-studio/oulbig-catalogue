@@ -1,0 +1,680 @@
+[
+{
+"id": "1.1",
+"shot": "Très grande case d'ouverture (plan large)",
+"image": "La médina de Fès au crépuscule : toits en terrasses, minarets, lanternes allumées. Dans un grand riad, une fête se prépare : guirlandes, tables, musiciens.",
+"chars": "",
+"lines": [
+{
+"type": "narration",
+"who": "Narrateur",
+"FR": "Fès. Ce soir, Khalti Salha fête ses 50 ans.",
+"DA": "فاس. الليلة، خالتي صالحة كتحتافل بالخمسين عام ديالها."
+}
+],
+"prompt": "Wide establishing shot of the old medina of Fez at dusk, rooftop terraces, minarets, warm hanging lanterns, a large riad courtyard below decorated for a festive party with garlands, tables and musicians. Shōnen manga panel, same art style as the Super Family manga character sheets (clean expressive line art, cel-shaded colours, large expressive eyes, subtle screentone), Moroccan setting drawn with precise detail, leave empty space for speech bubbles, no text, no lettering, no logo."
+},
+{
+"id": "1.2",
+"shot": "Plan moyen, contre-plongée légère",
+"image": "Sur un toit voisin, Loubna est assise seule, genoux repliés, et regarde la fête en contrebas.",
+"chars": "Loubna",
+"lines": [
+{
+"type": "pensée",
+"who": "Loubna",
+"FR": "Ils vont tous parler… et moi, je n'ai rien d'intéressant à dire.",
+"DA": "غادي يهضرو كاملين… وأنا ما عندي حتى حاجة زوينة نقولها."
+}
+],
+"prompt": "Super Loubna (young woman in black sports hijab and athletic outfit) sitting alone on a Fez rooftop at dusk, knees pulled up, looking down sadly at a lively party in the courtyard below. Shōnen manga panel, same art style as the Super Family manga character sheets (clean expressive line art, cel-shaded colours, large expressive eyes, subtle screentone), Moroccan setting drawn with precise detail, leave empty space for speech bubbles, no text, no lettering, no logo."
+},
+{
+"id": "1.3",
+"shot": "Plan américain",
+"image": "Super L3arbi apparaît derrière elle, souriant. Son sifflet d'argent brille au clair de lune.",
+"chars": "L3arbi, Loubna",
+"lines": [
+{
+"type": "bulle",
+"who": "L3arbi",
+"FR": "Tu te caches, championne ?",
+"DA": "كتخبّاي، يا البطلة؟"
+}
+],
+"prompt": "Super L3arbi (father and educator, green caftan-coat, silver whistle) appearing behind Loubna on the rooftop, warm smile, moonlight glinting on his silver whistle. Shōnen manga panel, same art style as the Super Family manga character sheets (clean expressive line art, cel-shaded colours, large expressive eyes, subtle screentone), Moroccan setting drawn with precise detail, leave empty space for speech bubbles, no text, no lettering, no logo."
+},
+{
+"id": "1.4",
+"shot": "Gros plan",
+"image": "Loubna, visage boudeur, joues gonflées, petite goutte de sueur manga.",
+"chars": "Loubna",
+"lines": [
+{
+"type": "bulle",
+"who": "Loubna",
+"FR": "Personne ne m'écoute jamais. Je suis ennuyeuse.",
+"DA": "حتى واحد ما كيسمع ليا. أنا مملّة."
+}
+],
+"prompt": "Close-up of Loubna pouting, puffed cheeks, small manga sweat drop, frustrated eyes. Shōnen manga panel, same art style as the Super Family manga character sheets (clean expressive line art, cel-shaded colours, large expressive eyes, subtle screentone), Moroccan setting drawn with precise detail, leave empty space for speech bubbles, no text, no lettering, no logo."
+},
+{
+"id": "1.5",
+"shot": "Plan moyen, lumière chaude",
+"image": "L3arbi lève un doigt, confiant. Derrière eux, la lune et la fête. Titre de l'épisode incrusté au bas de la case.",
+"chars": "L3arbi, Loubna",
+"lines": [
+{
+"type": "bulle",
+"who": "L3arbi",
+"FR": "Être intéressant, ça s'apprend. Ce soir, je te donne dix clés.",
+"DA": "تكون مثير للاهتمام راه كيتعلّم. الليلة غادي نعطيك عشر مفاتح."
+},
+{
+"type": "narration",
+"who": "Narrateur",
+"FR": "ÉPISODE 01 — La Nuit des 10 clés",
+"DA": "الحلقة 01 — ليلة العشر مفاتح"
+}
+],
+"prompt": "L3arbi raising one finger confidently, kind mentor expression, Loubna looking up at him, full moon and festive lights behind them. Shōnen manga panel, same art style as the Super Family manga character sheets (clean expressive line art, cel-shaded colours, large expressive eyes, subtle screentone), Moroccan setting drawn with precise detail, leave empty space for speech bubbles, no text, no lettering, no logo."
+},
+{
+"id": "2.1",
+"shot": "Plan large",
+"image": "L3arbi et Loubna descendent dans la cour pleine d'invités. Fontaine en zellige, tables de pâtisseries.",
+"chars": "L3arbi, Loubna",
+"lines": [
+{
+"type": "narration",
+"who": "Narrateur",
+"FR": "Clé 1 : multiplie les rencontres.",
+"DA": "المفتاح 1: كثّري من اللقاءات."
+}
+],
+"prompt": "L3arbi and Loubna walking down stairs into a crowded riad courtyard full of guests, zellige fountain, tables of Moroccan pastries, festive lanterns. Shōnen manga panel, same art style as the Super Family manga character sheets (clean expressive line art, cel-shaded colours, large expressive eyes, subtle screentone), Moroccan setting drawn with precise detail, leave empty space for speech bubbles, no text, no lettering, no logo."
+},
+{
+"id": "2.2",
+"shot": "Plan moyen",
+"image": "L3arbi pousse doucement Loubna vers un inconnu qui arrive du désert : Super Moha, détecteur de métaux sur le dos.",
+"chars": "L3arbi, Loubna, Moha",
+"lines": [
+{
+"type": "bulle",
+"who": "L3arbi",
+"FR": "Parle à au moins une personne que tu ne connais pas.",
+"DA": "هضري على الأقل مع واحد ما كتعرفيهش."
+}
+],
+"prompt": "L3arbi gently pushing Loubna towards Super Moha (Saharan explorer in indigo daraa and blue turban, metal detector on his back) who has just arrived at the party. Shōnen manga panel, same art style as the Super Family manga character sheets (clean expressive line art, cel-shaded colours, large expressive eyes, subtle screentone), Moroccan setting drawn with precise detail, leave empty space for speech bubbles, no text, no lettering, no logo."
+},
+{
+"id": "2.3",
+"shot": "Plan rapproché",
+"image": "Loubna, timide, montre l'appareil du doigt.",
+"chars": "Loubna, Moha",
+"lines": [
+{
+"type": "bulle",
+"who": "Loubna",
+"FR": "S-salam… C'est quoi, cet appareil ?",
+"DA": "سـ-السلام… آش هاد الآلة؟"
+}
+],
+"prompt": "Shy Loubna pointing at the metal detector on Moha's back, slightly blushing. Shōnen manga panel, same art style as the Super Family manga character sheets (clean expressive line art, cel-shaded colours, large expressive eyes, subtle screentone), Moroccan setting drawn with precise detail, leave empty space for speech bubbles, no text, no lettering, no logo."
+},
+{
+"id": "2.4",
+"shot": "Plan moyen, fond pailleté",
+"image": "Moha s'illumine et sort de sa poche une pièce ancienne qui brille.",
+"chars": "Moha, Loubna",
+"lines": [
+{
+"type": "bulle",
+"who": "Moha",
+"FR": "Un détecteur ! Hier, j'ai trouvé une pièce de la route des caravanes !",
+"DA": "ديتيكتور! البارح لقيت بركة ديال طريق القوافل!"
+},
+{
+"type": "narration",
+"who": "Narrateur",
+"FR": "Clé 2 : reste curieuse, reste ouverte.",
+"DA": "المفتاح 2: بقاي فضولية ومنفتحة."
+}
+],
+"prompt": "Moha lighting up with enthusiasm, holding out a shining ancient coin in his palm, sparkles around it, Loubna leaning in. Shōnen manga panel, same art style as the Super Family manga character sheets (clean expressive line art, cel-shaded colours, large expressive eyes, subtle screentone), Moroccan setting drawn with precise detail, leave empty space for speech bubbles, no text, no lettering, no logo."
+},
+{
+"id": "2.5",
+"shot": "Petite case comique (style chibi)",
+"image": "Loubna en version chibi tient la pièce, des étoiles plein les yeux. L3arbi, en petit dans le coin, sourit.",
+"chars": "Loubna, L3arbi",
+"lines": [
+{
+"type": "pensée",
+"who": "L3arbi",
+"FR": "Un cœur qui s'émerveille est un cœur qui grandit.",
+"DA": "القلب اللي كيتعجّب، قلب كيكبر."
+}
+],
+"prompt": "Chibi-style comic panel: tiny Loubna holding the coin with huge sparkling star eyes, small L3arbi in the corner smiling. Shōnen manga panel, same art style as the Super Family manga character sheets (clean expressive line art, cel-shaded colours, large expressive eyes, subtle screentone), Moroccan setting drawn with precise detail, leave empty space for speech bubbles, no text, no lettering, no logo."
+},
+{
+"id": "3.1",
+"shot": "Plan large, ambiance chaude",
+"image": "Super Bouchaib, entouré d'enfants près d'un brasero. Au-dessus de lui, son histoire prend vie : Jouha sur son âne flotte en images transparentes.",
+"chars": "Bouchaib",
+"lines": [
+{
+"type": "narration",
+"who": "Narrateur",
+"FR": "Clé 3 : apprends à raconter des histoires.",
+"DA": "المفتاح 3: تعلّمي تحكي القصص."
+}
+],
+"prompt": "Super Bouchaib (old storyteller, white turban, long white beard) sitting by a glowing brazier surrounded by children on cushions, above him a translucent magical vision of the folk hero Jouha riding a donkey. Shōnen manga panel, same art style as the Super Family manga character sheets (clean expressive line art, cel-shaded colours, large expressive eyes, subtle screentone), Moroccan setting drawn with precise detail, leave empty space for speech bubbles, no text, no lettering, no logo."
+},
+{
+"id": "3.2",
+"shot": "Plan rapproché",
+"image": "Bouchaib, clin d'œil malicieux vers Loubna, assise parmi les enfants, captivée.",
+"chars": "Bouchaib, Loubna",
+"lines": [
+{
+"type": "bulle",
+"who": "Bouchaib",
+"FR": "Les histoires relient les cœurs mieux que n'importe quel argument.",
+"DA": "القصص كتربط القلوب كثر من أي حجّة."
+}
+],
+"prompt": "Bouchaib winking mischievously at Loubna who sits among the children, captivated, firelight on their faces. Shōnen manga panel, same art style as the Super Family manga character sheets (clean expressive line art, cel-shaded colours, large expressive eyes, subtle screentone), Moroccan setting drawn with precise detail, leave empty space for speech bubbles, no text, no lettering, no logo."
+},
+{
+"id": "3.3",
+"shot": "Plan moyen",
+"image": "Super TAMU s'assoit près de Loubna. Loubna parle vite d'elle-même et coupe la parole à TAMU, qui sourit avec patience.",
+"chars": "TAMU, Loubna",
+"lines": [
+{
+"type": "bulle",
+"who": "Loubna",
+"FR": "…et moi je fais du saut, et moi je cours, et moi…",
+"DA": "…وأنا كنتنقّز، وأنا كنجري، وأنا…"
+},
+{
+"type": "bulle",
+"who": "TAMU",
+"FR": "Ma fille…",
+"DA": "آ بنتي…"
+}
+],
+"prompt": "Super TAMU (grandmother storyteller, golden ochre haik, amber necklace) sitting next to Loubna; Loubna talking fast with animated gestures while TAMU smiles patiently. Shōnen manga panel, same art style as the Super Family manga character sheets (clean expressive line art, cel-shaded colours, large expressive eyes, subtle screentone), Moroccan setting drawn with precise detail, leave empty space for speech bubbles, no text, no lettering, no logo."
+},
+{
+"id": "3.4",
+"shot": "Gros plan sur TAMU, fond doux",
+"image": "TAMU pose la main sur celle de Loubna. Regard tendre et sage.",
+"chars": "TAMU",
+"lines": [
+{
+"type": "bulle",
+"who": "TAMU",
+"FR": "La façon la plus puissante d'être intéressante… c'est d'être intéressée.",
+"DA": "أقوى طريقة باش تكوني مثيرة للاهتمام… هي تكوني مهتمّة."
+},
+{
+"type": "narration",
+"who": "Narrateur",
+"FR": "Clé 4 : écoute avec compassion.",
+"DA": "المفتاح 4: سمعي بالرحمة."
+}
+],
+"prompt": "Close-up of TAMU placing her henna-dyed hand gently on Loubna's hand, tender wise gaze. Shōnen manga panel, same art style as the Super Family manga character sheets (clean expressive line art, cel-shaded colours, large expressive eyes, subtle screentone), Moroccan setting drawn with precise detail, leave empty space for speech bubbles, no text, no lettering, no logo."
+},
+{
+"id": "3.5",
+"shot": "Plan moyen",
+"image": "Loubna écoute TAMU qui raconte, les yeux attentifs et lumineux. Au-dessus de TAMU, une vieille scène de village en sépia.",
+"chars": "TAMU, Loubna",
+"lines": [
+{
+"type": "bulle",
+"who": "TAMU",
+"FR": "9alou nass zman…",
+"DA": "قالو ناس زمان…"
+}
+],
+"prompt": "Loubna listening attentively with bright shining eyes while TAMU tells a story, a sepia vision of an old Moroccan village above them. Shōnen manga panel, same art style as the Super Family manga character sheets (clean expressive line art, cel-shaded colours, large expressive eyes, subtle screentone), Moroccan setting drawn with precise detail, leave empty space for speech bubbles, no text, no lettering, no logo."
+},
+{
+"id": "4.1",
+"shot": "Plan moyen comique",
+"image": "3ami Lfatmi au buffet, panier de légumes. Loubna tente une question ; il répond par une bulle minuscule.",
+"chars": "Lfatmi, Loubna",
+"lines": [
+{
+"type": "bulle",
+"who": "Loubna",
+"FR": "Vous êtes fermier ?",
+"DA": "نتا فلاح؟"
+},
+{
+"type": "bulle",
+"who": "Lfatmi",
+"FR": "Hm.",
+"DA": "همم."
+}
+],
+"prompt": "Comic panel: 3ami Lfatmi (old farmer, red fez, black hooded djellaba, vegetable basket) at the buffet, stone-faced, Loubna trying to start a conversation. Shōnen manga panel, same art style as the Super Family manga character sheets (clean expressive line art, cel-shaded colours, large expressive eyes, subtle screentone), Moroccan setting drawn with precise detail, leave empty space for speech bubbles, no text, no lettering, no logo."
+},
+{
+"id": "4.2",
+"shot": "Petite case",
+"image": "L3arbi, au loin, chuchote derrière sa main.",
+"chars": "L3arbi",
+"lines": [
+{
+"type": "bulle",
+"who": "L3arbi",
+"FR": "Une question ouverte !",
+"DA": "سؤال مفتوح!"
+},
+{
+"type": "narration",
+"who": "Narrateur",
+"FR": "Clé 5 : pose les bonnes questions.",
+"DA": "المفتاح 5: سوّلي الأسئلة الصحيحة."
+}
+],
+"prompt": "Small panel: L3arbi in the background whispering behind his hand, encouraging. Shōnen manga panel, same art style as the Super Family manga character sheets (clean expressive line art, cel-shaded colours, large expressive eyes, subtle screentone), Moroccan setting drawn with precise detail, leave empty space for speech bubbles, no text, no lettering, no logo."
+},
+{
+"id": "4.3",
+"shot": "Plan rapproché",
+"image": "Loubna se reprend, sincère.",
+"chars": "Loubna",
+"lines": [
+{
+"type": "bulle",
+"who": "Loubna",
+"FR": "Qu'est-ce que la terre vous a appris ?",
+"DA": "آش علّماتك الأرض؟"
+}
+],
+"prompt": "Loubna asking a sincere question with a gentle determined expression. Shōnen manga panel, same art style as the Super Family manga character sheets (clean expressive line art, cel-shaded colours, large expressive eyes, subtle screentone), Moroccan setting drawn with precise detail, leave empty space for speech bubbles, no text, no lettering, no logo."
+},
+{
+"id": "4.4",
+"shot": "Plan moyen, effet magique",
+"image": "Lfatmi se transforme : yeux brillants, grand sourire. Autour de lui, des plantes poussent du sol (son pouvoir).",
+"chars": "Lfatmi, Loubna",
+"lines": [
+{
+"type": "bulle",
+"who": "Lfatmi",
+"FR": "Ah ! Ma fille… assieds-toi, ça va être long !",
+"DA": "آه! آ بنتي… گلسي، الهضرة طويلة!"
+}
+],
+"prompt": "3ami Lfatmi transformed with joy, shining eyes and wide smile, magical green plants sprouting from the ground around him, Loubna amazed. Shōnen manga panel, same art style as the Super Family manga character sheets (clean expressive line art, cel-shaded colours, large expressive eyes, subtle screentone), Moroccan setting drawn with precise detail, leave empty space for speech bubbles, no text, no lettering, no logo."
+},
+{
+"id": "4.5",
+"shot": "Plan américain",
+"image": "Super Hada, élégante dans son caftan de velours, s'approche de Loubna.",
+"chars": "Hada, Loubna",
+"lines": [
+{
+"type": "bulle",
+"who": "Hada",
+"FR": "Et toi, Loubna, qu'est-ce que tu défends ?",
+"DA": "وأنتي آ لبنى، على آش كتدافعي؟"
+},
+{
+"type": "bulle",
+"who": "Loubna",
+"FR": "Que les filles peuvent voler.",
+"DA": "بلّي البنات يقدرو يطيرو."
+},
+{
+"type": "bulle",
+"who": "Hada",
+"FR": "Alors dis-le. Un leader ne s'impose pas : il propose.",
+"DA": "إذن قوليها. القائد ما كيفرضش، كيقترح."
+},
+{
+"type": "narration",
+"who": "Narrateur",
+"FR": "Clé 6 : partage tes valeurs.",
+"DA": "المفتاح 6: شاركي القيم ديالك."
+}
+],
+"prompt": "Super Hada (elegant businesswoman, black and burgundy velvet caftan-coat with gold embroidery, silver diadem) approaching Loubna with a confident smile. Shōnen manga panel, same art style as the Super Family manga character sheets (clean expressive line art, cel-shaded colours, large expressive eyes, subtle screentone), Moroccan setting drawn with precise detail, leave empty space for speech bubbles, no text, no lettering, no logo."
+},
+{
+"id": "5.1",
+"shot": "Plan moyen",
+"image": "Super Bouchta, grand chapeau jebli à pompons, empile des livres sur un banc sous les arcades.",
+"chars": "Bouchta, Loubna",
+"lines": [
+{
+"type": "narration",
+"who": "Narrateur",
+"FR": "Clé 7 : lis beaucoup.",
+"DA": "المفتاح 7: قراي بزّاف."
+}
+],
+"prompt": "Super Bouchta (Jebli scholar, wide straw hat with colourful pompoms, striped jellaba) stacking old books on a bench under riad arches, Loubna curious. Shōnen manga panel, same art style as the Super Family manga character sheets (clean expressive line art, cel-shaded colours, large expressive eyes, subtle screentone), Moroccan setting drawn with precise detail, leave empty space for speech bubbles, no text, no lettering, no logo."
+},
+{
+"id": "5.2",
+"shot": "Plan rapproché",
+"image": "Bouchta tend un livre à Loubna, qui écarquille les yeux.",
+"chars": "Bouchta, Loubna",
+"lines": [
+{
+"type": "bulle",
+"who": "Bouchta",
+"FR": "Un livre par semaine, et dans un an, tu auras 52 amis de plus.",
+"DA": "كتاب كل سيمانة، ومن هنا لعام غادي يكونو عندك 52 صاحب زايدين."
+},
+{
+"type": "bulle",
+"who": "Loubna",
+"FR": "52 ?!",
+"DA": "52؟!"
+}
+],
+"prompt": "Bouchta handing a book to Loubna, Loubna wide-eyed and surprised. Shōnen manga panel, same art style as the Super Family manga character sheets (clean expressive line art, cel-shaded colours, large expressive eyes, subtle screentone), Moroccan setting drawn with precise detail, leave empty space for speech bubbles, no text, no lettering, no logo."
+},
+{
+"id": "5.3",
+"shot": "Plan moyen, onomatopée",
+"image": "Khalti Salha, sur l'estrade avec son oud, rate une note. Silence gêné des invités.",
+"chars": "Salha",
+"lines": [
+{
+"type": "onomatopée",
+"who": "—",
+"FR": "PLONK !",
+"DA": "بلونك!"
+}
+],
+"prompt": "Khalti Salha (festive aunt, red and gold caftan, golden headdress) on a small stage playing the oud and hitting a wrong note, guests freezing in awkward silence. Shōnen manga panel, same art style as the Super Family manga character sheets (clean expressive line art, cel-shaded colours, large expressive eyes, subtle screentone), Moroccan setting drawn with precise detail, leave empty space for speech bubbles, no text, no lettering, no logo."
+},
+{
+"id": "5.4",
+"shot": "Plan large",
+"image": "Salha éclate de rire d'elle-même ; toute la cour rit avec elle.",
+"chars": "Salha",
+"lines": [
+{
+"type": "bulle",
+"who": "Salha",
+"FR": "Même mon oud a 50 ans ce soir !",
+"DA": "حتى العود ديالي داير الخمسين الليلة!"
+},
+{
+"type": "narration",
+"who": "Narrateur",
+"FR": "Clé 8 : cultive le sens de l'humour.",
+"DA": "المفتاح 8: نمّي حسّ الضحك."
+}
+],
+"prompt": "Khalti Salha bursting into laughter at herself, the whole courtyard of guests laughing with her, joyful atmosphere. Shōnen manga panel, same art style as the Super Family manga character sheets (clean expressive line art, cel-shaded colours, large expressive eyes, subtle screentone), Moroccan setting drawn with precise detail, leave empty space for speech bubbles, no text, no lettering, no logo."
+},
+{
+"id": "5.5",
+"shot": "Gros plan, effet scintillant",
+"image": "Loubna rit aux éclats pour la première fois de la soirée. Effet scintillant autour d'elle.",
+"chars": "Loubna",
+"lines": [
+{
+"type": "pensée",
+"who": "Loubna",
+"FR": "Elle rit d'elle-même… et tout le monde l'aime encore plus.",
+"DA": "كتضحك على راسها… والناس كيبغيوها كثر."
+}
+],
+"prompt": "Close-up of Loubna laughing out loud for the first time, sparkling light effects around her. Shōnen manga panel, same art style as the Super Family manga character sheets (clean expressive line art, cel-shaded colours, large expressive eyes, subtle screentone), Moroccan setting drawn with precise detail, leave empty space for speech bubbles, no text, no lettering, no logo."
+},
+{
+"id": "6.1",
+"shot": "Plan large en plongée",
+"image": "Loubna au centre d'un cercle : Moha, Bouchaib, TAMU, Lfatmi, Hada et Bouchta, tous en train de discuter avec elle.",
+"chars": "Loubna, Moha, Bouchaib, TAMU, Lfatmi, Hada, Bouchta",
+"lines": [
+{
+"type": "narration",
+"who": "Narrateur",
+"FR": "Clé 9 : entoure-toi de gens inspirants.",
+"DA": "المفتاح 9: حوّطي راسك بناس ملهمين."
+}
+],
+"prompt": "High-angle wide shot: Loubna at the centre of a warm circle of Super Family characters (Moha, Bouchaib, TAMU, Lfatmi, Hada, Bouchta) all chatting with her under hanging lanterns. Shōnen manga panel, same art style as the Super Family manga character sheets (clean expressive line art, cel-shaded colours, large expressive eyes, subtle screentone), Moroccan setting drawn with precise detail, leave empty space for speech bubbles, no text, no lettering, no logo."
+},
+{
+"id": "6.2",
+"shot": "Plan rapproché",
+"image": "L3arbi, bras croisés, fier, observe la scène.",
+"chars": "L3arbi",
+"lines": [
+{
+"type": "bulle",
+"who": "L3arbi",
+"FR": "Tu deviens la moyenne des gens qui t'entourent.",
+"DA": "كتولّي المعدّل ديال الناس اللي دايرين بيك."
+}
+],
+"prompt": "L3arbi standing with arms crossed, proud smile, watching the scene. Shōnen manga panel, same art style as the Super Family manga character sheets (clean expressive line art, cel-shaded colours, large expressive eyes, subtle screentone), Moroccan setting drawn with precise detail, leave empty space for speech bubbles, no text, no lettering, no logo."
+},
+{
+"id": "6.3",
+"shot": "Gros plan",
+"image": "Loubna regarde ses mains, émue. Une petite étincelle dorée apparaît dans sa paume.",
+"chars": "Loubna",
+"lines": [
+{
+"type": "pensée",
+"who": "Loubna",
+"FR": "Ce soir… j'ai l'impression de grandir.",
+"DA": "الليلة… كنحس براسي كنكبر."
+}
+],
+"prompt": "Close-up of Loubna looking at her open palms, moved, a tiny golden spark glowing in her hand. Shōnen manga panel, same art style as the Super Family manga character sheets (clean expressive line art, cel-shaded colours, large expressive eyes, subtle screentone), Moroccan setting drawn with precise detail, leave empty space for speech bubbles, no text, no lettering, no logo."
+},
+{
+"id": "6.4",
+"shot": "Plan moyen dynamique, lignes de vitesse",
+"image": "Super 3wita et Super Jo arrivent en courant, Jo avec ses lunettes d'aviateur.",
+"chars": "3wita, Jo",
+"lines": [
+{
+"type": "bulle",
+"who": "Jo",
+"FR": "Loubna ! Course jusqu'au plus haut toit ?",
+"DA": "لبنى! نتسابقو حتى للسطح العالي؟"
+}
+],
+"prompt": "Super 3wita (runner in red and green suit) and Super Jo (adventurer, khaki shirt, aviator goggles, red scarf) running in with speed lines, grinning. Shōnen manga panel, same art style as the Super Family manga character sheets (clean expressive line art, cel-shaded colours, large expressive eyes, subtle screentone), Moroccan setting drawn with precise detail, leave empty space for speech bubbles, no text, no lettering, no logo."
+},
+{
+"id": "6.5",
+"shot": "Plan américain",
+"image": "Loubna se lève, sourire déterminé, poing serré.",
+"chars": "Loubna",
+"lines": [
+{
+"type": "bulle",
+"who": "Loubna",
+"FR": "Prêts ? Partez !",
+"DA": "واجدين؟ يالاه!"
+}
+],
+"prompt": "Loubna standing up with a determined grin, fist clenched, ready to run. Shōnen manga panel, same art style as the Super Family manga character sheets (clean expressive line art, cel-shaded colours, large expressive eyes, subtle screentone), Moroccan setting drawn with precise detail, leave empty space for speech bubbles, no text, no lettering, no logo."
+},
+{
+"id": "7.1",
+"shot": "Très grande case d'action",
+"image": "Course sur les toits : Loubna saute en acrobatie au-dessus d'une ruelle, lignes de vitesse. 3wita et Jo prennent l'escalier.",
+"chars": "Loubna, 3wita, Jo",
+"lines": [
+{
+"type": "narration",
+"who": "Narrateur",
+"FR": "Clé 10 : sois non conventionnelle.",
+"DA": "المفتاح 10: كوني ماشي تقليدية."
+}
+],
+"prompt": "Dynamic action panel: Loubna leaping acrobatically across a narrow alley between Fez rooftops at night, speed lines, 3wita and Jo taking the stairs below. Shōnen manga panel, same art style as the Super Family manga character sheets (clean expressive line art, cel-shaded colours, large expressive eyes, subtle screentone), Moroccan setting drawn with precise detail, leave empty space for speech bubbles, no text, no lettering, no logo."
+},
+{
+"id": "7.2",
+"shot": "Plan moyen comique",
+"image": "Jo, essoufflé dans l'escalier, montre Loubna du doigt. 3wita sourit.",
+"chars": "Jo, 3wita",
+"lines": [
+{
+"type": "bulle",
+"who": "Jo",
+"FR": "Elle ne prend pas l'escalier ?!",
+"DA": "ما غاديش تطلع فالدروج؟!"
+},
+{
+"type": "bulle",
+"who": "3wita",
+"FR": "Elle invente son propre chemin !",
+"DA": "راها كتخترع الطريق ديالها!"
+}
+],
+"prompt": "Jo out of breath on a staircase pointing up in disbelief, 3wita smiling admiringly. Shōnen manga panel, same art style as the Super Family manga character sheets (clean expressive line art, cel-shaded colours, large expressive eyes, subtle screentone), Moroccan setting drawn with precise detail, leave empty space for speech bubbles, no text, no lettering, no logo."
+},
+{
+"id": "7.3",
+"shot": "Case verticale pleine hauteur",
+"image": "Loubna en plein vol devant la pleine lune, figure acrobatique parfaite. Silhouette iconique.",
+"chars": "Loubna",
+"lines": [
+{
+"type": "pensée",
+"who": "Loubna",
+"FR": "Je ne suis pas le troupeau.",
+"DA": "ما كنتبعش القطيع."
+}
+],
+"prompt": "Iconic vertical panel: Loubna mid-air in a perfect acrobatic flip silhouetted against a huge full moon over Fez. Shōnen manga panel, same art style as the Super Family manga character sheets (clean expressive line art, cel-shaded colours, large expressive eyes, subtle screentone), Moroccan setting drawn with precise detail, leave empty space for speech bubbles, no text, no lettering, no logo."
+},
+{
+"id": "7.4",
+"shot": "Plan moyen",
+"image": "Elle atterrit souplement sur le plus haut toit, où Super Allal veille, appuyé sur sa canne au lion.",
+"chars": "Loubna, Allal",
+"lines": [
+{
+"type": "bulle",
+"who": "Allal",
+"FR": "Joli saut, Loubna.",
+"DA": "نقزة زوينة، آ لبنى."
+}
+],
+"prompt": "Loubna landing gracefully on the highest rooftop where Super Allal (guardian, white turban, jabador, crossed bandoliers, lion-headed cane) stands watch. Shōnen manga panel, same art style as the Super Family manga character sheets (clean expressive line art, cel-shaded colours, large expressive eyes, subtle screentone), Moroccan setting drawn with precise detail, leave empty space for speech bubbles, no text, no lettering, no logo."
+},
+{
+"id": "7.5",
+"shot": "Plan rapproché",
+"image": "Allal, regard bienveillant. Loubna, surprise, les yeux grands ouverts.",
+"chars": "Allal, Loubna",
+"lines": [
+{
+"type": "bulle",
+"who": "Allal",
+"FR": "Ce soir, tout le monde parlait de toi.",
+"DA": "الليلة الناس كاملين كانو كيهضرو عليك."
+},
+{
+"type": "bulle",
+"who": "Loubna",
+"FR": "De… moi ?",
+"DA": "عليّا… أنا؟"
+}
+],
+"prompt": "Allal with a kind knowing look, Loubna surprised with wide eyes. Shōnen manga panel, same art style as the Super Family manga character sheets (clean expressive line art, cel-shaded colours, large expressive eyes, subtle screentone), Moroccan setting drawn with precise detail, leave empty space for speech bubbles, no text, no lettering, no logo."
+},
+{
+"id": "8.1",
+"shot": "Plan large de dos",
+"image": "Loubna et Allal, de dos, regardent la fête illuminée en contrebas.",
+"chars": "Loubna, Allal",
+"lines": [
+{
+"type": "bulle",
+"who": "Loubna",
+"FR": "Mais je n'ai rien fait de spécial…",
+"DA": "ولكن ما درت حتى حاجة خاصة…"
+}
+],
+"prompt": "Back view of Loubna and Allal sitting on the rooftop edge looking down at the glowing party and the medina at night. Shōnen manga panel, same art style as the Super Family manga character sheets (clean expressive line art, cel-shaded colours, large expressive eyes, subtle screentone), Moroccan setting drawn with precise detail, leave empty space for speech bubbles, no text, no lettering, no logo."
+},
+{
+"id": "8.2",
+"shot": "Plan rapproché sur Allal",
+"image": "Allal pose la main sur l'épaule de Loubna.",
+"chars": "Allal, Loubna",
+"lines": [
+{
+"type": "bulle",
+"who": "Allal",
+"FR": "Tu t'es intéressée aux autres. Tu as grandi. Tu as donné. C'est ça, être intéressante.",
+"DA": "تهتمّيتي بالناس، كبرتي، وعطيتي. هادا هو تكوني مثيرة للاهتمام."
+}
+],
+"prompt": "Allal placing a hand on Loubna's shoulder, warm fatherly expression. Shōnen manga panel, same art style as the Super Family manga character sheets (clean expressive line art, cel-shaded colours, large expressive eyes, subtle screentone), Moroccan setting drawn with precise detail, leave empty space for speech bubbles, no text, no lettering, no logo."
+},
+{
+"id": "8.3",
+"shot": "Plan moyen",
+"image": "L3arbi les rejoint sur le toit, sifflet autour du cou.",
+"chars": "L3arbi, Loubna, Allal",
+"lines": [
+{
+"type": "bulle",
+"who": "L3arbi",
+"FR": "Dix clés. Une seule soirée.",
+"DA": "عشر مفاتح. فليلة وحدة."
+}
+],
+"prompt": "L3arbi joining Loubna and Allal on the rooftop, smiling, silver whistle around his neck. Shōnen manga panel, same art style as the Super Family manga character sheets (clean expressive line art, cel-shaded colours, large expressive eyes, subtle screentone), Moroccan setting drawn with precise detail, leave empty space for speech bubbles, no text, no lettering, no logo."
+},
+{
+"id": "8.4",
+"shot": "Gros plan face au lecteur",
+"image": "Loubna regarde le lecteur, sourire lumineux, l'étincelle dorée brille dans sa main.",
+"chars": "Loubna",
+"lines": [
+{
+"type": "bulle",
+"who": "Loubna",
+"FR": "Choisis UNE clé cette semaine… et regarde ce qui change autour de toi !",
+"DA": "ختار مفتاح واحد هاد السيمانة… وشوف آش غادي يتبدّل حداك!"
+}
+],
+"prompt": "Close-up of Loubna looking straight at the viewer with a radiant smile, holding a glowing golden spark in her palm. Shōnen manga panel, same art style as the Super Family manga character sheets (clean expressive line art, cel-shaded colours, large expressive eyes, subtle screentone), Moroccan setting drawn with precise detail, leave empty space for speech bubbles, no text, no lettering, no logo."
+},
+{
+"id": "8.5",
+"shot": "Case de fin",
+"image": "Silhouette de la Super Family sur les toits de Fès. Emplacement pour le logo L'Étincelle et la mention « À suivre ».",
+"chars": "Allal, Hada, L3arbi, Loubna",
+"lines": [
+{
+"type": "narration",
+"who": "Narrateur",
+"FR": "À suivre : Épisode 02",
+"DA": "تابع: الحلقة 02"
+}
+],
+"prompt": "Final panel: silhouettes of the Super Family heroes standing together on Fez rooftops under the full moon, empty space at the top for a logo. Shōnen manga panel, same art style as the Super Family manga character sheets (clean expressive line art, cel-shaded colours, large expressive eyes, subtle screentone), Moroccan setting drawn with precise detail, leave empty space for speech bubbles, no text, no lettering, no logo."
+}
+]

@@ -1,0 +1,41 @@
+case	début (s)	durée (s)	fichiers audio
+1.1	0	7.2	c1.1_1_Narrateur.mp3
+1.2	7.2	6.0	c1.2_1_Loubna.mp3
+1.3	13.2	4.0	c1.3_1_L3arbi.mp3
+1.4	17.2	4.4	c1.4_1_Loubna.mp3
+1.5	21.6	11.6	c1.5_1_L3arbi.mp3 + c1.5_2_Narrateur.mp3
+2.1	33.2	4.7	c2.1_1_Narrateur.mp3
+2.2	37.9	4.2	c2.2_1_L3arbi.mp3
+2.3	42.1	4.0	c2.3_1_Loubna.mp3
+2.4	46.1	10.1	c2.4_1_Moha.mp3 + c2.4_2_Narrateur.mp3
+2.5	56.2	4.3	c2.5_1_L3arbi.mp3
+3.1	60.5	5.2	c3.1_1_Narrateur.mp3
+3.2	65.7	4.3	c3.2_1_Bouchaib.mp3
+3.3	70.0	5.5	c3.3_1_Loubna.mp3 + c3.3_2_TAMU.mp3
+3.4	75.5	9.4	c3.4_1_TAMU.mp3 + c3.4_2_Narrateur.mp3
+3.5	84.9	4.0	c3.5_1_TAMU.mp3
+4.1	88.9	5.3	c4.1_1_Loubna.mp3 + c4.1_2_Lfatmi.mp3
+4.2	94.2	6.3	c4.2_1_L3arbi.mp3 + c4.2_2_Narrateur.mp3
+4.3	100.5	4.0	c4.3_1_Loubna.mp3
+4.4	104.5	4.9	c4.4_1_Lfatmi.mp3
+4.5	109.4	14.6	c4.5_1_Hada.mp3 + c4.5_2_Loubna.mp3 + c4.5_3_Hada.mp3 + c4.5_4_Narrateur.mp3
+5.1	124.0	4.0	c5.1_1_Narrateur.mp3
+5.2	128.0	10.5	c5.2_1_Bouchta.mp3 + c5.2_2_Loubna.mp3
+5.3	138.5	4.0	
+5.4	142.5	7.7	c5.4_1_Salha.mp3 + c5.4_2_Narrateur.mp3
+5.5	150.2	5.0	c5.5_1_Loubna.mp3
+6.1	155.2	4.9	c6.1_1_Narrateur.mp3
+6.2	160.1	4.0	c6.2_1_L3arbi.mp3
+6.3	164.1	4.7	c6.3_1_Loubna.mp3
+6.4	168.8	4.3	c6.4_1_Jo.mp3
+6.5	173.1	4.3	c6.5_1_Loubna.mp3
+7.1	177.4	5.0	c7.1_1_Narrateur.mp3
+7.2	182.4	5.2	c7.2_1_Jo.mp3 + c7.2_2_3wita.mp3
+7.3	187.6	4.0	c7.3_1_Loubna.mp3
+7.4	191.6	4.0	c7.4_1_Allal.mp3
+7.5	195.6	6.2	c7.5_1_Allal.mp3 + c7.5_2_Loubna.mp3
+8.1	201.8	4.0	c8.1_1_Loubna.mp3
+8.2	205.8	7.2	c8.2_1_Allal.mp3
+8.3	213.0	4.0	c8.3_1_L3arbi.mp3
+8.4	217.0	6.8	c8.4_1_Loubna.mp3
+8.5	223.8	4.0	
