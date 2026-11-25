@@ -13,7 +13,11 @@
 | Super Bouchta (savant jebli) | Jawad – Natural and Conversational | PmGnwGtnBs40iau7JfoF | chaleureux |
 | Khalti Salha (la tante) | Ghizlane (même voix que TAMU, autre scène) | OfGMGmhShO8iL9jCkXy8 | peu de voix féminines marocaines disponibles |
 | Super Jo (aventurier) | Mehdi – Sharp and Lively | Vsm8jlUqY4LxvQNtr7R6 | jeune, vif |
-| Super 3wita (coureur·se) | Ghalia (à confirmer : fille ou garçon ?) | ugVysa6SU3kBjf7zmeSV | — |
+| Super 3wita (coureur, garçon) | Anas – Friendly and Energetic (marocain, jeune) | JyOZ8fOJkYGmajIlFsJ4 | jeune et énergique · **à régénérer** (c7.2_2) dès que les crédits sont rechargés |
 | Super Allal (le gardien) | Tariq – Commanding and Resolute | hiDWCdbsrOy64l833ab2 | sage, autorité |
 
-Limite : la bibliothèque ElevenLabs n'a que 3 voix féminines marocaines (Loubna, Ghizlane, Ghalia). TAMU et Salha partagent donc la même voix, et Hada et 3wita aussi.
+Limite : la bibliothèque ElevenLabs n'a que 3 voix féminines marocaines (Loubna, Ghizlane, Ghalia). TAMU et Salha partagent donc la même voix.
+
+## À régénérer dès que les crédits ElevenLabs reviennent
+- `c7.2_2_3wita.mp3` : « راها كتخترع الطريق ديالها! » avec la voix Anas (3wita est un garçon)
+- `c8.5_1_Narrateur.mp3` : « تابع: الحلقة 02 » avec la voix Badr
