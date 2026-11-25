@@ -25,7 +25,7 @@
 
 ## 3. Le son
 Votre voix off ElevenLabs sera posée au montage. Ajoutez donc à la fin de chaque prompt :
-`Ambient sound only, no dialogue, no voice, no music.`
+(rien : désactivez le son dans Flow)
 Veo génère alors les bruits (car, appel à la prière, ruelle) sans inventer de voix.
 
 ## 4. Les 5 plans à tester en premier (une journée gratuite)
@@ -34,27 +34,27 @@ Copiez-collez ces prompts : ils sont adaptés à Veo (8 s, verticaux, son d'ambi
 
 **Test 1 – plan 3, le car (texte → vidéo)**
 ```
-Vertical 9:16 cinematic shot, golden hour. A coach bus drives along a straight road across a vast ochre plain toward Marrakech; the dark jagged Atlas mountains on the horizon; the red city walls glowing in the low sun; dust floating in the light. Slow aerial tracking shot following the bus. 35mm film look, warm tones. Ambient sound only: engine hum, wind. No dialogue, no voice, no music.
+Vertical 9:16 cinematic shot, golden hour. A coach bus drives along a straight road across a vast ochre plain toward Marrakech; the dark jagged Atlas mountains on the horizon; the red city walls glowing in the low sun; dust floating in the light. Slow aerial tracking shot following the bus. 35mm film look, warm tones.
 ```
 
 **Test 2 – plan 7, la médina (ingrédients ou images → vidéo, avec la planche de H)**
 ```
-Vertical 9:16. Narrow Marrakech medina alley at blue hour, wrought-iron lanterns casting warm golden light on ochre walls. A young man, 23, light-brown skin, very short black curly hair, light stubble, camel wool overcoat over a cream sweater, walks slowly toward camera pulling a rolling suitcase, looking around with emotion. An old man with prayer beads passes by. Handheld camera, shallow depth of field, 35mm film look. Ambient sound: distant call to prayer echoing between minarets, footsteps, suitcase wheels on stone. No dialogue, no music.
+Vertical 9:16. Narrow Marrakech medina alley at blue hour, wrought-iron lanterns casting warm golden light on ochre walls. A young man, 23, light-brown skin, very short black curly hair, light stubble, camel wool overcoat over a cream sweater, walks slowly toward camera pulling a rolling suitcase, looking around with emotion. An old man with prayer beads passes by. Handheld camera, shallow depth of field, 35mm film look.
 ```
 
 **Test 3 – plan 11, la fontaine à sec (images → vidéo avec H)**
 ```
-Vertical 9:16. A small medina square at dusk, a dry old stone fountain full of dead leaves and dust. The same young man in a camel overcoat stands still in front of it, holding his suitcase, melancholic, remembering. Very slow push-in toward his face. Warm fading light, 35mm film look. Ambient sound: distant city murmur, wind moving dry leaves. No dialogue, no music.
+Vertical 9:16. A small medina square at dusk, a dry old stone fountain full of dead leaves and dust. The same young man in a camel overcoat stands still in front of it, holding his suitcase, melancholic, remembering. Very slow push-in toward his face. Warm fading light, 35mm film look.
 ```
 
 **Test 4 – plan 12-13, le calligraphe (texte → vidéo)**
 ```
-Vertical 9:16. Inside a tiny calligraphy shop in the Marrakech medina at night, an old Moroccan man, about 75, white beard, sits cross-legged on a worn burgundy velvet cushion, writing elegant Arabic calligraphy with a fine reed pen on thick paper; a small oil lamp makes shadows dance on his serene face. He slowly raises his eyes toward the camera with a calm, knowing look. Close-up, shallow depth of field, 35mm film look. Ambient sound: pen scratching paper, oil lamp crackle. No dialogue, no music.
+Vertical 9:16. Inside a tiny calligraphy shop in the Marrakech medina at night, an old Moroccan man, about 75, white beard, sits cross-legged on a worn burgundy velvet cushion, writing elegant Arabic calligraphy with a fine reed pen on thick paper; a small oil lamp makes shadows dance on his serene face. He slowly raises his eyes toward the camera with a calm, knowing look. Close-up, shallow depth of field, 35mm film look.
 ```
 
 **Test 5 – plan 16, la porte (images → vidéo avec H)**
 ```
-Vertical 9:16. Night, a quiet sloping residential street in Marrakech, a street lamp flickering, white jasmine spilling over a wall. The same young man in a camel overcoat stops in front of a carved wooden family door, sets down his suitcase, hesitates one second, then raises his hand and knocks twice. Static camera, then slow push-in on his hand. 35mm film look. Ambient sound: crickets, two knocks on wood. No dialogue, no music.
+Vertical 9:16. Night, a quiet sloping residential street in Marrakech, a street lamp flickering, white jasmine spilling over a wall. The same young man in a camel overcoat stops in front of a carved wooden family door, sets down his suitcase, hesitates one second, then raises his hand and knocks twice. Static camera, then slow push-in on his hand. 35mm film look.
 ```
 
 ## 5. Juger le test
