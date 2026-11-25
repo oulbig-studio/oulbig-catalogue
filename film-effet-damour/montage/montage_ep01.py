@@ -41,6 +41,9 @@ SEGMENTS = [
 ]
 
 
+TITLE_TR = {'4 jours plus tôt': '4 days earlier', 'À suivre…': 'To be continued…'} if os.environ.get('TITLES') == 'en' else {}
+
+
 def run(cmd):
     subprocess.run(cmd, check=True)
 
@@ -64,7 +67,7 @@ def segment(i, seg, clips, tmp):
     else:
         big = src == 'TITLE'
         size, color = (64, 'white') if big else (40, 'gray')
-        label = esc(text if text else f'PLAN {plan}')
+        label = esc(TITLE_TR.get(text, text) if text else f'PLAN {plan}')
         vf = (f"drawtext=fontfile={FONT}:text='{label}':fontcolor={color}:fontsize={size}:"
               f"x=(w-text_w)/2:y=(h-text_h)/2,{fade}")
         run(['ffmpeg', '-v', 'error', '-y', '-f', 'lavfi', '-i', f'color=c=black:s={W}x{H}:r={FPS}:d={dur}',
