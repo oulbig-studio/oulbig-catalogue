@@ -10,7 +10,11 @@ Pour remplacer un plan : déposez la nouvelle vidéo dans le dossier, mettez son
 import csv, os, subprocess, sys, tempfile
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-VO_DIR = os.path.join(HERE, '..', 'voix-off', 'ep01')
+VO_DIR = os.environ.get('VO_DIR', os.path.join(HERE, '..', 'voix-off', 'ep01'))
+SCRIPT = os.environ.get('SCRIPT', 'script.tsv')
+SUB_COL = os.environ.get('SUB_COL', 'texte')
+VO_TRACK = os.environ.get('VO_TRACK', 'EP01_VOIX-OFF_COMPLETE.mp3')
+SEG_OVERRIDE = os.environ.get('SEG_DURATIONS')
 FONT = '/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf'
 W, H, FPS = 1080, 1920, 24
 AMBIENT = 0.20      # volume du son des vidéos
@@ -52,8 +56,8 @@ def segment(i, seg, clips, tmp):
     path = os.path.join(clips, src) if src and src != 'TITLE' else None
     if path and os.path.exists(path):
         vf = (f'setpts=PTS/{speed},scale={W}:{H}:force_original_aspect_ratio=increase:flags=lanczos,'
-              f'crop={W}:{H},fps={FPS},{fade}')
-        af = f'atempo={speed},volume={AMBIENT},afade=t=in:d={FADE},afade=t=out:st={dur - FADE:.2f}:d={FADE}' if speed >= 0.5 else f'volume={AMBIENT}'
+              f'crop={W}:{H},fps={FPS},tpad=stop_mode=clone:stop_duration={dur},{fade}')
+        af = f'atempo={speed},volume={AMBIENT},apad,afade=t=in:d={FADE},afade=t=out:st={dur - FADE:.2f}:d={FADE}' if speed >= 0.5 else f'volume={AMBIENT}'
         run(['ffmpeg', '-v', 'error', '-y', '-ss', str(start), '-i', path, '-t', f'{dur}',
              '-vf', vf, '-af', af, '-t', f'{dur}', '-r', str(FPS), '-c:v', 'libx264', '-preset', 'medium',
              '-crf', '18', '-pix_fmt', 'yuv420p', '-c:a', 'aac', '-ar', '44100', '-ac', '2', out])
@@ -75,8 +79,8 @@ def ass_time(t):
 
 
 def subtitles(tmp):
-    texts = {r['fichier']: r['texte'] for r in csv.DictReader(open(os.path.join(VO_DIR, 'script.tsv')), delimiter='\t')}
-    rows = [r for r in csv.DictReader(open(os.path.join(VO_DIR, 'EP01_MONTAGE.tsv')), delimiter='\t') if r['fichier audio']]
+    texts = {r['fichier']: r[SUB_COL] for r in csv.DictReader(open(os.path.join(VO_DIR, SCRIPT)), delimiter='\t')}
+    rows = [r for r in csv.DictReader(open(os.path.join(VO_DIR, os.environ.get('MONTAGE_TSV', 'EP01_MONTAGE.tsv'))), delimiter='\t') if r['fichier audio']]
     lines = []
     for r in rows:
         f = r['fichier audio']
@@ -99,13 +103,17 @@ def subtitles(tmp):
 def main():
     clips, out = sys.argv[1], sys.argv[2]
     with tempfile.TemporaryDirectory() as tmp:
-        segs = [segment(i, s, clips, tmp) for i, s in enumerate(SEGMENTS)]
+        segments = SEGMENTS
+        if SEG_OVERRIDE:
+            d = dict((int(k), float(v)) for k, v in (x.split('=') for x in SEG_OVERRIDE.split(',')))
+            segments = [(p, d.get(p, du), *rest) for p, du, *rest in SEGMENTS]
+        segs = [segment(i, s, clips, tmp) for i, s in enumerate(segments)]
         lst = os.path.join(tmp, 'list.txt')
         open(lst, 'w').write(''.join(f"file '{s}'\n" for s in segs))
         body = os.path.join(tmp, 'body.mp4')
         run(['ffmpeg', '-v', 'error', '-y', '-f', 'concat', '-safe', '0', '-i', lst, '-c', 'copy', body])
         subs = subtitles(tmp)
-        vo = os.path.join(VO_DIR, 'EP01_VOIX-OFF_COMPLETE.mp3')
+        vo = os.path.join(VO_DIR, VO_TRACK)
         run(['ffmpeg', '-v', 'error', '-y', '-i', body, '-i', vo, '-filter_complex',
              f"[0:v]ass={subs}[v];[0:a][1:a]amix=inputs=2:duration=first:normalize=0,loudnorm=I=-14:TP=-1.5:LRA=11[a]",
              '-map', '[v]', '-map', '[a]', '-c:v', 'libx264', '-preset', 'medium', '-crf', '19', '-pix_fmt', 'yuv420p',
