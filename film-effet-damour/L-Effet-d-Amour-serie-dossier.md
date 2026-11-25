@@ -37,8 +37,11 @@ Le roman décrit peu le physique de H. Les traits ci-dessous sont **des proposit
 | **Anis** | 23 ans | **`references/Anis-reference.jpg`**. `Moroccan man, slicked-back black hair, full trimmed beard, intense direct gaze, navy bomber jacket over a heather-grey t-shirt, dark grey chinos, white sneakers, black backpack on one shoulder, paper cup of black coffee` |
 | **Safaa** | 17 ans | **Image de référence : `references/Safaa-reference.jpg`** (ancienne Béa v2, version mince). `young woman, sleek dark hair in a low side-parted bun, warm olive skin, wide radiant smile, olive green jacket, black top, dark trousers, black ankle boots` · Lycée : `same face at 17, cheerful, talkative, school bag` |
 | **N.** | 20 ans | `natural young woman reading Dostoevsky in a rainy canteen, unpretentious, kind direct eyes` |
-| **Le calligraphe** | ~75 ans | `old Moroccan calligrapher sitting cross-legged on a worn burgundy velvet cushion, fine pen, small oil lamp` |
-| **La famille** | — | Mère (cuisine, msemen), Père (jardin, arrosoir, pêcher), Sœur (peintre), Frère (grand ado) |
+| **Le calligraphe** | ~75 ans | **`references/Calligraphe-reference.png`** (fez rouge, lunettes rondes, barbe blanche, djellaba brune, gilet écru, chapelet). En scène : `sitting cross-legged on a worn burgundy velvet cushion, writing Arabic calligraphy with a reed pen, small oil lamp` |
+| **Le père** | ~55 ans | **`references/Pere-maison-apercu.png`** (maison, jardin, arrosoir) · planche d'origine : `references/Pere-original.png` (manteau marine, pour une sortie en ville) |
+| **La mère** | ~50 ans | **`references/Mere-maison-apercu.png`** (cuisine : caftan, tablier, foulard rouge) · `references/Mere-original.png` (en blouse de médecin, si elle part travailler) |
+| **La sœur** | ~19 ans | **`references/Soeur-reference.png`** (hijab noir, sweat blanc). Pour les scènes de peinture, ajouter `paint stains on her fingers and sleeves, holding a paintbrush` |
+| **Le frère** | ~16 ans | **`references/Frere-16ans-apercu.png`** (grand ado aux boucles, veste en jean) · version adulte : `references/Frere-original.png` |
 | **Minou** | chat | `small grey and white tabby cat, irregular spots on forehead, curved question-mark tail, insolent golden-yellow eyes` |
 | **CSK** | voix seulement | voix radio grave et veloutée (jamais de visage) |
 
