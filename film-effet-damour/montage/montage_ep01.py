@@ -26,7 +26,7 @@ SEGMENTS = [
     (2, 2.0, 'TITLE', 0, 1, '4 jours plus tôt'),
     (3, 6.6, 'plan03.mp4', 0.0, 1, ''),
     (4, 4.0, 'plan04.mp4', 1.0, 1, 'PLAN 4 — le car, le vieil homme'),
-    (5, 5.0, 'plan05.mp4', 0.3, 1, 'PLAN 5 — la gare routière'),
+    (5, 5.0, 'plan05r.mp4', 0.0, 1, 'PLAN 5 — la gare routière'),
     (6, 4.5, 'plan06.mp4', 0.5, 1, 'PLAN 6 — le taxi'),
     (7, 5.0, 'plan07.mp4', 0.0, 1, ''),
     (8, 4.0, 'plan08.mp4', 6.0, 0.5, "PLAN 8 — l'âne"),
