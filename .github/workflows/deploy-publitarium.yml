@@ -1,0 +1,71 @@
+name: Déploiement Publitarium
+
+# À chaque push qui modifie le site ou le thème WordPress :
+# 1. met à jour les branches de déploiement (publitarium-site, publitarium-wp-theme) ;
+# 2. demande à Hostinger de récupérer la nouvelle version.
+# Les adresses des webhooks Hostinger sont des secrets du dépôt :
+#   HOSTINGER_HOOK_SITE (publitarium.almoqayada.com) et HOSTINGER_HOOK_WP (events.almoqayada.com).
+
+on:
+  push:
+    branches: [main, claude/news-site-morocco-udc5gg]
+    paths:
+      - "publitarium/**"
+      - "wordpress-theme/publitarium-wp/**"
+      - ".github/workflows/deploy-publitarium.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: deploy-publitarium
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Quels dossiers ont changé ?
+        id: changes
+        run: |
+          before="${{ github.event.before }}"
+          if [ "${{ github.event_name }}" != "push" ] || ! git cat-file -e "$before^{commit}" 2>/dev/null; then
+            echo "site=true" >> "$GITHUB_OUTPUT"; echo "wp=true" >> "$GITHUB_OUTPUT"; exit 0
+          fi
+          files=$(git diff --name-only "$before" "${{ github.sha }}")
+          echo "$files" | grep -qE '^(publitarium/|\.github/workflows/deploy-publitarium\.yml)' && echo "site=true" >> "$GITHUB_OUTPUT" || echo "site=false" >> "$GITHUB_OUTPUT"
+          echo "$files" | grep -qE '^(wordpress-theme/publitarium-wp/|\.github/workflows/deploy-publitarium\.yml)' && echo "wp=true" >> "$GITHUB_OUTPUT" || echo "wp=false" >> "$GITHUB_OUTPUT"
+
+      - name: Mettre à jour les branches de déploiement
+        run: |
+          git config user.name "publitarium-bot"
+          git config user.email "publitarium-bot@users.noreply.github.com"
+          if [ "${{ steps.changes.outputs.site }}" = "true" ]; then
+            git subtree split --prefix=publitarium -b publitarium-site-new
+            git push --force origin publitarium-site-new:publitarium-site
+          fi
+          if [ "${{ steps.changes.outputs.wp }}" = "true" ]; then
+            git subtree split --prefix=wordpress-theme/publitarium-wp -b publitarium-wp-theme-new
+            git push --force origin publitarium-wp-theme-new:publitarium-wp-theme
+          fi
+
+      - name: Déployer sur Hostinger
+        env:
+          HOOK_SITE: ${{ secrets.HOSTINGER_HOOK_SITE }}
+          HOOK_WP: ${{ secrets.HOSTINGER_HOOK_WP }}
+        run: |
+          call() {
+            if [ -z "$2" ]; then echo "::warning::Secret $1 absent : ajoutez-le dans Settings > Secrets and variables > Actions."; return 0; fi
+            code=$(curl -sS -o /tmp/resp -w "%{http_code}" -X POST "$2" -H "Content-Type: application/json" -d '{}')
+            echo "$1 -> HTTP $code"; cat /tmp/resp; echo
+            case "$code" in 2*) ;; *) echo "::error::Le déploiement $1 a échoué (HTTP $code)"; return 1 ;; esac
+          }
+          ok=0
+          [ "${{ steps.changes.outputs.site }}" = "true" ] && { call HOSTINGER_HOOK_SITE "$HOOK_SITE" || ok=1; }
+          [ "${{ steps.changes.outputs.wp }}" = "true" ] && { call HOSTINGER_HOOK_WP "$HOOK_WP" || ok=1; }
+          exit $ok

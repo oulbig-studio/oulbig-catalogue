@@ -35,3 +35,10 @@ Les dates des festivals 2027 sont des périodes habituelles : à confirmer quand
 Les rendez-vous, inscriptions newsletter et messages sont enregistrés côté serveur dans `storage/`
 (un fichier `.jsonl` par type et par mois, inaccessible depuis le web). Consultez-les via le gestionnaire
 de fichiers Hostinger.
+
+## Déploiement automatique
+Chaque push sur `main` (ou sur la branche de travail) qui touche `publitarium/` ou
+`wordpress-theme/publitarium-wp/` lance le workflow GitHub Actions « Déploiement Publitarium » :
+il met à jour les branches `publitarium-site` / `publitarium-wp-theme` puis appelle les webhooks
+Hostinger (secrets `HOSTINGER_HOOK_SITE` et `HOSTINGER_HOOK_WP`). Lancement manuel possible :
+onglet Actions > Déploiement Publitarium > Run workflow.
