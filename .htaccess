@@ -1,0 +1,5 @@
+# Le dépôt Git cloné par Hostinger ne doit jamais être servi.
+RedirectMatch 404 /\.git
+<FilesMatch "\.(md|json)$">
+  Require all denied
+</FilesMatch>
