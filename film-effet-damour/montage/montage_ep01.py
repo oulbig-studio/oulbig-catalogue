@@ -17,7 +17,7 @@ VO_TRACK = os.environ.get('VO_TRACK', 'EP01_VOIX-OFF_COMPLETE.mp3')
 SEG_OVERRIDE = os.environ.get('SEG_DURATIONS')
 FONT = '/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf'
 W, H, FPS = 1080, 1920, 24
-AMBIENT = 0.20      # volume du son des vidéos
+AMBIENT = float(os.environ.get("AMBIENT", "0"))  # son des vidéos Flow coupé : il contient musique et voix parasites
 FADE = 0.25         # fondu au noir entre les plans (s)
 
 # plan, durée (s), vidéo (None = carton), début dans la vidéo (s), vitesse (1 = normale), texte du carton
