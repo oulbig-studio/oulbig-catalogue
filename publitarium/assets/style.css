@@ -111,6 +111,8 @@ main { max-width: 1180px; margin: 0 auto; padding: 8px 16px 40px; outline: none;
     radial-gradient(circle at 85% 15%, rgba(255,255,255,.45), transparent 35%),
     repeating-linear-gradient(45deg, rgba(255,255,255,.07) 0 12px, transparent 12px 24px);
 }
+.visual.has-img { background-size: cover; background-position: center; }
+.visual.has-img::before, .visual.has-img .v-icon { display: none; }
 .visual .v-icon { position: absolute; right: 14px; bottom: 10px; width: 64px; height: 64px; opacity: .35; }
 
 /* Hero */

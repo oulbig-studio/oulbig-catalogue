@@ -2,3 +2,6 @@ __pycache__/
 *.pyc
 .DS_Store
 publitarium/storage/*.jsonl
+publitarium/storage/*.json
+publitarium/uploads/*
+!publitarium/uploads/.htaccess
