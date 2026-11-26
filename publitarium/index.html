@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Publitarium Events — Actualité, agenda, festivals et bonnes adresses au Maroc</title>
+  <meta name="description" content="Publitarium Events : l'actualité culturelle, les rendez-vous, les festivals et les bonnes adresses de Casablanca, Marrakech, Essaouira, Rabat et Tanger. Résumés vocaux des articles par Oulbig.">
+  <meta name="theme-color" content="#ff4d6d">
+  <meta property="og:title" content="Publitarium Events">
+  <meta property="og:description" content="Actualité, agenda, festivals et bonnes adresses au Maroc.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css?v=1">
+</head>
+<body>
+  <a class="skip" href="#main">Aller au contenu</a>
+
+  <header class="topbar">
+    <a href="#/" class="brand" aria-label="Publitarium Events, accueil">
+      <span class="brand-mark" aria-hidden="true">P</span>
+      <span class="brand-text">Publitarium<em>Events</em></span>
+    </a>
+    <nav class="desk-nav" aria-label="Navigation principale">
+      <a href="#/">Accueil</a>
+      <a href="#/agenda">Agenda</a>
+      <a href="#/categorie/festivals">Festivals</a>
+      <a href="#/categorie/rendez-vous">Rendez-vous</a>
+      <a href="#/adresses">Bonnes adresses</a>
+    </nav>
+    <div class="top-actions">
+      <a href="#/recherche" class="icon-btn" aria-label="Rechercher"><svg><use href="#i-search"/></svg></a>
+      <button class="icon-btn" id="themeBtn" aria-label="Changer de thème"><svg><use href="#i-moon"/></svg></button>
+    </div>
+  </header>
+
+  <div class="city-bar" role="toolbar" aria-label="Choisir une ville" id="cityBar"></div>
+
+  <main id="main" tabindex="-1"></main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>
+        <a href="#/" class="brand"><span class="brand-mark">P</span><span class="brand-text">Publitarium<em>Events</em></span></a>
+        <p>L'actualité culturelle, les rendez-vous, les festivals et les bonnes adresses du Maroc. Résumés vocaux par Oulbig.</p>
+      </div>
+      <form class="newsletter" data-form="newsletter">
+        <label for="nl-email"><strong>La newsletter du week-end</strong></label>
+        <div class="nl-row">
+          <input id="nl-email" name="email" type="email" required placeholder="votre@email.com" autocomplete="email">
+          <input type="text" name="website" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <button class="btn" type="submit">S'inscrire</button>
+        </div>
+        <p class="form-msg" role="status"></p>
+      </form>
+    </div>
+    <p class="copyright">© <span id="year"></span> Publitarium Events · <a href="#/a-propos">À propos</a></p>
+  </footer>
+
+  <nav class="tabbar" aria-label="Navigation mobile">
+    <a href="#/" data-tab="home"><svg><use href="#i-home"/></svg><span>Accueil</span></a>
+    <a href="#/agenda" data-tab="agenda"><svg><use href="#i-calendar"/></svg><span>Agenda</span></a>
+    <a href="#/adresses" data-tab="adresses"><svg><use href="#i-pin"/></svg><span>Adresses</span></a>
+    <a href="#/recherche" data-tab="recherche"><svg><use href="#i-search"/></svg><span>Chercher</span></a>
+    <a href="#/favoris" data-tab="favoris"><svg><use href="#i-heart"/></svg><span>Favoris</span></a>
+  </nav>
+
+  <!-- Lecteur vocal Oulbig -->
+  <div class="player" id="player" hidden>
+    <div class="player-avatar" aria-hidden="true">O</div>
+    <div class="player-info">
+      <span class="player-by">Résumé vocal · Oulbig</span>
+      <strong class="player-title" id="playerTitle"></strong>
+      <div class="player-bar"><span id="playerProgress"></span></div>
+    </div>
+    <button class="icon-btn" id="playerSpeed" aria-label="Vitesse de lecture">1×</button>
+    <button class="icon-btn play" id="playerToggle" aria-label="Pause"><svg><use href="#i-pause"/></svg></button>
+    <button class="icon-btn" id="playerClose" aria-label="Fermer le lecteur"><svg><use href="#i-x"/></svg></button>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="m20 20-3.5-3.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+    <symbol id="i-moon" viewBox="0 0 24 24"><path d="M21 13A9 9 0 1 1 11 3a7 7 0 0 0 10 10z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+    <symbol id="i-home" viewBox="0 0 24 24"><path d="M3 11 12 4l9 7v9a1 1 0 0 1-1 1h-5v-6h-6v6H4a1 1 0 0 1-1-1z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+    <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="3" fill="none" stroke="currentColor" stroke-width="2"/><path d="M3 10h18M8 3v4M16 3v4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 22s7-6.5 7-12a7 7 0 0 0-14 0c0 5.5 7 12 7 12z" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="10" r="2.5" fill="currentColor"/></symbol>
+    <symbol id="i-heart" viewBox="0 0 24 24"><path d="M12 20s-8-4.7-8-11a4.5 4.5 0 0 1 8-2.8A4.5 4.5 0 0 1 20 9c0 6.3-8 11-8 11z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+    <symbol id="i-heart-fill" viewBox="0 0 24 24"><path d="M12 20s-8-4.7-8-11a4.5 4.5 0 0 1 8-2.8A4.5 4.5 0 0 1 20 9c0 6.3-8 11-8 11z" fill="currentColor"/></symbol>
+    <symbol id="i-play" viewBox="0 0 24 24"><path d="M8 5v14l11-7z" fill="currentColor"/></symbol>
+    <symbol id="i-pause" viewBox="0 0 24 24"><path d="M7 5h4v14H7zM13 5h4v14h-4z" fill="currentColor"/></symbol>
+    <symbol id="i-x" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+    <symbol id="i-share" viewBox="0 0 24 24"><path d="M4 12v7a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-7M12 3v12M7 8l5-5 5 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-back" viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-spark" viewBox="0 0 24 24"><path d="M12 2l2.4 6.6L21 11l-6.6 2.4L12 20l-2.4-6.6L3 11l6.6-2.4z" fill="currentColor"/></symbol>
+    <symbol id="i-music" viewBox="0 0 24 24"><path d="M9 18V5l11-2v13" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="6.5" cy="18" r="2.5" fill="currentColor"/><circle cx="17.5" cy="16" r="2.5" fill="currentColor"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 7v5l3 2" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+    <symbol id="i-palette" viewBox="0 0 24 24"><path d="M12 3a9 9 0 0 0 0 18c1.5 0 2-1 2-2s-1-1.5-1-2.5S14 15 15 15h2a4 4 0 0 0 4-4c0-4.4-4-8-9-8z" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="7.5" cy="11" r="1.3" fill="currentColor"/><circle cx="10" cy="7" r="1.3" fill="currentColor"/><circle cx="15" cy="7.5" r="1.3" fill="currentColor"/></symbol>
+    <symbol id="i-fork" viewBox="0 0 24 24"><path d="M7 3v8M5 3v5a2 2 0 0 0 4 0V3M7 11v10M17 21V3c-2 1-3 4-3 7h3" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-bag" viewBox="0 0 24 24"><path d="M5 8h14l-1 13H6zM9 8V6a3 3 0 0 1 6 0v2" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+    <symbol id="i-compass" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="m15.5 8.5-2 5-5 2 2-5z" fill="currentColor"/></symbol>
+    <symbol id="i-leaf" viewBox="0 0 24 24"><path d="M5 19c0-9 6-14 15-14 0 9-5 15-14 15M5 19l7-7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+    <symbol id="i-headphones" viewBox="0 0 24 24"><path d="M4 15v-3a8 8 0 0 1 16 0v3" fill="none" stroke="currentColor" stroke-width="2"/><rect x="3" y="14" width="5" height="7" rx="2" fill="currentColor"/><rect x="16" y="14" width="5" height="7" rx="2" fill="currentColor"/></symbol>
+    <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  </svg>
+
+  <script src="assets/app.js?v=1" defer></script>
+</body>
+</html>
