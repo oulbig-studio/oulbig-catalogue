@@ -1,4 +1,7 @@
 Options -Indexes
+# Le dépôt Git cloné par Hostinger ne doit jamais être servi.
+RedirectMatch 404 /\.git
+RedirectMatch 404 /(README\.md|\.gitignore)$
 DirectoryIndex index.html
 AddType application/manifest+json .webmanifest
 <IfModule mod_headers.c>
