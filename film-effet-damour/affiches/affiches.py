@@ -32,12 +32,12 @@ GOLD = (240, 200, 140)
 def cover(img, w, h):
     r = max(w / img.width, h / img.height)
     im = img.resize((round(img.width * r), round(img.height * r)), Image.LANCZOS)
-    x, y = (im.width - w) // 2, (im.height - h) // 2
+    x, y = (im.width - w) // 2, int((im.height - h) * 0.12)  # garder le haut (visages)
     return im.crop((x, y, x + w, y + h))
 
 
 def fond(img, w, h):
-    if w > h:  # format large : image nette au centre, même image floutée derrière
+    if w > h or (img.height / img.width) / (h / w) > 1.4:  # image trop haute pour le format : image entière au centre, floutée derrière
         bg = cover(img, w, h).filter(ImageFilter.GaussianBlur(40))
         r = h / img.height
         fg = img.resize((round(img.width * r), h), Image.LANCZOS)
