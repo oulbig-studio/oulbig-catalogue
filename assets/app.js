@@ -17,6 +17,16 @@
   const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
   const cat = (slug) => DATA.categories.find((c) => c.slug === slug) || { slug, name: slug, icon: "spark", color: "#ff4d6d" };
   const grad = (slug) => { const c = cat(slug).color; return `linear-gradient(135deg, ${c}, color-mix(in srgb, ${c} 45%, #1d1a24))`; };
+  const safeUrl = (u) => (/^(uploads\/[\w.-]+|https:\/\/[^\s"'()<>\\]+)$/.test(u || "") ? u : "");
+  const bg = (item) => { const u = safeUrl(item.image); return u ? `--g:${grad(item.category)};background-image:linear-gradient(180deg,rgba(0,0,0,.05),rgba(0,0,0,.55)),url('${u}')` : `--g:${grad(item.category)}`; };
+  const imgCls = (item) => (safeUrl(item.image) ? " has-img" : "");
+  function applySettings(s) {
+    const root = document.documentElement.style;
+    if (s.accent) { root.setProperty("--accent", s.accent); document.querySelector('meta[name="theme-color"]').content = s.accent; }
+    if (s.accent2) root.setProperty("--accent-2", s.accent2);
+    if (s.accent3) root.setProperty("--accent-3", s.accent3);
+    if (s.tagline) { const t = document.querySelector(".site-footer p"); if (t) t.textContent = s.tagline; }
+  }
   const icon = (id, cls = "") => `<svg class="${cls}" aria-hidden="true"><use href="#i-${id}"/></svg>`;
   const parseDate = (s) => (s ? new Date(s + "T12:00:00") : null);
   const fmt = (s, opt = { day: "numeric", month: "long", year: "numeric" }) => (s ? parseDate(s).toLocaleDateString("fr-FR", opt) : "");
@@ -139,7 +149,7 @@
     <article class="card fade-in">
       ${favBtn("a:" + a.id, a.title)}
       <a href="#/article/${esc(a.id)}">
-        <div class="visual" style="--g:${grad(a.category)}">
+        <div class="visual${imgCls(a)}" style="${bg(a)}">
           <span class="tag">${icon(cat(a.category).icon)}${esc(cat(a.category).name)}</span>
           ${icon(cat(a.category).icon, "v-icon")}
         </div>
@@ -172,7 +182,7 @@
     <article class="card fade-in">
       ${favBtn("p:" + p.id, p.name)}
       <a href="#/adresse/${esc(p.id)}">
-        <div class="visual" style="--g:${grad(p.category)};height:130px">
+        <div class="visual${imgCls(p)}" style="${bg(p)};height:130px">
           <span class="tag">${esc(p.type)}</span>
           ${icon(cat(p.category).icon, "v-icon")}
         </div>
@@ -205,7 +215,7 @@
 
     main.innerHTML = `
       ${top ? `<section class="hero fade-in">
-        <a class="visual hero-main" href="#/article/${esc(top.id)}" style="--g:${grad(top.category)}">
+        <a class="visual hero-main${imgCls(top)}" href="#/article/${esc(top.id)}" style="${bg(top)}">
           ${icon(cat(top.category).icon, "v-icon")}
           <div><span class="tag">${icon("spark")} À la une · ${esc(top.city)}</span></div>
           <h1>${esc(top.title)}</h1>
@@ -290,7 +300,7 @@
     main.innerHTML = `
       <article class="article fade-in">
         <a class="back" href="javascript:history.back()">${icon("back")} Retour</a>
-        <div class="visual" style="--g:${grad(a.category)}">
+        <div class="visual${imgCls(a)}" style="${bg(a)}">
           ${icon(cat(a.category).icon, "v-icon")}
           <div><a class="tag" href="#/categorie/${a.category}">${icon(cat(a.category).icon)}${esc(cat(a.category).name)}</a> <span class="tag">${esc(a.city)}</span></div>
         </div>
@@ -327,7 +337,7 @@
     main.innerHTML = `
       <article class="article fade-in">
         <a class="back" href="javascript:history.back()">${icon("back")} Retour</a>
-        <div class="visual" style="--g:${grad(e.category)}">
+        <div class="visual${imgCls(e)}" style="${bg(e)}">
           ${icon(cat(e.category).icon, "v-icon")}
           <div><span class="tag">${esc(cat(e.category).name)}</span> <span class="tag">${esc(e.city)}</span></div>
         </div>
@@ -396,7 +406,7 @@
     main.innerHTML = `
       <article class="article fade-in">
         <a class="back" href="javascript:history.back()">${icon("back")} Retour</a>
-        <div class="visual" style="--g:${grad(p.category)}">${icon(cat(p.category).icon, "v-icon")}<div><span class="tag">${esc(p.type)}</span> <span class="tag">${esc(p.city)}</span></div></div>
+        <div class="visual${imgCls(p)}" style="${bg(p)}">${icon(cat(p.category).icon, "v-icon")}<div><span class="tag">${esc(p.type)}</span> <span class="tag">${esc(p.city)}</span></div></div>
         <h1>${esc(p.name)}</h1>
         <p class="lead">${esc(p.description)}</p>
         <dl class="info-list">
@@ -583,10 +593,12 @@
   /* ---------- Démarrage ---------- */
   $("#year").textContent = new Date().getFullYear();
   window.addEventListener("hashchange", () => { route(); });
-  fetch("data/content.json?v=" + Date.now().toString().slice(0, 7))
-    .then((r) => r.json())
+  fetch("api/content.php")
+    .then((r) => { if (!r.ok) throw 0; return r.json(); })
+    .catch(() => fetch("data/content.json").then((r) => r.json()))
     .then((d) => {
       DATA = d;
+      applySettings(d.settings || {});
       if (city !== "Toutes" && !DATA.cities.includes(city)) city = "Toutes";
       renderCities(); route();
     })

@@ -1,6 +1,6 @@
 // Cache hors ligne simple : réseau d'abord, cache en secours.
-const CACHE = "publitarium-v1";
-const CORE = ["./", "index.html", "assets/style.css?v=1", "assets/app.js?v=1", "assets/icon.svg", "data/content.json"];
+const CACHE = "publitarium-v2";
+const CORE = ["./", "index.html", "assets/style.css?v=2", "assets/app.js?v=2", "assets/icon.svg", "api/content.php"];
 self.addEventListener("install", (e) => { e.waitUntil(caches.open(CACHE).then((c) => c.addAll(CORE)).then(() => self.skipWaiting())); });
 self.addEventListener("activate", (e) => { e.waitUntil(caches.keys().then((ks) => Promise.all(ks.filter((k) => k !== CACHE).map((k) => caches.delete(k)))).then(() => self.clients.claim())); });
 self.addEventListener("fetch", (e) => {
