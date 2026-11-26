@@ -22,21 +22,22 @@ FADE = 0.25         # fondu au noir entre les plans (s)
 
 # plan, durée (s), vidéo (None = carton), début dans la vidéo (s), vitesse (1 = normale), texte du carton
 SEGMENTS = [
-    (1, 3.0, None, 0, 1, 'PLAN 1 — supermarché (à générer)'),
+    (1, 3.0, 'plan01.mp4', 4.9, 1, 'PLAN 1 — supermarché'),
     (2, 2.0, 'TITLE', 0, 1, '4 jours plus tôt'),
-    (3, 6.6, 'plan01.mp4', 0.0, 1, ''),
-    (4, 4.0, None, 0, 1, 'PLAN 4 — le car, le vieil homme'),
-    (5, 5.0, None, 0, 1, 'PLAN 5 — la gare routière'),
-    (6, 4.5, None, 0, 1, 'PLAN 6 — le taxi'),
-    (7, 5.0, 'plan02.mp4', 0.0, 1, ''),
-    (8, 4.0, None, 0, 1, "PLAN 8 — l'âne"),
-    (9, 4.0, None, 0, 1, 'PLAN 9 — la boulangerie'),
-    (10, 4.8, None, 0, 1, 'PLAN 10 — le mur bas'),
-    (11, 7.1, 'plan03.mp4', 0.4, 1, ''),
-    (12, 10.0, 'plan04.mp4', 0.0, 0.79, ''),   # plans 12 + 13 : le calligraphe, légèrement ralenti
-    (14, 8.1, None, 0, 1, 'PLAN 14 — le calligraphe parle'),
-    (15, 4.0, None, 0, 1, 'PLAN 15 — les yeux de H'),
-    (16, 6.0, 'plan05.mp4', 1.9, 1, ''),
+    (3, 6.6, 'plan03.mp4', 0.0, 1, ''),
+    (4, 4.0, 'plan04.mp4', 1.0, 1, 'PLAN 4 — le car, le vieil homme'),
+    (5, 5.0, 'plan05.mp4', 0.3, 1, 'PLAN 5 — la gare routière'),
+    (6, 4.5, 'plan06.mp4', 0.5, 1, 'PLAN 6 — le taxi'),
+    (7, 5.0, 'plan07.mp4', 0.0, 1, ''),
+    (8, 4.0, 'plan08.mp4', 6.0, 0.5, "PLAN 8 — l'âne"),
+    (9, 4.0, 'plan09.mp4', 0, 1, 'PLAN 9 — la boulangerie'),
+    (10, 4.8, 'plan10.mp4', 0, 1, 'PLAN 10 — le mur bas'),
+    (11, 7.1, 'plan11.mp4', 0.4, 1, ''),
+    (12, 5.0, 'plan12.mp4', 0.5, 1, 'PLAN 12 — le calligraphe écrit'),
+    (13, 5.0, 'plan13.mp4', 1.0, 1, 'PLAN 13 — il lève les yeux'),
+    (14, 8.1, 'plan14.mp4', 0, 1, 'PLAN 14 — le calligraphe parle'),
+    (15, 4.0, 'plan15.mp4', 0, 1, 'PLAN 15 — les yeux de H'),
+    (16, 6.0, 'plan16.mp4', 1.9, 1, ''),
     (99, 2.0, 'TITLE', 0, 1, 'À suivre…'),
 ]
 
