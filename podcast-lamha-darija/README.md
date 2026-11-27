@@ -41,3 +41,21 @@ Les épisodes arabes n'ont pas de sous-titres YouTube : les scripts sont écrits
 2. Connecter un outil d'avatar parlant (HeyGen, D-ID…) pour animer l'avatar sur la voix.
 3. Voix darija : enregistrement ou voix clonée.
 4. Montage (avatar + transitions Canva + titres), puis publication dans une playlist « لمحة بالدارجة ».
+
+## Transitions faceless Canva (épisode 1, 16:9)
+| Plan | Media ID Canva |
+|---|---|
+| Intro — lever de soleil | MAHcHWFIt1k |
+| 1 — سمع مزيان (thé, mains) | MAHcHdpYpSU |
+| 2 — بقا كتعلم (livres, carnet) | MAHcHbW0hew |
+| 3 — جرّب حوايج جداد (sac, carte) | MAHcHeUasLg |
+| 4 — كون عندك رأي (journal) — ⚠ texte « Cher journal » en français visible | MAHcHRdC6Eo |
+| 5 — حكي القصص (table marocaine) | MAHcHfhX7QY |
+| 6 — عندك شغف (atelier, oud) | MAHcHdXfXcU |
+| 7 — كون راسك (miroir marocain) | MAHcHWDQwBs |
+| 8 — الضحكة والتواضع (médina, de dos) | MAHcHSS95O4 |
+| 9 — اهتم بالناس (poignée de main) | MAHcHd4J3fo |
+| 10 — عيش حياتك (sentier, coucher de soleil) | MAHcHWxdolI |
+| Outro — calligraphie « لمحة » — ⚠ vérifier l'orthographe de la calligraphie générée | MAHcHUJtTLs |
+
+Ces plans génériques (lever de soleil, livres, mains, sentier, logo) sont réutilisables dans les autres épisodes.
