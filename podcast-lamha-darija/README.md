@@ -36,6 +36,13 @@ Version en darija marocaine du podcast « برنامج لمحة » (épisodes ar
 
 Les épisodes arabes n'ont pas de sous-titres YouTube : les scripts sont écrits en darija à partir du thème de chaque épisode, pas traduits mot à mot.
 
+## Décisions (validées)
+- Démarrage par 2 épisodes test : épisodes 1 et 2.
+- Texte lu par la voix : darija **vocalisée (مشكول)** pour une meilleure prononciation → `voix/`.
+- Formats : vidéo 16:9 + Shorts 9:16 (2 Shorts par épisode) → `shorts/`.
+- Publication : **publique**.
+- Playlist : « لمحة بالدارجة ».
+
 ## Reste à faire
 1. Connecter la chaîne YouTube @OULBIG à vidIQ (autorisation Google).
 2. Connecter un outil d'avatar parlant (HeyGen, D-ID…) pour animer l'avatar sur la voix.
