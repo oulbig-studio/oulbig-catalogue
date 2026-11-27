@@ -13,6 +13,37 @@
         "allow_unlisted": true,
         "exclude_title": "hit radio compil",
         "note": "Playlist officielle OULBIG Radio : émissions OULBIG Show (non répertoriées), sans les « Hit Radio compile »"
+      },
+      {
+        "id": "PLULibU4b2T5Y",
+        "type": "podcast",
+        "lang_from_title": [
+          [
+            "\\bDAR(IJA)?\\b",
+            "ma"
+          ],
+          [
+            "\\bFUSHA\\b|\\bFOSHA\\b",
+            "ar"
+          ],
+          [
+            "\\bAR\\b",
+            "ar"
+          ],
+          [
+            "\\bEN\\b",
+            "en"
+          ],
+          [
+            "\\bES\\b",
+            "es"
+          ],
+          [
+            "\\bFR\\b",
+            "fr"
+          ]
+        ],
+        "note": "Sneakpeek Episodes (RTC) : langue indiquée dans le titre (DAR = darija, AR FUSHA = fusha, EN, ES, FR)"
       }
     ],
     "exclude_keywords": [

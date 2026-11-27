@@ -336,6 +336,7 @@ def yt_channel_titles(channels, key):
 
 ALLOW_UNLISTED = set()  # vidéos « non répertoriées » acceptées (playlists qui l'autorisent)
 PL_EXCLUDE = {}  # videoId -> motifs de titre à écarter (par playlist)
+PL_LANG_TITLE = {}  # videoId -> [[motif, langue], …] : langue lue dans le titre (par playlist)
 
 
 def yt_videos(ids, key):
@@ -478,6 +479,8 @@ def collect_youtube(cfg):
                         ALLOW_UNLISTED.add(vid)
                     if pl.get("exclude_title"):
                         PL_EXCLUDE[vid] = pl["exclude_title"]
+                    if pl.get("lang_from_title"):
+                        PL_LANG_TITLE[vid] = pl["lang_from_title"]
             except RuntimeError as e:
                 log("playlist ignorée", pl.get("id"), "→", e)
         ids = list(assigned)
@@ -522,6 +525,10 @@ def collect_youtube(cfg):
             continue  # écarte les Shorts / teasers
         lang, typ, artist = assigned.get(vid, (None, None, None))
         src = "playlist" if lang else ""
+        for rx, lg in PL_LANG_TITLE.get(vid, []):
+            if lg in LANGS and re.search(rx, v["title"], re.I):
+                lang, src = lg, "titre"
+                break
         if not lang:
             lang, src = detect_lang_full(v["title"], v.get("desc", ""), v.get("audio", ""), default_lang)
         if vid in overrides:
