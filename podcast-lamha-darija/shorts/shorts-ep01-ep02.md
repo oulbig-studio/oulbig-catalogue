@@ -28,7 +28,7 @@ Avatar plein cadre vertical, sous-titres darija incrustés, une image Canva en f
   فْعَامْ، كَيْوَلِّيوْ أَكْثَرْ مَنْ سِتِّينْ سَاعَة.
   مَاشِي مُهِمّْ شْحَالْ دَرْتِي نْهَارْ وَاحَدْ، الْمُهِمّْ شْحَالْ مَنْ نْهَارْ دَرْتِي.
   بْدَا الْيُومْ. الْحَلْقَة كَامْلَة فْ«لَمْحَة بِالدَّارِجَة».
-- Faceless : à générer (calendrier coché, 9:16)
+- Faceless : calendrier mural (MAHcHc0wkPM, 9:16) — ⚠ mois « OCTOBRE » en français visible
 - Titre : 10 دقايق كتبدل حياتك ⏱️ #لمحة_بالدارجة #shorts
 
 ## Short 2-B — « غير رجع »
@@ -36,5 +36,5 @@ Avatar plein cadre vertical, sous-titres darija incrustés, une image Canva en f
   غَادِي تْطِيحْ. أَكِيدْ.
   وْالْمُشْكِلْ مَاشِي فْالطِّيحَة، الْمُشْكِلْ إِلَا بْقِيتِي طَايَحْ.
   مْلِّي كَتْفَوّْتْ نْهَارْ، مَا تْقُولْشْ «خْسَرْتْ كُلْشِي». رْجَعْ غْدَّا. غِيرْ رْجَعْ.
-- Faceless : à générer (plante dans une fissure, 9:16)
+- Faceless : plante dans une fissure (MAHcHbM00R4, 9:16)
 - Titre : طحتي؟ غير رجع 💪 #لمحة_بالدارجة #shorts
