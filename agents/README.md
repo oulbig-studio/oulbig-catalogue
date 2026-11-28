@@ -61,7 +61,18 @@ n'importe quel message → le Coordinateur répond ou fait travailler les agents
 4. Le workflow **Agents OULBIG** tourne tout seul (BD toutes les 30 min, veille à 06:11 UTC,
    marketing + pubs + réunion à 08:41 UTC). Bouton « Run workflow » pour lancer à la main.
 
-### Pour discuter en direct sur WhatsApp (recommandé)
+### Le relais en ligne : https://agents.almoqayada.com (hébergement Hostinger Cloud)
+`agents/relais/` est un petit serveur Node.js qui reçoit les webhooks Meta (tes messages
+WhatsApp, les commentaires Instagram/Facebook) et réveille le workflow GitHub
+(`repository_dispatch`). Les agents répondent en ~1 minute.
+- Webhook à donner à Meta : `https://agents.almoqayada.com/webhook`
+- Variables du relais (hPanel → Sites → agents.almoqayada.com → Node.js) : voir l'en-tête de
+  `agents/relais/server.js` (`GITHUB_TOKEN`, `META_VERIFY_TOKEN`, `META_APP_SECRET`,
+  `META_PAGE_ID`, `WHATSAPP_PATRON`, `WHATSAPP_TOKEN`, `WHATSAPP_PHONE_ID`).
+- ⚠️ GitHub ne lance `repository_dispatch` et les horaires que depuis la branche **principale** :
+  le workflow `agents.yml` doit y être fusionné.
+
+### Variante : serveur Python sur un VPS
 GitHub Actions ne peut pas *recevoir* tes messages. Pour répondre « OK 3 » ou parler aux
 agents, héberge le petit serveur (VPS Hostinger, Render, Railway…) :
 ```

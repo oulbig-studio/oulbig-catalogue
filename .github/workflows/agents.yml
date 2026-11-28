@@ -5,6 +5,8 @@ on:
     - cron: "*/30 * * * *"   # 💬 Réponse-BD : commentaires toutes les 30 min (inutile si le serveur webhook tourne)
     - cron: "11 6 * * *"     # 🔭 Tendances + deals Insta/FB, chaque matin
     - cron: "41 8 * * *"     # 📸📘 Marketing Insta/FB + 💰 FB-Ads, puis réunion d'équipe
+  repository_dispatch:         # réveillé par le relais agents.almoqayada.com
+    types: [whatsapp, commentaire]
   workflow_dispatch:
     inputs:
       cible:
@@ -14,8 +16,8 @@ on:
 permissions:
   contents: write
 
-concurrency:
-  group: agents-oulbig
+concurrency:   # les messages relayés ne s'annulent jamais entre eux
+  group: agents-${{ github.event_name == 'repository_dispatch' && github.run_id || 'planifie' }}
   cancel-in-progress: false
 
 jobs:
@@ -34,8 +36,11 @@ jobs:
         id: cible
         env:
           CIBLE: ${{ github.event.inputs.cible }}
+          EVENEMENT: ${{ github.event.action }}
         run: |
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+          if [ "${{ github.event_name }}" = "repository_dispatch" ]; then
+            case "$EVENEMENT" in whatsapp|commentaire) echo "args=$EVENEMENT" >> "$GITHUB_OUTPUT" ;; *) exit 1 ;; esac
+          elif [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             echo "args=$CIBLE" >> "$GITHUB_OUTPUT"
           elif [ "${{ github.event.schedule }}" = "11 6 * * *" ]; then
             echo "args=tendances insta-deals fb-deals" >> "$GITHUB_OUTPUT"
@@ -56,6 +61,11 @@ jobs:
           WHATSAPP_TOKEN: ${{ secrets.WHATSAPP_TOKEN }}
           WHATSAPP_PHONE_ID: ${{ secrets.WHATSAPP_PHONE_ID }}
           WHATSAPP_PATRON: ${{ secrets.WHATSAPP_PATRON }}
+          WA_TEXTE: ${{ github.event.client_payload.texte }}
+          COM_PLATEFORME: ${{ github.event.client_payload.plateforme }}
+          COM_ID: ${{ github.event.client_payload.id }}
+          COM_TEXTE: ${{ github.event.client_payload.texte }}
+          COM_AUTEUR: ${{ github.event.client_payload.auteur }}
         run: |
           python -m agents.run ${{ steps.cible.outputs.args }}
           if [ "${{ github.event.schedule }}" = "41 8 * * *" ]; then python -m agents.run reunion; fi
@@ -68,4 +78,8 @@ jobs:
           git add agents/state
           git diff --cached --quiet && exit 0
           git commit -m "Agents : mémoire $(date -u +'%Y-%m-%d %H:%M')"
-          git pull --rebase -q && git push
+          for i in 1 2 3 4; do  # plusieurs agents peuvent écrire en même temps
+            git pull --rebase -X theirs -q && git push && exit 0
+            git rebase --abort 2>/dev/null; sleep $((i * 5))
+          done
+          exit 1
