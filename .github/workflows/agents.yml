@@ -1,0 +1,71 @@
+name: Agents OULBIG
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"   # 💬 Réponse-BD : commentaires toutes les 30 min (inutile si le serveur webhook tourne)
+    - cron: "11 6 * * *"     # 🔭 Tendances + deals Insta/FB, chaque matin
+    - cron: "41 8 * * *"     # 📸📘 Marketing Insta/FB + 💰 FB-Ads, puis réunion d'équipe
+  workflow_dispatch:
+    inputs:
+      cible:
+        description: "Agent(s) : tout, bd, tendances, insta-deals, insta-marketing, fb-deals, fb-marketing, fb-ads, reunion — ou « commande OK 3 »"
+        default: "tout"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: agents-oulbig
+  cancel-in-progress: false
+
+jobs:
+  agents:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install -q -r agents/requirements.txt
+
+      - name: Choisir les agents
+        id: cible
+        env:
+          CIBLE: ${{ github.event.inputs.cible }}
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "args=$CIBLE" >> "$GITHUB_OUTPUT"
+          elif [ "${{ github.event.schedule }}" = "11 6 * * *" ]; then
+            echo "args=tendances insta-deals fb-deals" >> "$GITHUB_OUTPUT"
+          elif [ "${{ github.event.schedule }}" = "41 8 * * *" ]; then
+            echo "args=insta-marketing fb-marketing fb-ads" >> "$GITHUB_OUTPUT"
+          else
+            echo "args=bd" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Faire travailler les agents
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          META_PAGE_TOKEN: ${{ secrets.META_PAGE_TOKEN }}
+          META_ADS_TOKEN: ${{ secrets.META_ADS_TOKEN }}
+          META_PAGE_ID: ${{ secrets.META_PAGE_ID }}
+          META_IG_USER_ID: ${{ secrets.META_IG_USER_ID }}
+          META_AD_ACCOUNT_ID: ${{ secrets.META_AD_ACCOUNT_ID }}
+          WHATSAPP_TOKEN: ${{ secrets.WHATSAPP_TOKEN }}
+          WHATSAPP_PHONE_ID: ${{ secrets.WHATSAPP_PHONE_ID }}
+          WHATSAPP_PATRON: ${{ secrets.WHATSAPP_PATRON }}
+        run: |
+          python -m agents.run ${{ steps.cible.outputs.args }}
+          if [ "${{ github.event.schedule }}" = "41 8 * * *" ]; then python -m agents.run reunion; fi
+
+      - name: Garder la mémoire des agents
+        if: always()
+        run: |
+          git config user.name  "oulbig-bot"
+          git config user.email "oulbig-bot@users.noreply.github.com"
+          git add agents/state
+          git diff --cached --quiet && exit 0
+          git commit -m "Agents : mémoire $(date -u +'%Y-%m-%d %H:%M')"
+          git pull --rebase -q && git push

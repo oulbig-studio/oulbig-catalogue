@@ -1,0 +1,51 @@
+{
+  "claude": {
+    "modele": "claude-opus-5-5",
+    "recherches_max": 8
+  },
+  "meta": {
+    "graph_version": "v23.0"
+  },
+  "whatsapp": {
+    "modele_relance": "",
+    "note": "Hors fenêtre de 24 h, WhatsApp n'accepte qu'un modèle approuvé : crée-en un (ex. « rapport_agents ») dans WhatsApp Manager et mets son nom ici."
+  },
+  "marques": [
+    {"nom": "OULBIG", "description": "musique et podcasts OULBIG (FR, EN, ES, AR, darija)", "lien": "https://www.youtube.com/@OULBIG"},
+    {"nom": "OULBIG Radio", "description": "radio en ligne OULBIG, 5 stations", "lien": "https://radio.almoqayada.com"},
+    {"nom": "TALIM", "description": "artiste du label", "lien": "https://www.youtube.com/@TALIM4Art"},
+    {"nom": "BD OULBIG Studio", "description": "bandes dessinées offertes ou vendues aux fans", "lien": "https://www.instagram.com/oulbig_radio"}
+  ],
+  "reponse_bd": {
+    "instagram": true,
+    "facebook": true,
+    "posts_a_surveiller": 10,
+    "mots_cles": ["bd", "je veux", "envoie", "comic", "livre", "📚"],
+    "bds": [
+      {"titre": "Ma BD (à remplacer)", "lien": "https://exemple.com/ma-bd.pdf", "mots_cles": []}
+    ],
+    "message_prive": "Salut {prenom} ! 🎁 Voici ta BD « {titre} » : {lien}\nBonne lecture, et dis-nous ce que tu en penses !",
+    "reponse_publique": "C'est envoyé en message privé {prenom} 📩",
+    "personnaliser_avec_claude": false
+  },
+  "deals": {
+    "zones": ["Maroc", "France", "Belgique", "Canada", "Afrique francophone"],
+    "types": ["vente de nos BD/livres/musique", "achat de matériel ou de droits", "deals et promotions", "collaborations d'artistes et d'influenceurs", "sponsors et partenaires radio"],
+    "hashtags_instagram": ["bandedessinee", "musiquemarocaine", "artisteindependant", "collabartiste", "bdfrancaise"]
+  },
+  "marketing": {
+    "posts_par_jour": 1,
+    "auto_publier": false,
+    "ligne_editoriale": "Mettre en avant les nouveautés OULBIG et TALIM, la radio et les BD ; ton chaleureux, multilingue selon la langue du titre ; toujours un appel à l'action (écouter, s'abonner, commenter « BD » pour recevoir la BD)."
+  },
+  "ads": {
+    "budget_jour_max_centimes": 1000,
+    "pause_si_cpc_superieur_a_euros": 0.5,
+    "objectif": "écoutes, abonnés et demandes de BD au meilleur coût"
+  },
+  "tendances": {
+    "par_rubrique": 4,
+    "marches": ["francophone", "arabophone", "anglophone"],
+    "sources": ["Amazon/Kindle meilleures ventes et nouveautés", "BookTok et Goodreads", "Google Trends", "App Store / Google Play classements", "Product Hunt", "Reddit", "Exploding Topics", "presse économique"]
+  }
+}

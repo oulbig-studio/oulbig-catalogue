@@ -23,3 +23,7 @@ et en option `SPOTIFY_CLIENT_ID` / `SPOTIFY_CLIENT_SECRET`.
 - Jingles par langue et pubs vidéo dans la grille, carte partenaire dans le lecteur.
 - Comptes auditeurs (playlists, votes, commentaires, signalement de langue) et publication pour les artistes sélectionnés : **thème WordPress** dans `wordpress-theme/oulbig-radio` (la version GitHub Pages fonctionne en mode démonstration, données sur l'appareil).
 - Synchro : chaîne et Spotify de TALIM, playlist officielle OULBIG Radio, langue détectée aussi via les paroles de la description et la langue audio, `lang_overrides` dans `config.json`.
+
+## Agents IA (WhatsApp, Instagram, Facebook, Ads, Tendances)
+Voir `agents/README.md` : réponse automatique « BD » aux commentaires, recherche de deals,
+publications des marques, Facebook Ads et veille des tendances, pilotés depuis WhatsApp.
