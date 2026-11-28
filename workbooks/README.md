@@ -16,4 +16,6 @@ Langues : `fr`, `en`, `es`, `ar` (arabe classique), `darija`, `de`.
 
 Couvertures (PNG, portrait A4 1654×2339 et carré 2000×2000) : `covers/`, régénérer avec `node workbooks/src/covers.js`.
 
+Couvertures Canva (tendance, 1587×2245) : `covers-canva/`, modifiables dans le dossier Canva « OULBIG — Couvertures cahiers ».
+
 Polices : Playfair Display, Lora, Amiri, Noto Naskh Arabic (licence SIL OFL).
